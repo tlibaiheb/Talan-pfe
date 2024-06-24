@@ -1,0 +1,25 @@
+<p-card >
+    <h6 class=" fixpalce labelclass1" *ngIf="readonlyMode==modeEnum.create">...</h6>
+    <h6  *ngIf=" readonlyMode===modeEnum.consult ||  readonlyMode == modeEnum.update" class="fixpalce titre">{{ formulaire.get('legalName')!.value }}</h6>
+    <h6 class="labelclass1" *ngIf=" readonlyMode==modeEnum.create">ID tiers : </h6>
+    <h6 class="labelclass1" *ngIf="readonlyMode===modeEnum.consult ||  readonlyMode == modeEnum.update">ID tiers:{{idT}}</h6>
+    <h6 class="labelclass1"  *ngIf="readonlyMode==modeEnum.create">...</h6>
+    <h6 class="labelclass1" *ngIf="readonlyMode===modeEnum.consult ||  readonlyMode == modeEnum.update">  <i class="pi pi-building"></i> Société</h6>
+    <span class="green-text" *ngIf="readonlyMode===modeEnum.consult ||  readonlyMode == modeEnum.update">Actif INSEE</span>
+    <div class="horizontal-line"></div>
+    <h5 class="labelclass2">
+        <a [routerLink]="'/home/pm'" class="sp">L'entreprise</a>
+    </h5>   
+    <div class="horizontal-line"></div> 
+     <h5 class="labelclass2">Ses établissements </h5>
+     <div class="horizontal-line"></div>
+     <h5 class="labelclass2">La vision groupe</h5>
+     <div class="horizontal-line"></div>
+     <h5 class="labelclass2">Ses coordonnées banquaires</h5>
+     <div class="horizontal-line"></div>
+     <h5 class="labelclass2">Son ensaigne</h5>
+     <div class="horizontal-line"></div>
+     <h5 class="labelclass2">Suivi</h5>
+     <div class="horizontal-line"></div>
+     <h5 class="labelclass2">Piéces jointes</h5>
+</p-card>

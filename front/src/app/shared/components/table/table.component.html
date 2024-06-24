@@ -1,0 +1,255 @@
+
+<div class=" col-12 " *ngIf="type === 'PM'">
+    <div class="card card-w-title flex flex-wrap nav ">
+        <div class="grid  col-12 md:col-4 pos">
+            <p-tabMenu class="field tabMenu custom-tabmenu " styleClass="mb-5 col-lg-3 col-md-4 col-sm-6 col-12 "  [model]="routeItems"></p-tabMenu>
+
+            <div class=" field style" *ngIf="type === 'PM'">
+
+                <div class="flex flex-wrap gap-3 div1"  >
+                    <h5>Rechercher par :</h5>
+                    <div class="flex align-items-center">
+                        <p-radioButton name="recherche" value="SIREN" [(ngModel)]="selectedOption"></p-radioButton>
+                        <label for="recherche" class="ml-2 label" >SIREN</label>
+                    </div>
+                    <div class="flex align-items-center">
+                        <p-radioButton name="recherche" value="RaisonSocial"  [(ngModel)]="selectedOption"></p-radioButton>
+                        <label for="raisonsocial" class="ml-2 label" >Raison Social</label>
+                    </div>
+                    <div class="flex align-items-center">
+                        <p-radioButton name="recherche" value="idTiers"  [(ngModel)]="selectedOption"></p-radioButton>
+                        <label for="idTiers" class="ml-2 label" >ID tiers</label>
+                    </div>
+                    <div class="flex align-items-center">
+                        <p-radioButton name="recherche" value="NuméroCP"  [(ngModel)]="selectedOption"></p-radioButton>
+                        <label for="NuméroCP" class="ml-2 label" >Numéro CP</label>
+                    </div>
+                </div>
+                <!-- <div class="flex flex-wrap gap-3 div1"  *ngIf="selectedOption !== ''">
+                    <h5>Rechercher par {{selectedOption}}</h5>
+                </div> -->
+
+
+                <div class="  search-bar"  >
+                    <div class="input-wrapper" >
+                        <input type="text" placeholder="Saisissez votre recherche" class="recherche" [(ngModel)]="searchValue">
+                        <button  class="bt"  (click)="filtrerListe()">Rechercher</button>
+                        <button  class="bt1" (click)="goTocreate()">Créer une personne morale</button>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="col-12" *ngIf="type === 'PP'">
+    <div class="card card-w-title flex flex-wrap pp"  >
+        <div class="col-12 md:col-4 pos" >
+            <p-tabMenu styleClass="mb-5" [model]="routeItems"></p-tabMenu>
+            <div style="background-color: #fff; width: 1149px; margin-top: -31px; ">
+                <div class="flex flex-wrap gap-3" style="margin-left: 35px;">
+                    <h5>Rechercher par :</h5>
+                    <div class="flex align-items-center">
+                        <p-radioButton name="recherche" value="NomPrénom" [(ngModel)]="selectedOption"></p-radioButton>
+                        <label for="recherche" class="ml-2" style="font-size: 13px;">Nom Prénom</label>
+                    </div>
+                    <div class="flex align-items-center">
+                        <p-radioButton name="recherche" value="IDTiers"  [(ngModel)]="selectedOption"></p-radioButton>
+                        <label for="IDTiers" class="ml-2" style="font-size: 13px;">ID tiers</label>
+                    </div>
+                    <div class="flex align-items-center">
+                        <p-radioButton name="recherche" value="NuméroCP"  [(ngModel)]="selectedOption"></p-radioButton>
+                        <label for="NuméroCP" class="ml-2" style="font-size: 13px;">Numéro CP</label>
+                    </div>
+                </div>
+                <div class="search-bar1" *ngIf="selectedOption === 'NomPrénom'">
+
+                    <div class="input-wrapperr">
+                        <input type="text" [(ngModel)]="searchQueryBirthName" placeholder="Nom">
+                        <input type="text" [(ngModel)]="searchQueryMainFirstName" placeholder="Prénom">
+                        <button (click)="search()">Rechercher</button>
+                        <button class="bt11" (click)="goTocreatePP()">Créer une personne physique</button>
+
+                    </div>
+
+
+                </div>
+                <div class="search-bar1" *ngIf="selectedOption === 'NuméroCP'">
+                    <div class="input-wrapper1">
+                        <input  type="text" placeholder="Saisir numéro CP"  [(ngModel)]="searchQuery">
+                        <button (click)="searchByCP()" >Rechercher</button>
+                        <button class="bt11" (click)="goTocreatePP()">Créer une personne physique</button>
+
+                    </div>
+                </div>
+                <div class="search-bar1" *ngIf="selectedOption === 'IDTiers'">
+                    <div class="input-wrapper1">
+                        <input type="text" placeholder="Saisir ID tiers" [(ngModel)]="searchQueryId">
+                        <button (click)="searchByIdTiers()" >Rechercher</button>
+                        <button class="bt11" (click)="goTocreatePP()" >Créer une personne physique</button>
+                    </div>
+
+                </div>
+             </div>
+        </div>
+    </div>
+</div>
+
+
+
+<div class="grid">
+    <div class="col-10 place ">
+        <div class="card px-6 py-6 table" style="width: 1246px;">
+            <p-toast></p-toast>
+
+            <p-table #dt  [value]="(type === 'PM') ? organisationParties : persons"  [columns]="cols" responsiveLayout="scroll"
+            [rows]="5" [paginator]="true" [rowsPerPageOptions]="[3,5,10,20]" [showCurrentPageReport]="true"
+            currentPageReportTemplate=" {last} sur {totalRecords}"  [rowHover]="true"
+             dataKey="id"  styleClass="p-datatable-striped "  [ngClass]="{ 'small': true }">
+                <ng-template pTemplate="caption">
+                        <h2 class="m-0 label1"  *ngIf="type === 'PM'">Résultats({{ organisationParties.length }})</h2>
+                        <h2 class="m-0 label1"  *ngIf="type === 'PP'">Résultats({{ persons.length }})</h2>
+
+                </ng-template>
+                    <ng-template pTemplate="header" let-columns >
+                        <tr>
+                            <td *ngFor="let col of columns" [pSortableColumn]="col.field" class="headerT col">
+                                {{ col.header }}
+                            </td>
+                        </tr>
+                    </ng-template>
+
+                <ng-template pTemplate="body" let-rowData>
+                    <tr *ngIf="type === 'PM'" (click)="goToPmDetails(rowData.id)">
+                        <td>{{ rowData.idTiers }}</td>
+                        <td>{{ rowData.legalName }}</td>
+                        <td>{{ rowData.siren}}</td>
+                        <td>{{ getfrville(rowData.addressForm.frLocationGId) }}</td>
+                        <td>{{ rowData.shareCapital }}</td>
+
+                    </tr>
+
+                    <tr *ngIf="type === 'PP'" (click)="goToPpDetails(rowData.id)">
+                        <td>{{ rowData.idTiers }}</td>
+                        <td>{{ civilitesMap[rowData.namePrefixGId] }}</td>
+                        <td>{{ rowData.birthName }}</td>
+                        <td>{{ rowData.mainFirstName }}</td>
+                        <td>{{rowData.birthDate}}</td>
+                        <td *ngIf="rowData.physicalContactPoint.inFrance">{{ getfrville(rowData.physicalContactPoint.frLocationGId )}}</td>
+                        <td  *ngIf="rowData.physicalContactPoint.inFrance==false">{{ rowData.physicalContactPoint.outOfFrTown }} - {{countriesMap[rowData.physicalContactPoint.countryGId]}}</td>
+
+
+                    </tr>
+                </ng-template>
+
+            </p-table>
+
+        </div>
+
+
+    </div>
+
+</div>
+
+
+
+<!-- TableComponent -->
+ <div class="popup-container" *ngIf="showPopup">
+    <div class="popup">
+      <strong><p style="font-size:28px; color:black">Vous voulez créer une société française ?</p></strong>
+      <div style="display: flex; align-items: center; margin-left: 14px;">
+        <div id="sirenError" style="font-size:19px; color:black; margin-right:10px;">Veuillez saisir le numéro de SIREN</div>
+        <input style="height:20px; font-size:13px; width: 201px; text-align: center;" id="sirenInput" placeholder="Saisir les 9 chiffres" type="text" [(ngModel)]="siren">
+      </div>
+      <div *ngIf="sirenExists" >
+        <span class="text-error" style="color: red; margin-left:60% ; font-size:12px;">Ce numéro de SIREN existe déjà.Vous</span>
+        <span class="text-error" style="color: red; margin-left:60% ;font-size:12px;"> pouvez le consultez ici :<span style="color: black;text-decoration: underline;" (click)="getOrganisationByIdAndNavigate(siren)">{{ siren }}</span></span>
+      </div>
+
+      <div style="padding-top: 20px;">
+        <a href="#" (click)="showSearchPopup = true; showPopup = false;" style="display: block;">
+          <span style="margin-left: 54%; color: black; font-size: 15px;">Je n'ai pas de numéro de SIREN</span>
+        </a>
+      </div>
+      <div style="margin-top: 20px; margin-left: 71px; ">
+        <button pButton (click)="createfn()" id="createBtn" style="height:30px; width:97px; font-size:15px;background:#FFCD00; border: none; border-radius: 20px; margin-left:51%; margin-right: 10px;color:black;">Créer</button>
+        <button pButton  id="cancelBtn" style="height:30px; width:97px; font-size:15px; background:transparent; border-color: #FFCD00; border-radius: 20px;color:black;">Annuler</button>
+      </div>
+    </div>
+ </div>
+
+<!--<div class="popup-container" *ngIf="showSearchPopup">
+  <div class="popup">
+    <strong><p style="font-size:28px; color:black">Vous voulez chercher un numéro de SIREN ?</p></strong>
+    <div style="display: flex; align-items: center;">
+      <div id="denominationError" style="font-size:19px; color:black; margin-right:10px;">Veuillez saisir le nom de l'entreprise</div>
+      <input style="height:20px; font-size:12px;" id="denominationInput" placeholder="Saisir le nom de l'entreprise" type="text"  >
+    </div>
+    <div style="padding-top: 20px;">
+    <a href="/home/pm" style="display: block;">
+      <span style="margin-left: 60%; color: black; font-size: 17px;">Créer sans siren</span>
+    </a>
+    </div>
+    <div style="margin-top: 20px; ">
+      <button pButton    style="height:30px; width:97px; font-size:15px;background:#FFCD00; border: none; border-radius: 20px; margin-left:50%; margin-right: 10px;color:black;">Rechercher</button>
+      <button pButton   (click)="showSearchPopup = false; showPopup = true;" style="height:30px; width:97px; font-size:15px; background:transparent; border-color: #FFCD00; border-radius: 20px;color:black;">Revenir</button>
+    </div>
+   </div>
+</div>-->
+
+
+
+
+<!--<div class="popup-container" *ngIf="showSearchPopup">
+  <div class="popup">
+    <strong><p style="font-size:28px; color:black">Vous voulez chercher un numéro de SIREN ?</p></strong>
+    <div style="display: flex; align-items: center;">
+      <div id="denominationError" style="font-size:19px; color:black; margin-right:10px;">{{ searchPlaceholder }}</div>
+      <input style="height:20px; font-size:12px;" id="denominationInput" placeholder="{{ searchPlaceholder }}" type="text" [(ngModel)]="entrepriseName">
+    </div>
+    <div style="padding-top: 20px;">
+      <a href="/home/pm" style="display: block;">
+        <span style="margin-left: 60%; color: black; font-size: 17px;">Créer sans siren</span>
+      </a>
+    </div>
+    <div style="margin-top: 20px; ">
+      <button pButton (click)="searchSiren()" style="height:30px; width:97px; font-size:15px;background:#FFCD00; border: none; border-radius: 20px; margin-left:50%; margin-right: 10px;color:black;">Rechercher</button>
+      <button pButton (click)="showSearchPopup = false; showPopup = true;" style="height:30px; width:97px; font-size:15px; background:transparent; border-color: #FFCD00; border-radius: 20px;color:black;">Revenir</button>
+    </div>
+  </div>
+</div>-->
+<div class="popup-container" *ngIf="showSearchPopup">
+  <div class="popup">
+
+    <strong><p style="font-size:28px; color:black">Vous voulez chercher un numéro de SIREN ?</p></strong>
+    <div style="display: flex; align-items: center; margin-left: 102px">
+      <div id="denominationError" style="font-size:19px; color:black; margin-right:10px;">{{ searchPlaceholder }}</div>
+      <input style="height:22px; font-size:13px; border-radius: 2px; text-align: center; width: 193px;" id="denominationInput" placeholder="{{ searchPlaceholder }}" type="text" [(ngModel)]="entrepriseName">
+    </div>
+    <!--<div *ngIf="sirenExists" >
+      <span class="text-error" style="color: red; margin-left:57% ; font-size:12px;">Vous avez déjà utilisé ce numéro de SIREN.</span>
+    </div>-->
+    <div style="padding-top: 20px;">
+      <a href="/home/pm" style="display: block;margin-left: -29px;">
+        <span style="margin-left: 62%; color: black; font-size: 17px;">Créer sans SIREN</span>
+      </a>
+    </div>
+    <div style="margin-top: 20px; margin-left: 6px; ">
+      <button *ngIf="!showCreateButton" pButton (click)="searchSiren()" style="height:30px; width:97px; font-size:13px;background:#FFCD00; border: none; border-radius: 20px; margin-left:59%;margin-right: 10px; margin-right: 10px;color:black;">Rechercher</button>
+      <button *ngIf="showCreateButton" pButton (click)="createfn1()" id="createBtnn" style="height:30px; width:97px; font-size:15px;background:#FFCD00; border: none; border-radius: 20px; margin-left:56%; margin-right: 10px;color:black;">Créer</button>
+      <button pButton (click)="showSearchPopup = false; showPopup = true; resetSearch();" style="height:30px; width:97px; font-size:15px; background:transparent; border-color: #FFCD00; border-radius: 20px;color:black;">Revenir</button>
+
+     </div>
+  </div>
+</div>
+
+
+
+
+
+
+
+
+

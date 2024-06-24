@@ -1,0 +1,23 @@
+.labelclass{
+    font-size: 15px;
+    color: #001D4A;
+  }
+
+  .custom-select {
+    border-radius: 5px; 
+    border: 1px solid #ccc; 
+  }
+
+  input{
+    border-color: #BCBCBC;
+  }
+
+input[readonly] {
+    background-color: #fbfbfb; 
+} 
+
+.ng-select.custom ::ng-deep .ng-select-container  {            
+  color:#02a97c !important
+
+}
+

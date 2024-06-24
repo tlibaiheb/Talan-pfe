@@ -1,0 +1,62 @@
+<div class="layout-topbar">
+  <div>
+    <a class="layout-topbar-logo" routerLink="#">
+      <img
+        src="../../../assets/layout/images/logo-BPIfrance-1024x1024-removebg-preview.png"
+        alt="logo"
+      />
+      <span>| Réferentiel tiers</span>
+    </a>
+  </div>
+  <div class="search-wrapper">
+
+  <span class="p-input-icon-right sp">
+    <input
+      type="search"
+      pInputText
+      placeholder="Rechercher"
+      (input)="onSearchInput($event)"
+    />
+    <i *ngIf="isSearchTextEmpty()" class="pi pi-search"></i>
+  </span>
+  </div>
+  <div #topbarmenu class="layout-topbar-menu">
+    <span class="username">{{userName}}</span>
+
+    <div class="dropdown">
+      <button class="p-link layout-topbar-button" pButton type="button" icon="pi pi-bell" (click)="toggleDropdown1()" *ngIf="ln === 0"></button>
+
+      <button class="p-link layout-topbar-button"  pButton icon="pi pi-bell" (click)="toggleDropdown1()"  *ngIf="ln!=0"><h1 style="font-size: 12px; margin-bottom: 20px; color:red">({{ln}})</h1></button>
+      <div class="custom-toast"  >
+        <p-toast *ngIf="isDropdownOpen1"  >
+          <ng-template let-message pTemplate="message">
+            <div *ngIf="ln==0 || message.summary=='Erreur'" >
+              <span>{{message.detail}}</span>
+            </div>
+            <div *ngIf="ln!=0 ">
+              <span>Il y a une modification dans market data au niveau du siren </span>
+              <a [routerLink]="'/home/pm/' + message.summary" (click)="closeDropdown()">{{message.detail}}</a>
+            </div> 
+                    
+          </ng-template>
+        </p-toast>
+        
+      </div>
+
+    </div>
+    
+    <div class="dropdown">
+      <button class="p-link layout-topbar-button" (click)="toggleDropdown()">
+        <i class="pi pi-user"></i>
+      </button>
+      <div class="dropdown-content" *ngIf="isDropdownOpen">
+        <!-- <a href="#"> <i class="pi pi-users"> </i> Profil</a> -->
+        <a href="#" (click)="logout()"><i class="pi pi-sign-out " > </i> LogOut</a>
+      </div>
+    </div>
+
+  </div> 
+    
+ 
+
+</div>

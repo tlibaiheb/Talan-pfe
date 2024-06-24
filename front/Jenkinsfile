@@ -1,0 +1,81 @@
+pipeline {
+    agent any
+
+    options {
+        skipDefaultCheckout() // Désactive le checkout SCM par défaut de Jenkins
+    }
+
+
+     environment {
+        APP_NAME = "front"
+        RELEASE = "1.0"
+        DOCKER_USER = "tlibaiheb"
+        DOCKER_PASS = 'pwd-dockerhub'
+        IMAGE_NAME = "${DOCKER_USER}/${APP_NAME}"
+        IMAGE_TAG = "${RELEASE}-${BUILD_NUMBER}"
+    }
+ 
+     
+    stages {
+       stage('Checkout SCM') {
+            steps {
+                git branch: 'dev-op', url: 'https://gitlab.com/ihebtliba8/bpi-mkd-itc-talan.git'
+            }
+        }
+        stage('Fix npm vulnerabilities') {
+            steps {
+                dir('C:/Users/ihen/IdeaProjects/bpi-mkd-itc-talan/front') {
+                    // Run npm audit fix and capture the exit code
+                    script {
+                        def npmAuditFix = bat(script: 'npm audit fix --force', returnStatus: true)
+                        if (npmAuditFix != 0) {
+                            echo 'npm audit fix encountered issues, but continuing...'
+                        }
+                    }
+                }
+            }
+        }
+
+        stage('Install Dependencies') {
+            steps {
+                 dir('C:/Users/ihen/IdeaProjects/bpi-mkd-itc-talan/front') {
+                    bat 'npm install'
+                }
+            }
+        }
+
+        stage('Build') {
+ 
+            steps {
+                dir('C:/Users/ihen/IdeaProjects/bpi-mkd-itc-talan/front') {
+                    // Build Angular application in production mode using npm
+                         bat 'npm run build -- --configuration=production'
+                }
+            }
+ 
+            post {
+                always {
+                    // Archive build artifacts for later use
+                     archiveArtifacts(artifacts: '**/*')
+                }
+            }
+        }
+
+         stage('Build & Push Docker Image - Frontend') {
+            steps {
+                script {
+                    // Build de l'image Docker
+                    dir('C:/Users/ihen/IdeaProjects/bpi-mkd-itc-talan/front') {
+                        docker.withRegistry('https://index.docker.io/v1/', DOCKER_PASS) {
+                            def dockerImage = docker.build("${IMAGE_NAME}")
+                            dockerImage.push("${IMAGE_TAG}")
+                            dockerImage.push('latest')
+                        }
+                    }
+                }
+            }
+        }
+ 
+        
+}
+}

@@ -1,0 +1,46 @@
+
+footer {
+
+    background-color: white;
+    padding: 5px; 
+    position: flex;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    box-shadow: 0px -5px 15px rgba(0, 0, 0, 0.1);
+
+  }
+
+  .footer-container {
+    margin-left: 80px;
+    margin-right: 80px;
+
+  }
+
+  ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+  }
+
+  .footer-link,
+  .footer-link:visited {
+    text-decoration: underline;
+    color: black;
+    cursor: pointer;
+    font-weight: bold;
+
+  }
+
+  .copyright {
+    margin-left: 10px;
+    color: #333;
+
+  }
+  .layout-main-container {
+    margin-bottom: 60px; /* Ajustez la valeur en fonction de la hauteur de votre footer */
+  }

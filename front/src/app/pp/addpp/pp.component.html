@@ -1,0 +1,162 @@
+
+<div>
+  <div class="container" style="display: flex; flex-direction: row; align-items: flex-start; margin-left: 100px;">
+    <!--PP-sidebar-->
+    <app-pp-sidebar [name]="name" [address]="address" [idTiers]="idTiers" [isClient]="isClient" ></app-pp-sidebar>
+    <!--right card-->
+    <p-card class="col-7 col-offset-1 wedth" >
+      <!-- Section des boutons -->
+      <div class="flex justify-content-end flex-wrap">
+        <ng-container *ngIf="!isSaved; else modifyButton">
+          <p-button [rounded]="true" [outlined]="true" severity="secondary" [style]="{'font-size': '16px', 'padding': '10px 15px', 'margin-right': '10px','border-radius':'16px', 'background-color': '#f4f0ec', 'color': 'black', 'border-color': 'transparent'}" [disabled]="!isButtonEnabled" (click)="onCancel()" >Annuler</p-button>
+          <p-button label="Valider" [rounded]="true" severity="secondary" [style]="{'font-size': '16px', 'padding': '10px 15px','border-radius':'16px', 'background-color': '#f4f0ec', 'color': 'black', 'border-color': 'transparent'}" (click)="onSubmit()" [disabled]="formulaire.invalid"></p-button>
+          <!--<p-button label="Valider" [rounded]="true" severity="secondary" [style]="{'font-size': '16px', 'padding': '10px 15px','border-radius':'16px', 'background-color': '#f4f0ec', 'color': 'black', 'border-color': 'transparent'}" (click)="onSubmit()"  [disabled]="formulaire.invalid" ></p-button>-->
+        </ng-container>
+        <ng-template #modifyButton>
+          <p-button label="Modifier" [rounded]="true" severity="secondary" [style]="{'font-size': '16px', 'padding': '10px 15px','border-radius':'16px', 'background-color': '#ffd733', 'color': 'black', 'border-color': 'transparent'}" (click)="onModify()"></p-button>
+        </ng-template>
+
+
+      </div>
+      <!--<h1 class="titre">Nouvelle personne physique</h1>-->
+      <h1 class="titre">{{ isEditMode ? editingConcatenatedName : (isSaved ? concatenateName() : 'Nouvelle personne physique') }}</h1>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      <h3 class="titre">Identité</h3>
+      <div class="horizontal-line1"></div>
+      <form class="grid mt-15"  [formGroup]="formulaire" (submit)="onSubmit()" >
+        <div class="col-6 " >
+          <div class="field">
+            <label for="civilite" class="labelclass">Civilité<span style="color: red">*</span></label>
+            <ng-container *ngIf="{ civilites: civilites$ | async } as data" >
+              <ng-select  [style]="{'width':'170px','border-border-radius': '6px'}" formControlName="namePrefixGId" [readonly]="readonlyMode">
+                <ng-option *ngFor="let civilite of data.civilites" [value]="civilite.gId">{{ civilite.label }}</ng-option>
+              </ng-select>
+              <div *ngIf="formulaire.get('namePrefixGId')?.hasError('required')&& formulaire.get('namePrefixGId')?.touched">
+                <small class="text-error" style="color: red">*Civilité obligatoire</small>
+              </div>
+            </ng-container>
+          </div>
+          <div class="field">
+            <label for="nomdeNaissance" class="labelclass">Nom de naissance<span style="color: red">*</span></label>
+            <input id="nomdeNaissance" type="text" class="text-base text-color  p-2 border-1 border-solid  border-round focus:border-primary w-full" formControlName="birthName" [readOnly]="readonlyMode" [ngStyle]="{'background-color': isSaved ? '#f9f9f9' : ''}">
+            <div *ngIf="formulaire.get('birthName')?.hasError('required')&& formulaire.get('birthName')?.touched">
+              <small class="text-error" style="color: red">*Nom de naissance obligatoire</small>
+            </div>
+          </div>
+          <div class="field">
+            <label for="Prenom" class="labelclass">Prénom <span style="color: red">*</span></label>
+            <input id="Prenom" type="text" class="text-base text-color  p-2 border-1 border-solid  border-round focus:border-primary w-full" formControlName="mainFirstName" [readOnly]="readonlyMode" [ngStyle]="{'background-color': isSaved ? '#f9f9f9' : ''}">
+            <div *ngIf="formulaire.get('mainFirstName')?.hasError('required')&& formulaire.get('mainFirstName')?.touched">
+              <small class="text-error" style="color: red">*Prénom obligatoire</small>
+            </div>
+          </div>
+          <div class="field">
+            <label  class="labelclass">Date de naissance<span style="color: red">*</span><i class="pi pi-info-circle info"></i></label>
+            <br>
+            <input type="date"  dateFormat="yy-mm-dd" placeholder="aaaa-mm-jj" formControlName="birthDate" [disabled]="readonlyMode"  [ngStyle]="{'background-color': isSaved ? '#f9f9f9' : ''}"  class="calendar large">
+
+
+            <div *ngIf="formulaire.get('birthDate')?.hasError('required')&& formulaire.get('birthDate')?.touched">
+              <small class="text-error" style="color: red">*Date de naissance obligatoire</small>
+            </div>
+            <!-- Affiche un message d'erreur si la date de naissance est en dehors de la plage spécifiée -->
+            <div *ngIf="formulaire.get('birthDate')?.hasError('dateOfBirthRange') && formulaire.get('birthDate')?.touched">
+              <small class="text-error" style="color: red">La date de naissance doit être comprise entre 18 et 120 ans</small>
+            </div>
+
+          </div>
+          <div class="field">
+            <label for="paysdeNaissance" class="labelclass">Pays de naissance<span style="color: red">*</span></label>
+            <ng-container  *ngIf="{ countries: countries$ | async } as data">
+              <ng-select formControlName="countryOfBirthGId" [readonly]="readonlyMode" (change)="onCountryOfBirthChange()" >
+                <ng-option  *ngFor="let country of data.countries" [value]="country.countryGId">{{ country.countryLabel }}</ng-option>
+              </ng-select>
+              <div *ngIf="formulaire.get('countryOfBirthGId')?.hasError('required')&& formulaire.get('countryOfBirthGId')?.touched">
+                <small class="text-error" style="color: red">*Pays de naissance obligatoire</small>
+              </div>
+            </ng-container>
+          </div>
+        </div>
+        <div class="col-6">
+          <div class="br">
+          </div>
+          <br>
+          <div class="field">
+            <label for="nomUsage" class="labelclass">Nom d'usage</label>
+            <input id="nomUsage" type="text" class="text-base text-color p-2 border-none rounded focus:outline-none w-full" style="background-color: #f9f9f9; border-radius: 8px;" formControlName="useName" [readOnly]="readonlyMode" >
+          </div>
+          <div class="field">
+            <label for="preSup" class="labelclass">Prénoms suplémentaires séparés par des ",")<i class="pi pi-info-circle info"></i></label>
+            <input id="preSup" type="text" class="text-base text-color  p-2 border-1 border-solid  border-round focus:border-primary w-full" formControlName="firstNames"  [readOnly]="readonlyMode" [ngStyle]="{'background-color': isSaved ? '#f9f9f9' : ''}">
+            <div *ngIf="formulaire.get('firstNames')?.hasError('maxlength') && formulaire.get('firstNames')?.touched">
+              <small class="text-error" style="color: red">La longueur doit être inférieure ou égale à 150 caractères</small>
+            </div>
+          </div>
+
+          <!-- Utilisation de la fonction pour afficher les champs -->
+          <div *ngIf="isFranceSelected()">
+            <!-- Afficher les champs pour la France -->
+            <div class="field">
+              <label for="ville" class="labelclass">Ville de naissance<span style="color: red">* </span><i class="pi pi-info-circle info"></i></label>
+              <ng-select formControlName="frPlaceOfBirthGId" [items]="listes" [virtualScroll]="true" [loading]="loading" bindLabel="label" bindValue="value" (scrollToEnd)="fetchMore()" [readonly]="readonlyMode" >
+                <ng-template ng-option-tmp let-item="item" let-index="index" let-search="searchTerm">
+                  <span>{{item.label}}</span>
+                </ng-template>
+              </ng-select>
+              <div *ngIf="formulaire.get('frPlaceOfBirthGId')?.hasError('required') && formulaire.get('frPlaceOfBirthGId')?.touched">
+                <small class="text-error" style="color: red">*Ville de naissance obligatoire</small>
+              </div>
+            </div>
+          </div>
+          <!-- Afficher les champs pour les pays autres que la France uniquement si un pays a été sélectionné -->
+          <div *ngIf="!isFranceSelected() && formulaire.get('countryOfBirthGId')?.value">
+            <div class="field">
+              <label for="outOfFrPlaceOfBirth" class="labelclass">Ville de naissance<span style="color: red">*</span></label>
+              <input id="outOfFrPlaceOfBirth" type="text" class="text-base text-color p-2 border-1 border-solid border-round focus:border-primary w-full" formControlName="outOfFrPlaceOfBirth" [readOnly]="readonlyMode" [ngStyle]="{'background-color': isSaved ? '#f9f9f9' : ''}">
+              <div *ngIf="formulaire.get('outOfFrPlaceOfBirth')?.hasError('required') && formulaire.get('outOfFrPlaceOfBirth')?.touched">
+                <small class="text-error" style="color: red">*Ville de naissance obligatoire</small>
+              </div>
+            </div>
+            <div class="field">
+              <label for="outOfFrBirthPostCode" class="labelclass">Code postal de naissance<span style="color: red">*</span></label>
+              <input id="outOfFrBirthPostCode" type="text" class="text-base text-color p-2 border-1 border-solid border-round focus:border-primary w-full" formControlName="outOfFrBirthPostCode" [readOnly]="readonlyMode" [ngStyle]="{'background-color': isSaved ? '#f9f9f9' : ''}">
+              <div *ngIf="formulaire.get('outOfFrBirthPostCode')?.hasError('required') && formulaire.get('outOfFrBirthPostCode')?.touched">
+                <small class="text-error" style="color: red">*Code postal obligatoire</small>
+              </div>
+              <div *ngIf="formulaire.get('outOfFrBirthPostCode')?.hasError('pattern') && formulaire.get('outOfFrBirthPostCode')?.touched">
+                <small class="text-error" style="color: red">Le code postal doit contenir uniquement des chiffres et comporter au moins 3 chiffres.</small>
+              </div>
+            </div>
+          </div>
+          <div class="field">
+            <label for="numerosCPAssocies" class="labelclass">Numero(s) CP associé(s)</label>
+            <input id="numerosCPAssocies" type="text" class="text-base text-color p-2 border-none rounded focus:outline-none w-full" style="background-color: #f9f9f9; border-radius: 8px;" formControlName="cpNumber" [readOnly]="readonlyMode" >
+          </div>
+        </div>
+      </form>
+      <!--coordonées-->
+      <h3 class="titre">Coordonnées</h3>
+      <div class="horizontal-line1"></div>
+      <div >
+        <input type="checkbox" id="checkbox" [(ngModel)]="inFrance" [disabled]="false" [ngStyle]="{'background-color': isSaved ? '#f9f9f9' : ''}">
+        <label style="margin-left:15px;">La personne physique est en France</label>
+      </div>
+      <div class="pos" >
+        <app-addresse [type]="type" [inFrance]="inFrance"   [readonlyMode]="readonlyMode" [ngStyle]="{'background-color': isSaved ? '#f9f9f9' : ''}"></app-addresse>
+      </div>
+    </p-card>
+  </div>
+</div>

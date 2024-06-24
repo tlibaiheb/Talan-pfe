@@ -1,0 +1,399 @@
+<form class="grid mt-15" [formGroup]="adress">
+
+  <div class="col-6" *ngIf="inFrance && type === 'PP'" >
+    <div class="grid field">
+      <div class="col-12" *ngIf="type === 'PP'" >
+        <label class="labelclass" for="typeadresse">Type d'adresse </label>
+        <ng-container *ngIf="{ typeadresses: typeadresses$ | async, filter: '' } as data">
+          <ng-select formControlName="physicalContactPointTypeGId" [readonly]="readonlyMode" style="margin-bottom: 13px;">
+            <ng-option *ngFor="let typeadresse of  data.typeadresses" [value]="typeadresse.gId" class="small-option">{{ typeadresse.label }}</ng-option>
+          </ng-select>
+        </ng-container>
+      </div>
+      <div class="col-6">
+        <label for="num" class="labelclass">N°</label>
+        <input id="num" type="text" class="text-base  p-2 border-1 border-solid  border-round focus:border-primary w-full" formControlName="num" [readOnly]="readonlyMode" [ngStyle]="{'background-color': isSaved ? '#f9f9f9' : ''}">
+      </div>
+      <div class="col-6" >
+        <label for="Typedevoie" class="labelclass">Type de voie</label>
+        <input id="Typedevoie" type="text" class="text-base   p-2 border-1 border-solid  border-round focus:border-primary w-full" formControlName="typeDeVoie" [readOnly]="readonlyMode" [ngStyle]="{'background-color': isSaved ? '#f9f9f9' : ''}">
+      </div>
+    </div>
+    <div class="field">
+      <label for="libellevoie" class="labelclass">libellé de la voie</label>
+      <input id="libellevoie" type="text" class="text-base   p-2 border-1 border-solid  border-round focus:border-primary w-full" formControlName="libelleDeLaVoie" [readOnly]="readonlyMode" [ngStyle]="{'background-color': isSaved ? '#f9f9f9' : ''}">
+    </div>
+    <div>
+      <div class="field">
+        <label for="complementadresse" class="labelclass">Complément d'adresse</label>
+        <input id="complementadresse" type="text" class="text-base   p-2 border-1 border-solid  border-round focus:border-primary w-full" formControlName="complementAdresse" [readOnly]="readonlyMode" [ngStyle]="{'background-color': isSaved ? '#f9f9f9' : ''}">
+      </div>
+      <div class="field">
+        <label for="ville" class="labelclass"><span style="color: red">* </span>Ville</label>
+        <ng-select formControlName="frLocationGId"
+                   [items]="listess"
+                   [virtualScroll]="true"
+                   [loading]="loading"
+                   bindLabel="label"
+                   bindValue="value"
+                   (scrollToEnd)="fetchMore()"
+                   [readonly]="readonlyMode"
+        >
+          <ng-template ng-option-tmp let-item="item" let-index="index" let-search="searchTerm">
+            <span>{{item.label}}</span>
+          </ng-template>
+        </ng-select>
+        <div *ngIf="adress.get('frLocationGId')?.hasError('required')&& adress.get('frLocationGId')?.touched">
+          <small class="text-error" style="color: red">*Ville obligatoire</small>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <div class="col-6" *ngIf="inFrance && type === 'PM'">
+    <div  *ngIf="!modificationAssiste">
+        <div class="grid field">
+
+              <div class="col-6">
+                <label for="num" class="labelclass">N°</label>
+                <input id="num" type="text" class="text-base   p-2 border-1 border-solid  border-round focus:border-primary w-full" formControlName="num" [readonly]="readonlyMode===modeEnum.consult || (modeAssite && num1!='null' ) " [ngStyle]="SirenExist && modeAssite && !(readonlyMode===modeEnum.consult)? {'width': '98%', 'border': '1px solid #02a97c', 'color': '#02a97c', 'border-radius': '5px'} : {}" >
+
+              </div>
+              <div class="col-6" >
+                <label for="Typedevoie" class="labelclass">Type de voie</label>
+                <input id="Typedevoie" type="text" class="text-base  p-2 border-1 border-solid  border-round focus:border-primary w-full" formControlName="typeDeVoie" [readonly]="readonlyMode===modeEnum.consult  || (modeAssite && typeDeVoie1!='null' ) " [ngStyle]="SirenExist && modeAssite && !(readonlyMode===modeEnum.consult)? {'width': '98%', 'border': '1px solid #02a97c', 'color': '#02a97c', 'border-radius': '5px'} : {}" >
+
+              </div>
+        </div>
+
+        <div class="field">
+          <label for="libellevoie" class="labelclass">libellé de la voie</label>
+          <input id="libellevoie" type="text" class="text-base   p-2 border-1 border-solid  border-round focus:border-primary w-full" formControlName="libelleDeLaVoie" [readonly]="readonlyMode===modeEnum.consult|| (modeAssite && libelleDeLaVoie1!='null' )" [ngStyle]="SirenExist && modeAssite && !(readonlyMode===modeEnum.consult)? {'width': '98%', 'border': '1px solid #02a97c', 'color': '#02a97c', 'border-radius': '5px'} : {}">
+
+        </div>
+
+
+
+        <div class="field">
+          <label for="complementadresse" class="labelclass">Complément d'adresse</label>
+          <input id="complementadresse" type="text" class="text-base  p-2 border-1 border-solid  border-round focus:border-primary w-full" formControlName="complementAdresse"  [readonly]="readonlyMode===modeEnum.consult">
+
+        </div>
+
+        <div class="field">
+                  <label for="ville" class="labelclass"><span style="color: red">* </span>Ville</label>
+                  <ng-select formControlName="frLocationGId" [ngClass]="{'custom': SirenExist && modeAssite && !(readonlyMode===modeEnum.consult)}" [ngStyle]="SirenExist && modeAssite && !(readonlyMode===modeEnum.consult) ? {'width': '98%', 'border': '1px solid #02a97c', 'color': '#02a97c', 'border-radius': '5px'} : {}"
+                  [items]="listess"
+                  [virtualScroll]="true"
+                  [loading]="loading"
+                  bindLabel="label"
+                  bindValue="value"
+                  (scrollToEnd)="fetchMore()"
+                  [readonly]="readonlyMode===modeEnum.consult || (modeAssite && frLocationGId1!='0' ) ">
+                  <ng-template ng-option-tmp let-item="item" let-index="index" let-search="searchTerm">
+                    <span>{{item.label}}</span>
+                  </ng-template>
+                </ng-select>
+                <!-- <ng-container [style.width]="'1200px'">
+                  <p-dropdown  [options]="listess"
+                              [virtualScroll]="true"
+                              [virtualScrollItemSize]="38"
+                              formControlName="frLocationGId"
+                              [readonly]="readonlyMode === modeEnum.consult"
+                              (onChange)="onLocationChange($event.value)"
+                              >
+                  </p-dropdown>
+                </ng-container> -->
+                
+            
+
+                <div *ngIf="adress.get('frLocationGId')?.hasError('required')&& adress.get('frLocationGId')?.touched">
+                  <small class="text-error" style="color: red">*champs obligatoire</small>
+                </div>
+        </div>
+
+    </div>
+
+
+
+    <div *ngIf="modificationAssiste">
+      <div class="grid field">
+
+          <div class="col-6" *ngIf="this.adress.get('num')!.value !== this.adress.get('num1')!.value">
+            <label for="num" class="labelclass">N°</label>
+            <div class="flex align-items-center">
+              <input id="num" type="text"  class="text-base   p-2 border-1 border-solid  border-round focus:border-primary w-full" formControlName="num" [readonly]="readonlyMode===modeEnum.consult || modeAssite" >
+              <input type="radio" name="num" value="num" style="height: 20px;accent-color: black; "  checked  >
+          </div>
+          <div class="flex align-items-center">
+            <input id="num" type="text" class="text-base   p-2 border-1 border-solid  border-round focus:border-primary w-full" formControlName="num1" [readonly]="readonlyMode===modeEnum.consult || modeAssite" style="border-color: #02a97c; color:#02a97c" >
+              <input type="radio" name="num" value="num1" style="height: 20px; accent-color: black;" (click)="updateNum(this.adress.get('num1')!.value)">
+          </div>
+          </div>
+          <div class="col-6" *ngIf="!(this.adress.get('num')!.value !== this.adress.get('num1')!.value)">
+            <label for="num" class="labelclass">N°</label>
+              <input id="num" type="text" class="text-base   p-2 border-1 border-solid  border-round focus:border-primary w-full" formControlName="num" [readonly]="readonlyMode===modeEnum.consult || modeAssite" style="border-color: #02a97c; color:#02a97c">
+          </div>
+          <div class="col-6" *ngIf="this.adress.get('typeDeVoie')!.value !== this.adress.get('typeDeVoie1')!.value" >
+            <label for="Typedevoie" class="labelclass">Type de voie</label>
+
+            <div class="flex align-items-center">
+              <input id="Typedevoie" type="text" class="text-base  p-2 border-1 border-solid  border-round focus:border-primary w-full" formControlName="typeDeVoie" [readonly]="readonlyMode===modeEnum.consult || modeAssite" >
+              <input type="radio" name="Typedevoie" value="Typedevoie" style="height: 20px; accent-color: black;"  checked  >
+          </div>
+          <div class="flex align-items-center">
+            <input id="Typedevoie" type="text" class="text-base   p-2 border-1 border-solid  border-round focus:border-primary w-full" formControlName="typeDeVoie1" style="border-color: #02a97c; color:#02a97c" [readonly]="readonlyMode===modeEnum.consult || modeAssite" >
+              <input type="radio" name="Typedevoie" value="Typedevoie1" style="height: 20px; accent-color: black;" (click)="updatetypeDeVoie(this.adress.get('typeDeVoie1')!.value)">
+          </div>
+
+          </div>
+          <div class="col-6" *ngIf="!(this.adress.get('typeDeVoie')!.value !== this.adress.get('typeDeVoie1')!.value)" >
+            <label for="Typedevoie" class="labelclass">Type de voie</label>
+
+              <input id="Typedevoie" type="text" class="text-base  p-2 border-1 border-solid  border-round focus:border-primary w-full" formControlName="typeDeVoie" [readonly]="readonlyMode===modeEnum.consult || modeAssite" style="border-color: #02a97c; color:#02a97c" >
+          </div>
+      </div>
+
+      <div class="field"  *ngIf="this.adress.get('libelleDeLaVoie')!.value !== this.adress.get('libelleDeLaVoie1')!.value">
+        <label for="libellevoie" class="labelclass">libellé de la voie</label>
+        <div class="flex align-items-center">
+          <input id="libellevoie" type="text" class="text-base   p-2 border-1 border-solid  border-round focus:border-primary w-full" formControlName="libelleDeLaVoie" [readonly]="readonlyMode===modeEnum.consult|| modeAssite" >
+          <input type="radio" name="libellevoie" value="libellevoie" style="height: 20px;accent-color: black;"  checked  >
+      </div>
+      <div class="flex align-items-center">
+        <input id="libellevoie1" type="text" class="text-base  p-2 border-1 border-solid  border-round focus:border-primary w-full" formControlName="libelleDeLaVoie1"  style="border-color: #02a97c; color:#02a97c" [readonly]="readonlyMode===modeEnum.consult || modeAssite" >
+          <input type="radio" name="libellevoie" value="libellevoie1" style="height: 20px; accent-color: black;" (click)="updatelibelleDeLaVoie(this.adress.get('libelleDeLaVoie1')!.value)">
+      </div>
+      </div>
+      <div class="field"  *ngIf="!(this.adress.get('libelleDeLaVoie')!.value !== this.adress.get('libelleDeLaVoie1')!.value)">
+        <label for="libellevoie" class="labelclass">libellé de la voie</label>
+        <input id="libellevoie" type="text" class="text-base  p-2 border-1 border-solid  border-round focus:border-primary w-full" formControlName="libelleDeLaVoie" [readonly]="readonlyMode===modeEnum.consult|| modeAssite" style="border-color: #02a97c; color:#02a97c">
+
+      </div>
+
+
+
+      <div class="field">
+        <label for="complementadresse" class="labelclass">Complément d'adresse</label>
+        <input id="complementadresse" type="text" class="text-base p-2 border-1 border-solid  border-round focus:border-primary w-full" formControlName="complementAdresse"  [readonly]="readonlyMode===modeEnum.consult">
+
+      </div>
+
+
+      <div class="field" *ngIf="this.adress.get('frLocationGId')!.value !== this.adress.get('frLocationGId1')!.value">
+              <label for="ville" class="labelclass"><span style="color: red">* </span>Ville</label>
+              <div class="flex align-items-center" >
+                        <ng-select style="width: 98%;" formControlName="frLocationGId"
+                        [items]="listess"
+                        [virtualScroll]="true"
+                        [loading]="loading"
+                        bindLabel="label"
+                        bindValue="value"
+                        (scrollToEnd)="fetchMore()"
+                        [readonly]="readonlyMode===modeEnum.consult || modeAssite ">
+                        <ng-template ng-option-tmp let-item="item" let-index="index" let-search="searchTerm">
+                          <span>{{item.label}}</span>
+                        </ng-template>
+                      </ng-select>
+                      <input type="radio" name="frLocationGId" value="frLocationGId" style="height: 20px; accent-color: black;" checked>
+
+
+              </div>
+              <div class="flex align-items-center"  >
+                      <ng-select  formControlName="frLocationGId1" class="custom" style="width: 98%;  border: 1px solid #02a97c; color:#02a97c; border-radius: 5px;"
+                      [items]="listess"
+                      [virtualScroll]="true"
+                      [loading]="loading"
+                      bindLabel="label"
+                      bindValue="value"
+                      (scrollToEnd)="fetchMore()"
+                      [readonly]="readonlyMode===modeEnum.consult || modeAssite ">
+                      <ng-template ng-option-tmp let-item="item" let-index="index" let-search="searchTerm">
+                        <span>{{item.label}}</span>
+                      </ng-template>
+                    </ng-select>
+                    <input type="radio" name="frLocationGId" value="frLocationGId1" style="height: 20px; accent-color: black;" (click)="updatefrLocationGId(this.adress.get('frLocationGId1')!.value)">
+
+              </div>
+
+      </div >
+
+      <div class="field"*ngIf="(this.adress.get('frLocationGId')!.value == this.adress.get('frLocationGId1')!.value)">
+              <label for="ville" class="labelclass"><span style="color: red">* </span>Ville</label>
+              <ng-select  formControlName="frLocationGId" class="custom" style="width: 98%;  border: 1px solid #02a97c; color:#02a97c; border-radius: 5px;"
+              [items]="listess"
+              [virtualScroll]="true"
+              [loading]="loading"
+              bindLabel="label"
+              bindValue="value"
+              (scrollToEnd)="fetchMore()"
+              [readonly]="readonlyMode===modeEnum.consult || modeAssite ">
+              <ng-template ng-option-tmp let-item="item" let-index="index" let-search="searchTerm">
+                <span>{{item.label}}</span>
+              </ng-template>
+            </ng-select>
+      
+            <div *ngIf="adress.get('frLocationGId')?.hasError('required')&& adress.get('frLocationGId')?.touched">
+              <small class="text-error" style="color: red">*champs obligatoire</small>
+            </div>
+      </div>
+
+
+
+    </div>
+
+
+
+
+    
+
+  </div>
+
+
+
+
+</form>
+
+
+<!--<form class="grid mt-15"   *ngIf="!inFrance" >
+
+
+  <div class="col-6">
+
+    <div class="field">
+      <label class="labelclass" for="typeadresse">Type d'adresse </label>
+      <ng-container *ngIf="{ typeadresses: typeadresses$ | async, filter: '' } as data">
+        <ng-select >
+          <ng-option *ngFor="let typeadresse of  data.typeadresses" [value]="typeadresse.gId" class="small-option">{{ typeadresse.label }}</ng-option>
+        </ng-select>
+      </ng-container>
+    </div>
+
+    <div class="field">
+      <label for="adresseinternational" class="labelclass">Adresse internationale</label>
+      <input id="adresseinternational" type="text" class="text-base  p-2 border-1 border-solid  border-round focus:border-primary w-full">
+
+    </div>
+    <div class="field">
+      <label for="complementadresse1" class="labelclass">Complément d'adresse</label>
+      <input id="complementadresse1" type="text" class="text-base   p-2 border-1 border-solid  border-round focus:border-primary w-full">
+
+    </div>
+    <br>
+    <div class="field">
+      <label for="complementadresse2" class="labelclass">Complément d'adresse</label>
+      <input id="complementadresse2" type="text" class="text-base p-2 border-1 border-solid  border-round focus:border-primary w-full">
+
+    </div>
+    <div class="field">
+      <label for="complementadresse3" class="labelclass">Complément d'adresse</label>
+      <input id="complementadresse3" type="text" class="text-base   p-2 border-1 border-solid  border-round focus:border-primary w-full">
+
+    </div>
+
+  </div>
+
+  <div class="col-6" >
+    <div class="field">
+      <label for="codepostal" class="labelclass">Code Postal</label>
+      <input id="codepostal" type="text" class="text-base   p-2 border-1 border-solid  border-round focus:border-primary w-full">
+
+    </div>
+    <br>
+    <div class="field">
+      <label for="location" class="labelclass">Ville</label>
+      <input id="location" type="text" class="text-base   p-2 border-1 border-solid  border-round focus:border-primary w-full">
+
+    </div>
+    <div class="field">
+      <label for="region" class="labelclass">Région</label>
+      <input id="region" type="text" class="text-base   p-2 border-1 border-solid  border-round focus:border-primary w-full">
+
+    </div>
+    <br>
+    <div class="field">
+      <label class="labelclass" for="pays">Pays</label>
+      <ng-container *ngIf="{ countries: countries$ | async, filter: '' } as data">
+        <ng-select >
+          <ng-option *ngFor="let country of  data.countries" [value]="country.countryGId" class="small-option">{{ country.countryLabel }}</ng-option>
+        </ng-select>
+      </ng-container>
+    </div>
+
+
+  </div>
+
+
+
+</form>-->
+<form class="grid mt-15"   *ngIf="!inFrance"  [formGroup]="adress">
+  <div class="col-6">
+    <div class="field">
+      <label class="labelclass" for="typeadresse">Type d'adresse </label>
+      <ng-container *ngIf="{ typeadresses: typeadresses$ | async, filter: '' } as data">
+        <ng-select formControlName="physicalContactPointTypeGId" [readonly]="readonlyMode">
+          <ng-option *ngFor="let typeadresse of  data.typeadresses" [value]="typeadresse.gId" class="small-option">{{ typeadresse.label }}</ng-option>
+        </ng-select>
+      </ng-container>
+    </div>
+    <div class="field">
+      <label for="adresseinternational" class="labelclass">Adresse internationale</label>
+      <input id="adresseinternational" type="text" class="text-base   p-2 border-1 border-solid  border-round focus:border-primary w-full" formControlName="address1" [readOnly]="readonlyMode" [ngStyle]="{'background-color': isSaved ? '#f9f9f9' : ''}">
+    </div>
+    <div class="field">
+      <label for="complementadresse1" class="labelclass">Complément d'adresse</label>
+      <input id="complementadresse1" type="text" class="text-base   p-2 border-1 border-solid  border-round focus:border-primary w-full" formControlName="address2" [readOnly]="readonlyMode" [ngStyle]="{'background-color': isSaved ? '#f9f9f9' : ''}">
+    </div>
+
+    <div class="field">
+      <label for="complementadresse2" class="labelclass">Complément d'adresse</label>
+      <input id="complementadresse2" type="text" class="text-base   p-2 border-1 border-solid  border-round focus:border-primary w-full" formControlName="address3" [readOnly]="readonlyMode" [ngStyle]="{'background-color': isSaved ? '#f9f9f9' : ''}">
+    </div>
+    <div class="field">
+      <label for="complementadresse3" class="labelclass">Complément d'adresse</label>
+      <input id="complementadresse3" type="text" class="text-base   p-2 border-1 border-solid  border-round focus:border-primary w-full" formControlName="address4" [readOnly]="readonlyMode" [ngStyle]="{'background-color': isSaved ? '#f9f9f9' : ''}">
+    </div>
+  </div>
+  <div class="col-6" >
+    <div class="field">
+      <label for="codepostal" class="labelclass">Code Postal</label>
+      <input id="codepostal" type="text" class="text-base   p-2 border-1 border-solid  border-round focus:border-primary w-full" formControlName="outOfFrPostCode" [readOnly]="readonlyMode" [ngStyle]="{'background-color': isSaved ? '#f9f9f9' : ''}">
+    </div>
+    <div class="field">
+      <label for="location" class="labelclass">Ville</label>
+      <input id="location" type="text" class="text-base  p-2 border-1 border-solid  border-round focus:border-primary w-full" formControlName="outOfFrTown" [readOnly]="readonlyMode" [ngStyle]="{'background-color': isSaved ? '#f9f9f9' : ''}">
+    </div>
+    <div class="field">
+      <label for="region" class="labelclass">Région</label>
+      <input id="region" type="text" class="text-base   p-2 border-1 border-solid  border-round focus:border-primary w-full" formControlName="regionOutFr" [readOnly]="readonlyMode" [ngStyle]="{'background-color': isSaved ? '#f9f9f9' : ''}">
+    </div>
+    <div class="field">
+      <label class="labelclass" for="pays">Pays<span style="color: red">*</span></label>
+      <ng-container *ngIf="{ countries: countries$ | async, filter: '' } as data">
+        <ng-select formControlName="countryGId" [readonly]="readonlyMode">
+          <ng-option *ngFor="let country of  data.countries" [value]="country.countryGId" class="small-option">{{ country.countryLabel }}</ng-option>
+        </ng-select>
+      </ng-container>
+      <div *ngIf="adress.get('countryGId')?.hasError('required')&& adress.get('countryGId')?.touched">
+        <small class="text-error" style="color: red">*Pays obligatoire</small>
+      </div>
+    </div>
+  </div>
+</form>
+
+

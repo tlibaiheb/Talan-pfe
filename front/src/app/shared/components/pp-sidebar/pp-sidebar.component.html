@@ -1,0 +1,29 @@
+
+<p-card class="main">
+  <div class="header">
+    <h5 class="name">{{ name }}</h5>
+    <h6 class="identite">ID tiers: {{ idTiers }}</h6>
+    <div class="user-info">
+      <span class="pi pi-user" style="margin-right: 10px; margin-top: -44px;"></span>
+      <h5 class="name">Personne Physique</h5>
+    </div>
+    <h5 class="identite">{{ address }}</h5>
+  </div>
+  <div class="client-status" *ngIf="isClient">
+    <div class="client-box">
+      <span class="tick-icon pi pi-check"></span>
+      <p>client</p>
+
+    </div>
+  </div>
+  <div class="horizontal-line"></div>
+  <h5 class="labelclass2"><a [routerLink]="'/home/pp'" class="sp">personne</a></h5>
+  <div class="horizontal-line"></div>
+  <h5 class="personne"><span class="spp">coordonnées bancaires </span></h5>
+  <div class="horizontal-line"></div>
+</p-card>
+
+
+
+
+

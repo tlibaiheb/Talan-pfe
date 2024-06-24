@@ -1,0 +1,91 @@
+.register{
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.p-grid {
+    margin-top: 10%;
+}
+
+
+
+.layout-topbar {
+    height: 3rem;
+    z-index: 997;
+    left: 0;
+    top: 0;
+    width: 100%;
+    padding: 0 2rem;
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    box-shadow: 0px 3px 5px rgba(0,0,0,.02), 0px 0px 2px rgba(0,0,0,.05), 0px 1px 4px rgba(0,0,0,.08);
+}
+
+.layout-topbar-logo {
+    display: flex;
+    align-items: center;
+    color: var(--surface-900);
+    font-size: 1.5rem;
+    font-weight: 500;
+    width: 300px; 
+    border-radius: 12px;
+    text-decoration: none;
+
+}
+
+.layout-topbar-logo a {
+    display: flex;
+    align-items: center;
+    text-decoration: none; 
+}
+
+.layout-topbar-logo img {
+   height: 1.5rem;
+    margin-right: .5rem;
+}
+
+.layout-topbar-logo span {
+    font-size: 1rem; 
+}
+
+
+.auth-buttons {
+    display: flex;
+    margin-left: auto;
+  }
+  
+  .btn-register{
+    background-color: #ffd733; 
+    border: 1px solid #ffeb3b; 
+    padding: 0.5rem 1rem; 
+    border-radius: 4px; 
+    cursor: pointer; 
+    margin-left: 0.5rem; 
+  }
+
+  .btn-connect {
+    border: 1px solid #ffd733; 
+    padding: 0.5rem 1rem; 
+    border-radius: 4px; 
+    cursor: pointer; 
+    margin-left: 0.5rem; 
+  }
+
+.custom-button{
+    background-color: #ffcd00; 
+    border: 1px solid black; 
+    color: black;
+    margin-left: 90%;
+    border-radius: 20px;
+
+}
+
+.custom-card{
+    width: 60%; 
+    margin: 0 auto; 
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    background-color: white;
+}
+
+

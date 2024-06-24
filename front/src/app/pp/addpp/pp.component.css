@@ -1,0 +1,112 @@
+.custom-card {
+  width: 20%; 
+  margin-left: 20px;
+}
+
+.horizontal-line {
+  border-top: 1px solid #ddd; 
+  margin-top: 10px; 
+}
+
+
+.custom-card2 {
+  width: 100%; 
+  margin-left: 100px;
+}
+
+.horizontal-line1 {
+  border-top: 3px solid #ffd733; 
+  margin-top: 10px; 
+}
+
+.small-option {
+  font-size: 10px; 
+}
+
+.custom-select {
+  border-radius: 5px; 
+  border: 1px solid #ccc; 
+}
+
+.info {
+  font-size: 12px; /* Taille de la police */
+  color: white; /* Couleur du texte */
+  background-color: #060637; /* Couleur de fond */
+  border-radius: 50%; /* Pour rendre le cercle */
+  padding: 0px; /* Espace autour de l'icône */
+}
+
+.titre{
+  /* color:#001D4A */
+  color:#0D2F66
+}
+
+
+
+
+  .horizontal-line1 {
+    border-top: 3px solid #ffd733; 
+    margin-top: 10px; 
+    margin-bottom: 20px;
+  }
+
+
+
+  .custom-select {
+    border-radius: 5px; 
+    border: 1px solid #ccc; 
+  }
+
+  .labelclass{
+    font-size: 15px;
+    color: #001D4A;
+    
+  }
+  .labelclass1{
+    color: #001D4A;
+  }
+  .labelclass2{
+    color: black;
+  }
+
+  .button{
+   margin-bottom: 30px;
+   text-decoration: underline;
+   margin-left: 130px;
+  }
+.br{
+  margin-top: 61px;
+}
+
+
+.pos{
+  margin-top: 30px;
+}
+
+
+  .wedth{
+    width: 893px;
+    margin-left: 100px;
+  }
+
+  .large {
+    width: 200px; 
+    height: 35px;
+    border: 1px solid #BCBCBC;
+    color: #001D4A;
+    text-align: center;
+    font-size: 18px;
+    border-radius: 6px;
+
+  }
+  
+  .calender{
+    height: 45px;
+    width: 200px;
+    
+  }
+    
+
+  input{
+    border-color: #BCBCBC;
+  }

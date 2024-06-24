@@ -1,0 +1,67 @@
+<div class="layout-topbar">
+    <div>
+      <a class="layout-topbar-logo" routerLink="#">
+        <img
+          src="../../../assets/layout/images/bpi (2).png"
+          alt="logo"
+        />
+        <span>| Réferentiel tiers</span>
+      </a>
+    </div>
+    
+    <div class="auth-buttons">
+        <button class="btn-connect" [routerLink]="'/login'">Se connecter</button>
+        <button class="btn-register" [routerLink]="'/register'">Créer mon compte</button>
+      </div>
+    
+  </div>
+
+
+  <div class="popup-container col-12">
+    <div *ngIf="errorMessage" class="popup-card" style="max-height: 20px; ">
+        <div class="card-header">
+            <i class="pi pi-times close-icon" (click)="errorMessage = ''"></i>
+        </div>
+        <div class="card-body" style="color: red;">
+            <p>{{ errorMessage }}</p>
+        </div>
+    </div>
+</div>
+
+
+  
+
+<div class="login-screen">
+   
+   <div class="iheb">
+    
+    <img src="../../../../assets/layout/images/logo-bpifrance-le-hub-yellow-hd.png" alt="bpi-france" class="login-screen_logo">
+<h3>Déjà un compte ? Connectez-vous :</h3>
+
+
+
+  <div class="login-screen_input">
+    <input type="email" autofocus
+    pInputText
+    autocomplete="off" [(ngModel)]="email"  placeholder="Email">
+    
+  </div>
+  <div class="login-screen_input">
+    <div class="p-input-icon-right">
+        <i class="pi pi-arrow-circle-right" ></i>
+        <input pInputText
+        autocomplete="off" type="password" [(ngModel)]="password" placeholder="Password">
+      </div>
+      <div class="forgot-password">
+        <a routerLink="/forgotPassword">Mot de passe oublié ?</a>
+    </div>
+    <h5>Nouveau sur notre plateforme ? <a routerLink="/register">Créer mon compte</a></h5>
+</div>
+<div class="login-screen_input login-screen_button">
+  <button class="btn" style="border-radius: 20px; background: #ffcd00; color: #000000; margin-left: 86px;" pButton (click)="connect()">Se connecter</button>
+ 
+</div>
+
+
+  
+</div>

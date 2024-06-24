@@ -1,0 +1,194 @@
+.login-screen {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.login-screen_logo {
+    width: 120px;
+    margin-bottom: 0.5rem;
+    margin-left: 97px;
+}
+
+.login-screen_username {
+    color: var(--mac-grey);
+    text-shadow: 1px 1px var(--dark-0);
+    margin-bottom: 1rem;
+}
+
+.login-screen_input {
+    margin-bottom: 1rem;
+}
+
+.login-screen_input .p-inputtext {
+    background-color: rgba(0, 0, 0, 0.1);
+    outline: none;
+    border: none;
+    border-radius: 25px;
+    color: var(--light-0);
+    padding-left: 20px;
+    width: 335px;
+}
+
+.login-screen_input .p-inputtext::placeholder {
+    color: var(--mac-grey);
+}
+
+.login-screen_input .p-inputtext:hover,
+.login-screen_input .p-inputtext:enabled:focus {
+    box-shadow: none;
+    border: none;
+}
+
+.login-screen_button {
+    margin-bottom: 1rem;
+}
+
+/* Stylisation du bouton PrimeNG */
+.ui-button .ui-button-text {
+    font-family: 'Roboto', sans-serif;
+    font-size: 100px;
+    font-weight: 500;
+    color: #ffffff;
+    background-color: #f3f4f6;
+    border: none;
+    border-radius: 25px;
+    padding: 15px 30px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.ui-button:hover .ui-button-text {
+    background-color: #fbfdff;
+}
+
+.ui-button:active .ui-button-text {
+    background-color: #f8fbff;
+}
+
+
+
+  .iheb{
+    background-color: #ffffff;
+    padding: 57px;
+    border-radius: 15px;
+    margin-top: -63px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  }
+  
+
+
+
+
+
+
+
+
+  .layout-topbar {
+    /*position: fixed;*/
+    height: 3rem;
+    z-index: 997;
+    left: 0;
+    top: 0;
+    width: 100%;
+    padding: 0 2rem;
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    box-shadow: 0px 3px 5px rgba(0,0,0,.02), 0px 0px 2px rgba(0,0,0,.05), 0px 1px 4px rgba(0,0,0,.08);
+}
+
+.layout-topbar-logo {
+    display: flex;
+    align-items: center;
+    color: var(--surface-900);
+    font-size: 1.5rem;
+    font-weight: 500;
+    width: 300px; /* Ajustez selon vos besoins */
+    border-radius: 12px;
+    text-decoration: none;
+
+}
+
+.layout-topbar-logo a {
+    display: flex;
+    align-items: center;
+    text-decoration: none; /* Supprime le soulignement du lien */
+}
+
+.layout-topbar-logo img {
+   /* height: 6.5rem;*/
+   height: 1.5rem;
+    margin-right: .5rem;
+}
+
+.layout-topbar-logo span {
+    font-size: 1rem; /* Ajustez selon vos besoins */
+}
+
+
+
+
+.forgot-password {
+    margin-top: 0.5rem; /* Ajustez la marge selon vos besoins */
+}
+
+.forgot-password a {
+    color: var(--mac-grey); /* Couleur du texte */
+    text-decoration: none; /* Supprime le soulignement du lien */
+    font-size: 0.9rem; /* Taille de police */
+}
+
+.forgot-password a:hover {
+    text-decoration: underline; /* Soulignement du lien au survol */
+}
+
+
+.btn:hover{
+    border-color: #ffe166;
+    background: #ffe166;
+}
+
+
+
+
+.auth-buttons {
+    display: flex; /* Arrange buttons horizontally */
+    margin-left: auto; /* Push buttons to the right */
+  }
+  
+  .btn-connect {
+    background-color: #ffd733; /* Yellow background */
+    border: 1px solid #ffeb3b; /* Yellow border */
+    padding: 0.5rem 1rem; /* Padding for button content */
+    border-radius: 4px; /* Rounded corners */
+    cursor: pointer; /* Indicate clickable elements */
+    margin-left: 0.5rem; /* Spacing between buttons */
+  }
+  
+  .btn-register {
+    border: 1px solid #ffd733; /* Yellow border */
+    padding: 0.5rem 1rem; /* Padding for button content */
+    border-radius: 4px; /* Rounded corners */
+    cursor: pointer; /* Indicate clickable elements */
+    margin-left: 0.5rem; /* Spacing between buttons */
+  }
+  
+  /* Optional styles for hover and focus states */
+  .btn-connect:hover,
+  .btn-register:hover {
+    background-color: #ffd733; /* Change background on hover */
+  }
+  
+  .btn-connect:focus,
+  .btn-register:focus {
+    outline: 1px solid #007bff; /* Focus outline */
+  }
+
+
+  

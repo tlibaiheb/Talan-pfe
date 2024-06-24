@@ -1,0 +1,93 @@
+<div class="layout-topbar">
+  <div>
+    <a class="layout-topbar-logo" routerLink="#">
+      <img
+        src="../../../assets/layout/images/bpi (2).png"
+        alt="logo"
+      />
+      <span>| Réferentiel tiers</span>
+    </a>
+  </div>
+  
+  <div class="auth-buttons">
+      <button class="btn-connect" [routerLink]="'/login'">Se connecter</button>
+      <button class="btn-register" [routerLink]="'/register'">Créer mon compte</button>
+    </div>
+  
+</div>
+
+ 
+
+<div class=" popup-container p-grid ">
+
+  <div class="p-col-6" >
+      <div class="custom-card">
+
+      <h1 style=" text-align:center">S’inscrire</h1>
+      
+      <form *ngIf="registerForm" [formGroup]="registerForm" (ngSubmit)="onSubmit()" >
+      <div class="formgrid grid  register">
+       
+          <div class="field col-12 md:col-6">
+              <label for="firstName"><span style="color: red">*</span> firstName:</label>
+              <input pInputText id="firstName" type="text" formControlName="firstName" class="p-inputtext-sm w-full">
+              <div *ngIf="registerForm.get('firstName')?.hasError('required')&& registerForm.get('firstName')?.touched">
+                  <small class="text-error" style="color: red">*champs obligatoire</small>
+                </div>
+          </div>
+          <div class="field col-12 md:col-6">
+              <label for="lastName"><span style="color: red">*</span> Lastname:</label>
+              <input pInputText id="lastName" type="text" formControlName="lastName" class="p-inputtext-sm w-full">
+              <div *ngIf="registerForm.get('lastName')?.hasError('required') && registerForm.get('lastName')?.touched">
+                  <small id="lastname-help" style="color: red">*champs obligatoire</small>
+              </div>
+          </div>
+          <div class="field col-12">
+              <label for="email"><span style="color: red">*</span> Email:</label>
+              <input pInputText id="email" type="text" rows="4" formControlName="email" class="p-inputtext-sm w-full">
+              <div *ngIf="registerForm.get('email')?.hasError('required') && registerForm.get('email')?.touched">
+                  <small id="email-help" style="color: red">*champs obligatoire</small>
+              </div>
+              <div *ngIf="registerForm.get('email')?.hasError('email') && registerForm.get('email')?.touched">
+                  <small id="email-help" style="color: red">Adresse e-mail invalide</small>
+              </div>
+          </div>
+          <div class="field col-12 md:col-6">
+              <label for="password"><span style="color: red">*</span> Password:</label>
+              <input pInputText id="password" type="password" formControlName="password" class="p-inputtext-sm w-full" >
+              <!-- <p-password id="password" formControlName="password" [feedback]="true" [toggleMask]="true"></p-password> -->
+              <div *ngIf="registerForm.get('password')?.hasError('required') && registerForm.get('password')?.touched">
+                  <small id="password-help" style="color: red">*Password is required</small>
+              </div>
+              <div *ngIf="registerForm.get('password')?.hasError('minlength') && registerForm.get('password')?.touched">
+                  <small id="password-help" style="color: red"> Le mot de passe doit comporter au moins 8 caractères(au moins un chiffre et au moins un caractère spécial)</small>
+              </div>
+          </div>
+          <div class="field col-12 md:col-6">
+              <label for="confirm"><span style="color: red">*</span> Confirm Password:</label>
+              <input pInputText id="confirm" type="password"  formControlName="confirm" class="p-inputtext-sm w-full">
+              <!-- <p-password id="confirm" formControlName="confirm" [feedback]="true" [toggleMask]="true" ></p-password> -->
+              <div *ngIf="registerForm.get('confirm')?.hasError('required') && registerForm.get('confirm')?.touched">
+                  <small id="confirm-password-help" style="color: red">*champs obligatoire</small>
+              </div>
+              <div *ngIf="registerForm.get('confirm')?.value !== registerForm.get('password')?.value && registerForm.get('confirm')?.touched">
+                  <small id="confirm-password-help" style="color: red"> Passwords ne correspond pas</small>
+              </div>
+          </div>
+
+       
+          <div class="field col-12  d-flex justify-content-end align-items-center" >
+
+          <button type="submit" [disabled]="registerForm.invalid" class="custom-button px-3 py-2 text-base border-1 border-solid border-round cursor-pointer transition-all transition-duration-200 hover:bg-primary-600 hover:border-primary-600 active:bg-primary-700 active:border-primary-700">
+           Register
+            </button>
+          </div>  
+             
+      </div>
+      </form>
+
+       </div>  
+                
+</div>
+</div>
+

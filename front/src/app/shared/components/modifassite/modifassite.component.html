@@ -1,0 +1,139 @@
+    <form class="grid mt-15" [formGroup]="formulaire1" (ngSubmit)="updateformulaire()" >
+        
+        
+        <div class="col-6" >
+            <div class="field">
+                    <label class="labelclass">Raison Sociale <span style="color: red">* </span><i class="pi pi-info-circle info"></i></label>
+                    <div class="flex align-items-center">
+                        <input id="raisonSociale" type="text" class=" ecriture text-base text-color  p-2 border-1 border-solid  border-round focus:border-primary w-full" formControlName="legalName"  [readOnly]="readonlyMode===modeEnum.consult || modeAssite" >
+                        <input type="radio" name="raisonSocialeRadio" value="legalName" style="height: 20px;"  checked >
+                    </div>
+                    <div class="flex align-items-center">
+                        <input id="raisonSociale" type="text" class=" ecriture text-base text-color  p-2 border-1 border-solid  border-round focus:border-primary w-full" formControlName="legalName1" [(ngModel)]="this.formulaire1.get('legalName1')!.value" [readOnly]="readonlyMode===modeEnum.consult || modeAssite">
+                        <input type="radio" name="raisonSocialeRadio" value="legalName1" style="height: 20px;" (click)="updateLegalName(this.formulaire1.get('legalName1')!.value)">
+                    </div>
+            </div>
+            <div class="field">
+                <label  class="labelclass">Libellé commercial <i class="pi pi-info-circle info"></i></label>
+                <input id="libelleCommercial" type="text" class="text-base text-color  p-2 border-1 border-solid  border-round focus:border-primary w-full" formControlName="tradingName" [readOnly]="readonlyMode===modeEnum.consult" style="border-color: #D3D3D3;">
+            </div> 
+            <div class="field">
+                <label  class="labelclass">Secteur d'activité NAF <span style="color: red">* </span><i class="pi pi-info-circle info"></i></label>
+            
+                <ng-container *ngIf="{ nafs: nafs$ | async } as data">
+                  <ng-select formControlName="nafCodeGId" [readonly]="readonlyMode===modeEnum.consult">
+                    <ng-option *ngFor="let naf of data.nafs" [value]="naf.gId">{{naf.code}}-{{naf.label}}</ng-option>
+                 </ng-select>
+                </ng-container>
+                
+            </div> 
+            <div class="field">
+                <label  class="labelclass"> Catégorie juridique <span style="color: red">* </span><i class="pi pi-info-circle info"></i></label>
+                <div class="flex align-items-center">
+                <ng-container *ngIf="{ categories: categories$ | async } as data">
+                  <ng-select formControlName="legalCategoryGId" [readonly]="readonlyMode===modeEnum.consult || modeAssite "  >
+                    <ng-option *ngFor="let category of data.categories " [value]="category.gId">{{ category.gId }}-{{ category.label }}</ng-option>
+                 </ng-select>
+                </ng-container>
+                <input type="radio" name="categoryRadio"  style="height: 20px;"  checked > 
+                </div>
+                <div class="flex align-items-center">
+                    <ng-container *ngIf="{ categories: categories$ | async } as data">
+                      <ng-select formControlName="legalCategoryGId1" [readonly]="readonlyMode===modeEnum.consult || modeAssite "  >
+                        <ng-option *ngFor="let category of data.categories " [value]="category.gId">{{ category.gId }}-{{ category.label }}</ng-option>
+                     </ng-select>
+                    </ng-container>
+                    <input type="radio" name="categoryRadio"  style="height: 20px;" (click)="updateCategorie(this.formulaire1.get('legalCategoryGId1')!.value)"  > 
+                </div>
+                   
+             </div>
+             <div class="field">
+                <label  class="labelclass">Identifiant domaine activité GICS</label>
+                <ng-container *ngIf="{ gicscodes: gicscodes$ | async } as data">
+                  <ng-select formControlName="gicsCodeGId" [readonly]="readonlyMode===modeEnum.consult">
+                    <ng-option *ngFor="let gicscode of data.gicscodes " [value]="gicscode.gId">{{ gicscode.code}}-{{ gicscode.label }}</ng-option>
+                 </ng-select>
+              
+                </ng-container>
+            </div>
+
+            <div class="field">
+                <label  class="labelclass">Numero(s) CP associé(s)</label>
+                <input id="numerosCPAssocies" type="text" class="text-base text-color  p-2 border-1 border-solid  border-round focus:border-primary w-full" [readOnly]="readonlyMode===modeEnum.consult"  formControlName="cp">
+  
+              </div>
+
+
+          
+        </div> 
+        
+        <div class="col-6"  >
+
+            <div class="field" >
+                <label class="labelclass">Siren</label>
+                <input id="siren" type="text" class="text-base text-color  p-2 border-1 border-solid  border-round focus:border-primary w-full" [readOnly]="true"  formControlName="siren">       
+             </div> 
+             <div class="field">
+                <label class="labelclass">LEI</label>
+                <input id="LEI" type="text" class="text-base text-color  p-2 border-1 border-solid  border-round focus:border-primary w-full" [formControl]="organisationPartyIdentificationValueControl" [readOnly]="readonlyMode===modeEnum.consult" >
+              </div>
+                     
+            <div class="field">
+                <label  class="labelclass">Taille d'entreprise <span style="color: red">* </span><i class="pi pi-info-circle info"></i></label>
+
+                <div class="flex align-items-center">
+                    <ng-container *ngIf="{ tailleEntreprises: tailleEntreprises$ | async } as data"   >
+                        <ng-select formControlName="europeanOrganisationPartySizeGId" [class.readonly-mode]="readonlyMode===modeEnum.consult"  [readonly]="readonlyMode===modeEnum.consult || modeAssite" >
+                          <ng-option *ngFor="let tailleEntreprise of data.tailleEntreprises" [value]="tailleEntreprise.gId" class="small-option">{{ tailleEntreprise.label }}</ng-option>
+                       </ng-select>
+                    </ng-container>
+                    <input type="radio" name="europeanOrganisationPartySizeGId"  style="height: 20px;"  checked > 
+                    </div>
+                    <div class="flex align-items-center">
+                        <ng-container *ngIf="{ tailleEntreprises: tailleEntreprises$ | async } as data"   >
+                            <ng-select formControlName="europeanOrganisationPartySizeGId1" [class.readonly-mode]="readonlyMode===modeEnum.consult"  [readonly]="readonlyMode===modeEnum.consult || modeAssite" >
+                              <ng-option *ngFor="let tailleEntreprise of data.tailleEntreprises" [value]="tailleEntreprise.gId" class="small-option">{{ tailleEntreprise.label }}</ng-option>
+                           </ng-select>
+                        </ng-container>
+                        <input type="radio" name="europeanOrganisationPartySizeGId"  style="height: 20px;" (click)="updateSize(this.formulaire1.get('legalCategoryGId1')!.value)"  > 
+                    </div>
+                    <div class="field">
+                        <label  class="labelclass">Date de creation <i class="pi pi-info-circle info"></i></label>
+                        <br>
+                        <div class="flex align-items-center">
+                            <input type="date"  dateFormat="yy-mm-dd" placeholder="aaaa-mm-jj" formControlName="creationDate" [disabled]="readonlyMode===modeEnum.consult"   [readOnly]="readonlyMode===modeEnum.consult || modeAssite" class="calendar large">
+                            <input type="radio" name="creationDate"  style="height: 20px;"  checked >
+                        </div>
+                        <div class="flex align-items-center">
+                            <input type="date"  dateFormat="yy-mm-dd" placeholder="aaaa-mm-jj" formControlName="creationDate1" [disabled]="readonlyMode===modeEnum.consult"   [readOnly]="readonlyMode===modeEnum.consult || modeAssite" class="calendar large">
+                            <input type="radio" name="creationDate"  style="height: 20px;" (click)="updateDate(this.formulaire1.get('legalName1')!.value)">
+                        </div>                     
+                     </div>
+
+                     <div class="field">
+                        <label class="labelclass">Date d'enregistrement <i class="pi pi-info-circle info"></i></label>
+                        <br>
+                        <input type="date"  dateFormat="yy-mm-dd" placeholder="aaaa-mm-jj" formControlName="registrationDate" [disabled]="readonlyMode===modeEnum.consult"  [readOnly]="readonlyMode===modeEnum.consult" class="calendar large">
+          
+          
+                      </div>
+                       
+                      <div class="field">
+                        <label  class="labelclass">Mentant capital social (en£) <span style="color: red">* </span> <i class="pi pi-info-circle info"></i> </label>
+                        <input   id="mentantCapitalSocial" type="text" class="text-base text-color  p-2 border-1 border-solid  border-round focus:border-primary w-full" formControlName="shareCapital" [readOnly]="readonlyMode===modeEnum.consult">
+                       
+                      </div>
+
+            
+            </div>
+
+
+
+</div>
+        
+
+    </form>
+
+   
+
+
