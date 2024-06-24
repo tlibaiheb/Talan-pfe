@@ -1,0 +1,18 @@
+[
+    {
+        "gId": 3,
+        "label": "Bénéficiaire effectif"
+    },
+    {
+        "gId": 4,
+        "label": "Client Personne Physique"
+    },
+    {
+        "gId": 2,
+        "label": "Mandataire"
+    },
+    {
+        "gId": 1,
+        "label": "Représentant légal"
+    }
+]

@@ -1,0 +1,92 @@
+pipeline {
+
+    agent any
+
+    options {
+        skipDefaultCheckout() // Désactive le checkout SCM par défaut de Jenkins
+    }
+    
+    environment{
+        APP_NAME = "bpi-app-api"
+        RELEASE= "1.0"
+        DOCKER_USER="tlibaiheb"
+        DOCKER_PASS='pwd-dockerhub'
+        IMAGE_NAME= "${DOCKER_USER}" + "/" +"${APP_NAME}"
+        IMAGE_TAG="${RELEASE}-${BUILD_NUMBER}"
+    } 
+
+
+    stages {
+        stage('Checkout SCM	') {
+            steps {
+                git branch: 'dev-op', url: 'https://gitlab.com/ihebtliba8/bpi-mkd-itc-talan.git'
+            }
+        }
+
+         stage('UNIT Testing') {
+            steps {
+                dir('C:/Users/ihen/IdeaProjects/bpi-mkd-itc-talan/bpi-app-api/bpi-app-api'){
+                    bat 'mvn test'
+                }
+            }
+        } 
+
+        stage('Code Coverage Report') {
+            steps {
+                dir('C:/Users/ihen/IdeaProjects/bpi-mkd-itc-talan/bpi-app-api/bpi-app-api'){
+                    bat 'mvn jacoco:report'
+                }
+            }
+            post {
+                always {
+                    jacoco(execPattern: '**/target/jacoco.exec')
+                    publishHTML(target: [
+                        allowMissing:false,
+                        alwaysLinkToLastBuild: true,
+                        keepAll: true,
+                        reportDir:'C:/Users/ihen/IdeaProjects/bpi-mkd-itc-talan/bpi-app-api/bpi-app-api/target/site/jacoco',
+                        reportFiles:'index.html',
+                        reportName:'Jacoco Code Coverage Report'
+                    ])
+                }
+            }
+        }
+
+
+         stage('SonarQube Analysis') {
+            steps {
+                dir('C:/Users/ihen/IdeaProjects/bpi-mkd-itc-talan/bpi-app-api/bpi-app-api') {
+                    bat 'mvn sonar:sonar -Dsonar.login=admin -Dsonar.password=iheb'
+                }
+            }
+        }
+      
+
+        stage('MVN Build') {
+            steps {
+                dir('C:/Users/ihen/IdeaProjects/bpi-mkd-itc-talan/bpi-app-api/bpi-app-api') {
+                    bat 'mvn clean install -DskipTests'
+                }
+            }
+        }
+
+
+       
+
+
+        stage('Build & Push Docker Image') {
+            steps {
+                script {
+                    dir('C:/Users/ihen/IdeaProjects/bpi-mkd-itc-talan/bpi-app-api/bpi-app-api') {
+                        docker.withRegistry('https://index.docker.io/v1/', DOCKER_PASS) {
+                            docker_image = docker.build("${IMAGE_NAME}")
+                            docker_image.push("${IMAGE_TAG}")
+                            docker_image.push('latest')
+                        }
+                    }
+                }
+            }
+        }
+
+    }
+}

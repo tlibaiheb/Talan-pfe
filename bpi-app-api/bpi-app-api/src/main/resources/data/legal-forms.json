@@ -1,0 +1,357 @@
+[
+    {
+        "code": 40,
+        "gId": "0000",
+        "label": "EN ATTENTE"
+    },
+    {
+        "code": 20,
+        "gId": "0001",
+        "label": "PERSONNE PHYSIQUE"
+    },
+    {
+        "code": 30,
+        "gId": "0010",
+        "label": "ENTREPRISE INDIVIDUELLE"
+    },
+    {
+        "code": 10,
+        "gId": "0011",
+        "label": "STE EN NOM COLLECTIF"
+    },
+    {
+        "code": 10,
+        "gId": "0012",
+        "label": "STE EN COMMANDITE SIMPLE"
+    },
+    {
+        "code": 10,
+        "gId": "0013",
+        "label": "STE EN COMMANDITE PAR ACTION"
+    },
+    {
+        "code": 10,
+        "gId": "0014",
+        "label": "SA"
+    },
+    {
+        "code": 10,
+        "gId": "0015",
+        "label": "SARL"
+    },
+    {
+        "code": 10,
+        "gId": "0016",
+        "label": "EURL"
+    },
+    {
+        "code": 50,
+        "gId": "0017",
+        "label": "ETABLISSEMENT FINANCIER"
+    },
+    {
+        "code": 40,
+        "gId": "0018",
+        "label": "COMITE D'ENTREPRISE"
+    },
+    {
+        "code": 10,
+        "gId": "0019",
+        "label": "STE D'ECONOMIE MIXTE"
+    },
+    {
+        "code": 10,
+        "gId": "0021",
+        "label": "STE CIVILE"
+    },
+    {
+        "code": 10,
+        "gId": "0022",
+        "label": "EARL"
+    },
+    {
+        "code": 10,
+        "gId": "0023",
+        "label": "STE CIVILE IMMOBILIERE"
+    },
+    {
+        "code": 10,
+        "gId": "0024",
+        "label": "STE CIVILE PROFESSIONNELLE"
+    },
+    {
+        "code": 10,
+        "gId": "0025",
+        "label": "STE COOPERATIVE"
+    },
+    {
+        "code": 40,
+        "gId": "0031",
+        "label": "ASSOC LOI 1901"
+    },
+    {
+        "code": 40,
+        "gId": "0032",
+        "label": "ASSOC DECLAREE"
+    },
+    {
+        "code": 40,
+        "gId": "0035",
+        "label": "ASSOC SYNDICALE"
+    },
+    {
+        "code": 40,
+        "gId": "0041",
+        "label": "SYNDICAT PROFESSIONNEL"
+    },
+    {
+        "code": 40,
+        "gId": "0043",
+        "label": "SYNDICATS COMMUNAUX"
+    },
+    {
+        "code": 40,
+        "gId": "0051",
+        "label": "DEPARTEMENTS"
+    },
+    {
+        "code": 40,
+        "gId": "0052",
+        "label": "COMMUNES"
+    },
+    {
+        "code": 40,
+        "gId": "0053",
+        "label": "ETS PUBLIC"
+    },
+    {
+        "code": 40,
+        "gId": "0054",
+        "label": "REGION"
+    },
+    {
+        "code": 40,
+        "gId": "0055",
+        "label": "CHAMBRE DE COMMERCE"
+    },
+    {
+        "code": 40,
+        "gId": "0056",
+        "label": "SYNDICAT D'INITIATIVE"
+    },
+    {
+        "code": 40,
+        "gId": "0061",
+        "label": "GRPMENT D'INTERET ECONOMIQUE"
+    },
+    {
+        "code": 40,
+        "gId": "0062",
+        "label": "GREFFE"
+    },
+    {
+        "code": 40,
+        "gId": "0063",
+        "label": "STE MUTUALISTE"
+    },
+    {
+        "code": 40,
+        "gId": "0064",
+        "label": "ADMINISTRATION DE L'ETAT"
+    },
+    {
+        "code": 10,
+        "gId": "0065",
+        "label": "STE EXERC.LIBER.RESPONSAB.LIMITE"
+    },
+    {
+        "code": 10,
+        "gId": "0066",
+        "label": "STE EXERC.LIBER. A FORME ANONYME"
+    },
+    {
+        "code": 10,
+        "gId": "0067",
+        "label": "STE EXERC.LIBER.COMMAND. ACTIONS"
+    },
+    {
+        "code": 10,
+        "gId": "0068",
+        "label": "STE PAR ACTIONS SIMPLIFIEE"
+    },
+    {
+        "code": 10,
+        "gId": "0069",
+        "label": "STE PARTICIPATION NOM COMMERCIAL"
+    },
+    {
+        "code": 40,
+        "gId": "0070",
+        "label": "GRPMENT AGRIC EXPLOIT EN COMMUN"
+    },
+    {
+        "code": 40,
+        "gId": "0071",
+        "label": "ASSOC FONCIERE PASTORALE"
+    },
+    {
+        "code": 40,
+        "gId": "0072",
+        "label": "GRPMENT FONCIER AGRICOLE"
+    },
+    {
+        "code": 20,
+        "gId": "0073",
+        "label": "STE CREEE DE FAIT"
+    },
+    {
+        "code": 10,
+        "gId": "0074",
+        "label": "STE PAR ACTIONS SIMPLIFIEES UNIP"
+    },
+    {
+        "code": 10,
+        "gId": "0075",
+        "label": "STE CIVILE EXPLOITATION AGRICOLE"
+    },
+    {
+        "code": 10,
+        "gId": "0076",
+        "label": "STE CIVILE DE MOYEN"
+    },
+    {
+        "code": 40,
+        "gId": "0078",
+        "label": "ASSOC ADMINISTRATIVE ET GIP"
+    },
+    {
+        "code": 40,
+        "gId": "0079",
+        "label": "ETS PUBLIC ADMINISTRATIF"
+    },
+    {
+        "code": 40,
+        "gId": "0080",
+        "label": "ETS PUBLIC INDUSTRIEL COMMERCIAL"
+    },
+    {
+        "code": 40,
+        "gId": "0081",
+        "label": "ETS PUBLIC SCIENTIF TECHNIQUE"
+    },
+    {
+        "code": 40,
+        "gId": "0082",
+        "label": "ETS PUBLIC SCIENTIF TECHNOLOGIQU"
+    },
+    {
+        "code": 40,
+        "gId": "0083",
+        "label": "ETS PUBLIC SCIENTIF CULTUR PROF"
+    },
+    {
+        "code": 40,
+        "gId": "0084",
+        "label": "ETS PUBLIC SCIENTIF TECHNI INDUS"
+    },
+    {
+        "code": 40,
+        "gId": "0085",
+        "label": "FONDATION"
+    },
+    {
+        "code": 40,
+        "gId": "0086",
+        "label": "GRPMENT DROIT PRIVE,N/PERS.MORAL"
+    },
+    {
+        "code": 10,
+        "gId": "0087",
+        "label": "SA A CONSEIL D'ADMINISTRATION"
+    },
+    {
+        "code": 10,
+        "gId": "0088",
+        "label": "SA A DIRECTOIRE ET CONSEIL SURV"
+    },
+    {
+        "code": 10,
+        "gId": "0089",
+        "label": "STE COOPERATIVE AGRICOLE"
+    },
+    {
+        "code": 10,
+        "gId": "0090",
+        "label": "STE COOPERATIVE OUVRIERE PROD"
+    },
+    {
+        "code": 10,
+        "gId": "0091",
+        "label": "STE EUROPEENNE"
+    },
+    {
+        "code": 10,
+        "gId": "0092",
+        "label": "STE EXERC.LIBER.ACTIONS SIMPLIFI"
+    },
+    {
+        "code": 20,
+        "gId": "0093",
+        "label": "AUTO-ENTREPRENEUR"
+    },
+    {
+        "code": 10,
+        "gId": "0094",
+        "label": "STE ETRANGERE IMMATRICULEE RCS"
+    },
+    {
+        "code": 10,
+        "gId": "0095",
+        "label": "STE ETRANGERE NON IMMATRICUL RCS"
+    },
+    {
+        "code": 10,
+        "gId": "0097",
+        "label": "PERSONNE MORALE DE DROIT PRIVE"
+    },
+    {
+        "code": 10,
+        "gId": "0201",
+        "label": "SOCIETE ETRANGERE"
+    },
+    {
+        "code": 10,
+        "gId": "0202",
+        "label": "BANQUE ETRANGERE"
+    },
+    {
+        "code": 10,
+        "gId": "0203",
+        "label": "ASSUREUR ETRANGER"
+    },
+    {
+        "code": 40,
+        "gId": "0204",
+        "label": "ORGANISME PUBLIC ETRANGER"
+    },
+    {
+        "code": 40,
+        "gId": "0205",
+        "label": "ETAT SOUVERAIN ETRANGER"
+    },
+    {
+        "code": 20,
+        "gId": "0998",
+        "label": "PERSONNE PHYSIQUE EN ATTENTE"
+    },
+    {
+        "code": 30,
+        "gId": "0999",
+        "label": "ENTR INDIVIDUELLE EN ATTENTE"
+    },
+    {
+        "code": 10,
+        "gId": "9999",
+        "label": "PERSONNE MORALE EN ATTENTE"
+    }
+]

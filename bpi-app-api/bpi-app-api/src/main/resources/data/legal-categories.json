@@ -1,0 +1,1210 @@
+[
+    {
+        "gId": "1000",
+        "label": "AFFAIRE PERSONNELLE"
+    },
+    {
+        "gId": "1100",
+        "label": "ARTISAN COMMERCANT"
+    },
+    {
+        "gId": "1200",
+        "label": "COMMERCANT"
+    },
+    {
+        "gId": "1300",
+        "label": "ARTISAN (CIVIL)"
+    },
+    {
+        "gId": "1400",
+        "label": "OFFICIER PUBLIC OU MINISTERIEL"
+    },
+    {
+        "gId": "1500",
+        "label": "PROFESSION LIBERALE"
+    },
+    {
+        "gId": "1600",
+        "label": "EXPLOITANT AGRICOLE"
+    },
+    {
+        "gId": "1700",
+        "label": "AGENT COMMERCIAL"
+    },
+    {
+        "gId": "1800",
+        "label": "ASSOCIE GERANT DE SOCIETE"
+    },
+    {
+        "gId": "1900",
+        "label": "PERSONNE PHYSIQUE"
+    },
+    {
+        "gId": "2000",
+        "label": "GROUPEMENT DE DROIT PRIVE NDPM"
+    },
+    {
+        "gId": "2100",
+        "label": "INDIVISION"
+    },
+    {
+        "gId": "2110",
+        "label": "INDIVISION ENTRE PP"
+    },
+    {
+        "gId": "2120",
+        "label": "INDIVISION ENTRE PM"
+    },
+    {
+        "gId": "2200",
+        "label": "STE CREEE DE FAIT"
+    },
+    {
+        "gId": "2210",
+        "label": "STE CREEE DE FAIT PP"
+    },
+    {
+        "gId": "2220",
+        "label": "STE CREEE DE FAIT PM"
+    },
+    {
+        "gId": "2300",
+        "label": "STE EN PARTICIPATION"
+    },
+    {
+        "gId": "2310",
+        "label": "STE EN PARTICIPATION ENTRE PP"
+    },
+    {
+        "gId": "2320",
+        "label": "STE EN PARTICIPATION ENTRE PM"
+    },
+    {
+        "gId": "2385",
+        "label": "STE EN PARTICIPATION DE PROF.LIBERALES"
+    },
+    {
+        "gId": "2400",
+        "label": "FIDUCIE"
+    },
+    {
+        "gId": "2700",
+        "label": "PAROISSE HORS ZONE CONCORDATAIRE"
+    },
+    {
+        "gId": "2900",
+        "label": "GROUPEMENT DROIT PRIVE N/PERSONNES MORALES"
+    },
+    {
+        "gId": "3000",
+        "label": "STE ETRANGERE IMMATRICULEE AU RCS"
+    },
+    {
+        "gId": "3100",
+        "label": "STE DE DROIT ETRANGER IMMATRICULEE AU RCS"
+    },
+    {
+        "gId": "3110",
+        "label": "REPRESENTATION DES ETATS ETRANGERS"
+    },
+    {
+        "gId": "3120",
+        "label": "SOCIETE ETRANGERE IMMATRICULEE AU RCS"
+    },
+    {
+        "gId": "3200",
+        "label": "STE DE DROIT ETRANGER NI AU RCS"
+    },
+    {
+        "gId": "3205",
+        "label": "ORGANISATION INTERNATIONALE"
+    },
+    {
+        "gId": "3210",
+        "label": "ETABLISSEMENT PUBLIC ETRANGER"
+    },
+    {
+        "gId": "3220",
+        "label": "SOCIETE ETRANGERE N/IMMAT.RCS"
+    },
+    {
+        "gId": "3290",
+        "label": "PERSONNE MORALE DE DROIT ETRANGER"
+    },
+    {
+        "gId": "4100",
+        "label": "ETS PUBLIQUE RCIC"
+    },
+    {
+        "gId": "4110",
+        "label": "ETAB PUBLIC DOTE COMPTABLE PUBLIC"
+    },
+    {
+        "gId": "4120",
+        "label": "ETAB PUBLIC N/DOTE COMPTABLE PUBLIC"
+    },
+    {
+        "gId": "4130",
+        "label": "EXPLOITANT PUBLIC"
+    },
+    {
+        "gId": "4140",
+        "label": "ETAB PUBLIC INDUSTRIEL/COMMERCIAL"
+    },
+    {
+        "gId": "4150",
+        "label": "REGIE COLLECTIVITE IND/COMMERCIALE"
+    },
+    {
+        "gId": "4160",
+        "label": "INSTITUTION BANQUE DE FRANCE"
+    },
+    {
+        "gId": "5000",
+        "label": "SOCIETE COMMERCIALE"
+    },
+    {
+        "gId": "5100",
+        "label": "STE COOP COMMERCIALE PARTICULIERE"
+    },
+    {
+        "gId": "5191",
+        "label": "STE DE CAUTION MUTUELLE"
+    },
+    {
+        "gId": "5192",
+        "label": "STE COOP DE BANQUE POPULAIRE"
+    },
+    {
+        "gId": "5193",
+        "label": "CAISSE DE CREDIT MARITIME MUTUEL"
+    },
+    {
+        "gId": "5194",
+        "label": "CAISSE DE CREDIT MUTUEL"
+    },
+    {
+        "gId": "5195",
+        "label": "ASSOCIATION COOPERATIVE"
+    },
+    {
+        "gId": "5196",
+        "label": "CAISSE D EPARGNE PREVOYANCE FORME COOP"
+    },
+    {
+        "gId": "5200",
+        "label": "STE EN NOM COLLECTIF"
+    },
+    {
+        "gId": "5202",
+        "label": "STE EN NOM COLLECTIF"
+    },
+    {
+        "gId": "5203",
+        "label": "STE EN NOM COLLECTIF COOPERATIVE"
+    },
+    {
+        "gId": "5300",
+        "label": "STE EN COMMANDITE"
+    },
+    {
+        "gId": "5306",
+        "label": "STE EN COMMANDITE SIMPLE"
+    },
+    {
+        "gId": "5307",
+        "label": "STE EN COMMANDITE SIMPLE COOPERATIVE"
+    },
+    {
+        "gId": "5308",
+        "label": "STE EN COMMANDITE PAR ACTION"
+    },
+    {
+        "gId": "5309",
+        "label": "STE EN COMMANDITE ACTIONS COOPERATIVES"
+    },
+    {
+        "gId": "5370",
+        "label": "STE PARTICIP FIN PROF LIBERALE COMMANDITE ACTIONS"
+    },
+    {
+        "gId": "5385",
+        "label": "STE EX LIBERAL EN COMMANDITE P/ACTIONS"
+    },
+    {
+        "gId": "5400",
+        "label": "STE A RESPONSABILITE LIMITEE"
+    },
+    {
+        "gId": "5410",
+        "label": "SARL NATIONALE"
+    },
+    {
+        "gId": "5415",
+        "label": "SARL D ECONOMIE MIXTE"
+    },
+    {
+        "gId": "5422",
+        "label": "SARL IMMOB P/COMMERCE ET INDUSTRIE"
+    },
+    {
+        "gId": "5426",
+        "label": "SARL IMMOBILIERE DE GESTION"
+    },
+    {
+        "gId": "5430",
+        "label": "SAFER EN SARL"
+    },
+    {
+        "gId": "5431",
+        "label": "SARL MIXTE D INTERET AGRICOLE"
+    },
+    {
+        "gId": "5432",
+        "label": "SARL D INTERET COLLECTIF AGRICOLE"
+    },
+    {
+        "gId": "5442",
+        "label": "SARL D ATTRIBUTION"
+    },
+    {
+        "gId": "5443",
+        "label": "SARL COOPERATIVE DE CONSTRUCTION"
+    },
+    {
+        "gId": "5451",
+        "label": "SARL COOPERATIVE DE CONSOMMATION"
+    },
+    {
+        "gId": "5453",
+        "label": "SARL COOPERATIVE ARTISANALE"
+    },
+    {
+        "gId": "5454",
+        "label": "SARL COOPERATIVE D INTERET MARITIME"
+    },
+    {
+        "gId": "5455",
+        "label": "SARL COOPERATIVE DE TRANSPORT"
+    },
+    {
+        "gId": "5458",
+        "label": "SARL COOP OUVRIERE PRODUCTION ET CREDIT"
+    },
+    {
+        "gId": "5459",
+        "label": "SARL UNION DES STES COOPERATIVES"
+    },
+    {
+        "gId": "5460",
+        "label": "SARL COOPERATIVE"
+    },
+    {
+        "gId": "5470",
+        "label": "STE PARTICIP FIN PROF LIBERALE SARL"
+    },
+    {
+        "gId": "5485",
+        "label": "STE EX LIBERAL A RESP LIMITEE"
+    },
+    {
+        "gId": "5488",
+        "label": "EURL"
+    },
+    {
+        "gId": "5498",
+        "label": "SARL UNIPERSONNELLE"
+    },
+    {
+        "gId": "5499",
+        "label": "S.A.R.L."
+    },
+    {
+        "gId": "5500",
+        "label": "STE ANONYME A CONSEIL D ADMINISTRATION"
+    },
+    {
+        "gId": "5505",
+        "label": "SA A PARTIC OUVRIERE A CONSEIL D ADMINISTRATION"
+    },
+    {
+        "gId": "5510",
+        "label": "SA NATIONALE A CONSEIL D ADMINISTRATION"
+    },
+    {
+        "gId": "5515",
+        "label": "SA D ECONOMIE MIXTE A CONSEIL D ADMINISTRATION"
+    },
+    {
+        "gId": "5520",
+        "label": "SICAV A CONSEIL D ADMINISTRATION"
+    },
+    {
+        "gId": "5522",
+        "label": "SICOMI ANONYME A CONSEIL D ADMINISTRATION"
+    },
+    {
+        "gId": "5525",
+        "label": "STE IMMOB INVESTISSEMENT ANONYME A CA"
+    },
+    {
+        "gId": "5530",
+        "label": "SAFER ANONYME A CONSEIL D ADMINISTRATION"
+    },
+    {
+        "gId": "5531",
+        "label": "SMIA ANONYME A CONSEIL D ADMINISTRATION"
+    },
+    {
+        "gId": "5532",
+        "label": "STE MIXTE D INTERET COLLECTIF SICA"
+    },
+    {
+        "gId": "5542",
+        "label": "STE D ATTRIBUTION ANONYME A CONSEIL"
+    },
+    {
+        "gId": "5543",
+        "label": "STE COOPERATIVE DE CONSTRUCTION ANONYME"
+    },
+    {
+        "gId": "5546",
+        "label": "SA DE HLM A CONSEIL D ADMINISTRATION"
+    },
+    {
+        "gId": "5547",
+        "label": "SA COOP DE PRODUCTION DE HLM A C.A."
+    },
+    {
+        "gId": "5548",
+        "label": "SA CREDIT IMMOBILIER A CONSEIL D ADMINISTRATION"
+    },
+    {
+        "gId": "5551",
+        "label": "SA COOP CONSOMMATION A CONSEIL D ADMINISTRATION"
+    },
+    {
+        "gId": "5552",
+        "label": "SA COOP COMMERCANTS DETAILLANTS A CA."
+    },
+    {
+        "gId": "5553",
+        "label": "SA COOP ARTISANALE A CONSEIL D ADMINISTRATION"
+    },
+    {
+        "gId": "5554",
+        "label": "SA COOP D INTERET MARITIME A CONSEIL"
+    },
+    {
+        "gId": "5555",
+        "label": "SA COOP DE TRANSPORTS A CONSEIL D ADMNISTRATION"
+    },
+    {
+        "gId": "5558",
+        "label": "SA COOP OUVRIERE DE PROD ET DE CREDIT"
+    },
+    {
+        "gId": "5559",
+        "label": "SA UNION DE STES COOP A CONSEIL D ADMINISTRATION"
+    },
+    {
+        "gId": "5560",
+        "label": "SA COOP A CONSEIL D ADMINISTRATION"
+    },
+    {
+        "gId": "5570",
+        "label": "STE PARTICIP FIN PROF LIBERALE SA A CONSEIL"
+    },
+    {
+        "gId": "5585",
+        "label": "STE D EXERCICE LIBERAL A FORME ANONYME"
+    },
+    {
+        "gId": "5599",
+        "label": "SA A CONSEIL D ADMINISTRATION"
+    },
+    {
+        "gId": "5600",
+        "label": "STE ANONYME A DIRECTOIRE"
+    },
+    {
+        "gId": "5605",
+        "label": "SA A PARTICIPATION OUVRIERE A DIRECTOIRE"
+    },
+    {
+        "gId": "5610",
+        "label": "SA NATIONALE A DIRECTOIRE"
+    },
+    {
+        "gId": "5615",
+        "label": "SA D ECONOMIE MIXTE A DIRECTOIRE"
+    },
+    {
+        "gId": "5620",
+        "label": "STE D INVEST A CAPIT VARIABLE A DIRECT"
+    },
+    {
+        "gId": "5622",
+        "label": "STE IMMOB COMM ET IND ANONYME A DIRECT"
+    },
+    {
+        "gId": "5625",
+        "label": "STE IMMOB D INVEST ANONYME A DIRECT."
+    },
+    {
+        "gId": "5630",
+        "label": "SAFER ANONYME A DIRECTOIRE"
+    },
+    {
+        "gId": "5631",
+        "label": "STE MIXTE D INTERET AGRICOLE"
+    },
+    {
+        "gId": "5632",
+        "label": "STE D INTERET COLLECTIF AGRICOLE"
+    },
+    {
+        "gId": "5642",
+        "label": "STE D ATTRIBUTION ANONYME A DIRECTOIRE"
+    },
+    {
+        "gId": "5643",
+        "label": "STE COOP DE CONSTR ANONYME A DIRECTOIRE"
+    },
+    {
+        "gId": "5646",
+        "label": "SA DE HLM A DIRECTOIRE"
+    },
+    {
+        "gId": "5647",
+        "label": "STE COOP DE PROD.HLM ANONYME A DIRECTOIRE"
+    },
+    {
+        "gId": "5648",
+        "label": "SA DE CREDIT IMMOBILIER A DIRECTOIRE"
+    },
+    {
+        "gId": "5651",
+        "label": "SA COOP DE CONSOMMATION A DIRECTOIRE"
+    },
+    {
+        "gId": "5652",
+        "label": "SA COOP DE COMMER DETAILLANTS A DIRECTOIRE"
+    },
+    {
+        "gId": "5653",
+        "label": "SA COOP ARTISANALE A DIRECTOIRE"
+    },
+    {
+        "gId": "5654",
+        "label": "SA COOP D INTERET MARITIME A DIRECTOIRE"
+    },
+    {
+        "gId": "5655",
+        "label": "SA COOP DE TRANSPORT A DIRECTOIRE"
+    },
+    {
+        "gId": "5658",
+        "label": "SA COOP OUVRIERE PROD ET CREDIT � DIRECTOIRE"
+    },
+    {
+        "gId": "5659",
+        "label": "SA UNION STES COOP A DIRECTOIRE"
+    },
+    {
+        "gId": "5660",
+        "label": "SA COOPERATIVE A DIRECTOIRE"
+    },
+    {
+        "gId": "5670",
+        "label": "STE PARTICIP FIN PROF LIBERALE SA A DIRECTOIRE"
+    },
+    {
+        "gId": "5685",
+        "label": "STE EXERCICE LIBERAL A FORME ANONYME A"
+    },
+    {
+        "gId": "5699",
+        "label": "STE ANONYME A DIRECTOIRE"
+    },
+    {
+        "gId": "5710",
+        "label": "STE PAR ACTIONS SIMPLIFIEES"
+    },
+    {
+        "gId": "5720",
+        "label": "SA PAR ACTION SIMPLIFIEE A ASSOCIE UNIQUE"
+    },
+    {
+        "gId": "5770",
+        "label": "STE  PARTICIP FIN PROF LIBERALE SAS"
+    },
+    {
+        "gId": "5785",
+        "label": "STE D'EXERCIE LIBERAL PAR ACTION SIMPLI"
+    },
+    {
+        "gId": "5800",
+        "label": "STE EUROPEENNE"
+    },
+    {
+        "gId": "6000",
+        "label": "PERSONNE MORALE INSCRITE AU RCS"
+    },
+    {
+        "gId": "6100",
+        "label": "CAISSE D EPARGNE ET PREVOYANCE"
+    },
+    {
+        "gId": "6200",
+        "label": "GROUPEMENT D INTERET ECONOMIQUE"
+    },
+    {
+        "gId": "6210",
+        "label": "GROUP EUROPEEN D INTERET ECONOMIQUE"
+    },
+    {
+        "gId": "6220",
+        "label": "G.I.E"
+    },
+    {
+        "gId": "6300",
+        "label": "STE COOPERATIVE AGRICOLE"
+    },
+    {
+        "gId": "6316",
+        "label": "COOP D UTIL DE MATERIEL AGRICOLE EN COMMUN"
+    },
+    {
+        "gId": "6317",
+        "label": "STE COOPERATIVE AGRICOLE"
+    },
+    {
+        "gId": "6318",
+        "label": "UNION DE STES COOPERATIVES AGRICOLES"
+    },
+    {
+        "gId": "6400",
+        "label": "STE NON COMERCIALE D ASSURANCES"
+    },
+    {
+        "gId": "6411",
+        "label": "STE D ASSURANCE A FORME MUTUELLE"
+    },
+    {
+        "gId": "6412",
+        "label": "STE MUTUELLE D ASSURANCES"
+    },
+    {
+        "gId": "6413",
+        "label": "UNION DE STES MUTUELLES D ASSURANCES"
+    },
+    {
+        "gId": "6414",
+        "label": "STE NON COMMERCIALE D ASSURANCES"
+    },
+    {
+        "gId": "6500",
+        "label": "SOCIETE CIVILE"
+    },
+    {
+        "gId": "6511",
+        "label": "STE INTERPROFESSIONELLE DE SOINS AMBULATOIRES"
+    },
+    {
+        "gId": "6521",
+        "label": "S.C.P.I"
+    },
+    {
+        "gId": "6532",
+        "label": "S.I.C.A"
+    },
+    {
+        "gId": "6533",
+        "label": "GROUP AGRICOLE D EXPLOITATION EN COMMUN"
+    },
+    {
+        "gId": "6534",
+        "label": "GROUPEMENT FONCIER AGRICOLE"
+    },
+    {
+        "gId": "6535",
+        "label": "GROUPEMENT AGRICOLE FONCIER"
+    },
+    {
+        "gId": "6536",
+        "label": "GROUPEMENT FORESTIER"
+    },
+    {
+        "gId": "6537",
+        "label": "GROUPEMENT PASTORAL"
+    },
+    {
+        "gId": "6538",
+        "label": "GROUPEMENT FONCIER RURAL"
+    },
+    {
+        "gId": "6539",
+        "label": "STE CIVILE FONCIERE"
+    },
+    {
+        "gId": "6540",
+        "label": "STE CIVILE IMMOBILIERE"
+    },
+    {
+        "gId": "6541",
+        "label": "STE CIVILE IMMOB DE CONSTRUCTION VENTE"
+    },
+    {
+        "gId": "6542",
+        "label": "STE CIVILE D ATTRIBUTION"
+    },
+    {
+        "gId": "6543",
+        "label": "STE CIVILE COOPERATIVE DE CONSTRUCTION"
+    },
+    {
+        "gId": "6544",
+        "label": "SCI d' accession progressive � la propri�t�"
+    },
+    {
+        "gId": "6551",
+        "label": "STE CIVILE COOPERATIVE DE CONSOMATION"
+    },
+    {
+        "gId": "6554",
+        "label": "STE CIVILE COOP D INTERET MARITIME"
+    },
+    {
+        "gId": "6558",
+        "label": "STE CIVILE COOPERATIVE ENTRE MEDECINS"
+    },
+    {
+        "gId": "6560",
+        "label": "STE CIVILE COOPERATIVE"
+    },
+    {
+        "gId": "6561",
+        "label": "SCP D AVOCATS"
+    },
+    {
+        "gId": "6562",
+        "label": "SCP D AVOCATS AUX CONSEILS"
+    },
+    {
+        "gId": "6563",
+        "label": "SCP D AVOUES D APPEL"
+    },
+    {
+        "gId": "6564",
+        "label": "SCP D HUISSIERS"
+    },
+    {
+        "gId": "6565",
+        "label": "SCP DE NOTAIRES"
+    },
+    {
+        "gId": "6566",
+        "label": "SCP DE COMMISSAIRES PRISEURS"
+    },
+    {
+        "gId": "6567",
+        "label": "SCP DE GREFF DE TRIBUNAL DE COMMERCE"
+    },
+    {
+        "gId": "6568",
+        "label": "SCP DE CONSEILS JURIDIQUES"
+    },
+    {
+        "gId": "6569",
+        "label": "SCP DE COMMISSAIRES AUX COMPTES"
+    },
+    {
+        "gId": "6571",
+        "label": "SCP DE MEDECINS"
+    },
+    {
+        "gId": "6572",
+        "label": "SCP DE DENTISTES"
+    },
+    {
+        "gId": "6573",
+        "label": "SCP D INFIRMIERS"
+    },
+    {
+        "gId": "6574",
+        "label": "SCP DE MASSEURS KINESITHERAPEUTES"
+    },
+    {
+        "gId": "6575",
+        "label": "SCP DE DIRECT LABO D ANALYSE MEDICALE"
+    },
+    {
+        "gId": "6576",
+        "label": "SCP DE VETERINAIRES"
+    },
+    {
+        "gId": "6577",
+        "label": "SCP DE GEOMETRES EXPERTS"
+    },
+    {
+        "gId": "6578",
+        "label": "SCP D ARCHITECTES"
+    },
+    {
+        "gId": "6585",
+        "label": "STE CIVILE PROFESSIONNELLE"
+    },
+    {
+        "gId": "6588",
+        "label": "SOCIETE CIVILE LAITIERE"
+    },
+    {
+        "gId": "6589",
+        "label": "STE CIVILE DE MOYENS"
+    },
+    {
+        "gId": "6595",
+        "label": "CAISSE LOCALE DE CREDIT MUTUEL"
+    },
+    {
+        "gId": "6596",
+        "label": "CAISSE DE CREDIT AGRICOLE MUTUEL"
+    },
+    {
+        "gId": "6597",
+        "label": "STE CIVILE D EXPLOITATION AGRICOLE"
+    },
+    {
+        "gId": "6598",
+        "label": "EXPLOITION AGRICOLE A RESPONSABILITE LIMITEE"
+    },
+    {
+        "gId": "6599",
+        "label": "SOCIETE CIVILE"
+    },
+    {
+        "gId": "6901",
+        "label": "AUTRES PM DE DROIT PRIVE INSCRITES AU RCS"
+    },
+    {
+        "gId": "7111",
+        "label": "AUTORITE CONSTITUTIONNELLE"
+    },
+    {
+        "gId": "7112",
+        "label": "AUTORITE ADMINISTRATIVE INDEPENDANTE"
+    },
+    {
+        "gId": "7113",
+        "label": "MINISTERE"
+    },
+    {
+        "gId": "7120",
+        "label": "SERVICE CENTRAL D UN MINISTERE"
+    },
+    {
+        "gId": "7150",
+        "label": "SERVICE DU MINISTERE DE LA DEFENSE"
+    },
+    {
+        "gId": "7160",
+        "label": "SCE COMPETENCE NALE DE MINISTERE"
+    },
+    {
+        "gId": "7171",
+        "label": "SCE D ETAT A COMPETENCE INTER REGION"
+    },
+    {
+        "gId": "7172",
+        "label": "SCE D ETAT A COMPETENCE INTER DEPARTEMENT"
+    },
+    {
+        "gId": "7179",
+        "label": "SCE D ETAT A COMPETENCE TERRITORIALE"
+    },
+    {
+        "gId": "7190",
+        "label": "ECOLE NALE N/DOTEE DE PERS MORALE"
+    },
+    {
+        "gId": "7210",
+        "label": "COMMUNE"
+    },
+    {
+        "gId": "7220",
+        "label": "DEPARTEMENT"
+    },
+    {
+        "gId": "7225",
+        "label": "COLLECTIVITE ET TERRITOIRE D OUTRE MER"
+    },
+    {
+        "gId": "7229",
+        "label": "COLLECTIVITE TERRITORIALE"
+    },
+    {
+        "gId": "7230",
+        "label": "REGION"
+    },
+    {
+        "gId": "7312",
+        "label": "COMMUNE ASSOCIEE"
+    },
+    {
+        "gId": "7313",
+        "label": "SECTION DE COMMUNE"
+    },
+    {
+        "gId": "7314",
+        "label": "ENSEMBLE URBAIN"
+    },
+    {
+        "gId": "7321",
+        "label": "ASSOCIATION SYNDICALE AUTORISEE"
+    },
+    {
+        "gId": "7322",
+        "label": "ASSOCIATION FONCIERE URBAINE"
+    },
+    {
+        "gId": "7323",
+        "label": "ASSOCIATION FONCIERE DE REMEMBREMENT"
+    },
+    {
+        "gId": "7331",
+        "label": "ETAB PUBLIC LOCAL D ENSEIGNEMENT"
+    },
+    {
+        "gId": "7340",
+        "label": "POLE METROPOLITAIN"
+    },
+    {
+        "gId": "7341",
+        "label": "SECTEUR DE COMMUNE"
+    },
+    {
+        "gId": "7342",
+        "label": "DISTRICT URBAIN"
+    },
+    {
+        "gId": "7343",
+        "label": "COMMUNAUTE URBAINE"
+    },
+    {
+        "gId": "7344",
+        "label": "METROPOLE"
+    },
+    {
+        "gId": "7345",
+        "label": "SYNDICAT INTERCOMMUNAL A VOCATION MULTIPLE"
+    },
+    {
+        "gId": "7346",
+        "label": "COMMUNAUTE DE COMMUNES"
+    },
+    {
+        "gId": "7347",
+        "label": "COMMUNAUTE DE VILLES"
+    },
+    {
+        "gId": "7348",
+        "label": "COMMUNAUTE D AGGLOMERATIONS"
+    },
+    {
+        "gId": "7349",
+        "label": "ETAB PUBLIC LOCAL COOP NON SPECIALISE"
+    },
+    {
+        "gId": "7351",
+        "label": "INSTIT INTERDEPARTEMENTALE OU ENTENTE"
+    },
+    {
+        "gId": "7352",
+        "label": "INSTITUTION INTERREGIONALE OU ENTENTE"
+    },
+    {
+        "gId": "7353",
+        "label": "SYNDICAT INTERCOMMUNAL A VOCATION UNIQUE"
+    },
+    {
+        "gId": "7354",
+        "label": "SYNDICAT MIXTE COMMUNAL"
+    },
+    {
+        "gId": "7355",
+        "label": "SYNDICAT MIXTE"
+    },
+    {
+        "gId": "7356",
+        "label": "COMM SYNDIC P/GESTION BIENS INDIVI COM"
+    },
+    {
+        "gId": "7357",
+        "label": "POLE D EQUILIBRE TERRITORIAL ET RURAL"
+    },
+    {
+        "gId": "7361",
+        "label": "CENTRE COMMUNAL D ACTION SOCIALE"
+    },
+    {
+        "gId": "7362",
+        "label": "CAISSE DES ECOLES"
+    },
+    {
+        "gId": "7363",
+        "label": "CAISSE DE CREDIT MUNICIPAL"
+    },
+    {
+        "gId": "7364",
+        "label": "ETABLISSEMENT D HOSPITALISATION"
+    },
+    {
+        "gId": "7365",
+        "label": "SYNDICAT INTERHOSPITALIER"
+    },
+    {
+        "gId": "7366",
+        "label": "ETS PUBLIC LOCAL SOCIAL ET MEDICO SOCIAL"
+    },
+    {
+        "gId": "7367",
+        "label": "CENTRE INTERCOMMUNAL D ACTION SOCIALE"
+    },
+    {
+        "gId": "7371",
+        "label": "OFFICE PUBLIC D HLM"
+    },
+    {
+        "gId": "7372",
+        "label": "SERVICE DEPARTEMENTAL D INCENDIE"
+    },
+    {
+        "gId": "7373",
+        "label": "ETS PUBLIC LOCAL CULTUREL"
+    },
+    {
+        "gId": "7378",
+        "label": "REGIE D'UNE COLLECT LOCALE A CARACTERE ADMINISTRAT"
+    },
+    {
+        "gId": "7379",
+        "label": "ETS PUBLIC ADMINISTRATIF LOCAL"
+    },
+    {
+        "gId": "7381",
+        "label": "ORGANISME CONSULAIRE"
+    },
+    {
+        "gId": "7382",
+        "label": "ETS PUBL NAL AYANT FONCT D ADM CENTRALE"
+    },
+    {
+        "gId": "7383",
+        "label": "ETS PUBL NAL A CARAC SCIENTI CULTUREL ET PROFESSIO"
+    },
+    {
+        "gId": "7384",
+        "label": "ETS PUBLIC NATIONAL D ENSEIGNEMENT"
+    },
+    {
+        "gId": "7385",
+        "label": "ETS PUBL NAL ADM A COMPET TERRI LIMITEE"
+    },
+    {
+        "gId": "7389",
+        "label": "ETS PUBLIC NATIONAL A CARACTERE ADM"
+    },
+    {
+        "gId": "7410",
+        "label": "GROUPEMENT D INTERET PUBLIC"
+    },
+    {
+        "gId": "7430",
+        "label": "ETS PUB DES CULTES D ALSACE LORRAINE"
+    },
+    {
+        "gId": "7450",
+        "label": "ETS PUBLIC ADMINIST CERCLE FOYER ARMEES"
+    },
+    {
+        "gId": "7470",
+        "label": "GRP COOPERATION SANITAIRE A GESTION PUB"
+    },
+    {
+        "gId": "7490",
+        "label": "PERSONNE MORALE DE DROIT PUBLIC"
+    },
+    {
+        "gId": "7510",
+        "label": "SCE D UNE COLL LOCALE A COMPTA DISTINCT"
+    },
+    {
+        "gId": "7520",
+        "label": "REGIE COLLECT LOCALE N/DOTEE PERS MORALE"
+    },
+    {
+        "gId": "8110",
+        "label": "REGIME GENERAL DE LA SECURITE SOCIALE"
+    },
+    {
+        "gId": "8120",
+        "label": "REGIME SPECIAL DE SECURITE SOCIALE"
+    },
+    {
+        "gId": "8130",
+        "label": "INSTITUTION DE PREVOYANCE"
+    },
+    {
+        "gId": "8140",
+        "label": "MUTUALITE SOCIALE AGRICOLE"
+    },
+    {
+        "gId": "8150",
+        "label": "REGIME MALADIE NON SALARIES N/AGRICOLE"
+    },
+    {
+        "gId": "8160",
+        "label": "REG VIEILLESSE N/DEPENDANT DU REG SECURITE SOCIALE"
+    },
+    {
+        "gId": "8170",
+        "label": "REGIME D ASSURANCE CHOMAGE"
+    },
+    {
+        "gId": "8190",
+        "label": "REGIME DE PREVOYANCE SOCIALE"
+    },
+    {
+        "gId": "8210",
+        "label": "MUTUELLE"
+    },
+    {
+        "gId": "8250",
+        "label": "ASSURANCE MUTUELLE AGRICOLE"
+    },
+    {
+        "gId": "8290",
+        "label": "ORGANISME MUTUALISTE"
+    },
+    {
+        "gId": "8300",
+        "label": "COMITE D ENTREPRISE"
+    },
+    {
+        "gId": "8310",
+        "label": "COMITE CENTRAL D ENTREPRISE"
+    },
+    {
+        "gId": "8311",
+        "label": "COMITE D ETABLISSEMENT"
+    },
+    {
+        "gId": "8400",
+        "label": "ORGANISME PROFESSIONNEL"
+    },
+    {
+        "gId": "8410",
+        "label": "SYNDICAT DE SALARIES"
+    },
+    {
+        "gId": "8420",
+        "label": "SYNDICAT PATRONAL"
+    },
+    {
+        "gId": "8450",
+        "label": "ORDRE PROFESSIONNEL OU ASSIMILE"
+    },
+    {
+        "gId": "8470",
+        "label": "CTRE TECH IND OU CTE PROF DU DEVPT ECONOMIQUE"
+    },
+    {
+        "gId": "8490",
+        "label": "ORGANISME PROFESSIONNEL"
+    },
+    {
+        "gId": "8510",
+        "label": "INSTITUTION DE PREVOYANCE"
+    },
+    {
+        "gId": "8520",
+        "label": "INSTITUTION DE RETRAITE SUPPLEMENTAIRE"
+    },
+    {
+        "gId": "9110",
+        "label": "SYNDICAT DE COPROPRIETE"
+    },
+    {
+        "gId": "9150",
+        "label": "ASSOCIATION SYNDICALE LIBRE"
+    },
+    {
+        "gId": "9200",
+        "label": "ASSOCIATION 1901 OU ASSIMILE"
+    },
+    {
+        "gId": "9210",
+        "label": "ASSOCIATION NON DECLAREE"
+    },
+    {
+        "gId": "9220",
+        "label": "ASSOCIATION DECLAREE"
+    },
+    {
+        "gId": "9221",
+        "label": "ASS ENTREPRISE INSERTION PAR L ECONOMIE"
+    },
+    {
+        "gId": "9222",
+        "label": "ASSOCIATION INTERMEDIAIRE"
+    },
+    {
+        "gId": "9223",
+        "label": "GROUPEMENT D EMPLOYEURS"
+    },
+    {
+        "gId": "9224",
+        "label": "ASSOC AVOCATS A RESPONS PROFESSION INDIVIDUELLE"
+    },
+    {
+        "gId": "9230",
+        "label": "ASSOC DECLAREE RECONNUE D UTILITE PUBLIQUE"
+    },
+    {
+        "gId": "9240",
+        "label": "CONGREGATION"
+    },
+    {
+        "gId": "9260",
+        "label": "ASSOCIATION DE DROIT LOCAL"
+    },
+    {
+        "gId": "9300",
+        "label": "FONDATION"
+    },
+    {
+        "gId": "9900",
+        "label": "PERSONNE MORALE DE DROIT PRIVE"
+    },
+    {
+        "gId": "9970",
+        "label": "GRP COOPERATION SANITAIRE GESTION PRIV"
+    },
+    {
+        "gId": "998",
+        "label": "PERSONNE PHYSIQUE EN ATTENTE"
+    },
+    {
+        "gId": "999",
+        "label": "ENTREPRISE INDIVIDUELLE EN ATTENTE"
+    },
+    {
+        "gId": "9998",
+        "label": "PERSONNE MORALE ETRANGERE"
+    },
+    {
+        "gId": "9999",
+        "label": "PERSONNE MORALE EN ATTENTE"
+    }
+]

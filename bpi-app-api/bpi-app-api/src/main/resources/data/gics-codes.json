@@ -1,0 +1,666 @@
+[
+    {
+        "gId": "10101010",
+        "label": "Forages petroliers et gaziers"
+    },
+    {
+        "gId": "10101020",
+        "label": "Oil & Gas Equipement & Services"
+    },
+    {
+        "gId": "10102010",
+        "label": "Petrole et gaz intégré"
+    },
+    {
+        "gId": "10102020",
+        "label": "Exploration gazière petrolière  & Production"
+    },
+    {
+        "gId": "10102030",
+        "label": "Pétrole & gaz raffinage & Marketing"
+    },
+    {
+        "gId": "10102040",
+        "label": "Pétrole & Gaz : Stockage & transports"
+    },
+    {
+        "gId": "10102050",
+        "label": "Charbon & Carburant"
+    },
+    {
+        "gId": "15101010",
+        "label": "Produits chimiques de base"
+    },
+    {
+        "gId": "15101020",
+        "label": "Produits chimiques diversifiés"
+    },
+    {
+        "gId": "15101030",
+        "label": "Engrais & produits chimiques agricoles"
+    },
+    {
+        "gId": "15101040",
+        "label": "Gaz industriels"
+    },
+    {
+        "gId": "15101050",
+        "label": "Produits chimiques à valeur ajoutée"
+    },
+    {
+        "gId": "15102010",
+        "label": "Matériaux de construction (bruts)"
+    },
+    {
+        "gId": "15103010",
+        "label": "Récipients en verre ou en métal"
+    },
+    {
+        "gId": "15103020",
+        "label": "Emballages en papier"
+    },
+    {
+        "gId": "15104010",
+        "label": "Aluminum"
+    },
+    {
+        "gId": "15104020",
+        "label": "Métaux diversifiés & minier"
+    },
+    {
+        "gId": "15104025",
+        "label": "Cuivre"
+    },
+    {
+        "gId": "15104030",
+        "label": "Or"
+    },
+    {
+        "gId": "15104040",
+        "label": "Métaux & minéraux précieux"
+    },
+    {
+        "gId": "15104045",
+        "label": "Argent"
+    },
+    {
+        "gId": "15104050",
+        "label": "Acier"
+    },
+    {
+        "gId": "15105010",
+        "label": "Produits forestiers"
+    },
+    {
+        "gId": "15105020",
+        "label": "Produits  papier"
+    },
+    {
+        "gId": "20101010",
+        "label": "Aérospatiale et défense"
+    },
+    {
+        "gId": "20102010",
+        "label": "Matériaux de construction (finis ou semi finis)"
+    },
+    {
+        "gId": "20103010",
+        "label": "Ingénierie et construction"
+    },
+    {
+        "gId": "20104010",
+        "label": "Equipement & Composants électriques"
+    },
+    {
+        "gId": "20104020",
+        "label": "Matériel électrique lourd"
+    },
+    {
+        "gId": "20105010",
+        "label": "Conglomérats industriels"
+    },
+    {
+        "gId": "20106010",
+        "label": "Machines de construction & poids lourds"
+    },
+    {
+        "gId": "20106015",
+        "label": "Machinerie agricole"
+    },
+    {
+        "gId": "20106020",
+        "label": "Machinerie industrielle"
+    },
+    {
+        "gId": "20107010",
+        "label": "Sociétés de négoce & distributeurs"
+    },
+    {
+        "gId": "20201010",
+        "label": "Impression commerciale"
+    },
+    {
+        "gId": "20201050",
+        "label": "Installation et maintenance environnementale"
+    },
+    {
+        "gId": "20201060",
+        "label": "Autres services aux entreprises et fournitures de bureau"
+    },
+    {
+        "gId": "20201070",
+        "label": "Services diversifiés aux entreprises"
+    },
+    {
+        "gId": "20201080",
+        "label": "Services de Sécurité et Alarme"
+    },
+    {
+        "gId": "20202010",
+        "label": "Ressources humaines & emploi Services"
+    },
+    {
+        "gId": "20202020",
+        "label": "Recherche & Consulting"
+    },
+    {
+        "gId": "20301010",
+        "label": "Fret aérien & logistique"
+    },
+    {
+        "gId": "20302010",
+        "label": "Compagnies aériennes"
+    },
+    {
+        "gId": "20303010",
+        "label": "Marine"
+    },
+    {
+        "gId": "20304010",
+        "label": "Chemins de fer"
+    },
+    {
+        "gId": "20304020",
+        "label": "Transport routier - Logistique"
+    },
+    {
+        "gId": "20305010",
+        "label": "Services aéroportuaires"
+    },
+    {
+        "gId": "20305020",
+        "label": "Voirie & voies ferrées"
+    },
+    {
+        "gId": "20305030",
+        "label": "Ports maritimes & Services"
+    },
+    {
+        "gId": "25101010",
+        "label": "Pièces d'auto & équipement"
+    },
+    {
+        "gId": "25101020",
+        "label": "Pneus & caoutchouc"
+    },
+    {
+        "gId": "25102010",
+        "label": "Constructeurs automobiles"
+    },
+    {
+        "gId": "25102020",
+        "label": "Constructeurs de motocycles"
+    },
+    {
+        "gId": "25201010",
+        "label": "Électronique grand public"
+    },
+    {
+        "gId": "25201020",
+        "label": "Equipement de la maison"
+    },
+    {
+        "gId": "25201030",
+        "label": "Construction de maisons"
+    },
+    {
+        "gId": "25201040",
+        "label": "Appareils ménagers"
+    },
+    {
+        "gId": "25201050",
+        "label": "Articles ménagers & spécialités"
+    },
+    {
+        "gId": "25202010",
+        "label": "Produits de loisirs"
+    },
+    {
+        "gId": "25203010",
+        "label": "Textiles, vêtements & luxe"
+    },
+    {
+        "gId": "25203020",
+        "label": "Chaussures"
+    },
+    {
+        "gId": "25203030",
+        "label": "Textiles"
+    },
+    {
+        "gId": "25301010",
+        "label": "Casinos et jeux"
+    },
+    {
+        "gId": "25301020",
+        "label": "Hôtels, Resorts & croisières"
+    },
+    {
+        "gId": "25301030",
+        "label": "Équipements de loisirs"
+    },
+    {
+        "gId": "25301040",
+        "label": "Restaurants"
+    },
+    {
+        "gId": "25302010",
+        "label": "Services d'enseignement"
+    },
+    {
+        "gId": "25302020",
+        "label": "Services spécialisés aux consommateurs"
+    },
+    {
+        "gId": "25401010",
+        "label": "Publicité"
+    },
+    {
+        "gId": "25401020",
+        "label": "Radiodiffusion"
+    },
+    {
+        "gId": "25401025",
+        "label": "Cable & Satellite"
+    },
+    {
+        "gId": "25401030",
+        "label": "Films et Divertissements"
+    },
+    {
+        "gId": "25401040",
+        "label": "Édition"
+    },
+    {
+        "gId": "25501010",
+        "label": "Distributeurs / Commerce de gros"
+    },
+    {
+        "gId": "25502020",
+        "label": "Vente par internet / par correspondance"
+    },
+    {
+        "gId": "25503010",
+        "label": "Grands magasins"
+    },
+    {
+        "gId": "25503020",
+        "label": "Magasins de marchandises diverses"
+    },
+    {
+        "gId": "25504010",
+        "label": "Vente au détail de vêtements"
+    },
+    {
+        "gId": "25504020",
+        "label": "Informatique et électronique au détail"
+    },
+    {
+        "gId": "25504030",
+        "label": "Amélioration de l'habitat"
+    },
+    {
+        "gId": "25504040",
+        "label": "Magasins spécialisés"
+    },
+    {
+        "gId": "25504050",
+        "label": "Commerce de détail automobile"
+    },
+    {
+        "gId": "25504060",
+        "label": "Meubles de détail"
+    },
+    {
+        "gId": "30101010",
+        "label": "Pharmacies et Parapharmacies"
+    },
+    {
+        "gId": "30101020",
+        "label": "Produits alimentaires / Vente en gros"
+    },
+    {
+        "gId": "30101030",
+        "label": "Produits alimentaires / Vente au détail"
+    },
+    {
+        "gId": "30101040",
+        "label": "Hypermarchés & Supermarchés"
+    },
+    {
+        "gId": "30201010",
+        "label": "Brasseurs"
+    },
+    {
+        "gId": "30201020",
+        "label": "Vins & Spiritueux"
+    },
+    {
+        "gId": "30201030",
+        "label": "Sodas"
+    },
+    {
+        "gId": "30202010",
+        "label": "Produits agricoles"
+    },
+    {
+        "gId": "30202030",
+        "label": "Aliments emballés & viandes"
+    },
+    {
+        "gId": "30203010",
+        "label": "Tabac"
+    },
+    {
+        "gId": "30301010",
+        "label": "Produits menagers"
+    },
+    {
+        "gId": "30302010",
+        "label": "Produits personnels"
+    },
+    {
+        "gId": "35101010",
+        "label": "Équipement de soins de santé"
+    },
+    {
+        "gId": "35101020",
+        "label": "Fournitures de soins de santé"
+    },
+    {
+        "gId": "35102010",
+        "label": "Distributeurs de soins de santé"
+    },
+    {
+        "gId": "35102015",
+        "label": "Services de soins de santé"
+    },
+    {
+        "gId": "35102020",
+        "label": "Établissements de soins de santé"
+    },
+    {
+        "gId": "35102030",
+        "label": "Organisme de gestion de santé"
+    },
+    {
+        "gId": "35103010",
+        "label": "Technologie des soins de santé"
+    },
+    {
+        "gId": "35201010",
+        "label": "Biotechnologie"
+    },
+    {
+        "gId": "35202010",
+        "label": "Produits pharmaceutiques"
+    },
+    {
+        "gId": "35203010",
+        "label": "Sciences de la vie outils & Services"
+    },
+    {
+        "gId": "40101010",
+        "label": "Banques diversifiées"
+    },
+    {
+        "gId": "40101015",
+        "label": "Banques Regionales"
+    },
+    {
+        "gId": "40102010",
+        "label": "Epargne et hypothèque"
+    },
+    {
+        "gId": "40201020",
+        "label": "Autres Services financiers diversifiés"
+    },
+    {
+        "gId": "40201030",
+        "label": "Holdings Multisectorielles"
+    },
+    {
+        "gId": "40201040",
+        "label": "Finance spécialisée"
+    },
+    {
+        "gId": "40202010",
+        "label": "Crédit à la consommation"
+    },
+    {
+        "gId": "40203010",
+        "label": "Gestion d'actifs &  banques de dépôt"
+    },
+    {
+        "gId": "40203020",
+        "label": "Banques d'investissement & courtage"
+    },
+    {
+        "gId": "40203030",
+        "label": "Marchés financiers diversifiés"
+    },
+    {
+        "gId": "40203040",
+        "label": "Echanges financiers et données"
+    },
+    {
+        "gId": "40204010",
+        "label": "Sociétés d'invrestissements"
+    },
+    {
+        "gId": "40301010",
+        "label": "Courtiers d'assurance"
+    },
+    {
+        "gId": "40301020",
+        "label": "Assurance-vie & Assurance-santé"
+    },
+    {
+        "gId": "40301030",
+        "label": "Assurance multiligne"
+    },
+    {
+        "gId": "40301040",
+        "label": "Assurance dommages"
+    },
+    {
+        "gId": "40301050",
+        "label": "Réassurance"
+    },
+    {
+        "gId": "45101010",
+        "label": "Logiciel Internet & Services"
+    },
+    {
+        "gId": "45102010",
+        "label": "Service Informatique Consulting & autres Services"
+    },
+    {
+        "gId": "45102020",
+        "label": "Traitement des données & Services externalisés"
+    },
+    {
+        "gId": "45102030",
+        "label": "Services et infrastructures Internet"
+    },
+    {
+        "gId": "45103010",
+        "label": "Logiciel d'application"
+    },
+    {
+        "gId": "45103020",
+        "label": "Logiciels système d'Information"
+    },
+    {
+        "gId": "45103030",
+        "label": "Logiciels de divertissement"
+    },
+    {
+        "gId": "45201020",
+        "label": "Matériel de communication"
+    },
+    {
+        "gId": "45202030",
+        "label": "Matériel, stockage & périphériques"
+    },
+    {
+        "gId": "45203010",
+        "label": "Équipement électronique & Instruments"
+    },
+    {
+        "gId": "45203015",
+        "label": "Composants électroniques"
+    },
+    {
+        "gId": "45203020",
+        "label": "Services de fabrication électronique"
+    },
+    {
+        "gId": "45203030",
+        "label": "Distributeurs de technologie"
+    },
+    {
+        "gId": "45301010",
+        "label": "Equipment semi conducteurs"
+    },
+    {
+        "gId": "45301020",
+        "label": "Semiconducteurs"
+    },
+    {
+        "gId": "50101010",
+        "label": "Autres transporteurs"
+    },
+    {
+        "gId": "50101020",
+        "label": "Services de télécommunications intégrés"
+    },
+    {
+        "gId": "50102010",
+        "label": "Services de télécommunications sans fil"
+    },
+    {
+        "gId": "50201010",
+        "label": "Publicité"
+    },
+    {
+        "gId": "50201020",
+        "label": "Radiotélévision"
+    },
+    {
+        "gId": "50201030",
+        "label": "Câble et satellite"
+    },
+    {
+        "gId": "50201040",
+        "label": "Édition"
+    },
+    {
+        "gId": "50202010",
+        "label": "Cinéma et divertissement"
+    },
+    {
+        "gId": "50202020",
+        "label": "Divertissements interactifs à domicile"
+    },
+    {
+        "gId": "50203010",
+        "label": "Médias et services interactifs"
+    },
+    {
+        "gId": "55101010",
+        "label": "Services publics d'électricité"
+    },
+    {
+        "gId": "55102010",
+        "label": "Services de gaz"
+    },
+    {
+        "gId": "55103010",
+        "label": "Compagnies d’intérêt public aux activités diversifiées"
+    },
+    {
+        "gId": "55104010",
+        "label": "Services publics d'eau"
+    },
+    {
+        "gId": "55105010",
+        "label": "Producteurs d'électricité renouvables indépendants"
+    },
+    {
+        "gId": "55105020",
+        "label": "Électricité renouvelable"
+    },
+    {
+        "gId": "60101010",
+        "label": "FIP Diversifiées"
+    },
+    {
+        "gId": "60101020",
+        "label": "FIP Industrielles"
+    },
+    {
+        "gId": "60101030",
+        "label": "FIP Hotels & Resorts"
+    },
+    {
+        "gId": "60101040",
+        "label": "FIP Bureaux"
+    },
+    {
+        "gId": "60101050",
+        "label": "FIP Santé"
+    },
+    {
+        "gId": "60101060",
+        "label": "FIP Résidentielles"
+    },
+    {
+        "gId": "60101070",
+        "label": "FIP Ventes au détail"
+    },
+    {
+        "gId": "60101080",
+        "label": "FIP Spécialisées"
+    },
+    {
+        "gId": "60102010",
+        "label": "Activités immobilières diversifiées"
+    },
+    {
+        "gId": "60102020",
+        "label": "Sociétés d'exploitation Immobiliéres"
+    },
+    {
+        "gId": "60102030",
+        "label": "Développement immobilier"
+    },
+    {
+        "gId": "60102040",
+        "label": "Services immobiliers"
+    },
+    {
+        "gId": "70101010",
+        "label": "Etat / Collectivités publiques"
+    }
+]

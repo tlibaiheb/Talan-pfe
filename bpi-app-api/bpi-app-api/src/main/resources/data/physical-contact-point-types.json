@@ -1,0 +1,18 @@
+[
+    {
+        "gId": 2,
+        "label": "Adresse fiscale"
+    },
+    {
+        "gId": 1,
+        "label": "Adresse personnelle"
+    },
+    {
+        "gId": 3,
+        "label": "Adresse postale"
+    },
+    {
+        "gId": 4,
+        "label": "Adresse secondaire"
+    }
+]

@@ -1,0 +1,26 @@
+[
+    {
+        "gId": 4,
+        "label": "Autre"
+    },
+    {
+        "gId": 5,
+        "label": "Banque ou Guichet Bancaire"
+    },
+    {
+        "gId": 3,
+        "label": "Personne Morale définitivement non créée"
+    },
+    {
+        "gId": 1,
+        "label": "Personne Morale en cours d'immatriculation au RCS"
+    },
+    {
+        "gId": 2,
+        "label": "Personne Morale étrangère non immatriculée au RCS"
+    },
+    {
+        "gId": 6,
+        "label": "Personne Morale française non immatriculée au RCS"
+    }
+]

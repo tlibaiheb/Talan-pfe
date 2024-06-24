@@ -1,0 +1,26 @@
+[
+    {
+        "gId": 1,
+        "label": "Micro entreprise"
+    },
+    {
+        "gId": 2,
+        "label": "Petite entreprise"
+    },
+    {
+        "gId": 3,
+        "label": "Moyenne entreprise"
+    },
+    {
+        "gId": 4,
+        "label": "ETI"
+    },
+    {
+        "gId": 5,
+        "label": "GE"
+    },
+    {
+        "gId": 6,
+        "label": "Autre"
+    }
+]

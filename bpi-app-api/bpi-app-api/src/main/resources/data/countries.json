@@ -1,0 +1,2532 @@
+[
+    {
+        "countryGId": "4",
+        "countryLabel": "ABU-DHABI",
+        "internalBpiCode": "A1",
+        "iso2Code": "AE",
+        "iso3Code": "ARE",
+        "nationalityLabel": "Emirienne",
+        "numericalCode": "784",
+        "phoneCountryCode": "971"
+    },
+    {
+        "countryGId": "11",
+        "countryLabel": "AFGHANISTAN",
+        "internalBpiCode": "AF",
+        "iso2Code": "AF",
+        "iso3Code": "AFG",
+        "nationalityLabel": "Afghane",
+        "numericalCode": "4",
+        "phoneCountryCode": "93"
+    },
+    {
+        "countryGId": "241",
+        "countryLabel": "AFRIQUE DU SUD",
+        "internalBpiCode": "ZA",
+        "iso2Code": "ZA",
+        "iso3Code": "ZAF",
+        "nationalityLabel": "Sud-africaine",
+        "numericalCode": "710",
+        "phoneCountryCode": "27"
+    },
+    {
+        "countryGId": "5",
+        "countryLabel": "AJMAN (EAU)",
+        "internalBpiCode": "A2",
+        "iso2Code": "AE",
+        "iso3Code": "ARE",
+        "nationalityLabel": "Emirienne",
+        "numericalCode": "784",
+        "phoneCountryCode": "971"
+    },
+    {
+        "countryGId": "14",
+        "countryLabel": "ALBANIE",
+        "internalBpiCode": "AL",
+        "iso2Code": "AL",
+        "iso3Code": "ALB",
+        "nationalityLabel": "Albanaise",
+        "numericalCode": "8",
+        "phoneCountryCode": "355"
+    },
+    {
+        "countryGId": "68",
+        "countryLabel": "ALGERIE",
+        "internalBpiCode": "DZ",
+        "iso2Code": "DZ",
+        "iso3Code": "DZA",
+        "nationalityLabel": "Algérienne",
+        "numericalCode": "12",
+        "phoneCountryCode": "213"
+    },
+    {
+        "countryGId": "63",
+        "countryLabel": "ALLEMAGNE",
+        "internalBpiCode": "DE",
+        "iso2Code": "DE",
+        "iso3Code": "DEU",
+        "nationalityLabel": "Allemande",
+        "numericalCode": "276",
+        "phoneCountryCode": "49"
+    },
+    {
+        "countryGId": "2",
+        "countryLabel": "ANDORRE",
+        "internalBpiCode": "AD",
+        "iso2Code": "AD",
+        "iso3Code": "AND",
+        "nationalityLabel": "Andorrane",
+        "numericalCode": "20",
+        "phoneCountryCode": "376"
+    },
+    {
+        "countryGId": "17",
+        "countryLabel": "ANGOLA",
+        "internalBpiCode": "AO",
+        "iso2Code": "AO",
+        "iso3Code": "AGO",
+        "nationalityLabel": "Angolaise",
+        "numericalCode": "24",
+        "phoneCountryCode": "244"
+    },
+    {
+        "countryGId": "13",
+        "countryLabel": "ANGUILLA",
+        "internalBpiCode": "AI",
+        "iso2Code": "AI",
+        "iso3Code": "AIA",
+        "nationalityLabel": "Britannique",
+        "numericalCode": "660",
+        "phoneCountryCode": "1-264"
+    },
+    {
+        "countryGId": "12",
+        "countryLabel": "ANTIGUA-ET-BARBUDA",
+        "internalBpiCode": "AG",
+        "iso2Code": "AG",
+        "iso3Code": "ATG",
+        "nationalityLabel": "Antiguaise et barbudienne",
+        "numericalCode": "28",
+        "phoneCountryCode": "1-268"
+    },
+    {
+        "countryGId": "16",
+        "countryLabel": "ANTILLES NEERLANDAISES",
+        "internalBpiCode": "AN",
+        "iso2Code": "AN",
+        "iso3Code": "ANT",
+        "nationalityLabel": "Néerlandaise",
+        "numericalCode": "530",
+        "phoneCountryCode": "599"
+    },
+    {
+        "countryGId": "192",
+        "countryLabel": "ARABIE SAOUDITE",
+        "internalBpiCode": "SA",
+        "iso2Code": "SA",
+        "iso3Code": "SAU",
+        "nationalityLabel": "Saoudienne",
+        "numericalCode": "682",
+        "phoneCountryCode": "966"
+    },
+    {
+        "countryGId": "18",
+        "countryLabel": "ARGENTINE",
+        "internalBpiCode": "AR",
+        "iso2Code": "AR",
+        "iso3Code": "ARG",
+        "nationalityLabel": "Argentine",
+        "numericalCode": "32",
+        "phoneCountryCode": "54"
+    },
+    {
+        "countryGId": "15",
+        "countryLabel": "ARMENIE",
+        "internalBpiCode": "AM",
+        "iso2Code": "AM",
+        "iso3Code": "ARM",
+        "nationalityLabel": "Armenienne",
+        "numericalCode": "51",
+        "phoneCountryCode": "374"
+    },
+    {
+        "countryGId": "22",
+        "countryLabel": "ARUBA",
+        "internalBpiCode": "AW",
+        "iso2Code": "AW",
+        "iso3Code": "ABW",
+        "nationalityLabel": "Néerlandaise",
+        "numericalCode": "533",
+        "phoneCountryCode": "297"
+    },
+    {
+        "countryGId": "21",
+        "countryLabel": "AUSTRALIE",
+        "internalBpiCode": "AU",
+        "iso2Code": "AU",
+        "iso3Code": "AUS",
+        "nationalityLabel": "Australienne",
+        "numericalCode": "36",
+        "phoneCountryCode": "61"
+    },
+    {
+        "countryGId": "20",
+        "countryLabel": "AUTRICHE",
+        "internalBpiCode": "AT",
+        "iso2Code": "AT",
+        "iso3Code": "AUT",
+        "nationalityLabel": "Autrichienne",
+        "numericalCode": "40",
+        "phoneCountryCode": "43"
+    },
+    {
+        "countryGId": "23",
+        "countryLabel": "AZERBAIDJAN",
+        "internalBpiCode": "AZ",
+        "iso2Code": "AZ",
+        "iso3Code": "AZE",
+        "nationalityLabel": "Azerbaijanaise",
+        "numericalCode": "31",
+        "phoneCountryCode": "994"
+    },
+    {
+        "countryGId": "39",
+        "countryLabel": "BAHAMAS",
+        "internalBpiCode": "BS",
+        "iso2Code": "BS",
+        "iso3Code": "BHS",
+        "nationalityLabel": "Bahamienne",
+        "numericalCode": "535",
+        "phoneCountryCode": "44"
+    },
+    {
+        "countryGId": "30",
+        "countryLabel": "BAHREIN",
+        "internalBpiCode": "BH",
+        "iso2Code": "BH",
+        "iso3Code": "BHR",
+        "nationalityLabel": "Bahreinienne",
+        "numericalCode": "854",
+        "phoneCountryCode": "48"
+    },
+    {
+        "countryGId": "26",
+        "countryLabel": "BANGLADESH",
+        "internalBpiCode": "BD",
+        "iso2Code": "BD",
+        "iso3Code": "BGD",
+        "nationalityLabel": "Bangladaise",
+        "numericalCode": "50",
+        "phoneCountryCode": "880"
+    },
+    {
+        "countryGId": "25",
+        "countryLabel": "BARBADE",
+        "internalBpiCode": "BB",
+        "iso2Code": "BB",
+        "iso3Code": "BRB",
+        "nationalityLabel": "Barbadienne",
+        "numericalCode": "52",
+        "phoneCountryCode": "1-246"
+    },
+    {
+        "countryGId": "27",
+        "countryLabel": "BELGIQUE",
+        "internalBpiCode": "BE",
+        "iso2Code": "BE",
+        "iso3Code": "BEL",
+        "nationalityLabel": "Belge",
+        "numericalCode": "56",
+        "phoneCountryCode": "32"
+    },
+    {
+        "countryGId": "44",
+        "countryLabel": "BELIZE",
+        "internalBpiCode": "BZ",
+        "iso2Code": "BZ",
+        "iso3Code": "BLZ",
+        "nationalityLabel": "Belizienne",
+        "numericalCode": "84",
+        "phoneCountryCode": "501"
+    },
+    {
+        "countryGId": "32",
+        "countryLabel": "BENIN",
+        "internalBpiCode": "BJ",
+        "iso2Code": "BJ",
+        "iso3Code": "BEN",
+        "nationalityLabel": "Beninoise",
+        "numericalCode": "70",
+        "phoneCountryCode": "204"
+    },
+    {
+        "countryGId": "34",
+        "countryLabel": "BERMUDES",
+        "internalBpiCode": "BM",
+        "iso2Code": "BM",
+        "iso3Code": "BMU",
+        "nationalityLabel": "Bermudienne",
+        "numericalCode": "652",
+        "phoneCountryCode": "60"
+    },
+    {
+        "countryGId": "40",
+        "countryLabel": "BHOUTAN",
+        "internalBpiCode": "BT",
+        "iso2Code": "BT",
+        "iso3Code": "BTN",
+        "nationalityLabel": "Bhoutanaise",
+        "numericalCode": "112",
+        "phoneCountryCode": "64"
+    },
+    {
+        "countryGId": "43",
+        "countryLabel": "BIELORUSSIE",
+        "internalBpiCode": "BY",
+        "iso2Code": "BY",
+        "iso3Code": "BLR",
+        "nationalityLabel": "Bielorusse",
+        "numericalCode": "112",
+        "phoneCountryCode": "375"
+    },
+    {
+        "countryGId": "36",
+        "countryLabel": "BOLIVIE",
+        "internalBpiCode": "BO",
+        "iso2Code": "BO",
+        "iso3Code": "BOL",
+        "nationalityLabel": "Bolivienne",
+        "numericalCode": "60",
+        "phoneCountryCode": "68"
+    },
+    {
+        "countryGId": "37",
+        "countryLabel": "BONAIRE, SAINT EUSTACHE ET SABA",
+        "internalBpiCode": "BQ",
+        "iso2Code": "BQ",
+        "iso3Code": "BES",
+        "nationalityLabel": "Bonairienne",
+        "numericalCode": "68",
+        "phoneCountryCode": "535"
+    },
+    {
+        "countryGId": "24",
+        "countryLabel": "BOSNIE-HERZEGOVINE",
+        "internalBpiCode": "BA",
+        "iso2Code": "BA",
+        "iso3Code": "BIH",
+        "nationalityLabel": "Bosnienne",
+        "numericalCode": "70",
+        "phoneCountryCode": "387"
+    },
+    {
+        "countryGId": "42",
+        "countryLabel": "BOTSWANA",
+        "internalBpiCode": "BW",
+        "iso2Code": "BW",
+        "iso3Code": "BWA",
+        "nationalityLabel": "Botswanaise",
+        "numericalCode": "72",
+        "phoneCountryCode": "267"
+    },
+    {
+        "countryGId": "41",
+        "countryLabel": "BOUVET (ILE)",
+        "internalBpiCode": "BV",
+        "iso2Code": "BV",
+        "iso3Code": "BVT",
+        "nationalityLabel": "Norvégienne",
+        "numericalCode": "74",
+        "phoneCountryCode": "47"
+    },
+    {
+        "countryGId": "38",
+        "countryLabel": "BRESIL",
+        "internalBpiCode": "BR",
+        "iso2Code": "BR",
+        "iso3Code": "BRA",
+        "nationalityLabel": "Brésilienne",
+        "numericalCode": "64",
+        "phoneCountryCode": "76"
+    },
+    {
+        "countryGId": "35",
+        "countryLabel": "BRUNEI",
+        "internalBpiCode": "BN",
+        "iso2Code": "BN",
+        "iso3Code": "BRN",
+        "nationalityLabel": "Bruneienne",
+        "numericalCode": "74",
+        "phoneCountryCode": "96"
+    },
+    {
+        "countryGId": "29",
+        "countryLabel": "BULGARIE",
+        "internalBpiCode": "BG",
+        "iso2Code": "BG",
+        "iso3Code": "BGR",
+        "nationalityLabel": "Bulgare",
+        "numericalCode": "100",
+        "phoneCountryCode": "359"
+    },
+    {
+        "countryGId": "28",
+        "countryLabel": "BURKINA",
+        "internalBpiCode": "BF",
+        "iso2Code": "BF",
+        "iso3Code": "BFA",
+        "nationalityLabel": "Burkinabe",
+        "numericalCode": "854",
+        "phoneCountryCode": "226"
+    },
+    {
+        "countryGId": "31",
+        "countryLabel": "BURUNDI",
+        "internalBpiCode": "BI",
+        "iso2Code": "BI",
+        "iso3Code": "BDI",
+        "nationalityLabel": "Burundaise",
+        "numericalCode": "124",
+        "phoneCountryCode": "108"
+    },
+    {
+        "countryGId": "129",
+        "countryLabel": "CAIMANES (ILES)",
+        "internalBpiCode": "KY",
+        "iso2Code": "KY",
+        "iso3Code": "CYM",
+        "nationalityLabel": "Caïmanienne",
+        "numericalCode": "136",
+        "phoneCountryCode": "1-345"
+    },
+    {
+        "countryGId": "122",
+        "countryLabel": "CAMBODGE",
+        "internalBpiCode": "KH",
+        "iso2Code": "KH",
+        "iso3Code": "KHM",
+        "nationalityLabel": "Cambodgienne",
+        "numericalCode": "116",
+        "phoneCountryCode": "855"
+    },
+    {
+        "countryGId": "54",
+        "countryLabel": "CAMEROUN",
+        "internalBpiCode": "CM",
+        "iso2Code": "CM",
+        "iso3Code": "CMR",
+        "nationalityLabel": "Camerounaise",
+        "numericalCode": "120",
+        "phoneCountryCode": "237"
+    },
+    {
+        "countryGId": "45",
+        "countryLabel": "CANADA",
+        "internalBpiCode": "CA",
+        "iso2Code": "CA",
+        "iso3Code": "CAN",
+        "nationalityLabel": "Canadienne",
+        "numericalCode": "124",
+        "phoneCountryCode": "1"
+    },
+    {
+        "countryGId": "59",
+        "countryLabel": "CAP-VERT",
+        "internalBpiCode": "CV",
+        "iso2Code": "CV",
+        "iso3Code": "CPV",
+        "nationalityLabel": "Cap-verdienne",
+        "numericalCode": "132",
+        "phoneCountryCode": "238"
+    },
+    {
+        "countryGId": "53",
+        "countryLabel": "CHILI",
+        "internalBpiCode": "CL",
+        "iso2Code": "CL",
+        "iso3Code": "CHL",
+        "nationalityLabel": "Chilienne",
+        "numericalCode": "152",
+        "phoneCountryCode": "56"
+    },
+    {
+        "countryGId": "55",
+        "countryLabel": "CHINE",
+        "internalBpiCode": "CN",
+        "iso2Code": "CN",
+        "iso3Code": "CHN",
+        "nationalityLabel": "Chinoise",
+        "numericalCode": "156",
+        "phoneCountryCode": "86"
+    },
+    {
+        "countryGId": "61",
+        "countryLabel": "CHRISTMAS (ILE)",
+        "internalBpiCode": "CX",
+        "iso2Code": "CX",
+        "iso3Code": "CXR",
+        "nationalityLabel": "Australienne",
+        "numericalCode": "162",
+        "phoneCountryCode": "61"
+    },
+    {
+        "countryGId": "62",
+        "countryLabel": "CHYPRE",
+        "internalBpiCode": "CY",
+        "iso2Code": "CY",
+        "iso3Code": "CYP",
+        "nationalityLabel": "Chypriote",
+        "numericalCode": "196",
+        "phoneCountryCode": "357"
+    },
+    {
+        "countryGId": "46",
+        "countryLabel": "COCOS ou KEELING (ILES)",
+        "internalBpiCode": "CC",
+        "iso2Code": "CC",
+        "iso3Code": "CCK",
+        "nationalityLabel": "Australienne",
+        "numericalCode": "166",
+        "phoneCountryCode": "61"
+    },
+    {
+        "countryGId": "56",
+        "countryLabel": "COLOMBIE",
+        "internalBpiCode": "CO",
+        "iso2Code": "CO",
+        "iso3Code": "COL",
+        "nationalityLabel": "Colombienne",
+        "numericalCode": "170",
+        "phoneCountryCode": "57"
+    },
+    {
+        "countryGId": "124",
+        "countryLabel": "COMORES",
+        "internalBpiCode": "KM",
+        "iso2Code": "KM",
+        "iso3Code": "COM",
+        "nationalityLabel": "Comorienne",
+        "numericalCode": "174",
+        "phoneCountryCode": "269"
+    },
+    {
+        "countryGId": "49",
+        "countryLabel": "CONGO",
+        "internalBpiCode": "CG",
+        "iso2Code": "CG",
+        "iso3Code": "COG",
+        "nationalityLabel": "Congolaise",
+        "numericalCode": "178",
+        "phoneCountryCode": "242"
+    },
+    {
+        "countryGId": "47",
+        "countryLabel": "CONGO (REPUBLIQUE DEMOCRATIQUE)",
+        "internalBpiCode": "CD",
+        "iso2Code": "CD",
+        "iso3Code": "COD",
+        "nationalityLabel": "Congolaise",
+        "numericalCode": "180",
+        "phoneCountryCode": "243"
+    },
+    {
+        "countryGId": "52",
+        "countryLabel": "COOK (ILES)",
+        "internalBpiCode": "CK",
+        "iso2Code": "CK",
+        "iso3Code": "COK",
+        "nationalityLabel": "Cookienne",
+        "numericalCode": "184",
+        "phoneCountryCode": "682"
+    },
+    {
+        "countryGId": "127",
+        "countryLabel": "COREE (REPUBLIQUE DE)",
+        "internalBpiCode": "KR",
+        "iso2Code": "KR",
+        "iso3Code": "KOR",
+        "nationalityLabel": "Sud-coréenne",
+        "numericalCode": "410",
+        "phoneCountryCode": "82"
+    },
+    {
+        "countryGId": "126",
+        "countryLabel": "COREE (REPUBLIQUE POPULAIRE DEMOCRATIQUE DE)",
+        "internalBpiCode": "KP",
+        "iso2Code": "KP",
+        "iso3Code": "PRK",
+        "nationalityLabel": "Nord-coréenne",
+        "numericalCode": "408",
+        "phoneCountryCode": "850"
+    },
+    {
+        "countryGId": "57",
+        "countryLabel": "COSTA RICA",
+        "internalBpiCode": "CR",
+        "iso2Code": "CR",
+        "iso3Code": "CRI",
+        "nationalityLabel": "Costaricaine",
+        "numericalCode": "188",
+        "phoneCountryCode": "506"
+    },
+    {
+        "countryGId": "51",
+        "countryLabel": "COTE D'IVOIRE",
+        "internalBpiCode": "CI",
+        "iso2Code": "CI",
+        "iso3Code": "CIV",
+        "nationalityLabel": "Ivoirienne",
+        "numericalCode": "384",
+        "phoneCountryCode": "225"
+    },
+    {
+        "countryGId": "102",
+        "countryLabel": "CROATIE",
+        "internalBpiCode": "HR",
+        "iso2Code": "HR",
+        "iso3Code": "HRV",
+        "nationalityLabel": "Croate",
+        "numericalCode": "191",
+        "phoneCountryCode": "385"
+    },
+    {
+        "countryGId": "58",
+        "countryLabel": "CUBA",
+        "internalBpiCode": "CU",
+        "iso2Code": "CU",
+        "iso3Code": "CUB",
+        "nationalityLabel": "Cubaine",
+        "numericalCode": "192",
+        "phoneCountryCode": "53"
+    },
+    {
+        "countryGId": "60",
+        "countryLabel": "CURAÇAO",
+        "internalBpiCode": "CW",
+        "iso2Code": "CW",
+        "iso3Code": "CUW",
+        "nationalityLabel": "Curaçaoane",
+        "numericalCode": "531",
+        "phoneCountryCode": "599"
+    },
+    {
+        "countryGId": "65",
+        "countryLabel": "DANEMARK",
+        "internalBpiCode": "DK",
+        "iso2Code": "DK",
+        "iso3Code": "DNK",
+        "nationalityLabel": "Danoise",
+        "numericalCode": "208",
+        "phoneCountryCode": "45"
+    },
+    {
+        "countryGId": "64",
+        "countryLabel": "DJIBOUTI",
+        "internalBpiCode": "DJ",
+        "iso2Code": "DJ",
+        "iso3Code": "DJI",
+        "nationalityLabel": "Djiboutienne",
+        "numericalCode": "262",
+        "phoneCountryCode": "253"
+    },
+    {
+        "countryGId": "66",
+        "countryLabel": "DOMINIQUE",
+        "internalBpiCode": "DM",
+        "iso2Code": "DM",
+        "iso3Code": "DMA",
+        "nationalityLabel": "Dominiquaise",
+        "numericalCode": "212",
+        "phoneCountryCode": "1-767"
+    },
+    {
+        "countryGId": "6",
+        "countryLabel": "DUBAI (EAU)",
+        "internalBpiCode": "A3",
+        "iso2Code": "AE",
+        "iso3Code": "ARE",
+        "nationalityLabel": "Emirienne",
+        "numericalCode": "784",
+        "phoneCountryCode": "971"
+    },
+    {
+        "countryGId": "71",
+        "countryLabel": "EGYPTE",
+        "internalBpiCode": "EG",
+        "iso2Code": "EG",
+        "iso3Code": "EGY",
+        "nationalityLabel": "Egyptienne",
+        "numericalCode": "818",
+        "phoneCountryCode": "20"
+    },
+    {
+        "countryGId": "208",
+        "countryLabel": "EL SALVADOR",
+        "internalBpiCode": "SV",
+        "iso2Code": "SV",
+        "iso3Code": "SLV",
+        "nationalityLabel": "Salvadorienne",
+        "numericalCode": "222",
+        "phoneCountryCode": "503"
+    },
+    {
+        "countryGId": "3",
+        "countryLabel": "EMIRATS ARABES UNIS",
+        "internalBpiCode": "AE",
+        "iso2Code": "AE",
+        "iso3Code": "ARE",
+        "nationalityLabel": "Emirienne",
+        "numericalCode": "784",
+        "phoneCountryCode": "971"
+    },
+    {
+        "countryGId": "69",
+        "countryLabel": "EQUATEUR",
+        "internalBpiCode": "EC",
+        "iso2Code": "EC",
+        "iso3Code": "ECU",
+        "nationalityLabel": "Equatorienne",
+        "numericalCode": "218",
+        "phoneCountryCode": "593"
+    },
+    {
+        "countryGId": "73",
+        "countryLabel": "ERYTHREE",
+        "internalBpiCode": "ER",
+        "iso2Code": "ER",
+        "iso3Code": "ERI",
+        "nationalityLabel": "Erythreenne",
+        "numericalCode": "232",
+        "phoneCountryCode": "291"
+    },
+    {
+        "countryGId": "74",
+        "countryLabel": "ESPAGNE",
+        "internalBpiCode": "ES",
+        "iso2Code": "ES",
+        "iso3Code": "ESP",
+        "nationalityLabel": "Espagnole",
+        "numericalCode": "724",
+        "phoneCountryCode": "34"
+    },
+    {
+        "countryGId": "70",
+        "countryLabel": "ESTONIE",
+        "internalBpiCode": "EE",
+        "iso2Code": "EE",
+        "iso3Code": "EST",
+        "nationalityLabel": "Estonienne",
+        "numericalCode": "233",
+        "phoneCountryCode": "372"
+    },
+    {
+        "countryGId": "211",
+        "countryLabel": "ESWATINI",
+        "internalBpiCode": "SZ",
+        "iso2Code": "SZ",
+        "iso3Code": "SWZ",
+        "nationalityLabel": "Swazie",
+        "numericalCode": "748",
+        "phoneCountryCode": "268"
+    },
+    {
+        "countryGId": "229",
+        "countryLabel": "ETATS-UNIS",
+        "internalBpiCode": "US",
+        "iso2Code": "US",
+        "iso3Code": "USA",
+        "nationalityLabel": "Américaine",
+        "numericalCode": "840",
+        "phoneCountryCode": "1"
+    },
+    {
+        "countryGId": "75",
+        "countryLabel": "ETHIOPIE",
+        "internalBpiCode": "ET",
+        "iso2Code": "ET",
+        "iso3Code": "ETH",
+        "nationalityLabel": "Ethiopienne",
+        "numericalCode": "231",
+        "phoneCountryCode": "251"
+    },
+    {
+        "countryGId": "80",
+        "countryLabel": "FEROE (ILES)",
+        "internalBpiCode": "FO",
+        "iso2Code": "FO",
+        "iso3Code": "FRO",
+        "nationalityLabel": "Féroéenne",
+        "numericalCode": "234",
+        "phoneCountryCode": "298"
+    },
+    {
+        "countryGId": "77",
+        "countryLabel": "FIDJI",
+        "internalBpiCode": "FJ",
+        "iso2Code": "FJ",
+        "iso3Code": "FJI",
+        "nationalityLabel": "Fidjienne",
+        "numericalCode": "242",
+        "phoneCountryCode": "679"
+    },
+    {
+        "countryGId": "76",
+        "countryLabel": "FINLANDE",
+        "internalBpiCode": "FI",
+        "iso2Code": "FI",
+        "iso3Code": "FIN",
+        "nationalityLabel": "Finlandaise",
+        "numericalCode": "246",
+        "phoneCountryCode": "358"
+    },
+    {
+        "countryGId": "81",
+        "countryLabel": "FRANCE",
+        "internalBpiCode": "F",
+        "iso2Code": "FR",
+        "iso3Code": "FRA",
+        "nationalityLabel": "Française",
+        "numericalCode": "250",
+        "phoneCountryCode": "33"
+    },
+    {
+        "countryGId": "7",
+        "countryLabel": "FUJEIRAH (EAU)",
+        "internalBpiCode": "A4",
+        "iso2Code": "AE",
+        "iso3Code": "ARE",
+        "nationalityLabel": "Emirienne",
+        "numericalCode": "784",
+        "phoneCountryCode": "971"
+    },
+    {
+        "countryGId": "82",
+        "countryLabel": "GABON",
+        "internalBpiCode": "GA",
+        "iso2Code": "GA",
+        "iso3Code": "GAB",
+        "nationalityLabel": "Gabonaise",
+        "numericalCode": "266",
+        "phoneCountryCode": "241"
+    },
+    {
+        "countryGId": "90",
+        "countryLabel": "GAMBIE",
+        "internalBpiCode": "GM",
+        "iso2Code": "GM",
+        "iso3Code": "GMB",
+        "nationalityLabel": "Gambienne",
+        "numericalCode": "270",
+        "phoneCountryCode": "220"
+    },
+    {
+        "countryGId": "85",
+        "countryLabel": "GEORGIE",
+        "internalBpiCode": "GE",
+        "iso2Code": "GE",
+        "iso3Code": "GEO",
+        "nationalityLabel": "Géorgienne",
+        "numericalCode": "268",
+        "phoneCountryCode": "995"
+    },
+    {
+        "countryGId": "94",
+        "countryLabel": "GEORGIE DU SUD ET LES ILES SANDWICH DU SUD",
+        "internalBpiCode": "GS",
+        "iso2Code": "GS",
+        "iso3Code": "SGS",
+        "nationalityLabel": "Géorgienne du Sud",
+        "numericalCode": "239",
+        "phoneCountryCode": "500"
+    },
+    {
+        "countryGId": "87",
+        "countryLabel": "GHANA",
+        "internalBpiCode": "GH",
+        "iso2Code": "GH",
+        "iso3Code": "GHA",
+        "nationalityLabel": "Ghaneenne",
+        "numericalCode": "288",
+        "phoneCountryCode": "233"
+    },
+    {
+        "countryGId": "88",
+        "countryLabel": "GIBRALTAR",
+        "internalBpiCode": "GI",
+        "iso2Code": "GI",
+        "iso3Code": "GIB",
+        "nationalityLabel": "Gibraltarienne",
+        "numericalCode": "292",
+        "phoneCountryCode": "350"
+    },
+    {
+        "countryGId": "93",
+        "countryLabel": "GRECE",
+        "internalBpiCode": "GR",
+        "iso2Code": "GR",
+        "iso3Code": "GRC",
+        "nationalityLabel": "Hellenique",
+        "numericalCode": "300",
+        "phoneCountryCode": "30"
+    },
+    {
+        "countryGId": "84",
+        "countryLabel": "GRENADE",
+        "internalBpiCode": "GD",
+        "iso2Code": "GD",
+        "iso3Code": "GRD",
+        "nationalityLabel": "Grenadienne",
+        "numericalCode": "308",
+        "phoneCountryCode": "1-473"
+    },
+    {
+        "countryGId": "89",
+        "countryLabel": "GROENLAND",
+        "internalBpiCode": "GL",
+        "iso2Code": "GL",
+        "iso3Code": "GRL",
+        "nationalityLabel": "Groenlandaise",
+        "numericalCode": "304",
+        "phoneCountryCode": "299"
+    },
+    {
+        "countryGId": "96",
+        "countryLabel": "GUAM",
+        "internalBpiCode": "GU",
+        "iso2Code": "GU",
+        "iso3Code": "GUM",
+        "nationalityLabel": "Américaine",
+        "numericalCode": "316",
+        "phoneCountryCode": "1-671"
+    },
+    {
+        "countryGId": "95",
+        "countryLabel": "GUATEMALA",
+        "internalBpiCode": "GT",
+        "iso2Code": "GT",
+        "iso3Code": "GTM",
+        "nationalityLabel": "Guatemalteque",
+        "numericalCode": "320",
+        "phoneCountryCode": "502"
+    },
+    {
+        "countryGId": "86",
+        "countryLabel": "GUERNESEY",
+        "internalBpiCode": "GG",
+        "iso2Code": "GG",
+        "iso3Code": "GGY",
+        "nationalityLabel": "Guernesiais",
+        "numericalCode": "831",
+        "phoneCountryCode": "44"
+    },
+    {
+        "countryGId": "91",
+        "countryLabel": "GUINEE",
+        "internalBpiCode": "GN",
+        "iso2Code": "GN",
+        "iso3Code": "GIN",
+        "nationalityLabel": "Guineenne",
+        "numericalCode": "324",
+        "phoneCountryCode": "224"
+    },
+    {
+        "countryGId": "97",
+        "countryLabel": "GUINEE-BISSAU",
+        "internalBpiCode": "GW",
+        "iso2Code": "GW",
+        "iso3Code": "GNB",
+        "nationalityLabel": "Bissau-Guinéenne",
+        "numericalCode": "624",
+        "phoneCountryCode": "245"
+    },
+    {
+        "countryGId": "92",
+        "countryLabel": "GUINEE EQUATORIALE",
+        "internalBpiCode": "GQ",
+        "iso2Code": "GQ",
+        "iso3Code": "GNQ",
+        "nationalityLabel": "Equato-guineenne",
+        "numericalCode": "226",
+        "phoneCountryCode": "240"
+    },
+    {
+        "countryGId": "98",
+        "countryLabel": "GUYANA",
+        "internalBpiCode": "GY",
+        "iso2Code": "GY",
+        "iso3Code": "GUY",
+        "nationalityLabel": "Guyanienne",
+        "numericalCode": "328",
+        "phoneCountryCode": "592"
+    },
+    {
+        "countryGId": "103",
+        "countryLabel": "HAITI",
+        "internalBpiCode": "HT",
+        "iso2Code": "HT",
+        "iso3Code": "HTI",
+        "nationalityLabel": "Haïtienne",
+        "numericalCode": "332",
+        "phoneCountryCode": "509"
+    },
+    {
+        "countryGId": "100",
+        "countryLabel": "HEARD ET MACDONALD (ILES)",
+        "internalBpiCode": "HM",
+        "iso2Code": "HM",
+        "iso3Code": "HMD",
+        "nationalityLabel": "Australienne",
+        "numericalCode": "334",
+        "phoneCountryCode": "672"
+    },
+    {
+        "countryGId": "101",
+        "countryLabel": "HONDURAS",
+        "internalBpiCode": "HN",
+        "iso2Code": "HN",
+        "iso3Code": "HND",
+        "nationalityLabel": "Hondurienne",
+        "numericalCode": "340",
+        "phoneCountryCode": "504"
+    },
+    {
+        "countryGId": "99",
+        "countryLabel": "HONG-KONG",
+        "internalBpiCode": "HK",
+        "iso2Code": "HK",
+        "iso3Code": "HKG",
+        "nationalityLabel": "Hongkongais",
+        "numericalCode": "344",
+        "phoneCountryCode": "852"
+    },
+    {
+        "countryGId": "104",
+        "countryLabel": "HONGRIE",
+        "internalBpiCode": "HU",
+        "iso2Code": "HU",
+        "iso3Code": "HUN",
+        "nationalityLabel": "Hongroise",
+        "numericalCode": "348",
+        "phoneCountryCode": "36"
+    },
+    {
+        "countryGId": "246",
+        "countryLabel": "ILE STE LUCIE",
+        "internalBpiCode": "LC",
+        "iso2Code": "LC",
+        "iso3Code": "LCA",
+        "nationalityLabel": "\tLucienne",
+        "numericalCode": "662",
+        "phoneCountryCode": "1-758"
+    },
+    {
+        "countryGId": "110",
+        "countryLabel": "INDE",
+        "internalBpiCode": "IN",
+        "iso2Code": "IN",
+        "iso3Code": "IND",
+        "nationalityLabel": "Indienne",
+        "numericalCode": "356",
+        "phoneCountryCode": "91"
+    },
+    {
+        "countryGId": "106",
+        "countryLabel": "INDONESIE",
+        "internalBpiCode": "ID",
+        "iso2Code": "ID",
+        "iso3Code": "IDN",
+        "nationalityLabel": "Indonesienne",
+        "numericalCode": "360",
+        "phoneCountryCode": "62"
+    },
+    {
+        "countryGId": "113",
+        "countryLabel": "IRAN",
+        "internalBpiCode": "IR",
+        "iso2Code": "IR",
+        "iso3Code": "IRN",
+        "nationalityLabel": "Iranienne",
+        "numericalCode": "364",
+        "phoneCountryCode": "98"
+    },
+    {
+        "countryGId": "112",
+        "countryLabel": "IRAQ",
+        "internalBpiCode": "IQ",
+        "iso2Code": "IQ",
+        "iso3Code": "IRQ",
+        "nationalityLabel": "Irakienne",
+        "numericalCode": "368",
+        "phoneCountryCode": "964"
+    },
+    {
+        "countryGId": "107",
+        "countryLabel": "IRLANDE, ou EIRE",
+        "internalBpiCode": "IE",
+        "iso2Code": "IE",
+        "iso3Code": "IRL",
+        "nationalityLabel": "Irlandaise",
+        "numericalCode": "372",
+        "phoneCountryCode": "353"
+    },
+    {
+        "countryGId": "114",
+        "countryLabel": "ISLANDE",
+        "internalBpiCode": "IS",
+        "iso2Code": "IS",
+        "iso3Code": "ISL",
+        "nationalityLabel": "Islandaise",
+        "numericalCode": "352",
+        "phoneCountryCode": "354"
+    },
+    {
+        "countryGId": "108",
+        "countryLabel": "ISRAEL",
+        "internalBpiCode": "IL",
+        "iso2Code": "IL",
+        "iso3Code": "ISR",
+        "nationalityLabel": "Israélienne",
+        "numericalCode": "376",
+        "phoneCountryCode": "972"
+    },
+    {
+        "countryGId": "115",
+        "countryLabel": "ITALIE",
+        "internalBpiCode": "IT",
+        "iso2Code": "IT",
+        "iso3Code": "ITA",
+        "nationalityLabel": "Italienne",
+        "numericalCode": "380",
+        "phoneCountryCode": "39"
+    },
+    {
+        "countryGId": "117",
+        "countryLabel": "JAMAIQUE",
+        "internalBpiCode": "JM",
+        "iso2Code": "JM",
+        "iso3Code": "JAM",
+        "nationalityLabel": "Jamaïcaine",
+        "numericalCode": "388",
+        "phoneCountryCode": "1-876"
+    },
+    {
+        "countryGId": "119",
+        "countryLabel": "JAPON",
+        "internalBpiCode": "JP",
+        "iso2Code": "JP",
+        "iso3Code": "JPN",
+        "nationalityLabel": "Japonaise",
+        "numericalCode": "392",
+        "phoneCountryCode": "81"
+    },
+    {
+        "countryGId": "116",
+        "countryLabel": "JERSEY",
+        "internalBpiCode": "JE",
+        "iso2Code": "JE",
+        "iso3Code": "JEY",
+        "nationalityLabel": "Jersiaise",
+        "numericalCode": "832",
+        "phoneCountryCode": "44"
+    },
+    {
+        "countryGId": "118",
+        "countryLabel": "JORDANIE",
+        "internalBpiCode": "JO",
+        "iso2Code": "JO",
+        "iso3Code": "JOR",
+        "nationalityLabel": "Jordanienne",
+        "numericalCode": "400",
+        "phoneCountryCode": "962"
+    },
+    {
+        "countryGId": "130",
+        "countryLabel": "KAZAKHSTAN",
+        "internalBpiCode": "KZ",
+        "iso2Code": "KZ",
+        "iso3Code": "KAZ",
+        "nationalityLabel": "Kazakhstanaise",
+        "numericalCode": "398",
+        "phoneCountryCode": "7"
+    },
+    {
+        "countryGId": "120",
+        "countryLabel": "KENYA",
+        "internalBpiCode": "KE",
+        "iso2Code": "KE",
+        "iso3Code": "KEN",
+        "nationalityLabel": "Kenyane",
+        "numericalCode": "404",
+        "phoneCountryCode": "254"
+    },
+    {
+        "countryGId": "121",
+        "countryLabel": "KIRGHIZISTAN",
+        "internalBpiCode": "KG",
+        "iso2Code": "KG",
+        "iso3Code": "KGZ",
+        "nationalityLabel": "Kirghize",
+        "numericalCode": "417",
+        "phoneCountryCode": "996"
+    },
+    {
+        "countryGId": "123",
+        "countryLabel": "KIRIBATI",
+        "internalBpiCode": "KI",
+        "iso2Code": "KI",
+        "iso3Code": "KIR",
+        "nationalityLabel": "Kiribatienne",
+        "numericalCode": "296",
+        "phoneCountryCode": "686"
+    },
+    {
+        "countryGId": "239",
+        "countryLabel": "KOSOVO",
+        "internalBpiCode": "XK",
+        "iso2Code": "XK",
+        "iso3Code": "RKS",
+        "nationalityLabel": "Kossovienne",
+        "numericalCode": null,
+        "phoneCountryCode": "383"
+    },
+    {
+        "countryGId": "128",
+        "countryLabel": "KOWEIT",
+        "internalBpiCode": "KW",
+        "iso2Code": "KW",
+        "iso3Code": "KWT",
+        "nationalityLabel": "Koweitienne",
+        "numericalCode": "414",
+        "phoneCountryCode": "965"
+    },
+    {
+        "countryGId": "131",
+        "countryLabel": "LAOS",
+        "internalBpiCode": "LA",
+        "iso2Code": "LA",
+        "iso3Code": "LAO",
+        "nationalityLabel": "Laotienne",
+        "numericalCode": "418",
+        "phoneCountryCode": "856"
+    },
+    {
+        "countryGId": "105",
+        "countryLabel": "LES CANARIES",
+        "internalBpiCode": "IC",
+        "iso2Code": "IC",
+        "iso3Code": "---",
+        "nationalityLabel": "Canarienne",
+        "numericalCode": null,
+        "phoneCountryCode": "34"
+    },
+    {
+        "countryGId": "136",
+        "countryLabel": "LESOTHO",
+        "internalBpiCode": "LS",
+        "iso2Code": "LS",
+        "iso3Code": "LSO",
+        "nationalityLabel": "Lesothane",
+        "numericalCode": "426",
+        "phoneCountryCode": "266"
+    },
+    {
+        "countryGId": "139",
+        "countryLabel": "LETTONIE",
+        "internalBpiCode": "LV",
+        "iso2Code": "LV",
+        "iso3Code": "LVA",
+        "nationalityLabel": "Lettone",
+        "numericalCode": "428",
+        "phoneCountryCode": "371"
+    },
+    {
+        "countryGId": "132",
+        "countryLabel": "LIBAN",
+        "internalBpiCode": "LB",
+        "iso2Code": "LB",
+        "iso3Code": "LBN",
+        "nationalityLabel": "Libanaise",
+        "numericalCode": "422",
+        "phoneCountryCode": "961"
+    },
+    {
+        "countryGId": "135",
+        "countryLabel": "LIBERIA",
+        "internalBpiCode": "LR",
+        "iso2Code": "LR",
+        "iso3Code": "LBR",
+        "nationalityLabel": "Liberienne",
+        "numericalCode": "430",
+        "phoneCountryCode": "231"
+    },
+    {
+        "countryGId": "140",
+        "countryLabel": "LIBYE",
+        "internalBpiCode": "LY",
+        "iso2Code": "LY",
+        "iso3Code": "LBY",
+        "nationalityLabel": "Libyenne",
+        "numericalCode": "434",
+        "phoneCountryCode": "218"
+    },
+    {
+        "countryGId": "133",
+        "countryLabel": "LIECHTENSTEIN",
+        "internalBpiCode": "LI",
+        "iso2Code": "LI",
+        "iso3Code": "LIE",
+        "nationalityLabel": "Liechtensteinoise",
+        "numericalCode": "438",
+        "phoneCountryCode": "423"
+    },
+    {
+        "countryGId": "137",
+        "countryLabel": "LITUANIE",
+        "internalBpiCode": "LT",
+        "iso2Code": "LT",
+        "iso3Code": "LTU",
+        "nationalityLabel": "Lituanienne",
+        "numericalCode": "440",
+        "phoneCountryCode": "370"
+    },
+    {
+        "countryGId": "138",
+        "countryLabel": "LUXEMBOURG",
+        "internalBpiCode": "LU",
+        "iso2Code": "LU",
+        "iso3Code": "LUX",
+        "nationalityLabel": "Luxembourgeoise",
+        "numericalCode": "442",
+        "phoneCountryCode": "352"
+    },
+    {
+        "countryGId": "248",
+        "countryLabel": "MACAO",
+        "internalBpiCode": "MO",
+        "iso2Code": "MO",
+        "iso3Code": "MAC",
+        "nationalityLabel": "Macanaise",
+        "numericalCode": "446",
+        "phoneCountryCode": "853"
+    },
+    {
+        "countryGId": "147",
+        "countryLabel": "MACEDOINE DU NORD",
+        "internalBpiCode": "MK",
+        "iso2Code": "MK",
+        "iso3Code": "MKD",
+        "nationalityLabel": "Macedonienne",
+        "numericalCode": "807",
+        "phoneCountryCode": "389"
+    },
+    {
+        "countryGId": "146",
+        "countryLabel": "MADAGASCAR",
+        "internalBpiCode": "MG",
+        "iso2Code": "MG",
+        "iso3Code": "MDG",
+        "nationalityLabel": "Malgache",
+        "numericalCode": "450",
+        "phoneCountryCode": "261"
+    },
+    {
+        "countryGId": "159",
+        "countryLabel": "MALAISIE",
+        "internalBpiCode": "MY",
+        "iso2Code": "MY",
+        "iso3Code": "MYS",
+        "nationalityLabel": "Malaisienne",
+        "numericalCode": "458",
+        "phoneCountryCode": "60"
+    },
+    {
+        "countryGId": "157",
+        "countryLabel": "MALAWI",
+        "internalBpiCode": "MW",
+        "iso2Code": "MW",
+        "iso3Code": "MWI",
+        "nationalityLabel": "Malawienne",
+        "numericalCode": "454",
+        "phoneCountryCode": "265"
+    },
+    {
+        "countryGId": "156",
+        "countryLabel": "MALDIVES",
+        "internalBpiCode": "MV",
+        "iso2Code": "MV",
+        "iso3Code": "MDV",
+        "nationalityLabel": "Maldivienne",
+        "numericalCode": "462",
+        "phoneCountryCode": "960"
+    },
+    {
+        "countryGId": "148",
+        "countryLabel": "MALI",
+        "internalBpiCode": "ML",
+        "iso2Code": "ML",
+        "iso3Code": "MLI",
+        "nationalityLabel": "Malienne",
+        "numericalCode": "466",
+        "phoneCountryCode": "223"
+    },
+    {
+        "countryGId": "78",
+        "countryLabel": "MALOUINES, OU FALKLAND (ILES)",
+        "internalBpiCode": "FK",
+        "iso2Code": "FK",
+        "iso3Code": "FLK",
+        "nationalityLabel": "Micronesienne",
+        "numericalCode": "238",
+        "phoneCountryCode": "500"
+    },
+    {
+        "countryGId": "154",
+        "countryLabel": "MALTE",
+        "internalBpiCode": "MT",
+        "iso2Code": "MT",
+        "iso3Code": "MLT",
+        "nationalityLabel": "Maltaise",
+        "numericalCode": "470",
+        "phoneCountryCode": "356"
+    },
+    {
+        "countryGId": "109",
+        "countryLabel": "MAN (ILE)",
+        "internalBpiCode": "IM",
+        "iso2Code": "IM",
+        "iso3Code": "IMN",
+        "nationalityLabel": "Mancelle",
+        "numericalCode": "833",
+        "phoneCountryCode": "44"
+    },
+    {
+        "countryGId": "151",
+        "countryLabel": "MARIANNES DU NORD (ILES)",
+        "internalBpiCode": "MP",
+        "iso2Code": "MP",
+        "iso3Code": "MNP",
+        "nationalityLabel": "Mariannaise",
+        "numericalCode": "580",
+        "phoneCountryCode": "1-670"
+    },
+    {
+        "countryGId": "141",
+        "countryLabel": "MAROC",
+        "internalBpiCode": "MA",
+        "iso2Code": "MA",
+        "iso3Code": "MAR",
+        "nationalityLabel": "Marocaine",
+        "numericalCode": "504",
+        "phoneCountryCode": "212"
+    },
+    {
+        "countryGId": "247",
+        "countryLabel": "MARSHALL (ILES)",
+        "internalBpiCode": "MH",
+        "iso2Code": "MH",
+        "iso3Code": "MHL",
+        "nationalityLabel": "Marshallaise",
+        "numericalCode": "584",
+        "phoneCountryCode": "692"
+    },
+    {
+        "countryGId": "155",
+        "countryLabel": "MAURICE",
+        "internalBpiCode": "MU",
+        "iso2Code": "MU",
+        "iso3Code": "MUS",
+        "nationalityLabel": "Mauricienne",
+        "numericalCode": "480",
+        "phoneCountryCode": "230"
+    },
+    {
+        "countryGId": "152",
+        "countryLabel": "MAURITANIE",
+        "internalBpiCode": "MR",
+        "iso2Code": "MR",
+        "iso3Code": "MRT",
+        "nationalityLabel": "Mauritanienne",
+        "numericalCode": "478",
+        "phoneCountryCode": "222"
+    },
+    {
+        "countryGId": "158",
+        "countryLabel": "MEXIQUE",
+        "internalBpiCode": "MX",
+        "iso2Code": "MX",
+        "iso3Code": "MEX",
+        "nationalityLabel": "Mexicaine",
+        "numericalCode": "484",
+        "phoneCountryCode": "52"
+    },
+    {
+        "countryGId": "79",
+        "countryLabel": "MICRONESIE (ETATS FEDERES DE)",
+        "internalBpiCode": "FM",
+        "iso2Code": "FM",
+        "iso3Code": "FSM",
+        "nationalityLabel": "Micronésienne",
+        "numericalCode": "583",
+        "phoneCountryCode": "691"
+    },
+    {
+        "countryGId": "143",
+        "countryLabel": "MOLDAVIE",
+        "internalBpiCode": "MD",
+        "iso2Code": "MD",
+        "iso3Code": "MDA",
+        "nationalityLabel": "Moldave",
+        "numericalCode": "498",
+        "phoneCountryCode": "373"
+    },
+    {
+        "countryGId": "142",
+        "countryLabel": "MONACO",
+        "internalBpiCode": "MC",
+        "iso2Code": "MC",
+        "iso3Code": "MCO",
+        "nationalityLabel": "Monegasque",
+        "numericalCode": "492",
+        "phoneCountryCode": "377"
+    },
+    {
+        "countryGId": "150",
+        "countryLabel": "MONGOLIE",
+        "internalBpiCode": "MN",
+        "iso2Code": "MN",
+        "iso3Code": "MNG",
+        "nationalityLabel": "Mongole",
+        "numericalCode": "496",
+        "phoneCountryCode": "976"
+    },
+    {
+        "countryGId": "255",
+        "countryLabel": "MONTENEGRO",
+        "internalBpiCode": "XM",
+        "iso2Code": "ME",
+        "iso3Code": "MNE",
+        "nationalityLabel": "\tMonténégrinne",
+        "numericalCode": "499",
+        "phoneCountryCode": "382"
+    },
+    {
+        "countryGId": "144",
+        "countryLabel": "MONTENEGRO",
+        "internalBpiCode": "ME",
+        "iso2Code": "ME",
+        "iso3Code": "MNE",
+        "nationalityLabel": "Montenegrine",
+        "numericalCode": "499",
+        "phoneCountryCode": "382"
+    },
+    {
+        "countryGId": "153",
+        "countryLabel": "MONTSERRAT",
+        "internalBpiCode": "MS",
+        "iso2Code": "MS",
+        "iso3Code": "MSR",
+        "nationalityLabel": "Montserratienne",
+        "numericalCode": "500",
+        "phoneCountryCode": "1-664"
+    },
+    {
+        "countryGId": "160",
+        "countryLabel": "MOZAMBIQUE",
+        "internalBpiCode": "MZ",
+        "iso2Code": "MZ",
+        "iso3Code": "MOZ",
+        "nationalityLabel": "Mozambicaine",
+        "numericalCode": "508",
+        "phoneCountryCode": "258"
+    },
+    {
+        "countryGId": "149",
+        "countryLabel": "MYANMAR",
+        "internalBpiCode": "MM",
+        "iso2Code": "MM",
+        "iso3Code": "MMR",
+        "nationalityLabel": "Birman",
+        "numericalCode": "104",
+        "phoneCountryCode": "95"
+    },
+    {
+        "countryGId": "161",
+        "countryLabel": "NAMIBIE",
+        "internalBpiCode": "NA",
+        "iso2Code": "NA",
+        "iso3Code": "NAM",
+        "nationalityLabel": "Namibienne",
+        "numericalCode": "516",
+        "phoneCountryCode": "264"
+    },
+    {
+        "countryGId": "170",
+        "countryLabel": "NAURU",
+        "internalBpiCode": "NR",
+        "iso2Code": "NR",
+        "iso3Code": "NRU",
+        "nationalityLabel": "Nauruane",
+        "numericalCode": "520",
+        "phoneCountryCode": "674"
+    },
+    {
+        "countryGId": "169",
+        "countryLabel": "NEPAL",
+        "internalBpiCode": "NP",
+        "iso2Code": "NP",
+        "iso3Code": "NPL",
+        "nationalityLabel": "Nepalaise",
+        "numericalCode": "524",
+        "phoneCountryCode": "977"
+    },
+    {
+        "countryGId": "166",
+        "countryLabel": "NICARAGUA",
+        "internalBpiCode": "NI",
+        "iso2Code": "NI",
+        "iso3Code": "NIC",
+        "nationalityLabel": "Nicaraguayenne",
+        "numericalCode": "558",
+        "phoneCountryCode": "505"
+    },
+    {
+        "countryGId": "163",
+        "countryLabel": "NIGER",
+        "internalBpiCode": "NE",
+        "iso2Code": "NE",
+        "iso3Code": "NER",
+        "nationalityLabel": "Nigerienne",
+        "numericalCode": "562",
+        "phoneCountryCode": "227"
+    },
+    {
+        "countryGId": "165",
+        "countryLabel": "NIGERIA",
+        "internalBpiCode": "NG",
+        "iso2Code": "NG",
+        "iso3Code": "NGA",
+        "nationalityLabel": "Nigeriane",
+        "numericalCode": "566",
+        "phoneCountryCode": "234"
+    },
+    {
+        "countryGId": "171",
+        "countryLabel": "NIUE",
+        "internalBpiCode": "NU",
+        "iso2Code": "NU",
+        "iso3Code": "NIU",
+        "nationalityLabel": "Niuéenne",
+        "numericalCode": "570",
+        "phoneCountryCode": "683"
+    },
+    {
+        "countryGId": "164",
+        "countryLabel": "NORFOLK (ILE)",
+        "internalBpiCode": "NF",
+        "iso2Code": "NF",
+        "iso3Code": "NFK",
+        "nationalityLabel": "Norfolkaise",
+        "numericalCode": "574",
+        "phoneCountryCode": "672"
+    },
+    {
+        "countryGId": "168",
+        "countryLabel": "NORVEGE",
+        "internalBpiCode": "NO",
+        "iso2Code": "NO",
+        "iso3Code": "NOR",
+        "nationalityLabel": "Norvegienne",
+        "numericalCode": "578",
+        "phoneCountryCode": "47"
+    },
+    {
+        "countryGId": "162",
+        "countryLabel": "NOUVELLE-CALEDONIE",
+        "internalBpiCode": "NC",
+        "iso2Code": "NC",
+        "iso3Code": "NCL",
+        "nationalityLabel": "Néo-Calédonienne",
+        "numericalCode": "540",
+        "phoneCountryCode": "687"
+    },
+    {
+        "countryGId": "172",
+        "countryLabel": "NOUVELLE-ZELANDE",
+        "internalBpiCode": "NZ",
+        "iso2Code": "NZ",
+        "iso3Code": "NZL",
+        "nationalityLabel": "Neo-zelandaise",
+        "numericalCode": "554",
+        "phoneCountryCode": "64"
+    },
+    {
+        "countryGId": "111",
+        "countryLabel": "OCEAN INDIEN (TERRITOIRE BRITANNIQUE DE L')",
+        "internalBpiCode": "IO",
+        "iso2Code": "IO",
+        "iso3Code": "IOT",
+        "nationalityLabel": "Britannique",
+        "numericalCode": "86",
+        "phoneCountryCode": "246"
+    },
+    {
+        "countryGId": "173",
+        "countryLabel": "OMAN",
+        "internalBpiCode": "OM",
+        "iso2Code": "OM",
+        "iso3Code": "OMN",
+        "nationalityLabel": "Omanaise",
+        "numericalCode": "512",
+        "phoneCountryCode": "968"
+    },
+    {
+        "countryGId": "228",
+        "countryLabel": "OUGANDA",
+        "internalBpiCode": "UG",
+        "iso2Code": "UG",
+        "iso3Code": "UGA",
+        "nationalityLabel": "Ougandaise",
+        "numericalCode": "800",
+        "phoneCountryCode": "256"
+    },
+    {
+        "countryGId": "232",
+        "countryLabel": "OUZBEKISTAN",
+        "internalBpiCode": "UZ",
+        "iso2Code": "UZ",
+        "iso3Code": "UZB",
+        "nationalityLabel": "Ouzbeke",
+        "numericalCode": "860",
+        "phoneCountryCode": "998"
+    },
+    {
+        "countryGId": "179",
+        "countryLabel": "PAKISTAN",
+        "internalBpiCode": "PK",
+        "iso2Code": "PK",
+        "iso3Code": "PAK",
+        "nationalityLabel": "Pakistanaise",
+        "numericalCode": "586",
+        "phoneCountryCode": "92"
+    },
+    {
+        "countryGId": "249",
+        "countryLabel": "PALAOS (ILES)",
+        "internalBpiCode": "PW",
+        "iso2Code": "PW",
+        "iso3Code": "PLW",
+        "nationalityLabel": "Palaoise",
+        "numericalCode": "585",
+        "phoneCountryCode": "680"
+    },
+    {
+        "countryGId": "184",
+        "countryLabel": "PALESTINE (Etat de)",
+        "internalBpiCode": "PS",
+        "iso2Code": "PS",
+        "iso3Code": "PSE",
+        "nationalityLabel": "Palestinienne",
+        "numericalCode": "275",
+        "phoneCountryCode": "970"
+    },
+    {
+        "countryGId": "174",
+        "countryLabel": "PANAMA",
+        "internalBpiCode": "PA",
+        "iso2Code": "PA",
+        "iso3Code": "PAN",
+        "nationalityLabel": "Panameenne",
+        "numericalCode": "591",
+        "phoneCountryCode": "507"
+    },
+    {
+        "countryGId": "177",
+        "countryLabel": "PAPOUASIE-NOUVELLE-GUINEE",
+        "internalBpiCode": "PG",
+        "iso2Code": "PG",
+        "iso3Code": "PNG",
+        "nationalityLabel": "Papouane-neoguineenne",
+        "numericalCode": "598",
+        "phoneCountryCode": "675"
+    },
+    {
+        "countryGId": "186",
+        "countryLabel": "PARAGUAY",
+        "internalBpiCode": "PY",
+        "iso2Code": "PY",
+        "iso3Code": "PRY",
+        "nationalityLabel": "Paraguayenne",
+        "numericalCode": "600",
+        "phoneCountryCode": "595"
+    },
+    {
+        "countryGId": "167",
+        "countryLabel": "PAYS-BAS",
+        "internalBpiCode": "NL",
+        "iso2Code": "NL",
+        "iso3Code": "NLD",
+        "nationalityLabel": "Neerlandaise",
+        "numericalCode": "528",
+        "phoneCountryCode": "31"
+    },
+    {
+        "countryGId": "244",
+        "countryLabel": "PAYS INCONNU",
+        "internalBpiCode": "PI",
+        "iso2Code": "--",
+        "iso3Code": "---",
+        "nationalityLabel": "None",
+        "numericalCode": null,
+        "phoneCountryCode": "--"
+    },
+    {
+        "countryGId": "175",
+        "countryLabel": "PEROU",
+        "internalBpiCode": "PE",
+        "iso2Code": "PE",
+        "iso3Code": "PER",
+        "nationalityLabel": "Peruvienne",
+        "numericalCode": "604",
+        "phoneCountryCode": "51"
+    },
+    {
+        "countryGId": "178",
+        "countryLabel": "PHILIPPINES",
+        "internalBpiCode": "PH",
+        "iso2Code": "PH",
+        "iso3Code": "PHL",
+        "nationalityLabel": "Philippine",
+        "numericalCode": "608",
+        "phoneCountryCode": "63"
+    },
+    {
+        "countryGId": "182",
+        "countryLabel": "PITCAIRN (ILE)",
+        "internalBpiCode": "PN",
+        "iso2Code": "PN",
+        "iso3Code": "PCN",
+        "nationalityLabel": "Pitcairnaise",
+        "numericalCode": "612",
+        "phoneCountryCode": "870"
+    },
+    {
+        "countryGId": "180",
+        "countryLabel": "POLOGNE",
+        "internalBpiCode": "PL",
+        "iso2Code": "PL",
+        "iso3Code": "POL",
+        "nationalityLabel": "Polonaise",
+        "numericalCode": "616",
+        "phoneCountryCode": "48"
+    },
+    {
+        "countryGId": "176",
+        "countryLabel": "POLYNESIE FRANCAISE",
+        "internalBpiCode": "PF",
+        "iso2Code": "PF",
+        "iso3Code": "PYF",
+        "nationalityLabel": "Polynésienne",
+        "numericalCode": "258",
+        "phoneCountryCode": "689"
+    },
+    {
+        "countryGId": "183",
+        "countryLabel": "PORTO RICO",
+        "internalBpiCode": "PR",
+        "iso2Code": "PR",
+        "iso3Code": "PRI",
+        "nationalityLabel": "Portoricaine",
+        "numericalCode": "630",
+        "phoneCountryCode": "1"
+    },
+    {
+        "countryGId": "185",
+        "countryLabel": "PORTUGAL",
+        "internalBpiCode": "PT",
+        "iso2Code": "PT",
+        "iso3Code": "PRT",
+        "nationalityLabel": "Portugaise",
+        "numericalCode": "620",
+        "phoneCountryCode": "351"
+    },
+    {
+        "countryGId": "230",
+        "countryLabel": "POSSESSIONS R-U AMERIQUE",
+        "internalBpiCode": "Z5",
+        "iso2Code": "US",
+        "iso3Code": "USA",
+        "nationalityLabel": "Américaine",
+        "numericalCode": "840",
+        "phoneCountryCode": "1"
+    },
+    {
+        "countryGId": "187",
+        "countryLabel": "QATAR",
+        "internalBpiCode": "QA",
+        "iso2Code": "QA",
+        "iso3Code": "QAT",
+        "nationalityLabel": "Qatarienne",
+        "numericalCode": "634",
+        "phoneCountryCode": "974"
+    },
+    {
+        "countryGId": "8",
+        "countryLabel": "RAS-AL-KHAIMAH (EAU)",
+        "internalBpiCode": "A5",
+        "iso2Code": "AE",
+        "iso3Code": "ARE",
+        "nationalityLabel": "Emirienne",
+        "numericalCode": "784",
+        "phoneCountryCode": "971"
+    },
+    {
+        "countryGId": "48",
+        "countryLabel": "REPUBLIQUE CENTRAFRICAINE",
+        "internalBpiCode": "CF",
+        "iso2Code": "CF",
+        "iso3Code": "CAF",
+        "nationalityLabel": "Centrafricainne",
+        "numericalCode": "140",
+        "phoneCountryCode": "236"
+    },
+    {
+        "countryGId": "67",
+        "countryLabel": "REPUBLIQUE DOMINICAINE",
+        "internalBpiCode": "DO",
+        "iso2Code": "DO",
+        "iso3Code": "DOM",
+        "nationalityLabel": "Dominicainne",
+        "numericalCode": "214",
+        "phoneCountryCode": "1-8091-8291-849"
+    },
+    {
+        "countryGId": "1",
+        "countryLabel": "REPUBLIQUE TCHEQUE",
+        "internalBpiCode": "CZ",
+        "iso2Code": "CZ",
+        "iso3Code": "CZE",
+        "nationalityLabel": "Tchèque",
+        "numericalCode": "203",
+        "phoneCountryCode": "420"
+    },
+    {
+        "countryGId": "188",
+        "countryLabel": "ROUMANIE",
+        "internalBpiCode": "RO",
+        "iso2Code": "RO",
+        "iso3Code": "ROU",
+        "nationalityLabel": "Roumaine",
+        "numericalCode": "642",
+        "phoneCountryCode": "40"
+    },
+    {
+        "countryGId": "83",
+        "countryLabel": "ROYAUME-UNI",
+        "internalBpiCode": "GB",
+        "iso2Code": "GB",
+        "iso3Code": "GBR",
+        "nationalityLabel": "Britannique",
+        "numericalCode": "826",
+        "phoneCountryCode": "44"
+    },
+    {
+        "countryGId": "190",
+        "countryLabel": "RUSSIE",
+        "internalBpiCode": "RU",
+        "iso2Code": "RU",
+        "iso3Code": "RUS",
+        "nationalityLabel": "Russe",
+        "numericalCode": "643",
+        "phoneCountryCode": "7"
+    },
+    {
+        "countryGId": "191",
+        "countryLabel": "RWANDA",
+        "internalBpiCode": "RW",
+        "iso2Code": "RW",
+        "iso3Code": "RWA",
+        "nationalityLabel": "Rwandaise",
+        "numericalCode": "646",
+        "phoneCountryCode": "250"
+    },
+    {
+        "countryGId": "72",
+        "countryLabel": "SAHARA OCCIDENTAL",
+        "internalBpiCode": "EH",
+        "iso2Code": "EH",
+        "iso3Code": "ESH",
+        "nationalityLabel": "Sahraoui",
+        "numericalCode": "732",
+        "phoneCountryCode": "212"
+    },
+    {
+        "countryGId": "33",
+        "countryLabel": "SAINT-BARTHELEMY",
+        "internalBpiCode": "BL",
+        "iso2Code": "BL",
+        "iso3Code": "BLM",
+        "nationalityLabel": "Barthéloméenne",
+        "numericalCode": "642",
+        "phoneCountryCode": "652"
+    },
+    {
+        "countryGId": "125",
+        "countryLabel": "SAINT-CHRISTOPHE-ET-NIEVES",
+        "internalBpiCode": "KN",
+        "iso2Code": "KN",
+        "iso3Code": "KNA",
+        "nationalityLabel": "Kittitienne-et-nevicienne",
+        "numericalCode": "659",
+        "phoneCountryCode": "1-869"
+    },
+    {
+        "countryGId": "201",
+        "countryLabel": "SAINT-MARIN",
+        "internalBpiCode": "SM",
+        "iso2Code": "SM",
+        "iso3Code": "SMR",
+        "nationalityLabel": "Saint-Marinaise",
+        "numericalCode": "674",
+        "phoneCountryCode": "378"
+    },
+    {
+        "countryGId": "145",
+        "countryLabel": "SAINT-MARTIN",
+        "internalBpiCode": "MF",
+        "iso2Code": "MF",
+        "iso3Code": "MAF",
+        "nationalityLabel": "Saint-Martinoise",
+        "numericalCode": "663",
+        "phoneCountryCode": "590"
+    },
+    {
+        "countryGId": "209",
+        "countryLabel": "SAINT-MARTIN (PARTIE NEERLANDAISE)",
+        "internalBpiCode": "SX",
+        "iso2Code": "SX",
+        "iso3Code": "SXM",
+        "nationalityLabel": "Saint-Martinoise",
+        "numericalCode": "534",
+        "phoneCountryCode": "1-721"
+    },
+    {
+        "countryGId": "181",
+        "countryLabel": "SAINT-PIERRE-ET-MIQUELON",
+        "internalBpiCode": "PM",
+        "iso2Code": "PM",
+        "iso3Code": "SPM",
+        "nationalityLabel": "Miquelonnaise",
+        "numericalCode": "666",
+        "phoneCountryCode": "508"
+    },
+    {
+        "countryGId": "250",
+        "countryLabel": "SALOMON(ILES)",
+        "internalBpiCode": "SB",
+        "iso2Code": "SB",
+        "iso3Code": "SLB",
+        "nationalityLabel": "Salomonienne",
+        "numericalCode": "90",
+        "phoneCountryCode": "677"
+    },
+    {
+        "countryGId": "19",
+        "countryLabel": "SAMOA AMERICAINES",
+        "internalBpiCode": "AS",
+        "iso2Code": "AS",
+        "iso3Code": "ASM",
+        "nationalityLabel": "Américaine",
+        "numericalCode": "16",
+        "phoneCountryCode": "1-684"
+    },
+    {
+        "countryGId": "238",
+        "countryLabel": "SAMOA OCCIDENTALES",
+        "internalBpiCode": "WS",
+        "iso2Code": "WS",
+        "iso3Code": "WSM",
+        "nationalityLabel": "Samoane",
+        "numericalCode": "882",
+        "phoneCountryCode": "685"
+    },
+    {
+        "countryGId": "206",
+        "countryLabel": "SAO TOME-ET-PRINCIPE",
+        "internalBpiCode": "ST",
+        "iso2Code": "ST",
+        "iso3Code": "STP",
+        "nationalityLabel": "Santomeenne",
+        "numericalCode": "678",
+        "phoneCountryCode": "239"
+    },
+    {
+        "countryGId": "202",
+        "countryLabel": "SENEGAL",
+        "internalBpiCode": "SN",
+        "iso2Code": "SN",
+        "iso3Code": "SEN",
+        "nationalityLabel": "Senegalaise",
+        "numericalCode": "686",
+        "phoneCountryCode": "221"
+    },
+    {
+        "countryGId": "189",
+        "countryLabel": "SERBIE",
+        "internalBpiCode": "RS",
+        "iso2Code": "RS",
+        "iso3Code": "SRB",
+        "nationalityLabel": "Serbe",
+        "numericalCode": "688",
+        "phoneCountryCode": "381 p"
+    },
+    {
+        "countryGId": "193",
+        "countryLabel": "SEYCHELLES",
+        "internalBpiCode": "SC",
+        "iso2Code": "SC",
+        "iso3Code": "SYC",
+        "nationalityLabel": "Seychelloise",
+        "numericalCode": "690",
+        "phoneCountryCode": "248"
+    },
+    {
+        "countryGId": "9",
+        "countryLabel": "SHARJA (EAU)",
+        "internalBpiCode": "A6",
+        "iso2Code": "AE",
+        "iso3Code": "ARE",
+        "nationalityLabel": "Emirienne",
+        "numericalCode": "784",
+        "phoneCountryCode": "971"
+    },
+    {
+        "countryGId": "200",
+        "countryLabel": "SIERRA LEONE",
+        "internalBpiCode": "SL",
+        "iso2Code": "SL",
+        "iso3Code": "SLE",
+        "nationalityLabel": "Sierra-leonaise",
+        "numericalCode": "694",
+        "phoneCountryCode": "232"
+    },
+    {
+        "countryGId": "196",
+        "countryLabel": "SINGAPOUR",
+        "internalBpiCode": "SG",
+        "iso2Code": "SG",
+        "iso3Code": "SGP",
+        "nationalityLabel": "Singapourienne",
+        "numericalCode": "702",
+        "phoneCountryCode": "65"
+    },
+    {
+        "countryGId": "199",
+        "countryLabel": "SLOVAQUIE",
+        "internalBpiCode": "SK",
+        "iso2Code": "SK",
+        "iso3Code": "SVK",
+        "nationalityLabel": "Slovaque",
+        "numericalCode": "703",
+        "phoneCountryCode": "421"
+    },
+    {
+        "countryGId": "197",
+        "countryLabel": "SLOVENIE",
+        "internalBpiCode": "SI",
+        "iso2Code": "SI",
+        "iso3Code": "SVN",
+        "nationalityLabel": "Slovene",
+        "numericalCode": "705",
+        "phoneCountryCode": "386"
+    },
+    {
+        "countryGId": "203",
+        "countryLabel": "SOMALIE",
+        "internalBpiCode": "SO",
+        "iso2Code": "SO",
+        "iso3Code": "SOM",
+        "nationalityLabel": "Somalienne",
+        "numericalCode": "706",
+        "phoneCountryCode": "252"
+    },
+    {
+        "countryGId": "194",
+        "countryLabel": "SOUDAN",
+        "internalBpiCode": "SD",
+        "iso2Code": "SD",
+        "iso3Code": "SDN",
+        "nationalityLabel": "Soudanaise",
+        "numericalCode": "729",
+        "phoneCountryCode": "249"
+    },
+    {
+        "countryGId": "205",
+        "countryLabel": "SOUDAN DU SUD",
+        "internalBpiCode": "SS",
+        "iso2Code": "SS",
+        "iso3Code": "SSD",
+        "nationalityLabel": "Sud-Soudanaise",
+        "numericalCode": "728",
+        "phoneCountryCode": "211"
+    },
+    {
+        "countryGId": "134",
+        "countryLabel": "SRI LANKA",
+        "internalBpiCode": "LK",
+        "iso2Code": "LK",
+        "iso3Code": "LKA",
+        "nationalityLabel": "Sri-lankaise",
+        "numericalCode": "144",
+        "phoneCountryCode": "94"
+    },
+    {
+        "countryGId": "252",
+        "countryLabel": "ST VINCENT (ILES)",
+        "internalBpiCode": "VC",
+        "iso2Code": "VC",
+        "iso3Code": "VCT",
+        "nationalityLabel": "Saint Vincentais",
+        "numericalCode": "670",
+        "phoneCountryCode": "1"
+    },
+    {
+        "countryGId": "195",
+        "countryLabel": "SUEDE",
+        "internalBpiCode": "SE",
+        "iso2Code": "SE",
+        "iso3Code": "SWE",
+        "nationalityLabel": "Suedoise",
+        "numericalCode": "752",
+        "phoneCountryCode": "46"
+    },
+    {
+        "countryGId": "50",
+        "countryLabel": "SUISSE",
+        "internalBpiCode": "CH",
+        "iso2Code": "CH",
+        "iso3Code": "CHE",
+        "nationalityLabel": "Suisse",
+        "numericalCode": "756",
+        "phoneCountryCode": "41"
+    },
+    {
+        "countryGId": "204",
+        "countryLabel": "SURINAME",
+        "internalBpiCode": "SR",
+        "iso2Code": "SR",
+        "iso3Code": "SUR",
+        "nationalityLabel": "Surinamaise",
+        "numericalCode": "740",
+        "phoneCountryCode": "597"
+    },
+    {
+        "countryGId": "198",
+        "countryLabel": "SVALBARD et ILE JAN MAYEN",
+        "internalBpiCode": "SJ",
+        "iso2Code": "SJ",
+        "iso3Code": "SJM",
+        "nationalityLabel": "Insulaires de Svalbard",
+        "numericalCode": "744",
+        "phoneCountryCode": "47"
+    },
+    {
+        "countryGId": "210",
+        "countryLabel": "SYRIE",
+        "internalBpiCode": "SY",
+        "iso2Code": "SY",
+        "iso3Code": "SYR",
+        "nationalityLabel": "Syrienne",
+        "numericalCode": "760",
+        "phoneCountryCode": "963"
+    },
+    {
+        "countryGId": "216",
+        "countryLabel": "TADJIKISTAN",
+        "internalBpiCode": "TJ",
+        "iso2Code": "TJ",
+        "iso3Code": "TJK",
+        "nationalityLabel": "Tadjike",
+        "numericalCode": "762",
+        "phoneCountryCode": "992"
+    },
+    {
+        "countryGId": "225",
+        "countryLabel": "TAIWAN",
+        "internalBpiCode": "TW",
+        "iso2Code": "TW",
+        "iso3Code": "TWN",
+        "nationalityLabel": "Taiwanaise",
+        "numericalCode": "158",
+        "phoneCountryCode": "886"
+    },
+    {
+        "countryGId": "226",
+        "countryLabel": "TANZANIE",
+        "internalBpiCode": "TZ",
+        "iso2Code": "TZ",
+        "iso3Code": "TZA",
+        "nationalityLabel": "Tanzanienne",
+        "numericalCode": "834",
+        "phoneCountryCode": "255"
+    },
+    {
+        "countryGId": "213",
+        "countryLabel": "TCHAD",
+        "internalBpiCode": "TD",
+        "iso2Code": "TD",
+        "iso3Code": "TCD",
+        "nationalityLabel": "Tchadienne",
+        "numericalCode": "148",
+        "phoneCountryCode": "235"
+    },
+    {
+        "countryGId": "215",
+        "countryLabel": "THAILANDE",
+        "internalBpiCode": "TH",
+        "iso2Code": "TH",
+        "iso3Code": "THA",
+        "nationalityLabel": "Thailandaise",
+        "numericalCode": "764",
+        "phoneCountryCode": "66"
+    },
+    {
+        "countryGId": "218",
+        "countryLabel": "TIMOR ORIENTAL",
+        "internalBpiCode": "TL",
+        "iso2Code": "TL",
+        "iso3Code": "TLS",
+        "nationalityLabel": "Est-timoraise",
+        "numericalCode": "626",
+        "phoneCountryCode": "670"
+    },
+    {
+        "countryGId": "214",
+        "countryLabel": "TOGO",
+        "internalBpiCode": "TG",
+        "iso2Code": "TG",
+        "iso3Code": "TGO",
+        "nationalityLabel": "Togolaise",
+        "numericalCode": "768",
+        "phoneCountryCode": "228"
+    },
+    {
+        "countryGId": "217",
+        "countryLabel": "TOKELAU",
+        "internalBpiCode": "TK",
+        "iso2Code": "TK",
+        "iso3Code": "TKL",
+        "nationalityLabel": "Tokelauienne",
+        "numericalCode": "772",
+        "phoneCountryCode": "690"
+    },
+    {
+        "countryGId": "221",
+        "countryLabel": "TONGA",
+        "internalBpiCode": "TO",
+        "iso2Code": "TO",
+        "iso3Code": "TON",
+        "nationalityLabel": "Tonguienne",
+        "numericalCode": "776",
+        "phoneCountryCode": "676"
+    },
+    {
+        "countryGId": "223",
+        "countryLabel": "TRINITE-ET-TOBAGO",
+        "internalBpiCode": "TT",
+        "iso2Code": "TT",
+        "iso3Code": "TTO",
+        "nationalityLabel": "Trinidadienne",
+        "numericalCode": "780",
+        "phoneCountryCode": "1-868"
+    },
+    {
+        "countryGId": "220",
+        "countryLabel": "TUNISIE",
+        "internalBpiCode": "TN",
+        "iso2Code": "TN",
+        "iso3Code": "TUN",
+        "nationalityLabel": "Tunisienne",
+        "numericalCode": "788",
+        "phoneCountryCode": "216"
+    },
+    {
+        "countryGId": "219",
+        "countryLabel": "TURKMENISTAN",
+        "internalBpiCode": "TM",
+        "iso2Code": "TM",
+        "iso3Code": "TKM",
+        "nationalityLabel": "Turkmene",
+        "numericalCode": "795",
+        "phoneCountryCode": "993"
+    },
+    {
+        "countryGId": "212",
+        "countryLabel": "TURKS ET CAIQUES (ILES)",
+        "internalBpiCode": "TC",
+        "iso2Code": "TC",
+        "iso3Code": "TCA",
+        "nationalityLabel": "Turques-et-Caïques Insulaire",
+        "numericalCode": "796",
+        "phoneCountryCode": "1-649"
+    },
+    {
+        "countryGId": "222",
+        "countryLabel": "TURQUIE",
+        "internalBpiCode": "TR",
+        "iso2Code": "TR",
+        "iso3Code": "TUR",
+        "nationalityLabel": "Turque",
+        "numericalCode": "792",
+        "phoneCountryCode": "90"
+    },
+    {
+        "countryGId": "224",
+        "countryLabel": "TUVALU",
+        "internalBpiCode": "TV",
+        "iso2Code": "TV",
+        "iso3Code": "TUV",
+        "nationalityLabel": "Tuvaluane",
+        "numericalCode": "798",
+        "phoneCountryCode": "688"
+    },
+    {
+        "countryGId": "227",
+        "countryLabel": "UKRAINE",
+        "internalBpiCode": "UA",
+        "iso2Code": "UA",
+        "iso3Code": "UKR",
+        "nationalityLabel": "Ukrainienne",
+        "numericalCode": "804",
+        "phoneCountryCode": "380"
+    },
+    {
+        "countryGId": "10",
+        "countryLabel": "UMM-AL-QUWAIN(EAU)",
+        "internalBpiCode": "A7",
+        "iso2Code": "AE",
+        "iso3Code": "ARE",
+        "nationalityLabel": "Emirienne",
+        "numericalCode": "784",
+        "phoneCountryCode": "971"
+    },
+    {
+        "countryGId": "207",
+        "countryLabel": "UNION DES RÉPUBLIQUES SOCIALISTES SOVIÉTIQUES",
+        "internalBpiCode": "Z2",
+        "iso2Code": "SU",
+        "iso3Code": "SUN",
+        "nationalityLabel": "Soviétique",
+        "numericalCode": null,
+        "phoneCountryCode": "7"
+    },
+    {
+        "countryGId": "231",
+        "countryLabel": "URUGUAY",
+        "internalBpiCode": "UY",
+        "iso2Code": "UY",
+        "iso3Code": "URY",
+        "nationalityLabel": "Uruguayenne",
+        "numericalCode": "858",
+        "phoneCountryCode": "598"
+    },
+    {
+        "countryGId": "236",
+        "countryLabel": "VANUATU",
+        "internalBpiCode": "VU",
+        "iso2Code": "VU",
+        "iso3Code": "VUT",
+        "nationalityLabel": "Vanuatuane",
+        "numericalCode": "548",
+        "phoneCountryCode": "678"
+    },
+    {
+        "countryGId": "233",
+        "countryLabel": "VATICAN, ou SAINT-SIEGE",
+        "internalBpiCode": "VA",
+        "iso2Code": "VA",
+        "iso3Code": "VAT",
+        "nationalityLabel": "Vaticane",
+        "numericalCode": "336",
+        "phoneCountryCode": "39-06"
+    },
+    {
+        "countryGId": "234",
+        "countryLabel": "VENEZUELA",
+        "internalBpiCode": "VE",
+        "iso2Code": "VE",
+        "iso3Code": "VEN",
+        "nationalityLabel": "Venezuelienne",
+        "numericalCode": "862",
+        "phoneCountryCode": "58"
+    },
+    {
+        "countryGId": "256",
+        "countryLabel": "VIERGES BRITANNIQUES (ILES)",
+        "internalBpiCode": "VG",
+        "iso2Code": "VG",
+        "iso3Code": "VGB",
+        "nationalityLabel": "Britannique",
+        "numericalCode": "92",
+        "phoneCountryCode": "1284"
+    },
+    {
+        "countryGId": "235",
+        "countryLabel": "VIET NAM",
+        "internalBpiCode": "VN",
+        "iso2Code": "VN",
+        "iso3Code": "VNM",
+        "nationalityLabel": "Vietnamienne",
+        "numericalCode": "704",
+        "phoneCountryCode": "84"
+    },
+    {
+        "countryGId": "237",
+        "countryLabel": "WALLIS-ET-FUTUNA",
+        "internalBpiCode": "WF",
+        "iso2Code": "WF",
+        "iso3Code": "WLF",
+        "nationalityLabel": "Wallis-et-Futunienne",
+        "numericalCode": "876",
+        "phoneCountryCode": "681"
+    },
+    {
+        "countryGId": "240",
+        "countryLabel": "YEMEN",
+        "internalBpiCode": "YE",
+        "iso2Code": "YE",
+        "iso3Code": "YEM",
+        "nationalityLabel": "Yemenite",
+        "numericalCode": "887",
+        "phoneCountryCode": "967"
+    },
+    {
+        "countryGId": "245",
+        "countryLabel": "YOUGOSLAVIE",
+        "internalBpiCode": "Z3",
+        "iso2Code": "YU",
+        "iso3Code": "YUG",
+        "nationalityLabel": "Yougoslavienne",
+        "numericalCode": "891",
+        "phoneCountryCode": "381"
+    },
+    {
+        "countryGId": "242",
+        "countryLabel": "ZAMBIE",
+        "internalBpiCode": "ZM",
+        "iso2Code": "ZM",
+        "iso3Code": "ZMB",
+        "nationalityLabel": "Zambienne",
+        "numericalCode": "894",
+        "phoneCountryCode": "260"
+    },
+    {
+        "countryGId": "243",
+        "countryLabel": "ZIMBABWE",
+        "internalBpiCode": "ZW",
+        "iso2Code": "ZW",
+        "iso3Code": "ZWE",
+        "nationalityLabel": "Zimbabwéenne",
+        "numericalCode": "716",
+        "phoneCountryCode": "263"
+    }
+]

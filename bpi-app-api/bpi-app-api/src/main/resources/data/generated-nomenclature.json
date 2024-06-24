@@ -1,0 +1,7402 @@
+[
+  {
+    "code": "0000Z",
+    "gId": "2999",
+    "label": "NON RENSEIGNE"
+  },
+  {
+    "code": "000Z",
+    "gId": "0",
+    "label": "NON RENSEIGNE"
+  },
+  {
+    "code": "0111Z",
+    "gId": "2000",
+    "label": "CULTURE DE CEREALES (A L EXCEPTION DU RIZ), DE LEGUMINEUSES ET DE GRAINES OLEAGINEUSES"
+  },
+  {
+    "code": "0112Z",
+    "gId": "2001",
+    "label": "CULTURE DU RIZ"
+  },
+  {
+    "code": "0113Z",
+    "gId": "2002",
+    "label": "CULTURE DE LEGUMES, DE MELONS, DE RACINES ET DE TUBERCULES"
+  },
+  {
+    "code": "0114Z",
+    "gId": "2003",
+    "label": "CULTURE DE LA CANNE A SUCRE"
+  },
+  {
+    "code": "0115Z",
+    "gId": "2004",
+    "label": "CULTURE DU TABAC"
+  },
+  {
+    "code": "0116Z",
+    "gId": "2005",
+    "label": "CULTURE DE PLANTES A FIBRES"
+  },
+  {
+    "code": "0119Z",
+    "gId": "2006",
+    "label": "AUTRES CULTURES NON PERMANENTES"
+  },
+  {
+    "code": "011A",
+    "gId": "3",
+    "label": "CULTURE DE CEREALES"
+  },
+  {
+    "code": "011C",
+    "gId": "5",
+    "label": "CULTURE DE LEGUMES"
+  },
+  {
+    "code": "011D",
+    "gId": "6",
+    "label": "HORTICULTURE"
+  },
+  {
+    "code": "011F",
+    "gId": "8",
+    "label": "CULTURE FRUITIERE"
+  },
+  {
+    "code": "011G",
+    "gId": "9",
+    "label": "VITICULTURE"
+  },
+  {
+    "code": "0121Z",
+    "gId": "2007",
+    "label": "CULTURE DE LA VIGNE"
+  },
+  {
+    "code": "0122Z",
+    "gId": "2008",
+    "label": "CULTURE DE FRUITS TROPICAUX ET SUBTROPICAUX"
+  },
+  {
+    "code": "0123Z",
+    "gId": "2009",
+    "label": "CULTURE D AGRUMES"
+  },
+  {
+    "code": "0124Z",
+    "gId": "2010",
+    "label": "CULTURE DE FRUITS A PEPINS ET A NOYAU"
+  },
+  {
+    "code": "0125Z",
+    "gId": "2011",
+    "label": "CULTURE D AUTRES FRUITS D ARBRES OU D ARBUSTES ET DE FRUITS A COQUE"
+  },
+  {
+    "code": "0126Z",
+    "gId": "2012",
+    "label": "CULTURE DE FRUITS OLEAGINEUX"
+  },
+  {
+    "code": "0127Z",
+    "gId": "2013",
+    "label": "CULTURE DE PLANTES A BOISSONS"
+  },
+  {
+    "code": "0128Z",
+    "gId": "2014",
+    "label": "CULTURE DE PLANTES A EPICES, AROMATIQUES, MEDICINALES ET PHARMACEUTIQUES"
+  },
+  {
+    "code": "0129Z",
+    "gId": "2015",
+    "label": "AUTRES CULTURES PERMANENTES"
+  },
+  {
+    "code": "012A",
+    "gId": "11",
+    "label": "ELEVAGE DE BOVINS"
+  },
+  {
+    "code": "012C",
+    "gId": "12",
+    "label": "ELEVAGE D OVINS, CAPRINS ET EQUIDES"
+  },
+  {
+    "code": "012E",
+    "gId": "13",
+    "label": "ELEVAGE DE PORCINS"
+  },
+  {
+    "code": "012G",
+    "gId": "14",
+    "label": "ELEVAGE DE VOLAILLES"
+  },
+  {
+    "code": "012J",
+    "gId": "15",
+    "label": "ELEVAGE D AUTRES ANIMAUX"
+  },
+  {
+    "code": "0130Z",
+    "gId": "2016",
+    "label": "ACTIVITES DES PEPINIERES"
+  },
+  {
+    "code": "013Z",
+    "gId": "17",
+    "label": "CULTURE ET ELEVAGE ASSOCIES"
+  },
+  {
+    "code": "0141Z",
+    "gId": "2017",
+    "label": "ELEVAGE DE VACHES LAITIERES"
+  },
+  {
+    "code": "0142Z",
+    "gId": "2018",
+    "label": "ELEVAGE D AUTRES BOVINS ET DE BUFFLES"
+  },
+  {
+    "code": "0143Z",
+    "gId": "2019",
+    "label": "ELEVAGE DE CHEVAUX ET D AUTRES EQUIDES"
+  },
+  {
+    "code": "0144Z",
+    "gId": "2020",
+    "label": "ELEVAGE DE CHAMEAUX ET D AUTRES CAMELIDES"
+  },
+  {
+    "code": "0145Z",
+    "gId": "2021",
+    "label": "ELEVAGE D OVINS ET DE CAPRINS"
+  },
+  {
+    "code": "0146Z",
+    "gId": "2022",
+    "label": "ELEVAGE DE PORCINS"
+  },
+  {
+    "code": "0147Z",
+    "gId": "2023",
+    "label": "ELEVAGE DE VOLAILLES"
+  },
+  {
+    "code": "0149Z",
+    "gId": "2024",
+    "label": "ELEVAGE D AUTRES ANIMAUX"
+  },
+  {
+    "code": "014A",
+    "gId": "20",
+    "label": "SERVICES AUX CULTURES PRODUCTIVES"
+  },
+  {
+    "code": "014B",
+    "gId": "21",
+    "label": "REALISATION ET ENTRETIEN DE PLANTATIONS ORNEMENTALES"
+  },
+  {
+    "code": "014D",
+    "gId": "22",
+    "label": "SERVICES ANNEXES A L ELEVAGE"
+  },
+  {
+    "code": "0150Z",
+    "gId": "2025",
+    "label": "CULTURE ET ELEVAGE ASSOCIES"
+  },
+  {
+    "code": "015Z",
+    "gId": "24",
+    "label": "CHASSE"
+  },
+  {
+    "code": "0161Z",
+    "gId": "2026",
+    "label": "ACTIVITES DE SOUTIEN AUX CULTURES"
+  },
+  {
+    "code": "0162Z",
+    "gId": "2027",
+    "label": "ACTIVITES DE SOUTIEN A LA PRODUCTION ANIMALE"
+  },
+  {
+    "code": "0163Z",
+    "gId": "2028",
+    "label": "TRAITEMENT PRIMAIRE DES RECOLTES"
+  },
+  {
+    "code": "0164Z",
+    "gId": "2029",
+    "label": "TRAITEMENT DES SEMENCES"
+  },
+  {
+    "code": "0170Z",
+    "gId": "2030",
+    "label": "CHASSE, PIEGEAGE ET SERVICES ANNEXES"
+  },
+  {
+    "code": "020A",
+    "gId": "28",
+    "label": "SYLVICULTURE"
+  },
+  {
+    "code": "020B",
+    "gId": "29",
+    "label": "EXPLOITATION FORESTIERE"
+  },
+  {
+    "code": "020D",
+    "gId": "30",
+    "label": "SERVICES FORESTIERS"
+  },
+  {
+    "code": "0210Z",
+    "gId": "2031",
+    "label": "SYLVICULTURE ET AUTRES ACTIVITES FORESTIERES"
+  },
+  {
+    "code": "0220Z",
+    "gId": "2032",
+    "label": "EXPLOITATION FORESTIERE"
+  },
+  {
+    "code": "0230Z",
+    "gId": "2033",
+    "label": "RECOLTE DE PRODUITS FORESTIERS NON LIGNEUX POUSSANT A L ETAT SAUVAGE"
+  },
+  {
+    "code": "0240Z",
+    "gId": "2034",
+    "label": "SERVICES DE SOUTIEN A L EXPLOITATION FORESTIERE"
+  },
+  {
+    "code": "0311Z",
+    "gId": "2035",
+    "label": "PECHE EN MER"
+  },
+  {
+    "code": "0312Z",
+    "gId": "2036",
+    "label": "PECHE EN EAU DOUCE"
+  },
+  {
+    "code": "0321Z",
+    "gId": "2037",
+    "label": "AQUACULTURE EN MER"
+  },
+  {
+    "code": "0322Z",
+    "gId": "2038",
+    "label": "AQUACULTURE EN EAU DOUCE"
+  },
+  {
+    "code": "050A",
+    "gId": "33",
+    "label": "PECHE"
+  },
+  {
+    "code": "050C",
+    "gId": "34",
+    "label": "PISCICULTURE, AQUACULTURE"
+  },
+  {
+    "code": "0510Z",
+    "gId": "2039",
+    "label": "EXTRACTION DE HOUILLE"
+  },
+  {
+    "code": "0520Z",
+    "gId": "2040",
+    "label": "EXTRACTION DE LIGNITE"
+  },
+  {
+    "code": "0610Z",
+    "gId": "2041",
+    "label": "EXTRACTION DE PETROLE BRUT"
+  },
+  {
+    "code": "0620Z",
+    "gId": "2042",
+    "label": "EXTRACTION DE GAZ NATUREL"
+  },
+  {
+    "code": "0710Z",
+    "gId": "2043",
+    "label": "EXTRACTION DE MINERAIS DE FER"
+  },
+  {
+    "code": "0721Z",
+    "gId": "2044",
+    "label": "EXTRACTION DE MINERAIS D URANIUM ET DE THORIUM"
+  },
+  {
+    "code": "0729Z",
+    "gId": "2045",
+    "label": "EXTRACTION D AUTRES MINERAIS DE METAUX NON FERREUX"
+  },
+  {
+    "code": "0811Z",
+    "gId": "2046",
+    "label": "EXTRACTION DE PIERRES ORNEMENTALES ET DE CONSTRUCTION, DE CALCAIRE INDUSTRIEL, DE GYPSE, DE CRAIE ET D ARDOISE"
+  },
+  {
+    "code": "0812Z",
+    "gId": "2047",
+    "label": "EXPLOITATION DE GRAVIERES ET SABLIERES, EXTRACTION D ARGILES ET DE KAOLIN"
+  },
+  {
+    "code": "0891Z",
+    "gId": "2048",
+    "label": "EXTRACTION DES MINERAUX CHIMIQUES ET D ENGRAIS MINERAUX"
+  },
+  {
+    "code": "0892Z",
+    "gId": "2049",
+    "label": "EXTRACTION DE TOURBE"
+  },
+  {
+    "code": "0893Z",
+    "gId": "2050",
+    "label": "PRODUCTION DE SEL"
+  },
+  {
+    "code": "0899Z",
+    "gId": "2051",
+    "label": "AUTRES ACTIVITES EXTRACTIVES N.C.A."
+  },
+  {
+    "code": "0910Z",
+    "gId": "2052",
+    "label": "ACTIVITES DE SOUTIEN A L EXTRACTION D HYDROCARBURES"
+  },
+  {
+    "code": "0990Z",
+    "gId": "2053",
+    "label": "ACTIVITES DE SOUTIEN AUX AUTRES INDUSTRIES EXTRACTIVES"
+  },
+  {
+    "code": "1011Z",
+    "gId": "2054",
+    "label": "TRANSFORMATION ET CONSERVATION DE LA VIANDE DE BOUCHERIE"
+  },
+  {
+    "code": "1012Z",
+    "gId": "2055",
+    "label": "TRANSFORMATION ET CONSERVATION DE LA VIANDE DE VOLAILLE"
+  },
+  {
+    "code": "1013A",
+    "gId": "2056",
+    "label": "PREPARATION INDUSTRIELLE DE PRODUITS A BASE DE VIANDE"
+  },
+  {
+    "code": "1013B",
+    "gId": "2057",
+    "label": "CHARCUTERIE"
+  },
+  {
+    "code": "101Z",
+    "gId": "37",
+    "label": "EXTRACTION ET AGGLOMERATION DE LA HOUILLE"
+  },
+  {
+    "code": "1020Z",
+    "gId": "2058",
+    "label": "TRANSFORMATION ET CONSERVATION DE POISSON, DE CRUSTACES ET DE MOLLUSQUES"
+  },
+  {
+    "code": "102Z",
+    "gId": "39",
+    "label": "EXTRACTION ET AGGLOMERATION DU LIGNITE"
+  },
+  {
+    "code": "1031Z",
+    "gId": "2059",
+    "label": "TRANSFORMATION ET CONSERVATION DE POMMES DE TERRE"
+  },
+  {
+    "code": "1032Z",
+    "gId": "2060",
+    "label": "PREPARATION DE JUS DE FRUITS ET LEGUMES"
+  },
+  {
+    "code": "1039A",
+    "gId": "2061",
+    "label": "AUTRE TRANSFORMATION ET CONSERVATION DE LEGUMES"
+  },
+  {
+    "code": "1039B",
+    "gId": "2062",
+    "label": "TRANSFORMATION ET CONSERVATION DE FRUITS"
+  },
+  {
+    "code": "103Z",
+    "gId": "41",
+    "label": "EXTRACTION ET AGGLOMERATION DE LA TOURBE"
+  },
+  {
+    "code": "1041A",
+    "gId": "2063",
+    "label": "FABRICATION D HUILES ET GRAISSES BRUTES"
+  },
+  {
+    "code": "1041B",
+    "gId": "2064",
+    "label": "FABRICATION D HUILES ET GRAISSES RAFFINEES"
+  },
+  {
+    "code": "1042Z",
+    "gId": "2065",
+    "label": "FABRICATION DE MARGARINE ET GRAISSES COMESTIBLES SIMILAIRES"
+  },
+  {
+    "code": "1051A",
+    "gId": "2066",
+    "label": "FABRICATION DE LAIT LIQUIDE ET DE PRODUITS FRAIS"
+  },
+  {
+    "code": "1051B",
+    "gId": "2067",
+    "label": "FABRICATION DE BEURRE"
+  },
+  {
+    "code": "1051C",
+    "gId": "2068",
+    "label": "FABRICATION DE FROMAGE"
+  },
+  {
+    "code": "1051D",
+    "gId": "2069",
+    "label": "FABRICATION D AUTRES PRODUITS LAITIERS"
+  },
+  {
+    "code": "1052Z",
+    "gId": "2070",
+    "label": "FABRICATION DE GLACES ET SORBETS"
+  },
+  {
+    "code": "1061A",
+    "gId": "2071",
+    "label": "MEUNERIE"
+  },
+  {
+    "code": "1061B",
+    "gId": "2072",
+    "label": "AUTRES ACTIVITES DU TRAVAIL DES GRAINS"
+  },
+  {
+    "code": "1062Z",
+    "gId": "2073",
+    "label": "FABRICATION DE PRODUITS AMYLACES"
+  },
+  {
+    "code": "1071A",
+    "gId": "2074",
+    "label": "FABRICATION INDUSTRIELLE DE PAIN ET DE PATISSERIE FRAICHE"
+  },
+  {
+    "code": "1071B",
+    "gId": "2075",
+    "label": "CUISSON DE PRODUITS DE BOULANGERIE"
+  },
+  {
+    "code": "1071C",
+    "gId": "2076",
+    "label": "BOULANGERIE ET BOULANGERIE-PATISSERIE"
+  },
+  {
+    "code": "1071D",
+    "gId": "2077",
+    "label": "PATISSERIE"
+  },
+  {
+    "code": "1072Z",
+    "gId": "2078",
+    "label": "BISCOTTERIE, BISCUITERIE, PATISSERIE DE CONSERVATION"
+  },
+  {
+    "code": "1073Z",
+    "gId": "2079",
+    "label": "FABRICATION DE PATES ALIMENTAIRES"
+  },
+  {
+    "code": "1081Z",
+    "gId": "2080",
+    "label": "FABRICATION DE SUCRE"
+  },
+  {
+    "code": "1082Z",
+    "gId": "2081",
+    "label": "FABRICATION DE CACAO, CHOCOLAT ET PRODUITS DE CONFISERIE"
+  },
+  {
+    "code": "1083Z",
+    "gId": "2082",
+    "label": "TRANSFORMATION DU THE ET DU CAFE"
+  },
+  {
+    "code": "1084Z",
+    "gId": "2083",
+    "label": "FABRICATION DE CONDIMENTS ET ASSAISONNEMENTS"
+  },
+  {
+    "code": "1085Z",
+    "gId": "2084",
+    "label": "FABRICATION DE PLATS PREPARES"
+  },
+  {
+    "code": "1086Z",
+    "gId": "2085",
+    "label": "FABRICATION D ALIMENTS HOMOGENEISES ET DIETETIQUES"
+  },
+  {
+    "code": "1089Z",
+    "gId": "2086",
+    "label": "FABRICATION D AUTRES PRODUITS ALIMENTAIRES N.C.A."
+  },
+  {
+    "code": "1091Z",
+    "gId": "2087",
+    "label": "FABRICATION D ALIMENTS POUR ANIMAUX DE FERME"
+  },
+  {
+    "code": "1092Z",
+    "gId": "2088",
+    "label": "FABRICATION D ALIMENTS POUR ANIMAUX DE COMPAGNIE"
+  },
+  {
+    "code": "1101Z",
+    "gId": "2089",
+    "label": "PRODUCTION DE BOISSONS ALCOOLIQUES DISTILLEES"
+  },
+  {
+    "code": "1102A",
+    "gId": "2090",
+    "label": "FABRICATION DE VINS EFFERVESCENTS"
+  },
+  {
+    "code": "1102B",
+    "gId": "2091",
+    "label": "VINIFICATION"
+  },
+  {
+    "code": "1103Z",
+    "gId": "2092",
+    "label": "FABRICATION DE CIDRE ET DE VINS DE FRUITS"
+  },
+  {
+    "code": "1104Z",
+    "gId": "2093",
+    "label": "PRODUCTION D AUTRES BOISSONS FERMENTEES NON DISTILLEES"
+  },
+  {
+    "code": "1105Z",
+    "gId": "2094",
+    "label": "FABRICATION DE BIERE"
+  },
+  {
+    "code": "1106Z",
+    "gId": "2095",
+    "label": "FABRICATION DE MALT"
+  },
+  {
+    "code": "1107A",
+    "gId": "2096",
+    "label": "INDUSTRIE DES EAUX DE TABLE"
+  },
+  {
+    "code": "1107B",
+    "gId": "2097",
+    "label": "PRODUCTION DE BOISSONS RAFRAICHISSEMENTS"
+  },
+  {
+    "code": "111Z",
+    "gId": "44",
+    "label": "EXTRACTION D HYDROCARBURES"
+  },
+  {
+    "code": "112Z",
+    "gId": "46",
+    "label": "SERVICES ANNEXES A L EXTRACTION D HYDROCARBURES"
+  },
+  {
+    "code": "1200Z",
+    "gId": "2098",
+    "label": "FABRICATION DE PRODUITS A BASE DE TABAC"
+  },
+  {
+    "code": "120Z",
+    "gId": "49",
+    "label": "EXTRACTION DE MINERAIS D URANIUM"
+  },
+  {
+    "code": "1310Z",
+    "gId": "2099",
+    "label": "PREPARATION DE FIBRES TEXTILES ET FILATURE"
+  },
+  {
+    "code": "131Z",
+    "gId": "52",
+    "label": "EXTRACTION DE MINERAIS DE FER"
+  },
+  {
+    "code": "1320Z",
+    "gId": "2100",
+    "label": "TISSAGE"
+  },
+  {
+    "code": "132Z",
+    "gId": "54",
+    "label": "EXTRACTION DE MINERAIS DE METAUX NON FERREUX"
+  },
+  {
+    "code": "1330Z",
+    "gId": "2101",
+    "label": "ENNOBLISSEMENT TEXTILE"
+  },
+  {
+    "code": "1391Z",
+    "gId": "2102",
+    "label": "FABRICATION D ETOFFES A MAILLES"
+  },
+  {
+    "code": "1392Z",
+    "gId": "2103",
+    "label": "FABRICATION D ARTICLES TEXTILES, SAUF HABILLEMENT"
+  },
+  {
+    "code": "1393Z",
+    "gId": "2104",
+    "label": "FABRICATION DE TAPIS ET MOQUETTES"
+  },
+  {
+    "code": "1394Z",
+    "gId": "2105",
+    "label": "FABRICATION DE FICELLES, CORDES ET FILETS"
+  },
+  {
+    "code": "1395Z",
+    "gId": "2106",
+    "label": "FABRICATION DE NON-TISSES, SAUF HABILLEMENT"
+  },
+  {
+    "code": "1396Z",
+    "gId": "2107",
+    "label": "FABRICATION D AUTRES TEXTILES TECHNIQUES ET INDUSTRIELS"
+  },
+  {
+    "code": "1399Z",
+    "gId": "2108",
+    "label": "INDUSTRIES TEXTILES N.C.A."
+  },
+  {
+    "code": "1411Z",
+    "gId": "2109",
+    "label": "FABRICATION DE VETEMENTS EN CUIR"
+  },
+  {
+    "code": "1412Z",
+    "gId": "2110",
+    "label": "FABRICATION DE VETEMENTS DE TRAVAIL"
+  },
+  {
+    "code": "1413Z",
+    "gId": "2111",
+    "label": "FABRICATION DE VETEMENTS DE DESSUS"
+  },
+  {
+    "code": "1414Z",
+    "gId": "2112",
+    "label": "FABRICATION DE VETEMENTS DE DESSOUS"
+  },
+  {
+    "code": "1419Z",
+    "gId": "2113",
+    "label": "FABRICATION D AUTRES VETEMENTS ET ACCESSOIRES"
+  },
+  {
+    "code": "141A",
+    "gId": "57",
+    "label": "EXTRACTION DE PIERRES POUR LA CONSTRUCTION"
+  },
+  {
+    "code": "141C",
+    "gId": "58",
+    "label": "EXTRACTION DE CALCAIRE INDUSTRIEL, DE GYPSE ET DE CRAIE"
+  },
+  {
+    "code": "141E",
+    "gId": "59",
+    "label": "EXTRACTION D ARDOISE"
+  },
+  {
+    "code": "1420Z",
+    "gId": "2114",
+    "label": "FABRICATION D ARTICLES EN FOURRURE"
+  },
+  {
+    "code": "142A",
+    "gId": "61",
+    "label": "PRODUCTION DE SABLES ET DE GRANULATS"
+  },
+  {
+    "code": "142C",
+    "gId": "62",
+    "label": "EXTRACTION D ARGILES ET DE KAOLIN"
+  },
+  {
+    "code": "1431Z",
+    "gId": "2115",
+    "label": "FABRICATION D ARTICLES CHAUSSANTS A MAILLES"
+  },
+  {
+    "code": "1439Z",
+    "gId": "2116",
+    "label": "FABRICATION D AUTRES ARTICLES A MAILLES"
+  },
+  {
+    "code": "143Z",
+    "gId": "64",
+    "label": "EXTRAC DE MINERAUX POUR INDUSTRIE CHIMIQUE ET D ENGRAIS NATURELS"
+  },
+  {
+    "code": "144Z",
+    "gId": "66",
+    "label": "PRODUCTION DE SEL"
+  },
+  {
+    "code": "145Z",
+    "gId": "68",
+    "label": "ACTIVITES EXTRACTIVES N.C.A."
+  },
+  {
+    "code": "1511Z",
+    "gId": "2117",
+    "label": "APPRET ET TANNAGE DES CUIRS, PREPARATION ET TEINTURE DES FOURRURES"
+  },
+  {
+    "code": "1512Z",
+    "gId": "2118",
+    "label": "FABRICATION D ARTICLES DE VOYAGE, DE MAROQUINERIE ET DE SELLERIE"
+  },
+  {
+    "code": "151A",
+    "gId": "71",
+    "label": "PRODUCTION DE VIANDES DE BOUCHERIE"
+  },
+  {
+    "code": "151C",
+    "gId": "72",
+    "label": "PRODUCTION DE VIANDES DE VOLAILLE"
+  },
+  {
+    "code": "151E",
+    "gId": "74",
+    "label": "PREPARATION INDUSTRIELLE DE PRODUITS A BASE DE VIANDE"
+  },
+  {
+    "code": "151F",
+    "gId": "75",
+    "label": "CHARCUTERIE"
+  },
+  {
+    "code": "1520Z",
+    "gId": "2119",
+    "label": "FABRICATION DE CHAUSSURES"
+  },
+  {
+    "code": "152Z",
+    "gId": "77",
+    "label": "INDUSTRIE DU POISSON"
+  },
+  {
+    "code": "153A",
+    "gId": "79",
+    "label": "TRANSFORMATION ET CONSERVATION DE POMMES DE TERRE"
+  },
+  {
+    "code": "153C",
+    "gId": "80",
+    "label": "PREPARATION DE JUS DE FRUITS ET LEGUMES"
+  },
+  {
+    "code": "153E",
+    "gId": "82",
+    "label": "TRANSFORMATION ET CONSERVATION DE LEGUMES"
+  },
+  {
+    "code": "153F",
+    "gId": "83",
+    "label": "TRANSFORMATION ET CONSERVATION DE FRUITS"
+  },
+  {
+    "code": "154A",
+    "gId": "85",
+    "label": "FABRICATION D HUILES ET GRAISSES BRUTES"
+  },
+  {
+    "code": "154C",
+    "gId": "86",
+    "label": "FABRICATION D HUILES ET GRAISSES RAFFINEES"
+  },
+  {
+    "code": "154E",
+    "gId": "87",
+    "label": "FABRICATION DE MARGARINE"
+  },
+  {
+    "code": "155A",
+    "gId": "90",
+    "label": "FABRICATION DE LAIT LIQUIDE ET DE PRODUITS FRAIS"
+  },
+  {
+    "code": "155B",
+    "gId": "91",
+    "label": "FABRICATION DE BEURRE"
+  },
+  {
+    "code": "155C",
+    "gId": "92",
+    "label": "FABRICATION DE FROMAGES"
+  },
+  {
+    "code": "155D",
+    "gId": "93",
+    "label": "FABRICATION D AUTRES PRODUITS LAITIERS"
+  },
+  {
+    "code": "155F",
+    "gId": "94",
+    "label": "FABRICATION DE GLACES ET SORBETS"
+  },
+  {
+    "code": "156A",
+    "gId": "97",
+    "label": "MEUNERIE"
+  },
+  {
+    "code": "156B",
+    "gId": "98",
+    "label": "AUTRES ACTIVITES DE TRAVAIL DES GRAINS"
+  },
+  {
+    "code": "156D",
+    "gId": "99",
+    "label": "FABRICATION DE PRODUITS AMYLACES"
+  },
+  {
+    "code": "157A",
+    "gId": "101",
+    "label": "FABRICATION D ALIMENTS POUR ANIMAUX DE FERME"
+  },
+  {
+    "code": "157C",
+    "gId": "102",
+    "label": "FABRICATION D ALIMENTS POUR ANIMAUX DE COMPAGNIE"
+  },
+  {
+    "code": "158A",
+    "gId": "105",
+    "label": "FABRICATION INDUSTRIELLE DE PAIN ET DE PATISSERIE FRAICHE"
+  },
+  {
+    "code": "158B",
+    "gId": "106",
+    "label": "CUISSON DE PRODUITS DE BOULANGERIE"
+  },
+  {
+    "code": "158C",
+    "gId": "107",
+    "label": "BOULANGERIE ET BOULANGERIE-PATISSERIE"
+  },
+  {
+    "code": "158D",
+    "gId": "108",
+    "label": "PATISSERIE"
+  },
+  {
+    "code": "158F",
+    "gId": "109",
+    "label": "BISCOTTERIE, BISCUITERIE, PATISSERIE DE CONSERVATION"
+  },
+  {
+    "code": "158H",
+    "gId": "110",
+    "label": "FABRICATION DE SUCRE"
+  },
+  {
+    "code": "158K",
+    "gId": "111",
+    "label": "CHOCOLATERIE, CONFISERIE"
+  },
+  {
+    "code": "158M",
+    "gId": "112",
+    "label": "FABRICATION DE PATES ALIMENTAIRES"
+  },
+  {
+    "code": "158P",
+    "gId": "113",
+    "label": "TRANSFORMATION DU THE ET DU CAFE"
+  },
+  {
+    "code": "158R",
+    "gId": "114",
+    "label": "FABRICATION DE CONDIMENTS ET ASSAISONNEMENTS"
+  },
+  {
+    "code": "158T",
+    "gId": "115",
+    "label": "FABRICATION D ALIMENTS ADAPTES A L ENFANT ET DIETETIQUES"
+  },
+  {
+    "code": "158V",
+    "gId": "116",
+    "label": "INDUSTRIES ALIMENTAIRES N.C.A."
+  },
+  {
+    "code": "159A",
+    "gId": "119",
+    "label": "PRODUCTION D EAUX DE VIE NATURELLES"
+  },
+  {
+    "code": "159B",
+    "gId": "120",
+    "label": "FABRICATION DE SPIRITUEUX"
+  },
+  {
+    "code": "159D",
+    "gId": "121",
+    "label": "PRODUCTION D ALCOOL ETHYLIQUE DE FERMENTATION"
+  },
+  {
+    "code": "159F",
+    "gId": "123",
+    "label": "CHAMPAGNISATION"
+  },
+  {
+    "code": "159G",
+    "gId": "124",
+    "label": "VINIFICATION"
+  },
+  {
+    "code": "159J",
+    "gId": "125",
+    "label": "CIDRERIE"
+  },
+  {
+    "code": "159L",
+    "gId": "126",
+    "label": "PRODUCTION D AUTRES BOISSONS FERMENTEES"
+  },
+  {
+    "code": "159N",
+    "gId": "127",
+    "label": "BRASSERIE"
+  },
+  {
+    "code": "159Q",
+    "gId": "128",
+    "label": "MALTERIE"
+  },
+  {
+    "code": "159S",
+    "gId": "130",
+    "label": "INDUSTRIE DES EAUX DE TABLE"
+  },
+  {
+    "code": "159T",
+    "gId": "131",
+    "label": "PRODUCTION DE BOISSONS RAFRAICHISSANTES"
+  },
+  {
+    "code": "160Z",
+    "gId": "134",
+    "label": "INDUSTRIE DU TABAC"
+  },
+  {
+    "code": "1610A",
+    "gId": "2120",
+    "label": "SCIAGE ET RABOTAGE DU BOIS, HORS IMPREGNATION"
+  },
+  {
+    "code": "1610B",
+    "gId": "2121",
+    "label": "IMPREGNATION DU BOIS"
+  },
+  {
+    "code": "1621Z",
+    "gId": "2122",
+    "label": "FABRICATION DE PLACAGE ET DE PANNEAUX DE BOIS"
+  },
+  {
+    "code": "1622Z",
+    "gId": "2123",
+    "label": "FABRICATION DE PARQUETS ASSEMBLES"
+  },
+  {
+    "code": "1623Z",
+    "gId": "2124",
+    "label": "FABRICATION DE CHARPENTES ET D AUTRES MENUISERIES"
+  },
+  {
+    "code": "1624Z",
+    "gId": "2125",
+    "label": "FABRICATION D EMBALLAGES EN BOIS"
+  },
+  {
+    "code": "1629Z",
+    "gId": "2126",
+    "label": "FABRICATION D OBJETS DIVERS EN BOIS. FABRICATION D OBJETS EN LIEGE, VANNERIE ET SPARTERIE"
+  },
+  {
+    "code": "1711Z",
+    "gId": "2127",
+    "label": "FABRICATION DE PATE A PAPIER"
+  },
+  {
+    "code": "1712Z",
+    "gId": "2128",
+    "label": "FABRICATION DE PAPIER ET DE CARTON"
+  },
+  {
+    "code": "171A",
+    "gId": "137",
+    "label": "FILATURE DE L INDUSTRIE COTONNIERE"
+  },
+  {
+    "code": "171C",
+    "gId": "138",
+    "label": "FILATURE DE L INDUSTRIE LAINIERE-CYCLE CARDE"
+  },
+  {
+    "code": "171E",
+    "gId": "140",
+    "label": "PREPARATION DE LA LAINE"
+  },
+  {
+    "code": "171F",
+    "gId": "141",
+    "label": "FILATURE DE L INDUSTRIE LAINIERE-CYCLE PEIGNE"
+  },
+  {
+    "code": "171H",
+    "gId": "142",
+    "label": "PREPARATION ET FILATURE DU LIN"
+  },
+  {
+    "code": "171K",
+    "gId": "143",
+    "label": "MOULINAGE TEXTURATION DE SOIE ET TEXTILES ARTIF ET SYNTHETIQUES"
+  },
+  {
+    "code": "171M",
+    "gId": "144",
+    "label": "FABRICATION DE FILS A COUDRE"
+  },
+  {
+    "code": "171P",
+    "gId": "145",
+    "label": "PREPARATION ET FILATURE D AUTRES FIBRES"
+  },
+  {
+    "code": "1721A",
+    "gId": "2129",
+    "label": "FABRICATION DE CARTON ONDULE"
+  },
+  {
+    "code": "1721B",
+    "gId": "2130",
+    "label": "FABRICATION DE CARTONNAGES"
+  },
+  {
+    "code": "1721C",
+    "gId": "2131",
+    "label": "FABRICATION D EMBALLAGES EN PAPIER"
+  },
+  {
+    "code": "1722Z",
+    "gId": "2132",
+    "label": "FABRICATION D ARTICLES EN PAPIER A USAGE SANITAIRE OU DOMESTIQUE"
+  },
+  {
+    "code": "1723Z",
+    "gId": "2133",
+    "label": "FABRICATION D ARTICLES DE PAPETERIE"
+  },
+  {
+    "code": "1724Z",
+    "gId": "2134",
+    "label": "FABRICATION DE PAPIERS PEINTS"
+  },
+  {
+    "code": "1729Z",
+    "gId": "2135",
+    "label": "FABRICATION D AUTRES ARTICLES EN PAPIER OU EN CARTON"
+  },
+  {
+    "code": "172A",
+    "gId": "147",
+    "label": "TISSAGE DE L INDUSTRIE COTONNIERE"
+  },
+  {
+    "code": "172C",
+    "gId": "148",
+    "label": "TISSAGE DE L INDUSTRIE LAINIERE-CYCLE CARDE"
+  },
+  {
+    "code": "172E",
+    "gId": "149",
+    "label": "TISSAGE DE L INDUSTRIE LAINIERE-CYCLE PEIGNE"
+  },
+  {
+    "code": "172G",
+    "gId": "150",
+    "label": "TISSAGE DE SOIERIES"
+  },
+  {
+    "code": "172J",
+    "gId": "151",
+    "label": "TISSAGE D AUTRES TEXTILES"
+  },
+  {
+    "code": "173Z",
+    "gId": "153",
+    "label": "ENNOBLISSEMENT TEXTILE"
+  },
+  {
+    "code": "174A",
+    "gId": "156",
+    "label": "FABRICATION DE LINGE DE MAISON ET D ARTICLES D AMEUBLEMENT"
+  },
+  {
+    "code": "174B",
+    "gId": "157",
+    "label": "FABRICATION DE PETITS ARTICLES TEXTILES DE LITERIE"
+  },
+  {
+    "code": "174C",
+    "gId": "158",
+    "label": "FABRICATION D AUTRES ARTICLES CONFECTIONNES EN TEXTILE"
+  },
+  {
+    "code": "175A",
+    "gId": "160",
+    "label": "FABRICATION DE TAPIS ET MOQUETTES"
+  },
+  {
+    "code": "175C",
+    "gId": "161",
+    "label": "FICELLERIE, CORDERIE, FABRICATION DE FILETS"
+  },
+  {
+    "code": "175E",
+    "gId": "162",
+    "label": "FABRICATION DE NON TISSES"
+  },
+  {
+    "code": "175G",
+    "gId": "163",
+    "label": "INDUSTRIES TEXTILES N.C.A."
+  },
+  {
+    "code": "176Z",
+    "gId": "165",
+    "label": "FABRICATION D ETOFFES A MAILLE"
+  },
+  {
+    "code": "177A",
+    "gId": "167",
+    "label": "FABRICATION D ARTICLES CHAUSSANTS A MAILLE"
+  },
+  {
+    "code": "177C",
+    "gId": "168",
+    "label": "FABRICATION DE PULL-OVERS ET ARTICLES SIMILAIRES"
+  },
+  {
+    "code": "1811Z",
+    "gId": "2136",
+    "label": "IMPRIMERIE DE JOURNAUX"
+  },
+  {
+    "code": "1812Z",
+    "gId": "2137",
+    "label": "AUTRE IMPRIMERIE (LABEUR)"
+  },
+  {
+    "code": "1813Z",
+    "gId": "2138",
+    "label": "ACTIVITES DE PRE-PRESSE"
+  },
+  {
+    "code": "1814Z",
+    "gId": "2139",
+    "label": "RELIURE ET ACTIVITES CONNEXES"
+  },
+  {
+    "code": "181Z",
+    "gId": "171",
+    "label": "FABRICATION DE VETEMENTS EN CUIR"
+  },
+  {
+    "code": "1820Z",
+    "gId": "2140",
+    "label": "REPRODUCTION D ENREGISTREMENTS"
+  },
+  {
+    "code": "182A",
+    "gId": "173",
+    "label": "FABRICATION DE VETEMENTS DE TRAVAIL"
+  },
+  {
+    "code": "182C",
+    "gId": "175",
+    "label": "FABRICATION DE VETEMENTS SUR MESURE"
+  },
+  {
+    "code": "182D",
+    "gId": "176",
+    "label": "FABRICATION DE VETEMENTS DE DESSUS POUR HOMMES ET GARCONNETS"
+  },
+  {
+    "code": "182E",
+    "gId": "177",
+    "label": "FABRICATION DE VETEMENTS DE DESSUS POUR FEMMES ET FILLETTES"
+  },
+  {
+    "code": "182G",
+    "gId": "178",
+    "label": "FABRICATION DE VETEMENTS DE DESSOUS"
+  },
+  {
+    "code": "182J",
+    "gId": "179",
+    "label": "FABRICATION D AUTRES VETEMENTS ET ACCESSOIRES"
+  },
+  {
+    "code": "183Z",
+    "gId": "181",
+    "label": "INDUSTRIE DES FOURRURES"
+  },
+  {
+    "code": "1910Z",
+    "gId": "2141",
+    "label": "COKEFACTION"
+  },
+  {
+    "code": "191Z",
+    "gId": "184",
+    "label": "APPRET ET TANNAGE DES CUIRS"
+  },
+  {
+    "code": "1920Z",
+    "gId": "2142",
+    "label": "RAFFINAGE DU PETROLE"
+  },
+  {
+    "code": "192Z",
+    "gId": "186",
+    "label": "FABRICATION D ARTICLES DE VOYAGE ET DE MAROQUINERIE"
+  },
+  {
+    "code": "193Z",
+    "gId": "188",
+    "label": "FABRICATION DE CHAUSSURES"
+  },
+  {
+    "code": "2011Z",
+    "gId": "2143",
+    "label": "FABRICATION DE GAZ INDUSTRIELS"
+  },
+  {
+    "code": "2012Z",
+    "gId": "2144",
+    "label": "FABRICATION DE COLORANTS ET DE PIGMENTS"
+  },
+  {
+    "code": "2013A",
+    "gId": "2145",
+    "label": "ENRICHISSEMENT ET  RETRAITEMENT DE MATIERES NUCLEAIRE"
+  },
+  {
+    "code": "2013B",
+    "gId": "2146",
+    "label": "FABRICATION D AUTRES PRODUITS CHIMIQUES INORGANIQUES DE BASE N.C.A."
+  },
+  {
+    "code": "2014Z",
+    "gId": "2147",
+    "label": "FABRICATION D AUTRES PRODUITS CHIMIQUES ORGANIQUES DE BASE"
+  },
+  {
+    "code": "2015Z",
+    "gId": "2148",
+    "label": "FABRICATION DE PRODUITS AZOTES ET D ENGRAIS"
+  },
+  {
+    "code": "2016Z",
+    "gId": "2149",
+    "label": "FABRICATION DE MATIERES PLASTIQUES DE BASE"
+  },
+  {
+    "code": "2017Z",
+    "gId": "2150",
+    "label": "FABRICATION DE CAOUTCHOUC SYNTHETIQUE"
+  },
+  {
+    "code": "201A",
+    "gId": "192",
+    "label": "SCIAGE ET RABOTAGE DU BOIS"
+  },
+  {
+    "code": "201B",
+    "gId": "193",
+    "label": "IMPREGNATION DU BOIS"
+  },
+  {
+    "code": "2020Z",
+    "gId": "2151",
+    "label": "FABRICATION DE PESTICIDES ET D AUTRES PRODUITS AGROCHIMIQUES"
+  },
+  {
+    "code": "202Z",
+    "gId": "195",
+    "label": "FABRICATION DE PANNEAUX DE BOIS"
+  },
+  {
+    "code": "2030Z",
+    "gId": "2152",
+    "label": "FABRICATION DE PEINTURES, VERNIS, ENCRES ET MASTICS"
+  },
+  {
+    "code": "203Z",
+    "gId": "197",
+    "label": "FABRICATION DE CHARPENTES ET DE MENUISERIES"
+  },
+  {
+    "code": "2041Z",
+    "gId": "2153",
+    "label": "FABRICATION DE SAVONS, DETERGENTS ET PRODUITS D ENTRETIEN"
+  },
+  {
+    "code": "2042Z",
+    "gId": "2154",
+    "label": "FABRICATION DE PARFUMS ET DE PRODUITS POUR LA TOILETTE"
+  },
+  {
+    "code": "204Z",
+    "gId": "199",
+    "label": "FABRICATION D EMBALLAGES EN BOIS"
+  },
+  {
+    "code": "2051Z",
+    "gId": "2155",
+    "label": "FABRICATION DE PRODUITS EXPLOSIFS"
+  },
+  {
+    "code": "2052Z",
+    "gId": "2156",
+    "label": "FABRICATION DE COLLES"
+  },
+  {
+    "code": "2053Z",
+    "gId": "2157",
+    "label": "FABRICATION D HUILES ESSENTIELLES"
+  },
+  {
+    "code": "2059Z",
+    "gId": "2158",
+    "label": "FABRICATION D AUTRES PRODUITS CHIMIQUES N.C.A."
+  },
+  {
+    "code": "205A",
+    "gId": "201",
+    "label": "FABRICATION D OBJETS DIVERS EN BOIS"
+  },
+  {
+    "code": "205C",
+    "gId": "202",
+    "label": "FABRICATION D OBJETS EN LIEGE, VANNERIE OU SPARTERIE"
+  },
+  {
+    "code": "2060Z",
+    "gId": "2159",
+    "label": "FABRICATION DE FIBRES ARTIFICIELLES OU SYNTHETIQUES"
+  },
+  {
+    "code": "2110Z",
+    "gId": "2160",
+    "label": "FABRICATION DE PRODUITS PHARMACEUTIQUES DE BASE"
+  },
+  {
+    "code": "211A",
+    "gId": "205",
+    "label": "FABRICATION DE PATE A PAPIER"
+  },
+  {
+    "code": "211C",
+    "gId": "206",
+    "label": "FABRICATION DE PAPIER ET DE CARTON"
+  },
+  {
+    "code": "2120Z",
+    "gId": "2161",
+    "label": "FABRICATION DE PREPARATIONS PHARMACEUTIQUES"
+  },
+  {
+    "code": "212A",
+    "gId": "209",
+    "label": "INDUSTRIE DU CARTON ONDULE"
+  },
+  {
+    "code": "212B",
+    "gId": "210",
+    "label": "FABRICATION DE CARTONNAGES"
+  },
+  {
+    "code": "212C",
+    "gId": "211",
+    "label": "FABRICATION D EMBALLAGES EN PAPIER"
+  },
+  {
+    "code": "212E",
+    "gId": "212",
+    "label": "FABRICATION D ARTICLES EN PAPIER A USAGE SANITAIRE"
+  },
+  {
+    "code": "212G",
+    "gId": "213",
+    "label": "FABRICATION D ARTICLES DE PAPETERIE"
+  },
+  {
+    "code": "212J",
+    "gId": "214",
+    "label": "FABRICATION DE PAPIERS PEINTS"
+  },
+  {
+    "code": "212L",
+    "gId": "215",
+    "label": "FABRICATION D AUTRES ARTICLES EN PAPIER OU EN CARTON"
+  },
+  {
+    "code": "2211Z",
+    "gId": "2162",
+    "label": "FABRICATION ET RECHAPAGE DE PNEUMATIQUES"
+  },
+  {
+    "code": "2219Z",
+    "gId": "2163",
+    "label": "FABRICATION D AUTRES ARTICLES EN CAOUTCHOUC"
+  },
+  {
+    "code": "221A",
+    "gId": "218",
+    "label": "EDITION DE LIVRES"
+  },
+  {
+    "code": "221C",
+    "gId": "219",
+    "label": "EDITION DE JOURNAUX"
+  },
+  {
+    "code": "221E",
+    "gId": "220",
+    "label": "EDITION DE REVUES ET PERIODIQUES"
+  },
+  {
+    "code": "221G",
+    "gId": "221",
+    "label": "EDITION D ENREGISTREMENTS SONORES"
+  },
+  {
+    "code": "221J",
+    "gId": "222",
+    "label": "AUTRES ACTIVITES D EDITION"
+  },
+  {
+    "code": "2221Z",
+    "gId": "2164",
+    "label": "FABRICATION DE PLAQUES, FEUILLES, TUBES ET PROFILES EN MATIERES PLASTIQUES"
+  },
+  {
+    "code": "2222Z",
+    "gId": "2165",
+    "label": "FABRICATION D EMBALLAGES EN MATIERES PLASTIQUES"
+  },
+  {
+    "code": "2223Z",
+    "gId": "2166",
+    "label": "FABRICATION D ELEMENTS EN MATIERES PLASTIQUES POUR LA CONSTRUCTION"
+  },
+  {
+    "code": "2229A",
+    "gId": "2167",
+    "label": "FABRICATION DE PIECES TECHNIQUES A BASE DE MATIERES PLASTIQUES"
+  },
+  {
+    "code": "2229B",
+    "gId": "2168",
+    "label": "FABRICATION DE PRODUITS DE CONSOMMATION COURANTE EN MATIERES PLASTIQUES"
+  },
+  {
+    "code": "222A",
+    "gId": "224",
+    "label": "IMPRIMERIE DE JOURNAUX"
+  },
+  {
+    "code": "222C",
+    "gId": "225",
+    "label": "AUTRE IMPRIMERIE (LABEUR)"
+  },
+  {
+    "code": "222E",
+    "gId": "226",
+    "label": "RELIURE ET FINITION"
+  },
+  {
+    "code": "222G",
+    "gId": "227",
+    "label": "COMPOSITION ET PHOTOGRAVURE"
+  },
+  {
+    "code": "222J",
+    "gId": "228",
+    "label": "AUTRES ACTIVITES GRAPHIQUES"
+  },
+  {
+    "code": "223A",
+    "gId": "230",
+    "label": "REPRODUCTION D ENREGISTREMENTS SONORES"
+  },
+  {
+    "code": "223C",
+    "gId": "231",
+    "label": "REPRODUCTION D ENREGISTREMENTS VIDEO"
+  },
+  {
+    "code": "223E",
+    "gId": "232",
+    "label": "REPRODUCTION D ENREGISTREMENTS INFORMATIQUES"
+  },
+  {
+    "code": "2311Z",
+    "gId": "2169",
+    "label": "FABRICATION DE VERRE PLAT"
+  },
+  {
+    "code": "2312Z",
+    "gId": "2170",
+    "label": "FACONNAGE ET TRANSFORMATION DU VERRE PLAT"
+  },
+  {
+    "code": "2313Z",
+    "gId": "2171",
+    "label": "FABRICATION DE VERRE CREUX"
+  },
+  {
+    "code": "2314Z",
+    "gId": "2172",
+    "label": "FABRICATION DE FIBRES DE VERRE"
+  },
+  {
+    "code": "2319Z",
+    "gId": "2173",
+    "label": "FABRICATION ET FACONNAGE D AUTRES ARTICLES EN VERRE, Y COMPRIS VERRE TECHNIQUE"
+  },
+  {
+    "code": "231Z",
+    "gId": "235",
+    "label": "COKEFACTION"
+  },
+  {
+    "code": "2320Z",
+    "gId": "2174",
+    "label": "FABRICATION DE PRODUITS REFRACTAIRES"
+  },
+  {
+    "code": "232Z",
+    "gId": "237",
+    "label": "RAFFINAGE DE PETROLE"
+  },
+  {
+    "code": "2331Z",
+    "gId": "2175",
+    "label": "FABRICATION DE CARREAUX EN CERAMIQUE"
+  },
+  {
+    "code": "2332Z",
+    "gId": "2176",
+    "label": "FABRICATION DE BRIQUES, TUILES ET PRODUITS DE CONSTRUCTION, EN TERRE CUITE"
+  },
+  {
+    "code": "233Z",
+    "gId": "239",
+    "label": "ELABORATION ET TRANSFORMATION DE MATIERES NUCLEAIRES"
+  },
+  {
+    "code": "2341Z",
+    "gId": "2177",
+    "label": "FABRICATION D ARTICLES CERAMIQUES A USAGE DOMESTIQUE OU ORNEMENTAL"
+  },
+  {
+    "code": "2342Z",
+    "gId": "2178",
+    "label": "FABRICATION D APPAREILS SANITAIRES EN CERAMIQUE"
+  },
+  {
+    "code": "2343Z",
+    "gId": "2179",
+    "label": "FABRICATION D ISOLATEURS ET PIECES ISOLANTES EN CERAMIQUE"
+  },
+  {
+    "code": "2344Z",
+    "gId": "2180",
+    "label": "FABRICATION D AUTRES PRODUITS CERAMIQUES A USAGE TECHNIQUE"
+  },
+  {
+    "code": "2349Z",
+    "gId": "2181",
+    "label": "FABRICATION D AUTRES PRODUITS CERAMIQUES N.C.A."
+  },
+  {
+    "code": "2351Z",
+    "gId": "2182",
+    "label": "FABRICATION DE CIMENT"
+  },
+  {
+    "code": "2352Z",
+    "gId": "2183",
+    "label": "FABRICATION DE CHAUX ET PLATRE"
+  },
+  {
+    "code": "2361Z",
+    "gId": "2184",
+    "label": "FABRICATION D ELEMENTS EN BETON POUR LA CONSTRUCTION"
+  },
+  {
+    "code": "2362Z",
+    "gId": "2185",
+    "label": "FABRICATION D ELEMENTS EN PLATRE POUR LA CONSTRUCTION"
+  },
+  {
+    "code": "2363Z",
+    "gId": "2186",
+    "label": "FABRICATION DE BETON PRET A L EMPLOI"
+  },
+  {
+    "code": "2364Z",
+    "gId": "2187",
+    "label": "FABRICATION DE MORTIERS ET BETONS SECS"
+  },
+  {
+    "code": "2365Z",
+    "gId": "2188",
+    "label": "FABRICATION D OUVRAGES EN FIBRE-CIMENT"
+  },
+  {
+    "code": "2369Z",
+    "gId": "2189",
+    "label": "FABRICATION D AUTRES OUVRAGES EN BETON, EN CIMENT OU EN PLATRE"
+  },
+  {
+    "code": "2370Z",
+    "gId": "2190",
+    "label": "TAILLE, FACONNAGE ET FINISSAGE DE PIERRES"
+  },
+  {
+    "code": "2391Z",
+    "gId": "2191",
+    "label": "FABRICATION DE PRODUITS ABRASIFS"
+  },
+  {
+    "code": "2399Z",
+    "gId": "2192",
+    "label": "FABRICATION D AUTRES PRODUITS MINERAUX NON METALLIQUES N.C.A."
+  },
+  {
+    "code": "2410Z",
+    "gId": "2193",
+    "label": "SIDERURGIE"
+  },
+  {
+    "code": "241A",
+    "gId": "242",
+    "label": "FABRICATION DE GAZ INDUSTRIELS"
+  },
+  {
+    "code": "241C",
+    "gId": "243",
+    "label": "FABRICATION DE COLORANTS ET DE PIGMENTS"
+  },
+  {
+    "code": "241E",
+    "gId": "244",
+    "label": "FABRICATION D AUTRES PRODUITS CHIMIQUES INORGANIQUES DE BASE"
+  },
+  {
+    "code": "241G",
+    "gId": "245",
+    "label": "FABRICATION D AUTRES PRODUITS CHIMIQUES ORGANIQUES"
+  },
+  {
+    "code": "241J",
+    "gId": "246",
+    "label": "FABRICATION DE PRODUITS AZOTES ET D ENGRAIS"
+  },
+  {
+    "code": "241L",
+    "gId": "247",
+    "label": "FABRICATION DE MATIERES PLASTIQUES DE BASE"
+  },
+  {
+    "code": "241N",
+    "gId": "248",
+    "label": "FABRICATION DE CAOUTCHOUC SYNTHETIQUE"
+  },
+  {
+    "code": "2420Z",
+    "gId": "2194",
+    "label": "FABRICATION DE TUBES, TUYAUX, PROFILES CREUX ET ACCESSOIRES CORRESPONDANTS EN ACIER"
+  },
+  {
+    "code": "242Z",
+    "gId": "250",
+    "label": "FABRICATION DE PRODUITS AGROCHIMIQUES"
+  },
+  {
+    "code": "2431Z",
+    "gId": "2195",
+    "label": "ETIRAGE A FROID DE BARRES"
+  },
+  {
+    "code": "2432Z",
+    "gId": "2196",
+    "label": "LAMINAGE A FROID DE FEUILLARDS"
+  },
+  {
+    "code": "2433Z",
+    "gId": "2197",
+    "label": "PROFILAGE A FROID PAR FORMAGE OU PLIAGE"
+  },
+  {
+    "code": "2434Z",
+    "gId": "2198",
+    "label": "TREFILAGE A FROID"
+  },
+  {
+    "code": "243Z",
+    "gId": "252",
+    "label": "FABRICATION DE PEINTURES ET VERNIS"
+  },
+  {
+    "code": "2441Z",
+    "gId": "2199",
+    "label": "PRODUCTION DE METAUX PRECIEUX"
+  },
+  {
+    "code": "2442Z",
+    "gId": "2200",
+    "label": "METALLURGIE DE L ALUMINIUM"
+  },
+  {
+    "code": "2443Z",
+    "gId": "2201",
+    "label": "METALLURGIE DU PLOMB, DU ZINC OU DE L ETAIN"
+  },
+  {
+    "code": "2444Z",
+    "gId": "2202",
+    "label": "METALLURGIE DU CUIVRE"
+  },
+  {
+    "code": "2445Z",
+    "gId": "2203",
+    "label": "METALLURGIE DES AUTRES METAUX NON FERREUX"
+  },
+  {
+    "code": "2446Z",
+    "gId": "2204",
+    "label": "ELABORATION ET TRANSFORMATION DE MATIERES NUCLEAIRES"
+  },
+  {
+    "code": "244A",
+    "gId": "254",
+    "label": "FABRICATION DE PRODUITS PHARMACEUTIQUES DE BASE"
+  },
+  {
+    "code": "244C",
+    "gId": "256",
+    "label": "FABRICATION DE MEDICAMENTS"
+  },
+  {
+    "code": "244D",
+    "gId": "257",
+    "label": "FABRICATION D AUTRES PRODUITS PHARMACEUTIQUES"
+  },
+  {
+    "code": "2451Z",
+    "gId": "2205",
+    "label": "FONDERIE DE FONTE"
+  },
+  {
+    "code": "2452Z",
+    "gId": "2206",
+    "label": "FONDERIE D ACIER"
+  },
+  {
+    "code": "2453Z",
+    "gId": "2207",
+    "label": "FONDERIE DE METAUX LEGERS"
+  },
+  {
+    "code": "2454Z",
+    "gId": "2208",
+    "label": "FONDERIE D AUTRES METAUX NON FERREUX"
+  },
+  {
+    "code": "245A",
+    "gId": "259",
+    "label": "FABRICATION DE SAVONS, DETERGENTS ET PRODUITS D ENTRETIEN"
+  },
+  {
+    "code": "245C",
+    "gId": "260",
+    "label": "FABRICATION DE PARFUMS ET DE PRODUITS POUR LA TOILETTE"
+  },
+  {
+    "code": "246A",
+    "gId": "262",
+    "label": "FABRICATION DE PRODUITS EXPLOSIFS"
+  },
+  {
+    "code": "246C",
+    "gId": "263",
+    "label": "FABRICATION DE COLLES ET GELATINES"
+  },
+  {
+    "code": "246E",
+    "gId": "264",
+    "label": "FABRICATION D HUILES ESSENTIELLES"
+  },
+  {
+    "code": "246G",
+    "gId": "265",
+    "label": "FABRICATION DE PRODUITS CHIMIQUES POUR LA PHOTOGRAPHIE"
+  },
+  {
+    "code": "246J",
+    "gId": "266",
+    "label": "FABRICATION DE SUPPORTS DE DONNEES"
+  },
+  {
+    "code": "246L",
+    "gId": "267",
+    "label": "FABRICATION DE PRODUITS CHIMIQUES A USAGE INDUSTRIEL"
+  },
+  {
+    "code": "247Z",
+    "gId": "269",
+    "label": "FABRICATION DE FIBRES ARTIFICIELLES OU SYNTHETIQUES"
+  },
+  {
+    "code": "2511Z",
+    "gId": "2209",
+    "label": "FABRICATION DE STRUCTURES METALLIQUES ET DE PARTIES DE STRUCTURES"
+  },
+  {
+    "code": "2512Z",
+    "gId": "2210",
+    "label": "FABRICATION DE PORTES ET FENETRES EN METAL"
+  },
+  {
+    "code": "251A",
+    "gId": "272",
+    "label": "FABRICATION DE PNEUMATIQUES"
+  },
+  {
+    "code": "251C",
+    "gId": "273",
+    "label": "RECHAPAGE DE PNEUMATIQUES"
+  },
+  {
+    "code": "251E",
+    "gId": "274",
+    "label": "FABRICATION D AUTRES ARTICLES EN CAOUTCHOUC"
+  },
+  {
+    "code": "2521Z",
+    "gId": "2211",
+    "label": "FABRICATION DE RADIATEURS ET DE CHAUDIERES POUR LE CHAUFFAGE CENTRAL"
+  },
+  {
+    "code": "2529Z",
+    "gId": "2212",
+    "label": "FABRICATION D AUTRES RESERVOIRS, CITERNES ET CONTENEURS METALLIQUES"
+  },
+  {
+    "code": "252A",
+    "gId": "276",
+    "label": "FABRIC DE PLAQUES, FEUILLES, TUBES ET PROFILES EN PLASTIQUES"
+  },
+  {
+    "code": "252C",
+    "gId": "277",
+    "label": "FABRICATION D EMBALLAGES EN MATIERES PLASTIQUES"
+  },
+  {
+    "code": "252E",
+    "gId": "278",
+    "label": "FABRIC D ELEMENTS EN MATIERES PLASTIQUES POUR LA CONSTRUCTION"
+  },
+  {
+    "code": "252G",
+    "gId": "280",
+    "label": "FABRICATION D ARTICLES DIVERS EN MATIERES PLASTIQUES"
+  },
+  {
+    "code": "252H",
+    "gId": "281",
+    "label": "FABRICATION DE PIECES TECHNIQUES EN MATIERES PLASTIQUES"
+  },
+  {
+    "code": "2530Z",
+    "gId": "2213",
+    "label": "FABRICATION DE GENERATEURS DE VAPEUR, A L EXCEPTION DES CHAUDIERES POUR LE CHAUFFAGE CENTRAL"
+  },
+  {
+    "code": "2540Z",
+    "gId": "2214",
+    "label": "FABRICATION D ARMES ET DE MUNITIONS"
+  },
+  {
+    "code": "2550A",
+    "gId": "2215",
+    "label": "FORGE, ESTAMPAGE, MATRICAGE. METALLURGIE DES POUDRES"
+  },
+  {
+    "code": "2550B",
+    "gId": "2216",
+    "label": "DECOUPAGE, EMBOUTISSAGE"
+  },
+  {
+    "code": "2561Z",
+    "gId": "2217",
+    "label": "TRAITEMENT ET REVETEMENT DES METAUX"
+  },
+  {
+    "code": "2562A",
+    "gId": "2218",
+    "label": "DECOLLETAGE"
+  },
+  {
+    "code": "2562B",
+    "gId": "2219",
+    "label": "MECANIQUE INDUSTRIELLE"
+  },
+  {
+    "code": "2571Z",
+    "gId": "2220",
+    "label": "FABRICATION DE COUTELLERIE"
+  },
+  {
+    "code": "2572Z",
+    "gId": "2221",
+    "label": "FABRICATION DE SERRURES ET DE FERRURES"
+  },
+  {
+    "code": "2573A",
+    "gId": "2222",
+    "label": "FABRICATION DE MOULES ET MODELES"
+  },
+  {
+    "code": "2573B",
+    "gId": "2223",
+    "label": "FABRICATION D AUTRES OUTILLAGES"
+  },
+  {
+    "code": "2591Z",
+    "gId": "2224",
+    "label": "FABRICATION DE FUTS ET EMBALLAGES METALLIQUES SIMILAIRES"
+  },
+  {
+    "code": "2592Z",
+    "gId": "2225",
+    "label": "FABRICATION D EMBALLAGES METALLIQUES LEGERS"
+  },
+  {
+    "code": "2593Z",
+    "gId": "2226",
+    "label": "FABRICATION D ARTICLES EN FILS METALLIQUES, DE CHAINES ET DE RESSORTS"
+  },
+  {
+    "code": "2594Z",
+    "gId": "2227",
+    "label": "FABRICATION DE VIS ET DE BOULONS"
+  },
+  {
+    "code": "2599A",
+    "gId": "2228",
+    "label": "FABRICATION D ARTICLES METALLIQUES MENAGERS"
+  },
+  {
+    "code": "2599B",
+    "gId": "2229",
+    "label": "FABRICATION D AUTRE ARTICLES METALLIQUES"
+  },
+  {
+    "code": "2611Z",
+    "gId": "2230",
+    "label": "FABRICATION DE COMPOSANTS ELECTRONIQUES"
+  },
+  {
+    "code": "2612Z",
+    "gId": "2231",
+    "label": "FABRICATION DE CARTES ELECTRONIQUES ASSEMBLEES"
+  },
+  {
+    "code": "261A",
+    "gId": "284",
+    "label": "FABRICATION DE VERRE PLAT"
+  },
+  {
+    "code": "261C",
+    "gId": "285",
+    "label": "FACONNAGE ET TRANSFORMATION DU VERRE PLAT"
+  },
+  {
+    "code": "261E",
+    "gId": "286",
+    "label": "FABRICATION DE VERRE CREUX"
+  },
+  {
+    "code": "261G",
+    "gId": "287",
+    "label": "FABRICATION DE FIBRES DE VERRE"
+  },
+  {
+    "code": "261J",
+    "gId": "289",
+    "label": "FABRICATION ET FACONNAGE D ARTICLES TECHNIQUES EN VERRE"
+  },
+  {
+    "code": "261K",
+    "gId": "290",
+    "label": "FABRICATION D ISOLATEURS EN VERRE"
+  },
+  {
+    "code": "2620Z",
+    "gId": "2232",
+    "label": "FABRICATION D ORDINATEURS ET D EQUIPEMENTS PERIPHERIQUES"
+  },
+  {
+    "code": "262A",
+    "gId": "292",
+    "label": "FABRIC D ARTICLES CERAMIQUES A USAGE DOMESTIQUE OU ORNEMENTAL"
+  },
+  {
+    "code": "262C",
+    "gId": "293",
+    "label": "FABRICATION D APPAREILS SANITAIRES EN CERAMIQUE"
+  },
+  {
+    "code": "262E",
+    "gId": "294",
+    "label": "FABRICATION D ISOLATEURS ET PIECES ISOLANTES EN CERAMIQUE"
+  },
+  {
+    "code": "262G",
+    "gId": "295",
+    "label": "FABRICATION D AUTRES PRODUITS CERAMIQUES A USAGE TECHNIQUE"
+  },
+  {
+    "code": "262J",
+    "gId": "296",
+    "label": "FABRICATION D AUTRES PRODUITS CERAMIQUES"
+  },
+  {
+    "code": "262L",
+    "gId": "297",
+    "label": "FABRICATION DE PRODUITS CERAMIQUES REFRACTAIRES"
+  },
+  {
+    "code": "2630Z",
+    "gId": "2233",
+    "label": "FABRICATION D EQUIPEMENTS DE COMMUNICATION"
+  },
+  {
+    "code": "263Z",
+    "gId": "299",
+    "label": "FABRICATION DE CARREAUX EN CERAMIQUE"
+  },
+  {
+    "code": "2640Z",
+    "gId": "2234",
+    "label": "FABRICATION DE PRODUITS ELECTRONIQUES GRAND PUBLIC"
+  },
+  {
+    "code": "264A",
+    "gId": "302",
+    "label": "FABRICATION DE BRIQUES"
+  },
+  {
+    "code": "264B",
+    "gId": "303",
+    "label": "FABRICATION DE TUILES"
+  },
+  {
+    "code": "264C",
+    "gId": "304",
+    "label": "FABRICATION DE PRODUITS DIVERS EN TERRE CUITE"
+  },
+  {
+    "code": "2651A",
+    "gId": "2235",
+    "label": "FABRICATION D EQUIPEMENTS D AIDE A LA NAVIGATION"
+  },
+  {
+    "code": "2651B",
+    "gId": "2236",
+    "label": "FABRICATION D INSTRUMENTATION SCIENTIFIQUE ET TECHNIQUE"
+  },
+  {
+    "code": "2652Z",
+    "gId": "2237",
+    "label": "HORLOGERIE"
+  },
+  {
+    "code": "265A",
+    "gId": "306",
+    "label": "FABRICATION DE CIMENT"
+  },
+  {
+    "code": "265C",
+    "gId": "307",
+    "label": "FABRICATION DE CHAUX"
+  },
+  {
+    "code": "265E",
+    "gId": "308",
+    "label": "FABRICATION DE PLATRE"
+  },
+  {
+    "code": "2660Z",
+    "gId": "2238",
+    "label": "FABRICATION D EQUIPEMENTS D IRRADIATION MEDICALE, D EQUIPEMENTS ELECTROMEDICAUX ET ELECTROTHERAPEUTIQUES"
+  },
+  {
+    "code": "266A",
+    "gId": "310",
+    "label": "FABRICATION D ELEMENTS EN BETON POUR LA CONSTRUCTION"
+  },
+  {
+    "code": "266C",
+    "gId": "311",
+    "label": "FABRICATION D ELEMENTS EN PLATRE POUR LA CONSTRUCTION"
+  },
+  {
+    "code": "266E",
+    "gId": "312",
+    "label": "FABRICATION DE BETON PRET A L EMPLOI"
+  },
+  {
+    "code": "266G",
+    "gId": "313",
+    "label": "FABRICATION DE MORTIERS ET BETONS SECS"
+  },
+  {
+    "code": "266J",
+    "gId": "314",
+    "label": "FABRICATION D OUVRAGES EN FIBRE-CIMENT"
+  },
+  {
+    "code": "266L",
+    "gId": "315",
+    "label": "FABRICATION D AUTRES OUVRAGES EN BETON OU EN PLATRE"
+  },
+  {
+    "code": "2670Z",
+    "gId": "2239",
+    "label": "FABRICATION DE MATERIELS OPTIQUE ET PHOTOGRAPHIQUE"
+  },
+  {
+    "code": "267Z",
+    "gId": "317",
+    "label": "TRAVAIL DE LA PIERRE"
+  },
+  {
+    "code": "2680Z",
+    "gId": "2240",
+    "label": "FABRICATION DE SUPPORTS MAGNETIQUES ET OPTIQUES"
+  },
+  {
+    "code": "268A",
+    "gId": "319",
+    "label": "FABRICATION DE PRODUITS ABRASIFS"
+  },
+  {
+    "code": "268C",
+    "gId": "320",
+    "label": "FABRICATION DE PRODUITS MINERAUX NON METALLIQUES N.C.A."
+  },
+  {
+    "code": "2711Z",
+    "gId": "2241",
+    "label": "FABRICATION DE MOTEURS, GENERATRICES ET TRANSFORMATEURS ELECTRIQUES"
+  },
+  {
+    "code": "2712Z",
+    "gId": "2242",
+    "label": "FABRICATION DE MATERIEL DE DISTRIBUTION ET DE COMMANDE ELECTRIQUE"
+  },
+  {
+    "code": "271Y",
+    "gId": "1712",
+    "label": "SIDERURGIE"
+  },
+  {
+    "code": "271Z",
+    "gId": "323",
+    "label": "SIDERURGIE (CECA)"
+  },
+  {
+    "code": "2720Z",
+    "gId": "2243",
+    "label": "FABRICATION DE PILES ET D ACCUMULATEURS ELECTRIQUES"
+  },
+  {
+    "code": "272A",
+    "gId": "325",
+    "label": "FABRICATION DE TUBES EN FONTE"
+  },
+  {
+    "code": "272C",
+    "gId": "326",
+    "label": "FABRICATION DE TUBES EN ACIER"
+  },
+  {
+    "code": "2731Z",
+    "gId": "2244",
+    "label": "FABRICATION DE CABLES DE FIBRES OPTIQUES"
+  },
+  {
+    "code": "2732Z",
+    "gId": "2245",
+    "label": "FABRICATION D AUTRES FILS ET CABLES ELECTRONIQUES OU ELECTRIQUES"
+  },
+  {
+    "code": "2733Z",
+    "gId": "2246",
+    "label": "FABRICATION DE MATERIEL D INSTALLATION ELECTRIQUE"
+  },
+  {
+    "code": "273A",
+    "gId": "328",
+    "label": "ETIRAGE A FROID"
+  },
+  {
+    "code": "273C",
+    "gId": "329",
+    "label": "LAMINAGE A FROID DE FEUILLARDS"
+  },
+  {
+    "code": "273E",
+    "gId": "330",
+    "label": "PROFILAGE A FROID PAR FORMAGE OU PLIAGE"
+  },
+  {
+    "code": "273G",
+    "gId": "331",
+    "label": "TREFILAGE A FROID"
+  },
+  {
+    "code": "273J",
+    "gId": "332",
+    "label": "PRODUCTION DE FERROALLIAGES ET AUTRES PRODUITS NON"
+  },
+  {
+    "code": "2740Z",
+    "gId": "2247",
+    "label": "FABRICATION D APPAREILS D ECLAIRAGE ELECTRIQUE"
+  },
+  {
+    "code": "274A",
+    "gId": "334",
+    "label": "PRODUCTION DE METAUX PRECIEUX"
+  },
+  {
+    "code": "274C",
+    "gId": "336",
+    "label": "PRODUCTION D ALUMINIUM"
+  },
+  {
+    "code": "274D",
+    "gId": "337",
+    "label": "PREMIERE TRANSFORMATION DE L ALUMINIUM"
+  },
+  {
+    "code": "274F",
+    "gId": "339",
+    "label": "PRODUCTION DE PLOMB, DE ZINC OU D ETAIN"
+  },
+  {
+    "code": "274G",
+    "gId": "340",
+    "label": "PREMIERE TRANSFORMATION DU PLOMB, DU ZINC OU DE L ETAIN"
+  },
+  {
+    "code": "274J",
+    "gId": "342",
+    "label": "PRODUCTION DE CUIVRE"
+  },
+  {
+    "code": "274K",
+    "gId": "343",
+    "label": "PREMIERE TRANSFORMATION DU CUIVRE"
+  },
+  {
+    "code": "274M",
+    "gId": "344",
+    "label": "METALLURGIE DES AUTRES METAUX NON FERREUX"
+  },
+  {
+    "code": "2751Z",
+    "gId": "2248",
+    "label": "FABRICATION D APPAREILS ELECTROMENAGERS"
+  },
+  {
+    "code": "2752Z",
+    "gId": "2249",
+    "label": "FABRICATION D APPAREILS MENAGERS NON ELECTRIQUES"
+  },
+  {
+    "code": "275A",
+    "gId": "346",
+    "label": "FONDERIE DE FONTE"
+  },
+  {
+    "code": "275C",
+    "gId": "347",
+    "label": "FONDERIE D ACIER"
+  },
+  {
+    "code": "275E",
+    "gId": "348",
+    "label": "FONDERIE DE METAUX LEGERS"
+  },
+  {
+    "code": "275G",
+    "gId": "349",
+    "label": "FONDERIE D AUTRES METAUX NON FERREUX"
+  },
+  {
+    "code": "2790Z",
+    "gId": "2250",
+    "label": "FABRICATION D AUTRES MATERIELS ELECTRIQUES"
+  },
+  {
+    "code": "2811Z",
+    "gId": "2251",
+    "label": "FABRICATION DE MOTEURS ET TURBINES, A L EXCEPTION DES MOTEURS D AVIONS ET DE VEHICULES"
+  },
+  {
+    "code": "2812Z",
+    "gId": "2252",
+    "label": "FABRICATION D EQUIPEMENTS HYDRAULIQUES ET PNEUMATIQUES"
+  },
+  {
+    "code": "2813Z",
+    "gId": "2253",
+    "label": "FABRICATION D AUTRES POMPES ET COMPRESSEURS"
+  },
+  {
+    "code": "2814Z",
+    "gId": "2254",
+    "label": "FABRICATION D ARTICLES DE ROBINETTERIE"
+  },
+  {
+    "code": "2815Z",
+    "gId": "2255",
+    "label": "FABRICATION D ENGRENAGES ET D ORGANES MECANIQUES DE TRANSMISSION"
+  },
+  {
+    "code": "281A",
+    "gId": "352",
+    "label": "FABRICATION DE CONSTRUCTIONS METALLIQUES"
+  },
+  {
+    "code": "281C",
+    "gId": "353",
+    "label": "FABRICATION DE MENUISERIES ET FERMETURES METALLIQUES"
+  },
+  {
+    "code": "2821Z",
+    "gId": "2256",
+    "label": "FABRICATION DE FOURS ET BRULEURS"
+  },
+  {
+    "code": "2822Z",
+    "gId": "2257",
+    "label": "FABRICATION DE MATERIEL DE LEVAGE ET DE MANUTENTION"
+  },
+  {
+    "code": "2823Z",
+    "gId": "2258",
+    "label": "FABRICATION DE MACHINES ET D EQUIPEMENTS DE BUREAU (A L EXCEPTION DES ORDINATEURS ET EQUIPEMENTS PERIPHERIQUES)"
+  },
+  {
+    "code": "2824Z",
+    "gId": "2259",
+    "label": "FABRICATION D OUTILLAGE PORTATIF A MOTEUR INCORPORE"
+  },
+  {
+    "code": "2825Z",
+    "gId": "2260",
+    "label": "FABRICATION D EQUIPEMENTS AERAULIQUES ET FRIGORIFIQUES INDUSTRIELS"
+  },
+  {
+    "code": "2829A",
+    "gId": "2261",
+    "label": "FABRICATION D EQUIPEMENTS D EMBALLAGE, DE CONDITIONNEMENT ET DE PESAGE"
+  },
+  {
+    "code": "2829B",
+    "gId": "2262",
+    "label": "FABRICATION D AUTRES MACHINES D USAGE GENERAL"
+  },
+  {
+    "code": "282A",
+    "gId": "356",
+    "label": "FABRICATION DE RESERVOIRS ET CITERNES METALLIQUES"
+  },
+  {
+    "code": "282B",
+    "gId": "357",
+    "label": "FABRICATION DE BOUTEILLES POUR GAZ COMPRIMES"
+  },
+  {
+    "code": "282C",
+    "gId": "1713",
+    "label": "FABRICATION DE RESERVOIRS, CITERNES ET CONTENEURS METALLIQUES"
+  },
+  {
+    "code": "282D",
+    "gId": "358",
+    "label": "FABRIC DE RADIATEURS ET DE CHAUDIERES POUR LE CHAUFFAGE CENTRAL"
+  },
+  {
+    "code": "2830Z",
+    "gId": "2263",
+    "label": "FABRICATION DE MACHINES AGRICOLES ET FORESTIERES"
+  },
+  {
+    "code": "283A",
+    "gId": "361",
+    "label": "FABRICATION DE GENERATEURS DE VAPEUR"
+  },
+  {
+    "code": "283B",
+    "gId": "362",
+    "label": "CHAUDRONNERIE NUCLEAIRE"
+  },
+  {
+    "code": "283C",
+    "gId": "363",
+    "label": "CHAUDRONNERIE-TUYAUTERIE"
+  },
+  {
+    "code": "2841Z",
+    "gId": "2264",
+    "label": "FABRICATION DE MACHINES-OUTILS POUR LE TRAVAIL DES METAUX"
+  },
+  {
+    "code": "2849Z",
+    "gId": "2265",
+    "label": "FABRICATION D AUTRES MACHINES-OUTILS"
+  },
+  {
+    "code": "284A",
+    "gId": "366",
+    "label": "FORGE, ESTAMPAGE, MATRICAGE"
+  },
+  {
+    "code": "284B",
+    "gId": "367",
+    "label": "DECOUPAGE, EMBOUTISSAGE"
+  },
+  {
+    "code": "284C",
+    "gId": "368",
+    "label": "METALLURGIE DES POUDRES"
+  },
+  {
+    "code": "285A",
+    "gId": "370",
+    "label": "TRAITEMENT ET REVETEMENT DES METAUX"
+  },
+  {
+    "code": "285C",
+    "gId": "372",
+    "label": "DECOLLETAGE"
+  },
+  {
+    "code": "285D",
+    "gId": "373",
+    "label": "MECANIQUE GENERALE"
+  },
+  {
+    "code": "286A",
+    "gId": "375",
+    "label": "FABRICATION DE COUTELLERIE"
+  },
+  {
+    "code": "286C",
+    "gId": "377",
+    "label": "FABRICATION D OUTILLAGE A MAIN"
+  },
+  {
+    "code": "286D",
+    "gId": "378",
+    "label": "FABRICATION D OUTILLAGE MECANIQUE"
+  },
+  {
+    "code": "286F",
+    "gId": "379",
+    "label": "FABRICATION DE SERRURES ET FERRURES"
+  },
+  {
+    "code": "287A",
+    "gId": "381",
+    "label": "FABRICATION DE FUTS ET EMBALLAGES METALLIQUES SIMILAIRES"
+  },
+  {
+    "code": "287C",
+    "gId": "382",
+    "label": "FABRICATION D EMBALLAGES METALLIQUES LEGERS"
+  },
+  {
+    "code": "287E",
+    "gId": "383",
+    "label": "FABRICATION D ARTICLES EN FILS METALLIQUES"
+  },
+  {
+    "code": "287G",
+    "gId": "385",
+    "label": "VISSERIE ET BOULONNERIE"
+  },
+  {
+    "code": "287H",
+    "gId": "386",
+    "label": "FABRICATION DE RESSORTS"
+  },
+  {
+    "code": "287J",
+    "gId": "387",
+    "label": "FABRICATION DE CHAINES"
+  },
+  {
+    "code": "287L",
+    "gId": "389",
+    "label": "FABRICATION D ARTICLES METALLIQUES MENAGERS"
+  },
+  {
+    "code": "287M",
+    "gId": "390",
+    "label": "FABRICATION DE COFFRES FORTS"
+  },
+  {
+    "code": "287N",
+    "gId": "391",
+    "label": "FABRICATION DE PETITS ARTICLES METALLIQUES"
+  },
+  {
+    "code": "287P",
+    "gId": "392",
+    "label": "FABRICATION D ARTICLES METALLIQUES N.C.A."
+  },
+  {
+    "code": "287Q",
+    "gId": "1714",
+    "label": "FABRICATION D ARTICLES METALLIQUES DIVERS"
+  },
+  {
+    "code": "2891Z",
+    "gId": "2266",
+    "label": "FABRICATION DE MACHINES POUR LA METALLURGIE"
+  },
+  {
+    "code": "2892Z",
+    "gId": "2267",
+    "label": "FABRICATION DE MACHINES POUR L EXTRACTION OU LA CONSTRUCTION"
+  },
+  {
+    "code": "2893Z",
+    "gId": "2268",
+    "label": "FABRICATION DE MACHINES POUR L INDUSTRIE AGRO-ALIMENTAIRE"
+  },
+  {
+    "code": "2894Z",
+    "gId": "2269",
+    "label": "FABRICATION DE MACHINES POUR LES INDUSTRIES TEXTILES"
+  },
+  {
+    "code": "2895Z",
+    "gId": "2270",
+    "label": "FABRICATION DE MACHINES POUR LES INDUSTRIES DU PAPIER ET DU CARTON"
+  },
+  {
+    "code": "2896Z",
+    "gId": "2271",
+    "label": "FABRICATION DE MACHINES POUR LE TRAVAIL DU CAOUTCHOUC OU DES PLASTIQUES"
+  },
+  {
+    "code": "2899A",
+    "gId": "2272",
+    "label": "FABRICATION DE MACHINES D IMPRIMERIE"
+  },
+  {
+    "code": "2899B",
+    "gId": "2273",
+    "label": "FABRICATION D AUTRES MACHINES SPECIALISEES"
+  },
+  {
+    "code": "2910Z",
+    "gId": "2274",
+    "label": "CONSTRUCTION DE VEHICULES AUTOMOBILES"
+  },
+  {
+    "code": "291A",
+    "gId": "395",
+    "label": "FABRICATION DE MOTEURS ET TURBINES"
+  },
+  {
+    "code": "291B",
+    "gId": "1715",
+    "label": "FABRICATION DE POMPES"
+  },
+  {
+    "code": "291C",
+    "gId": "397",
+    "label": "FABRICATION DE POMPES ET COMPRESSEURS"
+  },
+  {
+    "code": "291D",
+    "gId": "398",
+    "label": "FABRICATION DE TRANSMISSIONS HYDRAULIQUES ET PNEUMATIQUES"
+  },
+  {
+    "code": "291E",
+    "gId": "1716",
+    "label": "FABRICATION DE COMPRESSEURS"
+  },
+  {
+    "code": "291F",
+    "gId": "399",
+    "label": "FABRICATION D ARTICLES DE ROBINETTERIE"
+  },
+  {
+    "code": "291H",
+    "gId": "401",
+    "label": "FABRICATION DE ROULEMENTS"
+  },
+  {
+    "code": "291J",
+    "gId": "402",
+    "label": "FABRICATION D ORGANES MECANIQUES DE TRANSMISSION"
+  },
+  {
+    "code": "2920Z",
+    "gId": "2275",
+    "label": "FABRICATION DE CARROSSERIES ET REMORQUES"
+  },
+  {
+    "code": "292A",
+    "gId": "404",
+    "label": "FABRICATION DE FOURS ET BRULEURS"
+  },
+  {
+    "code": "292C",
+    "gId": "406",
+    "label": "FABRICATION D ASCENSEURS, MONTE-CHARGES ET ESCALIERS MECANIQUES"
+  },
+  {
+    "code": "292D",
+    "gId": "407",
+    "label": "FABRICATION D EQUIPEMENTS DE LEVAGE ET DE MANUTENTION"
+  },
+  {
+    "code": "292F",
+    "gId": "408",
+    "label": "FABRIC D EQUIPEMENTS AERAULIQUES ET FRIGORIFIQUES INDUSTRIELS"
+  },
+  {
+    "code": "292H",
+    "gId": "410",
+    "label": "FABRICATION D EQUIPEMENTS D EMBALLAGE ET DE CONDITIONNEMENT"
+  },
+  {
+    "code": "292J",
+    "gId": "411",
+    "label": "FABRICATION D APPAREILS DE PESAGE"
+  },
+  {
+    "code": "292K",
+    "gId": "412",
+    "label": "FABRICATION DE MACHINES DIVERSES D USAGE GENERAL"
+  },
+  {
+    "code": "292L",
+    "gId": "1717",
+    "label": "FABRICATION DE MATERIEL POUR LES INDUSTRIES CHIMIQUES"
+  },
+  {
+    "code": "292M",
+    "gId": "1718",
+    "label": "FABRICATION D AUTRES MACHINES D USAGE GENERAL"
+  },
+  {
+    "code": "2931Z",
+    "gId": "2276",
+    "label": "FABRICATION D EQUIPEMENTS ELECTRIQUES ET ELECTRONIQUES AUTOMOBILES"
+  },
+  {
+    "code": "2932Z",
+    "gId": "2277",
+    "label": "FABRICATION D AUTRES EQUIPEMENTS AUTOMOBILES"
+  },
+  {
+    "code": "293A",
+    "gId": "414",
+    "label": "FABRICATION DE TRACTEURS AGRICOLES"
+  },
+  {
+    "code": "293C",
+    "gId": "416",
+    "label": "REPARATION DE MATERIEL AGRICOLE"
+  },
+  {
+    "code": "293D",
+    "gId": "417",
+    "label": "FABRICATION DE MATERIEL AGRICOLE"
+  },
+  {
+    "code": "294A",
+    "gId": "420",
+    "label": "FABRICATION DE MACHINES-OUTILS A METAUX"
+  },
+  {
+    "code": "294B",
+    "gId": "421",
+    "label": "FABRICATION DE MACHINES-OUTILS A BOIS"
+  },
+  {
+    "code": "294C",
+    "gId": "422",
+    "label": "FABRICATION DE MACHINES-OUTILS PORTATIVES A MOTEUR"
+  },
+  {
+    "code": "294D",
+    "gId": "423",
+    "label": "FABRICATION DE MATERIEL DE SOUDAGE"
+  },
+  {
+    "code": "294E",
+    "gId": "424",
+    "label": "FABRICATION D AUTRES MACHINES-OUTILS"
+  },
+  {
+    "code": "295A",
+    "gId": "426",
+    "label": "FABRICATION DE MACHINES POUR LA METALLURGIE"
+  },
+  {
+    "code": "295B",
+    "gId": "1719",
+    "label": "FABRICATION DE MATERIEL DE MINES POUR L EXTRACTION"
+  },
+  {
+    "code": "295C",
+    "gId": "427",
+    "label": "FABRICATION DE MACHINES POUR L EXTRACTION OU LA CONSTRUCTION"
+  },
+  {
+    "code": "295D",
+    "gId": "1720",
+    "label": "FABRICATION DE MATERIELS DE TRAVAUX PUBLICS"
+  },
+  {
+    "code": "295E",
+    "gId": "428",
+    "label": "FABRICATION DE MACHINES POUR L INDUSTRIE AGROALIMENTAIRE"
+  },
+  {
+    "code": "295G",
+    "gId": "429",
+    "label": "FABRICATION DE MACHINES POUR LES INDUSTRIES TEXTILES"
+  },
+  {
+    "code": "295J",
+    "gId": "430",
+    "label": "FABRIC DE MACHINES POUR LES INDUSTRIES DU PAPIER ET DU CARTON"
+  },
+  {
+    "code": "295L",
+    "gId": "432",
+    "label": "FABRICATION DE MACHINES D IMPRIMERIE"
+  },
+  {
+    "code": "295M",
+    "gId": "433",
+    "label": "FABRIC DE MACHINES POUR TRAVAIL DU CAOUTCHOUC OU DES PLASTIQUES"
+  },
+  {
+    "code": "295N",
+    "gId": "434",
+    "label": "FABRICATION DE MOULES ET MODELES"
+  },
+  {
+    "code": "295P",
+    "gId": "435",
+    "label": "FABRICATION D AUTRES MACHINES SPECIALISEES"
+  },
+  {
+    "code": "295Q",
+    "gId": "1721",
+    "label": "FABRICATION DE MACHINES D ASSEMBLAGE AUTOMATIQUE"
+  },
+  {
+    "code": "295R",
+    "gId": "1722",
+    "label": "FABRICATION DE MACHINES SPECIALISEES DIVERSES"
+  },
+  {
+    "code": "296A",
+    "gId": "438",
+    "label": "FABRICATION D ARMEMENT"
+  },
+  {
+    "code": "296B",
+    "gId": "439",
+    "label": "FABRICATION D ARMES DE CHASSE, DE TIR ET DE DEFENSE"
+  },
+  {
+    "code": "297A",
+    "gId": "441",
+    "label": "FABRICATION D APPAREILS ELECTROMENAGERS"
+  },
+  {
+    "code": "297C",
+    "gId": "442",
+    "label": "FABRICATION D APPAREILS MENAGERS NON ELECTRIQUES"
+  },
+  {
+    "code": "300A",
+    "gId": "445",
+    "label": "FABRICATION DE MACHINES DE BUREAU"
+  },
+  {
+    "code": "300C",
+    "gId": "446",
+    "label": "FABRICATION D ORDINATEURS ET D AUTRES EQUIPEMENTS INFORMATIQUES"
+  },
+  {
+    "code": "3011Z",
+    "gId": "2278",
+    "label": "CONSTRUCTION DE NAVIRES ET DE STRUCTURES FLOTTANTES"
+  },
+  {
+    "code": "3012Z",
+    "gId": "2279",
+    "label": "CONSTRUCTION DE BATEAUX DE PLAISANCE"
+  },
+  {
+    "code": "3020Z",
+    "gId": "2280",
+    "label": "CONSTRUCTION DE LOCOMOTIVES ET D AUTRE MATERIEL FERROVIAIRE ROULANT"
+  },
+  {
+    "code": "3030Z",
+    "gId": "2281",
+    "label": "CONSTRUCTION AERONAUTIQUE ET SPATIALE"
+  },
+  {
+    "code": "3040Z",
+    "gId": "2282",
+    "label": "CONSTRUCTION DE VEHICULES MILITAIRES DE COMBAT"
+  },
+  {
+    "code": "3091Z",
+    "gId": "2283",
+    "label": "FABRICATION DE MOTOCYCLES"
+  },
+  {
+    "code": "3092Z",
+    "gId": "2284",
+    "label": "FABRICATION DE BICYCLETTES ET DE VEHICULES POUR INVALIDES"
+  },
+  {
+    "code": "3099Z",
+    "gId": "2285",
+    "label": "FABRICATION D AUTRES EQUIPEMENTS  DE TRANSPORT N.C.A"
+  },
+  {
+    "code": "3101Z",
+    "gId": "2286",
+    "label": "FABRICATION DE MEUBLES DE BUREAU ET DE MAGASIN"
+  },
+  {
+    "code": "3102Z",
+    "gId": "2287",
+    "label": "FABRICATION DE MEUBLES DE CUISINE"
+  },
+  {
+    "code": "3103Z",
+    "gId": "2288",
+    "label": "FABRICATION DE MATELAS"
+  },
+  {
+    "code": "3109A",
+    "gId": "2289",
+    "label": "FABRICATION DE SIEGES D AMEUBLEMENT D INTERIEUR"
+  },
+  {
+    "code": "3109B",
+    "gId": "2290",
+    "label": "FABRICATION D AUTRES MEUBLES ET INDUSTRIES CONNEXES DE L AMEUBLEMENT"
+  },
+  {
+    "code": "311A",
+    "gId": "450",
+    "label": "FABRIC DE MOTEURS, GENERATRICES ET TRANSFO ELECTRIQ INF A 750 KW"
+  },
+  {
+    "code": "311B",
+    "gId": "451",
+    "label": "FABRIC DE MOTEURS, GENERATRICES ET TRANSFO ELECTRIQ SUP A 750 KW"
+  },
+  {
+    "code": "311C",
+    "gId": "452",
+    "label": "REPARATION DE MATERIELS ELECTRIQUES"
+  },
+  {
+    "code": "312A",
+    "gId": "455",
+    "label": "FABRIC MATERIEL DISTRIBUTION OU COMMANDE ELECTRIQUE BASSE TENSION"
+  },
+  {
+    "code": "312B",
+    "gId": "456",
+    "label": "FABRIC MATERIEL DISTRIBUTION OU COMMANDE ELECTRIQUE HAUTE TENSION"
+  },
+  {
+    "code": "313Z",
+    "gId": "458",
+    "label": "FABRICATION DE FILS ET CABLES ISOLES"
+  },
+  {
+    "code": "314Z",
+    "gId": "460",
+    "label": "FABRICATION D ACCUMULATEURS ET DE PILES ELECTRIQUES"
+  },
+  {
+    "code": "315A",
+    "gId": "463",
+    "label": "FABRICATION DE LAMPES"
+  },
+  {
+    "code": "315B",
+    "gId": "464",
+    "label": "FABRICATION D APPAREILS ELECTRIQUES AUTONOMES DE SECURITE"
+  },
+  {
+    "code": "315C",
+    "gId": "465",
+    "label": "FABRICATION D APPAREILS D ECLAIRAGE"
+  },
+  {
+    "code": "316A",
+    "gId": "467",
+    "label": "FABRICATION DE MATERIELS ELECTRIQUES POUR MOTEURS ET VEHICULES"
+  },
+  {
+    "code": "316C",
+    "gId": "469",
+    "label": "FABRICATION DE MATERIEL ELECTROMAGNETIQUE INDUSTRIEL"
+  },
+  {
+    "code": "316D",
+    "gId": "470",
+    "label": "FABRICATION DE MATERIELS ELECTRIQUES N.C.A."
+  },
+  {
+    "code": "3211Z",
+    "gId": "2291",
+    "label": "FRAPPE DE MONNAIE"
+  },
+  {
+    "code": "3212Z",
+    "gId": "2292",
+    "label": "FABRICATION D ARTICLES DE JOAILLERIE ET BIJOUTERIE"
+  },
+  {
+    "code": "3213Z",
+    "gId": "2293",
+    "label": "FABRICATION D ARTICLES DE BIJOUTERIE FANTAISIE ET ARTICLES SIMILAIRES"
+  },
+  {
+    "code": "321A",
+    "gId": "474",
+    "label": "FABRICATION DE COMPOSANTS PASSIFS ET DE CONDENSATEURS"
+  },
+  {
+    "code": "321B",
+    "gId": "475",
+    "label": "FABRICATION DE COMPOSANTS ELECTRONIQUES ACTIFS"
+  },
+  {
+    "code": "321C",
+    "gId": "1723",
+    "label": "FABRICATION DE COMPOSANTS ELECTRONIQUES ACTIFS"
+  },
+  {
+    "code": "321D",
+    "gId": "1724",
+    "label": "ASSEMBLAGE DE CARTES ELECTRONIQUES POUR COMPTE DE TIERS"
+  },
+  {
+    "code": "3220Z",
+    "gId": "2294",
+    "label": "FABRICATION D INSTRUMENTS DE MUSIQUE"
+  },
+  {
+    "code": "322A",
+    "gId": "478",
+    "label": "FABRICATION EQUIPEMENTS D EMISSION ET DE TRANSMISSION HERTZIENNE"
+  },
+  {
+    "code": "322B",
+    "gId": "479",
+    "label": "FABRICATION D APPAREILS DE TELEPHONIE"
+  },
+  {
+    "code": "3230Z",
+    "gId": "2295",
+    "label": "FABRICATION D ARTICLES DE SPORT"
+  },
+  {
+    "code": "323Z",
+    "gId": "481",
+    "label": "FAB APPAREILS RECEPTION, ENREGISTRMT, REPRODUCTION"
+  },
+  {
+    "code": "3240Z",
+    "gId": "2296",
+    "label": "FABRICATION DE JEUX ET JOUETS"
+  },
+  {
+    "code": "3250A",
+    "gId": "2297",
+    "label": "FABRICATION DE MATERIEL MEDICO-CHIRURGICAL ET DENTAIRE"
+  },
+  {
+    "code": "3250B",
+    "gId": "2298",
+    "label": "FABRICATION DE LUNETTES"
+  },
+  {
+    "code": "3291Z",
+    "gId": "2299",
+    "label": "FABRICATION D ARTICLES DE BROSSERIE"
+  },
+  {
+    "code": "3299Z",
+    "gId": "2300",
+    "label": "AUTRES ACTIVITES MANUFACTURIERES N.C.A."
+  },
+  {
+    "code": "3311Z",
+    "gId": "2301",
+    "label": "REPARATION D OUVRAGES EN METAUX"
+  },
+  {
+    "code": "3312Z",
+    "gId": "2302",
+    "label": "REPARATION DE MACHINES ET EQUIPEMENTS MECANIQUES"
+  },
+  {
+    "code": "3313Z",
+    "gId": "2303",
+    "label": "REPARATION D EQUIPEMENTS ELECTRONIQUES ET OPTIQUES"
+  },
+  {
+    "code": "3314Z",
+    "gId": "2304",
+    "label": "REPARATION D EQUIPEMENTS ELECTRIQUES"
+  },
+  {
+    "code": "3315Z",
+    "gId": "2305",
+    "label": "REPARATION ET MAINTENANCE NAVALE"
+  },
+  {
+    "code": "3316Z",
+    "gId": "2306",
+    "label": "REPARATION ET MAINTENANCE D AERONEFS ET D ENGINS SPATIAUX"
+  },
+  {
+    "code": "3317Z",
+    "gId": "2307",
+    "label": "REPARATION ET MAINTENANCE D AUTRES EQUIPEMENTS DE TRANSPORT"
+  },
+  {
+    "code": "3319Z",
+    "gId": "2308",
+    "label": "REPARATION D AUTRES EQUIPEMENTS"
+  },
+  {
+    "code": "331A",
+    "gId": "485",
+    "label": "FABRICATION DE MATERIEL D IMAGERIE MEDICALE ET DE RADIOLOGIE"
+  },
+  {
+    "code": "331B",
+    "gId": "486",
+    "label": "FABRICATION D APPAREILS MEDICOCHIRURGICAUX"
+  },
+  {
+    "code": "3320A",
+    "gId": "2309",
+    "label": "INSTALLATION DE STRUCTURES METALLIQUES, CHAUDRONNEES ET DE TUYAUTERIE"
+  },
+  {
+    "code": "3320B",
+    "gId": "2310",
+    "label": "INSTALLATION DE MACHINES ET EQUIPEMENTS MECANIQUES"
+  },
+  {
+    "code": "3320C",
+    "gId": "2311",
+    "label": "CONCEPTION D ENSEMBLE ET ASSEMBLAGE SUR SITE INDUSTRIEL D EQUIPEMENTS DE CONTROLE DES PROCESSUS INDUSTRIELS"
+  },
+  {
+    "code": "3320D",
+    "gId": "2312",
+    "label": "INSTALLATION D EQUIPEMENTS ELECTRIQUES, DE MATERIELS ELECTRONIQUES ET OPTIQUES OU D AUTRES MATERIELS"
+  },
+  {
+    "code": "332A",
+    "gId": "489",
+    "label": "FABRICATION D EQUIPEMENTS D AIDE A LA NAVIGATION"
+  },
+  {
+    "code": "332B",
+    "gId": "490",
+    "label": "FABRICATION D INSTRUMENTATION SCIENTIFIQUE ET TECHNIQUE"
+  },
+  {
+    "code": "333Z",
+    "gId": "492",
+    "label": "FABRICATION D EQUIPEMENTS DE CONTROLE DES PROCESSUS INDUSTRIELS"
+  },
+  {
+    "code": "334A",
+    "gId": "495",
+    "label": "FABRICATION DE LUNETTES"
+  },
+  {
+    "code": "334B",
+    "gId": "496",
+    "label": "FABRICATION D INSTRUMENTS D OPTIQUE ET DE MATERIEL"
+  },
+  {
+    "code": "335Z",
+    "gId": "497",
+    "label": "HORLOGERIE"
+  },
+  {
+    "code": "341Z",
+    "gId": "501",
+    "label": "CONSTRUCTION DE VEHICULES AUTOMOBILES"
+  },
+  {
+    "code": "342A",
+    "gId": "504",
+    "label": "FABRICATION DE CARROSSERIES AUTOMOBILES"
+  },
+  {
+    "code": "342B",
+    "gId": "505",
+    "label": "FABRICATION DE CARAVANES ET VEHICULES DE LOISIRS"
+  },
+  {
+    "code": "343Z",
+    "gId": "507",
+    "label": "FABRICATION D EQUIPEMENTS AUTOMOBILES"
+  },
+  {
+    "code": "3511Z",
+    "gId": "2313",
+    "label": "PRODUCTION D ELECTRICITE"
+  },
+  {
+    "code": "3512Z",
+    "gId": "2314",
+    "label": "TRANSPORT D ELECTRICITE"
+  },
+  {
+    "code": "3513Z",
+    "gId": "2315",
+    "label": "DISTRIBUTION D ELECTRICITE"
+  },
+  {
+    "code": "3514Z",
+    "gId": "2316",
+    "label": "COMMERCE D ELECTRICITE"
+  },
+  {
+    "code": "351A",
+    "gId": "511",
+    "label": "CONSTRUCTION DE BATIMENTS DE GUERRE"
+  },
+  {
+    "code": "351B",
+    "gId": "512",
+    "label": "CONSTRUCTION DE NAVIRES CIVILS"
+  },
+  {
+    "code": "351C",
+    "gId": "513",
+    "label": "REPARATION NAVALE"
+  },
+  {
+    "code": "351E",
+    "gId": "514",
+    "label": "CONSTRUCTION DE BATEAUX DE PLAISANCE"
+  },
+  {
+    "code": "3521Z",
+    "gId": "2317",
+    "label": "PRODUCTION DE COMBUSTIBLES GAZEUX"
+  },
+  {
+    "code": "3522Z",
+    "gId": "2318",
+    "label": "DISTRIBUTION DE COMBUSTIBLES GAZEUX PAR CONDUITES"
+  },
+  {
+    "code": "3523Z",
+    "gId": "2319",
+    "label": "COMMERCE DE COMBUSTIBLES GAZEUX PAR CONDUITES"
+  },
+  {
+    "code": "352Z",
+    "gId": "516",
+    "label": "CONSTRUCTION DE MATERIEL FERROVIAIRE ROULANT"
+  },
+  {
+    "code": "3530Z",
+    "gId": "2320",
+    "label": "PRODUCTION ET DISTRIBUTION DE VAPEUR ET D AIR CONDITIONNE"
+  },
+  {
+    "code": "353A",
+    "gId": "519",
+    "label": "CONSTRUCTION DE MOTEURS POUR AERONEFS"
+  },
+  {
+    "code": "353B",
+    "gId": "520",
+    "label": "CONSTRUCTION DE CELLULES D AERONEFS"
+  },
+  {
+    "code": "353C",
+    "gId": "521",
+    "label": "CONSTRUCTION DE LANCEURS ET ENGINS SPATIAUX"
+  },
+  {
+    "code": "354A",
+    "gId": "523",
+    "label": "FABRICATION DE MOTOCYCLES"
+  },
+  {
+    "code": "354C",
+    "gId": "524",
+    "label": "FABRICATION DE BICYCLETTES"
+  },
+  {
+    "code": "354E",
+    "gId": "525",
+    "label": "FABRICATION DE VEHICULES POUR INVALIDES"
+  },
+  {
+    "code": "355Z",
+    "gId": "527",
+    "label": "FABRICATION DE MATERIELS DE TRANSPORT N.C.A."
+  },
+  {
+    "code": "3600Z",
+    "gId": "2321",
+    "label": "CAPTAGE, TRAITEMENT ET DISTRIBUTION D EAU"
+  },
+  {
+    "code": "361A",
+    "gId": "530",
+    "label": "FABRICATION DE SIEGES"
+  },
+  {
+    "code": "361C",
+    "gId": "531",
+    "label": "FABRICATION DE MEUBLES DE BUREAU ET DE MAGASIN"
+  },
+  {
+    "code": "361E",
+    "gId": "532",
+    "label": "FABRICATION DE MEUBLES DE CUISINE"
+  },
+  {
+    "code": "361G",
+    "gId": "534",
+    "label": "FABRICATION DE MEUBLES MEUBLANTS"
+  },
+  {
+    "code": "361H",
+    "gId": "535",
+    "label": "FABRICATION DE MEUBLES DE JARDIN ET D EXTERIEUR"
+  },
+  {
+    "code": "361J",
+    "gId": "536",
+    "label": "FABRICATION DE MEUBLES N.C.A."
+  },
+  {
+    "code": "361K",
+    "gId": "537",
+    "label": "INDUSTRIES CONNEXES DE L AMEUBLEMENT"
+  },
+  {
+    "code": "361M",
+    "gId": "538",
+    "label": "FABRICATION DE MATELAS"
+  },
+  {
+    "code": "362A",
+    "gId": "1402",
+    "label": "FABRICATION DE MONNAIES ET MEDAILLES"
+  },
+  {
+    "code": "362C",
+    "gId": "541",
+    "label": "BIJOUTERIE, JOAILLERIE, ORFEVRERIE"
+  },
+  {
+    "code": "363Z",
+    "gId": "543",
+    "label": "FABRICATION D INSTRUMENTS DE MUSIQUE"
+  },
+  {
+    "code": "364Z",
+    "gId": "545",
+    "label": "FABRICATION D ARTICLES DE SPORT"
+  },
+  {
+    "code": "365Z",
+    "gId": "547",
+    "label": "FABRICATION DE JEUX ET JOUETS"
+  },
+  {
+    "code": "366A",
+    "gId": "549",
+    "label": "BIJOUTERIE FANTAISIE"
+  },
+  {
+    "code": "366C",
+    "gId": "550",
+    "label": "INDUSTRIE DE LA BROSSERIE"
+  },
+  {
+    "code": "366E",
+    "gId": "551",
+    "label": "AUTRES ACTIVITES MANUFACTURIERES N.C.A."
+  },
+  {
+    "code": "3700Z",
+    "gId": "2322",
+    "label": "COLLECTE ET TRAITEMENTS DES EAUX USEES"
+  },
+  {
+    "code": "371Z",
+    "gId": "554",
+    "label": "RECUPERATION DE MATIERES METALLIQUES RECYCLABLES"
+  },
+  {
+    "code": "372Z",
+    "gId": "556",
+    "label": "RECUPERATION DE MATIERES NON METALLIQUES RECYCLABLES"
+  },
+  {
+    "code": "3811Z",
+    "gId": "2323",
+    "label": "COLLECTE DES DECHETS NON DANGEREUX"
+  },
+  {
+    "code": "3812Z",
+    "gId": "2324",
+    "label": "COLLECTE DES DECHETS DANGEREUX"
+  },
+  {
+    "code": "3821Z",
+    "gId": "2325",
+    "label": "TRAITEMENT ET ELIMINATION DES DECHETS NON DANGEREUX"
+  },
+  {
+    "code": "3822Z",
+    "gId": "2326",
+    "label": "TRAITEMENT ET ELIMINATION DES DECHETS DANGEREUX"
+  },
+  {
+    "code": "3831Z",
+    "gId": "2327",
+    "label": "DEMANTELEMENT D EPAVES"
+  },
+  {
+    "code": "3832Z",
+    "gId": "2328",
+    "label": "RECUPERATION DE DECHETS TRIES"
+  },
+  {
+    "code": "3900Z",
+    "gId": "2329",
+    "label": "DEPOLLUTION ET AUTRES SERVICES DE GESTION DES DECHETS"
+  },
+  {
+    "code": "401A",
+    "gId": "1725",
+    "label": "PRODUCTION D ELECTRICITE"
+  },
+  {
+    "code": "401C",
+    "gId": "1726",
+    "label": "TRANSPORT D ELECTRICITE"
+  },
+  {
+    "code": "401E",
+    "gId": "1727",
+    "label": "DISTRIBUTION ET COMMERCE D ELECTRICITE"
+  },
+  {
+    "code": "401Z",
+    "gId": "559",
+    "label": "PRODUCTION ET DISTRIBUTION D ELECTRICITE"
+  },
+  {
+    "code": "402A",
+    "gId": "1728",
+    "label": "PRODUCTION DE COMBUSTIBLES GAZEUX"
+  },
+  {
+    "code": "402C",
+    "gId": "1729",
+    "label": "DISTRIBUTION DE COMBUSTIBLES GAZEUX"
+  },
+  {
+    "code": "402Z",
+    "gId": "561",
+    "label": "PRODUCTION ET DISTRIBUTION DE COMBUSTIBLES GAZEUX"
+  },
+  {
+    "code": "403Z",
+    "gId": "1417",
+    "label": "PRODUCTION ET DISTRIBUTION DE CHALEUR"
+  },
+  {
+    "code": "410Z",
+    "gId": "1419",
+    "label": "CAPTAGE, TRAITEMENT ET DISTRIBUTION D EAU"
+  },
+  {
+    "code": "4110A",
+    "gId": "2330",
+    "label": "PROMOTION IMMOBILIERE DE LOGEMENTS"
+  },
+  {
+    "code": "4110B",
+    "gId": "2331",
+    "label": "PROMOTION IMMOBILIERE DE BUREAUX"
+  },
+  {
+    "code": "4110C",
+    "gId": "2332",
+    "label": "PROMOTION IMMOBILIERE D AUTRES BATIMENTS"
+  },
+  {
+    "code": "4110D",
+    "gId": "2333",
+    "label": "SUPPORTS JURIDIQUES DE PROGRAMMES"
+  },
+  {
+    "code": "4120A",
+    "gId": "2334",
+    "label": "CONSTRUCTION DE MAISONS INDIVIDUELLES"
+  },
+  {
+    "code": "4120B",
+    "gId": "2335",
+    "label": "CONSTRUCTION D AUTRES BATIMENTS"
+  },
+  {
+    "code": "4211Z",
+    "gId": "2336",
+    "label": "CONSTRUCTION DE ROUTES ET AUTOROUTES"
+  },
+  {
+    "code": "4212Z",
+    "gId": "2337",
+    "label": "CONSTRUCTION DE VOIES FERREES DE SURFACE ET SOUTERRAINES"
+  },
+  {
+    "code": "4213A",
+    "gId": "2338",
+    "label": "CONSTRUCTION D OUVRAGES D ART"
+  },
+  {
+    "code": "4213B",
+    "gId": "2339",
+    "label": "CONSTRUCTION ET ENTRETIEN DE TUNNELS"
+  },
+  {
+    "code": "4221Z",
+    "gId": "2340",
+    "label": "CONSTRUCTION DE RESEAUX POUR FLUIDES"
+  },
+  {
+    "code": "4222Z",
+    "gId": "2341",
+    "label": "CONSTRUCTION DE LIGNES ET RESEAUX D ELECTRICITE ET DE TELECOMMUNICATIONS"
+  },
+  {
+    "code": "4291Z",
+    "gId": "2342",
+    "label": "CONSTRUCTION D OUVRAGES MARITIMES ET FLUVIAUX"
+  },
+  {
+    "code": "4299Z",
+    "gId": "2343",
+    "label": "CONSTRUCTION D AUTRES OUVRAGES DE GENIE CIVIL N.C.A."
+  },
+  {
+    "code": "4311Z",
+    "gId": "2344",
+    "label": "TRAVAUX DE DEMOLITION"
+  },
+  {
+    "code": "4312A",
+    "gId": "2345",
+    "label": "TRAVAUX DE TERRASSEMENT COURANTS ET TRAVAUX PREPARATOIRES"
+  },
+  {
+    "code": "4312B",
+    "gId": "2346",
+    "label": "TRAVAUX DE TERRASSEMENT SPECIALISES OU DE GRANDE MASSE"
+  },
+  {
+    "code": "4313Z",
+    "gId": "2347",
+    "label": "FORAGES ET SONDAGES"
+  },
+  {
+    "code": "4321A",
+    "gId": "2348",
+    "label": "TRAVAUX D INSTALLATION ELECTRIQUE DANS TOUS LOCAUX"
+  },
+  {
+    "code": "4321B",
+    "gId": "2349",
+    "label": "TRAVAUX D INSTALLATION ELECTRIQUE SUR LA VOIE PUBLIQUE"
+  },
+  {
+    "code": "4322A",
+    "gId": "2350",
+    "label": "TRAVAUX D INSTALLATION D EAU ET DE GAZ EN TOUS LOCAUX"
+  },
+  {
+    "code": "4322B",
+    "gId": "2351",
+    "label": "TRAVAUX D  INSTALLATION D EQUIPEMENTS THERMIQUES ET DE CLIMATISATION"
+  },
+  {
+    "code": "4329A",
+    "gId": "2352",
+    "label": "TRAVAUX D ISOLATION"
+  },
+  {
+    "code": "4329B",
+    "gId": "2353",
+    "label": "AUTRES TRAVAUX D INSTALLATION N.C.A."
+  },
+  {
+    "code": "4331Z",
+    "gId": "2354",
+    "label": "TRAVAUX DE PLATRERIE"
+  },
+  {
+    "code": "4332A",
+    "gId": "2355",
+    "label": "TRAVAUX DE MENUISERIE BOIS ET PVC"
+  },
+  {
+    "code": "4332B",
+    "gId": "2356",
+    "label": "TRAVAUX DE MENUISERIE METALLIQUE ET SERRURERIE"
+  },
+  {
+    "code": "4332C",
+    "gId": "2997",
+    "label": "AGENCEMENT DE LIEUX DE VENTE"
+  },
+  {
+    "code": "4333Z",
+    "gId": "2357",
+    "label": "TRAVAUX DE REVETEMENT DES SOLS ET DES MURS"
+  },
+  {
+    "code": "4334Z",
+    "gId": "2358",
+    "label": "TRAVAUX DE PEINTURE ET VITRERIE"
+  },
+  {
+    "code": "4339A",
+    "gId": "2359",
+    "label": "TRAVAUX D AGENCEMENTS SPECIAUX"
+  },
+  {
+    "code": "4339B",
+    "gId": "2360",
+    "label": "TRAVAUX DE FINITIONS ET TRAVAUX EXTERIEURS ACCESSOIRES"
+  },
+  {
+    "code": "4339Z",
+    "gId": "2998",
+    "label": "AUTRES TRAVAUX DE FINITION"
+  },
+  {
+    "code": "4391A",
+    "gId": "2361",
+    "label": "TRAVAUX DE CHARPENTE"
+  },
+  {
+    "code": "4391B",
+    "gId": "2362",
+    "label": "TRAVAUX DE COUVERTURE PAR ELEMENTS"
+  },
+  {
+    "code": "4399A",
+    "gId": "2363",
+    "label": "TRAVAUX D ETANCHEIFICATION"
+  },
+  {
+    "code": "4399B",
+    "gId": "2364",
+    "label": "TRAVAUX DE MONTAGE DE STRUCTURES METALLIQUES"
+  },
+  {
+    "code": "4399C",
+    "gId": "2365",
+    "label": "TRAVAUX DE MACONNERIE GENERALE ET GROS OEUVRE DE BATIMENT"
+  },
+  {
+    "code": "4399D",
+    "gId": "2366",
+    "label": "AUTRES TRAVAUX SPECIALISES DE CONSTRUCTION"
+  },
+  {
+    "code": "4399E",
+    "gId": "2367",
+    "label": "LOCATION AVEC OPERATEUR DE MATERIEL DE CONSTRUCTION"
+  },
+  {
+    "code": "4511Z",
+    "gId": "2368",
+    "label": "COMMERCE DE VOITURES ET VEHICULES AUTOMOBILES LEGERS"
+  },
+  {
+    "code": "4519Z",
+    "gId": "2369",
+    "label": "COMMERCE D AUTRES VEHICULES AUTOMOBILES"
+  },
+  {
+    "code": "451A",
+    "gId": "570",
+    "label": "TERRASSEMENTS DIVERS, DEMOLITION"
+  },
+  {
+    "code": "451B",
+    "gId": "571",
+    "label": "TERRASSEMENTS EN GRANDE MASSE"
+  },
+  {
+    "code": "451D",
+    "gId": "572",
+    "label": "FORAGES ET SONDAGES"
+  },
+  {
+    "code": "4520A",
+    "gId": "2370",
+    "label": "ENTRETIEN ET REPARATION DE VEHICULES AUTOMOBILES LEGERS"
+  },
+  {
+    "code": "4520B",
+    "gId": "2371",
+    "label": "ENTRETIEN ET REPARATION D AUTRES VEHICULES AUTOMOBILES"
+  },
+  {
+    "code": "452A",
+    "gId": "575",
+    "label": "CONSTRUCTION DE MAISONS INDIVIDUELLES"
+  },
+  {
+    "code": "452B",
+    "gId": "576",
+    "label": "CONSTRUCTION DE BATIMENTS DIVERS"
+  },
+  {
+    "code": "452C",
+    "gId": "577",
+    "label": "CONSTRUCTION D OUVRAGES D ART"
+  },
+  {
+    "code": "452D",
+    "gId": "578",
+    "label": "TRAVAUX SOUTERRAINS"
+  },
+  {
+    "code": "452E",
+    "gId": "579",
+    "label": "REALISATION DE RESEAUX"
+  },
+  {
+    "code": "452F",
+    "gId": "580",
+    "label": "CONSTRUCTION DE LIGNES ELECTRIQUES ET DE TELECOMMUNICATIONS"
+  },
+  {
+    "code": "452J",
+    "gId": "582",
+    "label": "REALISATION DE COUVERTURES PAR ELEMENTS"
+  },
+  {
+    "code": "452K",
+    "gId": "583",
+    "label": "TRAVAUX D ETANCHIFICATION"
+  },
+  {
+    "code": "452L",
+    "gId": "584",
+    "label": "TRAVAUX DE CHARPENTE"
+  },
+  {
+    "code": "452N",
+    "gId": "586",
+    "label": "CONSTRUCTION DE VOIES FERREES"
+  },
+  {
+    "code": "452P",
+    "gId": "587",
+    "label": "CONSTRUCTION DE CHAUSSEES ROUTIERES ET DE SOLS SPORTIFS"
+  },
+  {
+    "code": "452R",
+    "gId": "1165",
+    "label": "TRAVAUX MARITIMES ET FLUVIAUX"
+  },
+  {
+    "code": "452T",
+    "gId": "590",
+    "label": "LEVAGE, MONTAGE"
+  },
+  {
+    "code": "452U",
+    "gId": "591",
+    "label": "AUTRES TRAVAUX SPECIALISES DE CONSTRUCTION"
+  },
+  {
+    "code": "452V",
+    "gId": "592",
+    "label": "TRAVAUX DE MACONNERIE GENERALE"
+  },
+  {
+    "code": "4531Z",
+    "gId": "2372",
+    "label": "COMMERCE DE GROS D EQUIPEMENTS AUTOMOBILES"
+  },
+  {
+    "code": "4532Z",
+    "gId": "2373",
+    "label": "COMMERCE DE DETAIL D EQUIPEMENTS AUTOMOBILES"
+  },
+  {
+    "code": "453A",
+    "gId": "1116",
+    "label": "TRAVAUX D INSTALLATION ELECTRIQUE"
+  },
+  {
+    "code": "453C",
+    "gId": "1117",
+    "label": "TRAVAUX D ISOLATION"
+  },
+  {
+    "code": "453E",
+    "gId": "597",
+    "label": "INSTALLATION D EAU ET DE GAZ"
+  },
+  {
+    "code": "453F",
+    "gId": "598",
+    "label": "INSTALLATION D EQUIPEMENTS THERMIQUES ET DE CLIMATISATION"
+  },
+  {
+    "code": "453H",
+    "gId": "1119",
+    "label": "AUTRES TRAVAUX D INSTALLATION"
+  },
+  {
+    "code": "4540Z",
+    "gId": "2374",
+    "label": "COMMERCE ET REPARATION DE MOTOCYCLES"
+  },
+  {
+    "code": "454A",
+    "gId": "1120",
+    "label": "PLATRERIE"
+  },
+  {
+    "code": "454C",
+    "gId": "603",
+    "label": "MENUISERIE BOIS ET MATIERES PLASTIQUES"
+  },
+  {
+    "code": "454D",
+    "gId": "604",
+    "label": "MENUISERIE METALLIQUE"
+  },
+  {
+    "code": "454F",
+    "gId": "1150",
+    "label": "REVETEMENT DES SOLS ET DES MURS"
+  },
+  {
+    "code": "454H",
+    "gId": "607",
+    "label": "MIROITERIE DE BATIMENT, VITRERIE"
+  },
+  {
+    "code": "454J",
+    "gId": "608",
+    "label": "PEINTURE"
+  },
+  {
+    "code": "454L",
+    "gId": "610",
+    "label": "AGENCEMENT DE LIEUX DE VENTE"
+  },
+  {
+    "code": "454M",
+    "gId": "611",
+    "label": "TRAVAUX DE FINITION N.C.A."
+  },
+  {
+    "code": "455Z",
+    "gId": "1432",
+    "label": "LOCATION AVEC OPERATEUR DE MATERIEL DE CONSTRUCTION"
+  },
+  {
+    "code": "4611Z",
+    "gId": "2375",
+    "label": "INTERMEDIAIRES DU COMMERCE EN MATIERES PREMIERES AGRICOLES, ANIMAUX VIVANTS, MATIERES PREMIERES TEXTILES ET PRODUITS SEMI-FINIS"
+  },
+  {
+    "code": "4612A",
+    "gId": "2376",
+    "label": "CENTRALES D ACHAT DE CARBURANT"
+  },
+  {
+    "code": "4612B",
+    "gId": "2377",
+    "label": "AUTRES INTERMEDIAIRES DU COMMERCE EN COMBUSTIBLES, METAUX, MINERAUX ET PRODUITS CHIMIQUES"
+  },
+  {
+    "code": "4613Z",
+    "gId": "2378",
+    "label": "INTERMEDIAIRES DU COMMERCE EN BOIS ET MATERIAUX DE CONSTRUCTION"
+  },
+  {
+    "code": "4614Z",
+    "gId": "2379",
+    "label": "INTERMEDIAIRES DU COMMERCE EN MACHINES, EQUIPEMENTS INDUSTRIELS, NAVIRES ET AVIONS"
+  },
+  {
+    "code": "4615Z",
+    "gId": "2380",
+    "label": "INTERMEDIAIRES DU COMMERCE EN MEUBLES, ARTICLES DE MENAGE ET QUINCAILLERIE"
+  },
+  {
+    "code": "4616Z",
+    "gId": "2381",
+    "label": "INTERMEDIAIRES DU COMMERCE EN TEXTILES, HABILLEMENT, FOURRURES, CHAUSSURES ET ARTICLES EN CUIR"
+  },
+  {
+    "code": "4617A",
+    "gId": "2382",
+    "label": "CENTRALES D ACHAT ALIMENTAIRES"
+  },
+  {
+    "code": "4617B",
+    "gId": "2383",
+    "label": "AUTRES INTERMEDIAIRES DU COMMERCE EN DENREES, BOISSONS ET TABAC"
+  },
+  {
+    "code": "4618Z",
+    "gId": "2384",
+    "label": "INTERMEDIAIRES SPECIALISES DANS LE COMMERCE D AUTRES PRODUITS SPECIFIQUES"
+  },
+  {
+    "code": "4619A",
+    "gId": "2385",
+    "label": "CENTRALES D ACHAT NON ALIMENTAIRES"
+  },
+  {
+    "code": "4619B",
+    "gId": "2386",
+    "label": "AUTRES INTERMEDIAIRES DU COMMERCE EN PRODUITS DIVERS"
+  },
+  {
+    "code": "4621Z",
+    "gId": "2387",
+    "label": "COMMERCE DE GROS (COMMERCE INTERENTREPRISES) DE CEREALES, DE TABAC NON MANUFACTURE, DE SEMANCES ET D ALIMENTS POUR LE BETAIL"
+  },
+  {
+    "code": "4622Z",
+    "gId": "2388",
+    "label": "COMMERCE DE GROS (COMMERCE INTERENTREPRISES) DE FLEURS ET PLANTES"
+  },
+  {
+    "code": "4623Z",
+    "gId": "2389",
+    "label": "COMMERCE DE GROS (COMMERCE INTERENTREPRISES) D ANIMAUX VIVANTS"
+  },
+  {
+    "code": "4624Z",
+    "gId": "2390",
+    "label": "COMMERCE DE GROS (COMMERCE INTERENTREPRISES) DE CUIRS ET PEAUX"
+  },
+  {
+    "code": "4631Z",
+    "gId": "2391",
+    "label": "COMMERCE DE GROS (COMMERCE INTERENTREPRISES) DE FRUITS ET LEGUMES"
+  },
+  {
+    "code": "4632A",
+    "gId": "2392",
+    "label": "COMMERCE DE GROS (COMMERCE INTERENTREPRISES) DE VIANDES DE BOUCHERIE"
+  },
+  {
+    "code": "4632B",
+    "gId": "2393",
+    "label": "COMMERCE DE GROS (COMMERCE INTERENTREPRISES) DE PRODUITS A BASE DE VIANDE"
+  },
+  {
+    "code": "4632C",
+    "gId": "2394",
+    "label": "COMMERCE DE GROS (COMMERCE INTERENTREPRISES) DE VOLAILLES ET GIBIER"
+  },
+  {
+    "code": "4633Z",
+    "gId": "2395",
+    "label": "COMMERCE DE GROS (COMMERCE INTERENTREPRISES) DE PRODUITS LAITIERS,  OEUFS, HUILES ET MATIERES GRASSES COMESTIBLES"
+  },
+  {
+    "code": "4634Z",
+    "gId": "2396",
+    "label": "COMMERCE DE GROS (COMMERCE INTERENTREPRISES) DE BOISSONS"
+  },
+  {
+    "code": "4635Z",
+    "gId": "2397",
+    "label": "COMMERCE DE GROS (COMMERCE INTERENTREPRISES) DE PRODUITS A BASE DE TABAC"
+  },
+  {
+    "code": "4636Z",
+    "gId": "2398",
+    "label": "COMMERCE DE GROS (COMMERCE INTERENTREPRISES) DE SUCRE, CHOCOLAT ET CONFISERIE"
+  },
+  {
+    "code": "4637Z",
+    "gId": "2399",
+    "label": "COMMERCE DE GROS (COMMERCE INTERENTREPRISES) DE CAFE, THE, CACAO ET EPICES"
+  },
+  {
+    "code": "4638A",
+    "gId": "2400",
+    "label": "COMMERCE DE GROS (COMMERCE INTERENTREPRISES) DE POISSONS, CRUSTACES ET MOLLUSQUES"
+  },
+  {
+    "code": "4638B",
+    "gId": "2401",
+    "label": "COMMERCE DE GROS (COMMERCE INTERENTREPRISES) ALIMENTAIRE SPECIALISE DIVERS"
+  },
+  {
+    "code": "4639A",
+    "gId": "2402",
+    "label": "COMMERCE DE GROS (COMMERCE INTERENTREPRISES) DE PRODUITS SURGELES"
+  },
+  {
+    "code": "4639B",
+    "gId": "2403",
+    "label": "COMMERCE DE GROS (COMMERCE INTERENTREPRISES) ALIMENTAIRE NON SPECIALISE"
+  },
+  {
+    "code": "4641Z",
+    "gId": "2404",
+    "label": "COMMERCE DE GROS (COMMERCE INTERENTREPRISES) DE TEXTILES"
+  },
+  {
+    "code": "4642Z",
+    "gId": "2405",
+    "label": "COMMERCE DE GROS (COMMERCE INTERENTREPRISES) D HABILLEMENT ET DE CHAUSSURES"
+  },
+  {
+    "code": "4643Z",
+    "gId": "2406",
+    "label": "COMMERCE DE GROS (COMMERCE INTERENTREPRISES) D APPAREILS ELECTROMENAGERS"
+  },
+  {
+    "code": "4644Z",
+    "gId": "2407",
+    "label": "COMMERCE DE GROS (COMMERCE INTERENTREPRISES) DE CERAMIQUE, VERRERIE ET PRODUITS D ENTRETIEN"
+  },
+  {
+    "code": "4645Z",
+    "gId": "2408",
+    "label": "COMMERCE DE GROS (COMMERCE INTERENTREPRISES) DE PARFUMERIE ET DE PRODUITS DE BEAUTE"
+  },
+  {
+    "code": "4646Z",
+    "gId": "2409",
+    "label": "COMMERCE DE GROS (COMMERCE INTERENTREPRISES) DE PRODUITS PHARMACEUTIQUES"
+  },
+  {
+    "code": "4647Z",
+    "gId": "2410",
+    "label": "COMMERCE DE GROS (COMMERCE INTERENTREPRISES) DE MEUBLES, DE TAPIS ET D APPAREILS D ECLAIRAGE"
+  },
+  {
+    "code": "4648Z",
+    "gId": "2411",
+    "label": "COMMERCE DE GROS (COMMERCE INTERENTREPRISES) D ARTICLES D HORLOGERIE ET DE BIJOUTERIE"
+  },
+  {
+    "code": "4649Z",
+    "gId": "2412",
+    "label": "COMMERCE DE GROS (COMMERCE INTERENTREPRISES) D AUTRES BIENS DOMESTIQUES"
+  },
+  {
+    "code": "4651Z",
+    "gId": "2413",
+    "label": "COMMERCE DE GROS (COMMERCE INTERENTREPRISES) D ORDINATEURS, D EQUIPEMENTS INFORMATIQUES PERIPHERIQUES ET DE LOGICIELS"
+  },
+  {
+    "code": "4652Z",
+    "gId": "2414",
+    "label": "COMMERCE DE GROS (COMMERCE INTERENTREPRISES) D EQUIPEMENTS ET COMPOSANTS ELECTRONIQUES ET DE TELECOMMUNICATION"
+  },
+  {
+    "code": "4661Z",
+    "gId": "2415",
+    "label": "COMMERCE DE GROS (COMMERCE INTERENTREPRISES) DE MATERIEL AGRICOLE"
+  },
+  {
+    "code": "4662Z",
+    "gId": "2416",
+    "label": "COMMERCE DE GROS (COMMERCE INTERENTREPRISES) DE MACHINES-OUTILS"
+  },
+  {
+    "code": "4663Z",
+    "gId": "2417",
+    "label": "COMMERCE DE GROS (COMMERCE INTERENTREPRISES) DE MACHINES POUR L EXTRACTION, LA CONSTRUCTION ET LE GENIE CIVIL"
+  },
+  {
+    "code": "4664Z",
+    "gId": "2418",
+    "label": "COMMERCE DE GROS (COMMERCE INTERENTREPRISES) DE MACHINES POUR L INDUSTRIE TEXTILE ET L HABILLEMENT"
+  },
+  {
+    "code": "4665Z",
+    "gId": "2419",
+    "label": "COMMERCE DE GROS (COMMERCE INTERENTREPRISES) DE MOBILIER DE BUREAU"
+  },
+  {
+    "code": "4666Z",
+    "gId": "2420",
+    "label": "COMMERCE DE GROS (COMMERCE INTERENTREPRISES) D AUTRES MACHINES ET EQUIPEMENTS DE BUREAU"
+  },
+  {
+    "code": "4669A",
+    "gId": "2421",
+    "label": "COMMERCE INTCOMMERCE DE GROS (COMMERCE INTERENTREPRISES) DE MATERIEL ELECTRIQUE"
+  },
+  {
+    "code": "4669B",
+    "gId": "2422",
+    "label": "COMMERCE DE GROS (COMMERCE INTERENTREPRISES) DE FOURNITURES ET EQUIPEMENTS INDUSTRIELS DIVERS"
+  },
+  {
+    "code": "4669C",
+    "gId": "2423",
+    "label": "COMMERCE DE GROS (COMMERCE INTERENTREPRISES) DE FOURNITURES ET EQUIPEMENTS DIVERS POUR LE COMMERCE ET LES SERVICES"
+  },
+  {
+    "code": "4671Z",
+    "gId": "2424",
+    "label": "COMMERCE DE GROS (COMMERCE INTERENTREPRISES) DE COMBUSTIBLES ET DE PRODUITS ANNEXES"
+  },
+  {
+    "code": "4672Z",
+    "gId": "2425",
+    "label": "COMMERCE DE GROS (COMMERCE INTERENTREPRISES) DE MINERAIS ET METAUX"
+  },
+  {
+    "code": "4673A",
+    "gId": "2426",
+    "label": "COMMERCE DE GROS (COMMERCE INTERENTREPRISES) DE BOIS ET DE MATERIAUX DE CONSTRUCTION"
+  },
+  {
+    "code": "4673B",
+    "gId": "2427",
+    "label": "COMMERCE DE GROS (COMMERCE INTERENTREPRISES) D APPAREILS SANITAIRES ET DE PRODUITS DE DECORATION"
+  },
+  {
+    "code": "4674A",
+    "gId": "2428",
+    "label": "COMMERCE DE GROS (COMMERCE INTERENTREPRISES) DE QUINCAILLERIE"
+  },
+  {
+    "code": "4674B",
+    "gId": "2429",
+    "label": "COMMERCE DE GROS (COMMERCE INTERENTREPRISES) DE FOURNITURES POUR LA PLOMBERIE ET LE CHAUFFAGE"
+  },
+  {
+    "code": "4675Z",
+    "gId": "2430",
+    "label": "COMMERCE DE GROS (COMMERCE INTERENTREPRISES) DE PRODUITS CHIMIQUES"
+  },
+  {
+    "code": "4676Z",
+    "gId": "2431",
+    "label": "COMMERCE DE GROS (COMMERCE INTERENTREPRISES) D AUTRES PRODUITS INTERMEDIAIRES"
+  },
+  {
+    "code": "4677Z",
+    "gId": "2432",
+    "label": "COMMERCE DE GROS (COMMERCE INTERENTREPRISES) DE DECHETS ET DEBRIS"
+  },
+  {
+    "code": "4690Z",
+    "gId": "2433",
+    "label": "COMMERCE DE GROS (COMMERCE INTERENTREPRISES) NON SPECIALISE"
+  },
+  {
+    "code": "4711A",
+    "gId": "2434",
+    "label": "COMMERCE DE DETAIL DE PRODUITS SURGELES"
+  },
+  {
+    "code": "4711B",
+    "gId": "2435",
+    "label": "COMMERCE D ALIMENTATION GENERALE"
+  },
+  {
+    "code": "4711C",
+    "gId": "2436",
+    "label": "SUPERETTES"
+  },
+  {
+    "code": "4711D",
+    "gId": "2437",
+    "label": "SUPERMARCHES"
+  },
+  {
+    "code": "4711E",
+    "gId": "2438",
+    "label": "MAGASINS MULTI-COMMERCES"
+  },
+  {
+    "code": "4711F",
+    "gId": "2439",
+    "label": "HYPERMARCHES"
+  },
+  {
+    "code": "4719A",
+    "gId": "2440",
+    "label": "GRANDS MAGASINS"
+  },
+  {
+    "code": "4719B",
+    "gId": "2441",
+    "label": "AUTRES COMMERCES DE DETAIL EN MAGASIN NON SPECIALISE"
+  },
+  {
+    "code": "4721Z",
+    "gId": "2442",
+    "label": "COMMERCE DE DETAIL DE FRUITS ET LEGUMES EN MAGASIN SPECIALISE"
+  },
+  {
+    "code": "4722Z",
+    "gId": "2443",
+    "label": "COMMERCE DE DETAIL DE VIANDES ET DE PRODUITS A BASE DE VIANDE EN MAGASIN SPECIALISE"
+  },
+  {
+    "code": "4723Z",
+    "gId": "2444",
+    "label": "COMMERCE DE DETAIL DE POISSONS, CRUSTACES ET MOLLUSQUES EN MAGASIN SPECIALISE"
+  },
+  {
+    "code": "4724Z",
+    "gId": "2445",
+    "label": "COMMERCE DE DETAIL DE PAIN, PATISSERIE ET CONFISERIE EN MAGASIN SPECIALISE"
+  },
+  {
+    "code": "4725Z",
+    "gId": "2446",
+    "label": "COMMERCE DE DETAIL DE BOISSONS EN MAGASIN SPECIALISE"
+  },
+  {
+    "code": "4726Z",
+    "gId": "2447",
+    "label": "COMMERCE DE DETAIL DE PRODUITS A BASE DE TABAC EN MAGASIN SPECIALISE"
+  },
+  {
+    "code": "4729Z",
+    "gId": "2448",
+    "label": "AUTRES COMMERCES DE DETAIL ALIMENTAIRES EN MAGASIN SPECIALISE"
+  },
+  {
+    "code": "4730Z",
+    "gId": "2449",
+    "label": "COMMERCE DE DETAIL DE CARBURANTS EN  MAGASIN SPECIALISE"
+  },
+  {
+    "code": "4741Z",
+    "gId": "2450",
+    "label": "COMMERCE DE DETAIL D ORDINATEURS, D UNITES PERIPHERIQUES ET DE LOGICIELS EN MAGASIN SPECIALISE"
+  },
+  {
+    "code": "4742Z",
+    "gId": "2451",
+    "label": "COMMERCE DE DETAIL DE MATERIELS DE TELECOMMUNICATION EN MAGASIN SPECIALISE"
+  },
+  {
+    "code": "4743Z",
+    "gId": "2452",
+    "label": "COMMERCE DE DETAIL DE MATERIELS AUDIO/VIDEO EN MAGASIN SPECIALISE"
+  },
+  {
+    "code": "4751Z",
+    "gId": "2453",
+    "label": "COMMERCE DE DETAIL DE TEXTILES EN MAGASIN SPECIALISE"
+  },
+  {
+    "code": "4752A",
+    "gId": "2454",
+    "label": "COMMERCE DE DETAIL DE QUINCAILLERIE, PEINTURES ET VERRES EN PETITES SURFACES (MOINS DE 400 M2)"
+  },
+  {
+    "code": "4752B",
+    "gId": "2455",
+    "label": "COMMERCE DE DETAIL DE QUINCAILLERIE, PEINTURES ET VERRES EN GRANDES SURFACES (400 M2 ET PLUS)"
+  },
+  {
+    "code": "4753Z",
+    "gId": "2456",
+    "label": "COMMERCE DE DETAIL DE TAPIS, MOQUETTES ET REVETEMENTS DE MURS ET DE SOLS EN MAGASIN SPECIALISE"
+  },
+  {
+    "code": "4754Z",
+    "gId": "2457",
+    "label": "COMMERCE DE DETAIL D APPAREILS ELECTROMENAGERS EN MAGASIN SPECIALISE"
+  },
+  {
+    "code": "4759A",
+    "gId": "2458",
+    "label": "COMMERCE DE DETAIL DE MEUBLES"
+  },
+  {
+    "code": "4759B",
+    "gId": "2459",
+    "label": "COMMERCE DE DETAIL D AUTRES EQUIPEMENTS DU FOYER"
+  },
+  {
+    "code": "4761Z",
+    "gId": "2460",
+    "label": "COMMERCE DE DETAIL DE LIVRES EN MAGASIN SPECIALISE"
+  },
+  {
+    "code": "4762Z",
+    "gId": "2461",
+    "label": "COMMERCE DE DETAIL DE JOURNAUX ET DE PAPETERIE EN MAGASIN SPECIALISE"
+  },
+  {
+    "code": "4763Z",
+    "gId": "2462",
+    "label": "COMMERCE DE DETAIL D ENREGISTREMENTS MUSICAUX ET VIDEO EN MAGASIN SPECIALISE"
+  },
+  {
+    "code": "4764Z",
+    "gId": "2463",
+    "label": "COMMERCE DE DETAIL D EQUIPEMENTS SPORTIFS EN MAGASIN SPECIALISE"
+  },
+  {
+    "code": "4765Z",
+    "gId": "2464",
+    "label": "COMMERCE DE DETAIL DE JEUX ET JOUETS EN MAGASIN SPECIALISE"
+  },
+  {
+    "code": "4771Z",
+    "gId": "2465",
+    "label": "COMMERCE DE DETAIL D HABILLEMENT EN MAGASIN SPECIALISE"
+  },
+  {
+    "code": "4772A",
+    "gId": "2466",
+    "label": "COMMERCE DE DETAIL DE LA CHAUSSURE"
+  },
+  {
+    "code": "4772B",
+    "gId": "2467",
+    "label": "COMMERCE DE DETAIL DE MAROQUINERIE ET D ARTICLES DE VOYAGE"
+  },
+  {
+    "code": "4773Z",
+    "gId": "2468",
+    "label": "COMMERCE DE DETAIL DE PRODUITS PHARMACEUTIQUES EN MAGASIN SPECIALISE"
+  },
+  {
+    "code": "4774Z",
+    "gId": "2469",
+    "label": "COMMERCE DE DETAIL D ARTICLES MEDICAUX ET ORTHOPEDIQUES EN MAGASIN SPECIALISE"
+  },
+  {
+    "code": "4775Z",
+    "gId": "2470",
+    "label": "COMMERCE DE DETAIL DE PARFUMERIE ET DE PRODUITS DE DE BEAUTE EN MAGASIN SPECIALISE"
+  },
+  {
+    "code": "4776Z",
+    "gId": "2471",
+    "label": "COMMERCE DE DETAIL DE FLEURS, PLANTES, GRAINES, ENGRAIS, ANIMAUX DE COMPAGNIE ET ALIMENTS POUR CES ANIMAUX EN MAGASIN SPECIALISE"
+  },
+  {
+    "code": "4777Z",
+    "gId": "2472",
+    "label": "COMMERCE DE DETAIL D ARTICLES D HORLOGERIE ET DE BIJOUTERIE EN MAGASIN SPECIALISE"
+  },
+  {
+    "code": "4778A",
+    "gId": "2473",
+    "label": "COMMERCES DE DETAIL D OPTIQUE"
+  },
+  {
+    "code": "4778B",
+    "gId": "2474",
+    "label": "COMMERCES DE DETAIL DE CHARBONS ET COMBUSTIBLES"
+  },
+  {
+    "code": "4778C",
+    "gId": "2475",
+    "label": "AUTRES COMMERCES DE DETAIL SPECIALISES DIVERS"
+  },
+  {
+    "code": "4779Z",
+    "gId": "2476",
+    "label": "COMMERCE DE DETAIL DE BIENS D OCCASION EN MAGASIN"
+  },
+  {
+    "code": "4781Z",
+    "gId": "2477",
+    "label": "COMMERCE DE DETAIL ALIMENTAIRE SUR EVENTAIRES ET MARCHES"
+  },
+  {
+    "code": "4782Z",
+    "gId": "2478",
+    "label": "COMMERCE DE DETAIL DE TEXTILES, D HABILLEMENT ET DE CHAUSSURES SUR EVENTAIRES ET MARCHES"
+  },
+  {
+    "code": "4789Z",
+    "gId": "2479",
+    "label": "AUTRES COMMERCES DE DETAIL SUR EVENTAIRES ET MARCHES"
+  },
+  {
+    "code": "4791A",
+    "gId": "2480",
+    "label": "VENTE A DISTANCE SUR CATALOGUE GENERAL"
+  },
+  {
+    "code": "4791B",
+    "gId": "2481",
+    "label": "VENTE A DISTANCE SUR CATALOGUE SPECIALISE"
+  },
+  {
+    "code": "4799A",
+    "gId": "2482",
+    "label": "VENTE A DOMICILE"
+  },
+  {
+    "code": "4799B",
+    "gId": "2483",
+    "label": "VENTE PAR AUTOMATES ET AUTRES COMMERCES DE DETAIL HORS MAGASIN, EVENTAIRES OU MARCHES N.C.A."
+  },
+  {
+    "code": "4910Z",
+    "gId": "2484",
+    "label": "TRANSPORT FERROVIAIRE INTERURBAIN DE VOYAGEURS"
+  },
+  {
+    "code": "4920Z",
+    "gId": "2485",
+    "label": "TRANSPORTS FERROVIAIRES DE FRET"
+  },
+  {
+    "code": "4931Z",
+    "gId": "2486",
+    "label": "TRANSPORTS URBAINS ET SUBURBAINS DE VOYAGEURS"
+  },
+  {
+    "code": "4932Z",
+    "gId": "2487",
+    "label": "TRANSPORTS DE VOYAGEURS PAR TAXIS"
+  },
+  {
+    "code": "4939A",
+    "gId": "2488",
+    "label": "TRANSPORTS ROUTIERS REGULIERS DE VOYAGEURS"
+  },
+  {
+    "code": "4939B",
+    "gId": "2489",
+    "label": "AUTRES TRANSPORTS ROUTIERS DE VOYAGEURS"
+  },
+  {
+    "code": "4939C",
+    "gId": "2490",
+    "label": "TELEPHERIQUES ET REMONTEES MECANIQUES"
+  },
+  {
+    "code": "4941A",
+    "gId": "2491",
+    "label": "TRANSPORTS ROUTIERS DE FRET INTERURBAINS"
+  },
+  {
+    "code": "4941B",
+    "gId": "2492",
+    "label": "TRANSPORTS ROUTIERS DE FRET DE PROXIMITE"
+  },
+  {
+    "code": "4941C",
+    "gId": "2493",
+    "label": "LOCATION DE CAMIONS AVEC CHAUFFEUR"
+  },
+  {
+    "code": "4942Z",
+    "gId": "2494",
+    "label": "SERVICES DE DEMENAGEMENT"
+  },
+  {
+    "code": "4950Z",
+    "gId": "2495",
+    "label": "TRANSPORTS PAR CONDUITES"
+  },
+  {
+    "code": "5010Z",
+    "gId": "2496",
+    "label": "TRANSPORTS MARITIMES ET COTIERS DE PASSAGERS"
+  },
+  {
+    "code": "501Z",
+    "gId": "1146",
+    "label": "COMMERCE DE VIHICULES AUTOMOBILES"
+  },
+  {
+    "code": "5020Z",
+    "gId": "2497",
+    "label": "TRANSPORTS MARITIMES ET COTIERS DE FRET"
+  },
+  {
+    "code": "502Z",
+    "gId": "1134",
+    "label": "ENTRETIEN ET REPARATION DE VEHICULES AUTOMOBILES"
+  },
+  {
+    "code": "5030Z",
+    "gId": "2498",
+    "label": "TRANSPORTS FLUVIAUX DE PASSAGERS"
+  },
+  {
+    "code": "503A",
+    "gId": "621",
+    "label": "COMMERCE DE GROS D EQUIPEMENTS AUTOMOBILES"
+  },
+  {
+    "code": "503B",
+    "gId": "622",
+    "label": "COMMERCE DE DETAIL D EQUIPEMENTS AUTOMOBILES"
+  },
+  {
+    "code": "5040Z",
+    "gId": "2499",
+    "label": "TRANSPORTS FLUVIAUX DE FRET"
+  },
+  {
+    "code": "504Z",
+    "gId": "1439",
+    "label": "COMMERCE ET RAPARATION DE MOTOCYCLES"
+  },
+  {
+    "code": "505Z",
+    "gId": "1441",
+    "label": "COMMERCE DE DETAIL DE CARBURANTS"
+  },
+  {
+    "code": "5110Z",
+    "gId": "2500",
+    "label": "TRANSPORTS AERIENS DE PASSAGERS"
+  },
+  {
+    "code": "511A",
+    "gId": "629",
+    "label": "INTERMED COMM EN MAT PREMIERES AGRIC OU TEXTILES, ANIMAUX VIVANTS"
+  },
+  {
+    "code": "511C",
+    "gId": "1445",
+    "label": "INTERMED COMM EN COMBUSTIBLES, METAUX, MINERAUX, PROD CHIMIQUES"
+  },
+  {
+    "code": "511E",
+    "gId": "631",
+    "label": "INTERMEDIAIRES DU COMMERCE EN BOIS ET MATERIAUX DE"
+  },
+  {
+    "code": "511G",
+    "gId": "1448",
+    "label": "INTERMED COMM EN MACHINES, EQUIPEMTS INDUSTRIELS, NAVIRES, AVIONS"
+  },
+  {
+    "code": "511J",
+    "gId": "633",
+    "label": "INTERMED COMM EN MEUBLES, ARTICLES DE MENAGE ET QUINCAILLERIE"
+  },
+  {
+    "code": "511L",
+    "gId": "1451",
+    "label": "INTERMED COMM EN TEXTILES, HABILLEMENT, CHAUSSURES, ARTICLES CUIR"
+  },
+  {
+    "code": "511N",
+    "gId": "636",
+    "label": "INTERMEDIAIRES DU COMMERCE EN PRODUITS ALIMENTAIRES"
+  },
+  {
+    "code": "511P",
+    "gId": "637",
+    "label": "CENTRALES D ACHATS ALIMENTAIRES"
+  },
+  {
+    "code": "511R",
+    "gId": "1122",
+    "label": "AUTRES INTERMEDIAIRES SPECIALISES DU COMMERCE"
+  },
+  {
+    "code": "511T",
+    "gId": "640",
+    "label": "INTERMEDIAIRES NON SPECIALISES DU COMMERCE"
+  },
+  {
+    "code": "511U",
+    "gId": "641",
+    "label": "CENTRALES D ACHATS NON ALIMENTAIRES"
+  },
+  {
+    "code": "5121Z",
+    "gId": "2501",
+    "label": "TRANSPORTS AERIENS DE FRET"
+  },
+  {
+    "code": "5122Z",
+    "gId": "2502",
+    "label": "TRANSPORTS SPATIAUX"
+  },
+  {
+    "code": "512A",
+    "gId": "1157",
+    "label": "COMMERCE DE GROS DE CEREALES ET ALIMENTS POUR LE BETAIL"
+  },
+  {
+    "code": "512C",
+    "gId": "644",
+    "label": "COMMERCE DE GROS DE FLEURS ET PLANTES"
+  },
+  {
+    "code": "512E",
+    "gId": "645",
+    "label": "COMMERCE DE GROS D ANIMAUX VIVANTS"
+  },
+  {
+    "code": "512G",
+    "gId": "646",
+    "label": "COMMERCE DE GROS DE CUIRS ET PEAUX"
+  },
+  {
+    "code": "512J",
+    "gId": "1458",
+    "label": "COMMERCE DE GROS DE TABAC NON MANUFACTURA"
+  },
+  {
+    "code": "513A",
+    "gId": "1133",
+    "label": "COMMERCE DE GROS DE FRUITS ET LEGUMES"
+  },
+  {
+    "code": "513C",
+    "gId": "651",
+    "label": "COMMERCE DE GROS DE VIANDES DE BOUCHERIE"
+  },
+  {
+    "code": "513D",
+    "gId": "652",
+    "label": "COMMERCE DE GROS DE PRODUITS A BASE DE VIANDE"
+  },
+  {
+    "code": "513E",
+    "gId": "653",
+    "label": "COMMERCE DE GROS DE VOLAILLES ET GIBIERS"
+  },
+  {
+    "code": "513G",
+    "gId": "1461",
+    "label": "COMMERCE DE GROS DE PRODUITS LAITIERS, OEUFS, HUILES"
+  },
+  {
+    "code": "513J",
+    "gId": "1131",
+    "label": "COMMERCE DE GROS DE BOISSONS"
+  },
+  {
+    "code": "513L",
+    "gId": "656",
+    "label": "COMMERCE DE GROS DE TABAC"
+  },
+  {
+    "code": "513N",
+    "gId": "657",
+    "label": "COMMERCE DE GROS  DE SUCRE, CHOCOLAT ET CONFISERIE"
+  },
+  {
+    "code": "513Q",
+    "gId": "1466",
+    "label": "COMMERCE DE GROS DE CAFE, THE, CACAO ET EPICES"
+  },
+  {
+    "code": "513S",
+    "gId": "660",
+    "label": "COMMERCE DE GROS DE POISSONS, CRUSTACES ET MOLLUSQUES"
+  },
+  {
+    "code": "513T",
+    "gId": "661",
+    "label": "COMMERCES DE GROS ALIMENTAIRES SPECIALISES DIVERS"
+  },
+  {
+    "code": "513V",
+    "gId": "663",
+    "label": "COMMERCE DE GROS DE PRODUITS SURGELES"
+  },
+  {
+    "code": "513W",
+    "gId": "664",
+    "label": "COMMERCE DE GROS ALIMENTAIRE NON SPECIALISE"
+  },
+  {
+    "code": "514A",
+    "gId": "1142",
+    "label": "COMMERCE DE GROS TEXTILES"
+  },
+  {
+    "code": "514C",
+    "gId": "668",
+    "label": "COMMERCE DE GROS D HABILLEMENT"
+  },
+  {
+    "code": "514D",
+    "gId": "669",
+    "label": "COMMERCE DE GROS DE LA CHAUSSURE"
+  },
+  {
+    "code": "514F",
+    "gId": "1128",
+    "label": "COMMERCE DE GROS APPAREILS ELECTROMENAGERS ET DE RADIO TELEVISION"
+  },
+  {
+    "code": "514H",
+    "gId": "672",
+    "label": "COMMERCE DE GROS DE VAISSELLE ET VERRERIE DE MENAGE"
+  },
+  {
+    "code": "514J",
+    "gId": "673",
+    "label": "COMM GROS DE PRODUITS POUR ENTRETIEN ET AMENAGEMENT HABITAT"
+  },
+  {
+    "code": "514L",
+    "gId": "1135",
+    "label": "COMMERCE DE GROS DE PARFUMERIE ET PRODUITS DE BEAUTE"
+  },
+  {
+    "code": "514N",
+    "gId": "1156",
+    "label": "COMMERCE DE GROS DE PRODUITS PHARMACEUTIQUES"
+  },
+  {
+    "code": "514Q",
+    "gId": "677",
+    "label": "COMMERCE DE GROS DE PAPETERIE"
+  },
+  {
+    "code": "514R",
+    "gId": "678",
+    "label": "COMMERCE DE GROS DE JOUETS"
+  },
+  {
+    "code": "514S",
+    "gId": "679",
+    "label": "AUTRES COMMERCES DE GROS DE BIENS DE CONSOMMATION"
+  },
+  {
+    "code": "515A",
+    "gId": "1127",
+    "label": "COMMERCE DE GROS DE COMBUSTIBLES"
+  },
+  {
+    "code": "515C",
+    "gId": "682",
+    "label": "COMMERCE DE GROS DE MINERAIS ET METAUX"
+  },
+  {
+    "code": "515E",
+    "gId": "684",
+    "label": "COMMERCE DE GROS DE BOIS ET DE PRODUITS DERIVES"
+  },
+  {
+    "code": "515F",
+    "gId": "685",
+    "label": "COMM GROS DE MATERIAUX DE CONSTRUCTION ET APPAREILS SANITAIRES"
+  },
+  {
+    "code": "515H",
+    "gId": "687",
+    "label": "COMMERCE DE GROS DE QUINCAILLERIE"
+  },
+  {
+    "code": "515J",
+    "gId": "688",
+    "label": "COMMERCE DE GROS DE FOURNITURES POUR PLOMBERIE ET CHAUFFAGE"
+  },
+  {
+    "code": "515L",
+    "gId": "1139",
+    "label": "COMMERCE DE GROS DE PRODUITS CHIMIQUES"
+  },
+  {
+    "code": "515N",
+    "gId": "1166",
+    "label": "COMMERCE DE GROS - D AUTRES PRODUITS INTERMEDIAIRE"
+  },
+  {
+    "code": "515Q",
+    "gId": "1477",
+    "label": "COMMERCE DE GROS DE DECHETS ET DEBRIS"
+  },
+  {
+    "code": "516A",
+    "gId": "1480",
+    "label": "COMMERCE DE GROS DE MACHINES-OUTILS"
+  },
+  {
+    "code": "516C",
+    "gId": "1141",
+    "label": "COMMERCE DE GROS D EQUIPEMENT POUR LA CONSTRUCTION"
+  },
+  {
+    "code": "516E",
+    "gId": "1162",
+    "label": "COMMERCE DE GROS DE MACHINES POUR L INDUSTRIE TEXTILE ET L HABILLEMENT"
+  },
+  {
+    "code": "516G",
+    "gId": "1125",
+    "label": "COMMERCE DE GROS DE MACHINES DE BUREAU ET MATERIEL"
+  },
+  {
+    "code": "516J",
+    "gId": "698",
+    "label": "COMMERCE DE GROS DE MATERIEL ELECTRIQUE ET ELECTRONIQUE"
+  },
+  {
+    "code": "516K",
+    "gId": "699",
+    "label": "COMMERCE DE GROS DE FOURNITURES ET EQUIPEMENTS INDUSTRIELS DIVERS"
+  },
+  {
+    "code": "516L",
+    "gId": "700",
+    "label": "COMM GROS FOURNITURES ET EQUIPTS DIVERS PR COMMERCE ET SERVICES"
+  },
+  {
+    "code": "516N",
+    "gId": "1140",
+    "label": "COMMERCE DE GROS DE MATIRIEL AGRICOLE"
+  },
+  {
+    "code": "517Z",
+    "gId": "1486",
+    "label": "AUTRES COMMERCES DE GROS"
+  },
+  {
+    "code": "518A",
+    "gId": "1730",
+    "label": "COMMERCE DE GROS DE MACHINES-OUTILS"
+  },
+  {
+    "code": "518C",
+    "gId": "1731",
+    "label": "COMMERCE DE GROS DE MACHINES POUR L EXTRACTION, LA CONSTRUCTION ET LE GENIE CIVIL"
+  },
+  {
+    "code": "518E",
+    "gId": "1732",
+    "label": "COMMERCE DE GROS DE MACHINES POUR L INDUSTRIE TEXTILE ET L HABILLEMENT"
+  },
+  {
+    "code": "518G",
+    "gId": "1733",
+    "label": "COMMERCE DE GROS D ORDINATEURS, D EQUIPEMENTS INFORMATIQUES PERIPHERIQUES ET DE PROGICIELS"
+  },
+  {
+    "code": "518H",
+    "gId": "1734",
+    "label": "COMMERCE DE GROS D AUTRES MACHINES ET EQUIPEMENTS DE BUREAU"
+  },
+  {
+    "code": "518J",
+    "gId": "1735",
+    "label": "COMMERCE DE GROS DE COMPOSANTS ET D AUTRES EQUIPEMENTS ELECTRONIQUES"
+  },
+  {
+    "code": "518L",
+    "gId": "1736",
+    "label": "COMMERCE DE GROS DE MATERIEL ELECTRIQUE"
+  },
+  {
+    "code": "518M",
+    "gId": "1737",
+    "label": "COMMERCE DE GROS DE FOURNITURES ET EQUIPEMENTS INDUSTRIELS DIVERS"
+  },
+  {
+    "code": "518N",
+    "gId": "1738",
+    "label": "COMMERCE DE GROS DE FOURNITURES ET EQUIPEMENTS DIVERS POUR LE COMMERCE ET LES SERVICES"
+  },
+  {
+    "code": "518P",
+    "gId": "1739",
+    "label": "COMMERCE DE GROS DE MATERIEL AGRICOLE"
+  },
+  {
+    "code": "519A",
+    "gId": "1740",
+    "label": "AUTRES COMMERCES DE GROS SPECIALISES"
+  },
+  {
+    "code": "519B",
+    "gId": "1741",
+    "label": "COMMERCE DE GROS NON SPECIALISE"
+  },
+  {
+    "code": "5210A",
+    "gId": "2503",
+    "label": "ENTREPOSAGE ET STOCKAGE FRIGORIFIQUE"
+  },
+  {
+    "code": "5210B",
+    "gId": "2504",
+    "label": "ENTREPOSAGE ET STOCKAGE NON FRIGORIFIQUE"
+  },
+  {
+    "code": "521A",
+    "gId": "707",
+    "label": "COMMERCE DE DETAIL DE PRODUITS SURGELES"
+  },
+  {
+    "code": "521B",
+    "gId": "708",
+    "label": "COMMERCE D ALIMENTATION GENERALE"
+  },
+  {
+    "code": "521C",
+    "gId": "709",
+    "label": "SUPERETTES"
+  },
+  {
+    "code": "521D",
+    "gId": "710",
+    "label": "SUPERMARCHES"
+  },
+  {
+    "code": "521E",
+    "gId": "711",
+    "label": "MAGASINS POPULAIRES"
+  },
+  {
+    "code": "521F",
+    "gId": "712",
+    "label": "HYPERMARCHES"
+  },
+  {
+    "code": "521H",
+    "gId": "714",
+    "label": "GRANDS MAGASINS"
+  },
+  {
+    "code": "521J",
+    "gId": "715",
+    "label": "AUTRES COMMERCES DE DETAIL EN MAGASIN NON SPECIALISE"
+  },
+  {
+    "code": "5221Z",
+    "gId": "2505",
+    "label": "SERVICES AUXILIERES DES TRANSPORTS TERRESTRES"
+  },
+  {
+    "code": "5222Z",
+    "gId": "2506",
+    "label": "SERVICES AUXILIERES DES TRANSPORTS PAR EAU"
+  },
+  {
+    "code": "5223Z",
+    "gId": "2507",
+    "label": "SERVICES AUXILIERES DES TRANSPORTS AERIENS"
+  },
+  {
+    "code": "5224A",
+    "gId": "2508",
+    "label": "MANUTENTION PORTUAIRE"
+  },
+  {
+    "code": "5224B",
+    "gId": "2509",
+    "label": "MANUTENTION NON PORTUAIRE"
+  },
+  {
+    "code": "5229A",
+    "gId": "2510",
+    "label": "MESSAGERIE, FRET EXPRESS"
+  },
+  {
+    "code": "5229B",
+    "gId": "2511",
+    "label": "AFFRETEMENT ET ORGANISATION DES TRANSPORTS"
+  },
+  {
+    "code": "522A",
+    "gId": "717",
+    "label": "COMMERCE DE DETAIL DE FRUITS ET LEGUMES"
+  },
+  {
+    "code": "522C",
+    "gId": "718",
+    "label": "COMMERCE DE DETAIL DE VIANDES ET PRODUITS A BASE DE VIANDE"
+  },
+  {
+    "code": "522E",
+    "gId": "1158",
+    "label": "COMMERCE DE POISSONS, CRUSTACES, MOLLUSQUES"
+  },
+  {
+    "code": "522G",
+    "gId": "1144",
+    "label": "COMMERCE DE DETAIL DE PAIN, PATISSERIE, CONFISERIE"
+  },
+  {
+    "code": "522J",
+    "gId": "1493",
+    "label": "COMMERCE DE DETAIL DE BOISSONS"
+  },
+  {
+    "code": "522L",
+    "gId": "1495",
+    "label": "COMMERCE DE DETAIL DE TABAC"
+  },
+  {
+    "code": "522N",
+    "gId": "724",
+    "label": "COMMERCE DE DETAIL DE PRODUITS LAITIERS"
+  },
+  {
+    "code": "522P",
+    "gId": "725",
+    "label": "COMMERCES DE DETAIL ALIMENTAIRES SPECIALISES DIVERS"
+  },
+  {
+    "code": "523A",
+    "gId": "727",
+    "label": "COMMERCE DE DETAIL DE PRODUITS PHARMACEUTIQUES"
+  },
+  {
+    "code": "523C",
+    "gId": "728",
+    "label": "COMMERCE DE DETAIL D ARTICLES MEDICAUX ET ORTHOPEDIQUES"
+  },
+  {
+    "code": "523E",
+    "gId": "1155",
+    "label": "COMMERCE DE DETAIL DE PARFUMERIE ET DE PRODUIT DE BEAUTE"
+  },
+  {
+    "code": "524A",
+    "gId": "1500",
+    "label": "COMMERCE DE DETAIL DE TEXTILES"
+  },
+  {
+    "code": "524C",
+    "gId": "732",
+    "label": "COMMERCE DE DETAIL D HABILLEMENT"
+  },
+  {
+    "code": "524E",
+    "gId": "734",
+    "label": "COMMERCE DE DETAIL DE LA CHAUSSURE"
+  },
+  {
+    "code": "524F",
+    "gId": "735",
+    "label": "COMMERCE DE DETAIL DE MAROQUINERIE ET D ARTICLES DE VOYAGE"
+  },
+  {
+    "code": "524H",
+    "gId": "737",
+    "label": "COMMERCE DE DETAIL DE MEUBLES"
+  },
+  {
+    "code": "524J",
+    "gId": "738",
+    "label": "COMMERCE DE DETAIL D EQUIPEMENTS DU FOYER"
+  },
+  {
+    "code": "524L",
+    "gId": "739",
+    "label": "COMM DETAIL D APPAREILS ELECTROMENAGERS ET DE RADIO TELEVISION"
+  },
+  {
+    "code": "524N",
+    "gId": "741",
+    "label": "COMMERCE DE DETAIL DE QUINCAILLERIE"
+  },
+  {
+    "code": "524P",
+    "gId": "742",
+    "label": "COMMERCE DE DETAIL DE BRICOLAGE"
+  },
+  {
+    "code": "524R",
+    "gId": "1145",
+    "label": "COMMERCE DE DETAIL DE LIVRES, JOURNAUX, PAPETERIE"
+  },
+  {
+    "code": "524T",
+    "gId": "745",
+    "label": "COMMERCE DE DETAIL D OPTIQUE ET DE PHOTOGRAPHIE"
+  },
+  {
+    "code": "524U",
+    "gId": "746",
+    "label": "COMMERCE DE DETAIL DE REVETEMENTS DE SOLS ET DE MURS"
+  },
+  {
+    "code": "524V",
+    "gId": "747",
+    "label": "COMMERCE DE DETAIL D HORLOGERIE ET DE BIJOUTERIE"
+  },
+  {
+    "code": "524W",
+    "gId": "748",
+    "label": "COMMERCE DE DETAIL D ARTICLES DE SPORT ET DE LOISIR"
+  },
+  {
+    "code": "524X",
+    "gId": "749",
+    "label": "COMMERCE DE DETAIL DE FLEURS"
+  },
+  {
+    "code": "524Y",
+    "gId": "750",
+    "label": "COMMERCE DE DETAIL DE CHARBONS ET COMBUSTIBLES"
+  },
+  {
+    "code": "524Z",
+    "gId": "751",
+    "label": "COMMERCES DE DETAIL DIVERS EN MAGASIN SPECIALISE"
+  },
+  {
+    "code": "525Z",
+    "gId": "753",
+    "label": "COMMERCE DE DETAIL DE BIENS D OCCASION EN MAGASIN"
+  },
+  {
+    "code": "526A",
+    "gId": "756",
+    "label": "VENTE PAR CORRESPONDANCE SUR CATALOGUE GENERAL"
+  },
+  {
+    "code": "526B",
+    "gId": "757",
+    "label": "VENTE PAR CORRESPONDANCE SPECIALISEE"
+  },
+  {
+    "code": "526D",
+    "gId": "759",
+    "label": "COMMERCE DE DETAIL ALIMENTAIRE SUR EVENTAIRES ET MARCHES"
+  },
+  {
+    "code": "526E",
+    "gId": "760",
+    "label": "COMMERCE DE DETAIL NON ALIMENTAIRE SUR EVENTAIRES ET MARCHES"
+  },
+  {
+    "code": "526G",
+    "gId": "762",
+    "label": "VENTE A DOMICILE"
+  },
+  {
+    "code": "526H",
+    "gId": "763",
+    "label": "VENTE PAR AUTOMATE"
+  },
+  {
+    "code": "527A",
+    "gId": "1507",
+    "label": "REPARATION DE CHAUSSURES ET ARTICLES EN CUIR"
+  },
+  {
+    "code": "527C",
+    "gId": "767",
+    "label": "REPARATION DE MATERIEL ELECTRONIQUE GRAND PUBLIC"
+  },
+  {
+    "code": "527D",
+    "gId": "768",
+    "label": "REPARATION D ARTICLES ELECTRIQUES A USAGE DOMESTIQUE"
+  },
+  {
+    "code": "527F",
+    "gId": "1509",
+    "label": "REPARATION DE MONTRES, HORLOGES ET BIJOUX"
+  },
+  {
+    "code": "527H",
+    "gId": "1511",
+    "label": "REPARATION D ARTICLES PERSONNELS ET DOMESTIQUES N.C.A."
+  },
+  {
+    "code": "5310Z",
+    "gId": "2512",
+    "label": "ACTIVITES DE POSTE DANS LE CADRE D UNE OBLIGATION DE SERVICE UNIVERSEL"
+  },
+  {
+    "code": "5320Z",
+    "gId": "2513",
+    "label": "AUTRES ACTIVITES DE POSTE ET DE COURRIER"
+  },
+  {
+    "code": "5510Z",
+    "gId": "2514",
+    "label": "HOTELS ET HEBERGEMENT SIMILAIRE"
+  },
+  {
+    "code": "551A",
+    "gId": "775",
+    "label": "HOTELS AVEC RESTAURANT"
+  },
+  {
+    "code": "551C",
+    "gId": "777",
+    "label": "HOTELS DE TOURISME SANS RESTAURANT"
+  },
+  {
+    "code": "551D",
+    "gId": "778",
+    "label": "HOTELS DE PREFECTURE"
+  },
+  {
+    "code": "551E",
+    "gId": "1742",
+    "label": "AUTRES HOTELS"
+  },
+  {
+    "code": "5520Z",
+    "gId": "2515",
+    "label": "HEBERGEMENT TOURISTIQUE ET AUTRE HEBERGEMENT DE COURTE DUREE"
+  },
+  {
+    "code": "552A",
+    "gId": "1514",
+    "label": "AUBERGES DE JEUNESSE ET REFUGES"
+  },
+  {
+    "code": "552C",
+    "gId": "1159",
+    "label": "EXPLOITATION DE TERRAINS DE CAMPING"
+  },
+  {
+    "code": "552E",
+    "gId": "783",
+    "label": "AUTRE HEBERGEMENT TOURISTIQUE"
+  },
+  {
+    "code": "552F",
+    "gId": "784",
+    "label": "HEBERGEMENT COLLECTIF NON TOURISTIQUE"
+  },
+  {
+    "code": "5530Z",
+    "gId": "2516",
+    "label": "TERRAINS DE CAMPING ET PARCS POUR CARAVANES OU VEHICULES DE LOISIRS"
+  },
+  {
+    "code": "553A",
+    "gId": "787",
+    "label": "RESTAURATION DE TYPE TRADITIONNEL"
+  },
+  {
+    "code": "553B",
+    "gId": "788",
+    "label": "RESTAURATION DE TYPE RAPIDE"
+  },
+  {
+    "code": "554A",
+    "gId": "791",
+    "label": "CAFES TABACS"
+  },
+  {
+    "code": "554B",
+    "gId": "792",
+    "label": "DEBITS DE BOISSON"
+  },
+  {
+    "code": "554C",
+    "gId": "1743",
+    "label": "DISCOTHEQUES"
+  },
+  {
+    "code": "555A",
+    "gId": "1517",
+    "label": "CANTINES, RESTAURANTS D ENTREPRISES"
+  },
+  {
+    "code": "555C",
+    "gId": "796",
+    "label": "RESTAURATION COLLECTIVE SOUS CONTRAT"
+  },
+  {
+    "code": "555D",
+    "gId": "797",
+    "label": "TRAITEURS, ORGANISATION DE RECEPTIONS"
+  },
+  {
+    "code": "5590Z",
+    "gId": "2517",
+    "label": "AUTRES HEBERGEMENTS"
+  },
+  {
+    "code": "5610A",
+    "gId": "2518",
+    "label": "RESTAURATION TRADITIONNELLE"
+  },
+  {
+    "code": "5610B",
+    "gId": "2519",
+    "label": "CAFETERIAS ET AUTRES LIBRES-SERVICES"
+  },
+  {
+    "code": "5610C",
+    "gId": "2520",
+    "label": "RESTAURATION DE TYPE RAPIDE"
+  },
+  {
+    "code": "5621Z",
+    "gId": "2521",
+    "label": "SERVICES DES TRAITEURS"
+  },
+  {
+    "code": "5629A",
+    "gId": "2522",
+    "label": "RESTAURATION COLLECTIVE SOUS CONTRAT"
+  },
+  {
+    "code": "5629B",
+    "gId": "2523",
+    "label": "AUTRES SERVICES DE RESTAURATION N.C.A"
+  },
+  {
+    "code": "5630Z",
+    "gId": "2524",
+    "label": "DEBITS DE BOISSONS"
+  },
+  {
+    "code": "5811Z",
+    "gId": "2525",
+    "label": "EDITION DE LIVRES"
+  },
+  {
+    "code": "5812Z",
+    "gId": "2526",
+    "label": "EDITION DE REPERTOIRES ET DE FICHIERS D ADRESSES"
+  },
+  {
+    "code": "5813Z",
+    "gId": "2527",
+    "label": "EDITION DE JOURNAUX"
+  },
+  {
+    "code": "5814Z",
+    "gId": "2528",
+    "label": "EDITION DE REVUES ET PERIODIQUES"
+  },
+  {
+    "code": "5819Z",
+    "gId": "2529",
+    "label": "AUTRES ACTIVITES D EDITION"
+  },
+  {
+    "code": "5821Z",
+    "gId": "2530",
+    "label": "EDITION DE JEUX ELECTRONIQUES"
+  },
+  {
+    "code": "5829A",
+    "gId": "2531",
+    "label": "EDITION DE LOGICIELS SYSTEME ET DE RESEAU"
+  },
+  {
+    "code": "5829B",
+    "gId": "2532",
+    "label": "EDITION DE LOGICIELS OUTILS DE DEVELOPPEMENT ET DE LANGAGES"
+  },
+  {
+    "code": "5829C",
+    "gId": "2533",
+    "label": "EDITION DE LOGICIELS APPLICATIFS"
+  },
+  {
+    "code": "5911A",
+    "gId": "2534",
+    "label": "PRODUCTION DE FILMS ET DE PROGRAMMES POUR LA TELEVISION"
+  },
+  {
+    "code": "5911B",
+    "gId": "2535",
+    "label": "PRODUCTION DE FILMS INSTITUTIONNELS ET PUBLICITAIRES"
+  },
+  {
+    "code": "5911C",
+    "gId": "2536",
+    "label": "PRODUCTION DE FILMS POUR LE CINEMA"
+  },
+  {
+    "code": "5912Z",
+    "gId": "2537",
+    "label": "POST-PRODUCTION DE FILMS CINEMATOGRAPHIQUES, DE VIDEO ET DE PROGRAMMES DE TELEVISION"
+  },
+  {
+    "code": "5913A",
+    "gId": "2538",
+    "label": "DISTRIBUTION DE FILMS CINEMATOGRAPHIQUES"
+  },
+  {
+    "code": "5913B",
+    "gId": "2539",
+    "label": "EDITION ET DISTRIBUTION VIDEO"
+  },
+  {
+    "code": "5914Z",
+    "gId": "2540",
+    "label": "PROJECTION DE FILMS CINEMATOGRAPHIQUES"
+  },
+  {
+    "code": "5920Z",
+    "gId": "2541",
+    "label": "ENREGISTREMENT SONORE ET EDITION MUSICALE"
+  },
+  {
+    "code": "6010Z",
+    "gId": "2542",
+    "label": "EDITION ET DIFFUSION DE PROGRAMMES RADIO"
+  },
+  {
+    "code": "601Z",
+    "gId": "1522",
+    "label": "TRANSPORTS FERROVIAIRES"
+  },
+  {
+    "code": "6020A",
+    "gId": "2543",
+    "label": "EDITION DE CHAINES GENERALISTES"
+  },
+  {
+    "code": "6020B",
+    "gId": "2544",
+    "label": "EDITION DE CHAINES THEMATIQUES"
+  },
+  {
+    "code": "602A",
+    "gId": "803",
+    "label": "TRANSPORTS URBAINS DE VOYAGEURS"
+  },
+  {
+    "code": "602B",
+    "gId": "804",
+    "label": "TRANSPORTS ROUTIERS REGULIERS DE VOYAGEURS"
+  },
+  {
+    "code": "602C",
+    "gId": "805",
+    "label": "TELEPHERIQUES, REMONTEES MECANIQUES"
+  },
+  {
+    "code": "602E",
+    "gId": "1164",
+    "label": "TRANSPORT DE VOYAGEURS PAR TAXIS"
+  },
+  {
+    "code": "602G",
+    "gId": "1148",
+    "label": "AUTRES TRANSPORTS ROUTIERS ET VOYAGEURS"
+  },
+  {
+    "code": "602L",
+    "gId": "809",
+    "label": "TRANSPORTS ROUTIERS DE MARCHANDISES DE PROXIMITE"
+  },
+  {
+    "code": "602M",
+    "gId": "810",
+    "label": "TRANSPORTS ROUTIERS DE MARCHANDISES INTERURBAINS"
+  },
+  {
+    "code": "602N",
+    "gId": "811",
+    "label": "DEMENAGEMENT"
+  },
+  {
+    "code": "602P",
+    "gId": "812",
+    "label": "LOCATION DE CAMIONS AVEC CONDUCTEUR"
+  },
+  {
+    "code": "603Z",
+    "gId": "1526",
+    "label": "TRANSPORTS PAR CONDUITES"
+  },
+  {
+    "code": "6110Z",
+    "gId": "2545",
+    "label": "TELECOMMUNICATIONS FILAIRES"
+  },
+  {
+    "code": "611A",
+    "gId": "818",
+    "label": "TRANSPORTS MARITIMES"
+  },
+  {
+    "code": "611B",
+    "gId": "819",
+    "label": "TRANSPORTS COTIERS"
+  },
+  {
+    "code": "6120Z",
+    "gId": "2546",
+    "label": "TELECOMMUNICATIONS SANS FIL"
+  },
+  {
+    "code": "612Z",
+    "gId": "1529",
+    "label": "TRANSPORTS FLUVIAUX"
+  },
+  {
+    "code": "6130Z",
+    "gId": "2547",
+    "label": "TELECOMMUNICATIONS PAR SATELLITE"
+  },
+  {
+    "code": "6190Z",
+    "gId": "2548",
+    "label": "AUTRES ACTIVITES DE TELECOMMUNICATION"
+  },
+  {
+    "code": "6201Z",
+    "gId": "2549",
+    "label": "PROGRAMMATION INFORMATIQUE"
+  },
+  {
+    "code": "6202A",
+    "gId": "2550",
+    "label": "CONSEIL EN SYSTEMES ET LOGICIELS INFORMATIQUES"
+  },
+  {
+    "code": "6202B",
+    "gId": "2551",
+    "label": "TIERCE MAINTENANCE DE SYSTEMES ET D APPLICATIONS INFORMATIQUES"
+  },
+  {
+    "code": "6203Z",
+    "gId": "2552",
+    "label": "GESTION D INSTALLATIONS INFORMATIQUES"
+  },
+  {
+    "code": "6209Z",
+    "gId": "2553",
+    "label": "AUTRES ACTIVITES INFORMATIQUES"
+  },
+  {
+    "code": "621Z",
+    "gId": "1532",
+    "label": "TRANSPORTS AERIENS REGULIERS"
+  },
+  {
+    "code": "622Z",
+    "gId": "1535",
+    "label": "TRANSPORTS AERIENS NON REGULIERS"
+  },
+  {
+    "code": "623Z",
+    "gId": "1538",
+    "label": "TRANSPORTS SPATIAUX"
+  },
+  {
+    "code": "6311Z",
+    "gId": "2554",
+    "label": "TRAITEMENT DE DONNEES, HEBERGEMENT ET ACTIVITES CONNEXES"
+  },
+  {
+    "code": "6312Z",
+    "gId": "2555",
+    "label": "PORTAILS INTERNET"
+  },
+  {
+    "code": "631A",
+    "gId": "832",
+    "label": "MANUTENTION PORTUAIRE"
+  },
+  {
+    "code": "631B",
+    "gId": "833",
+    "label": "MANUTENTION NON PORTUAIRE"
+  },
+  {
+    "code": "631D",
+    "gId": "835",
+    "label": "ENTREPOSAGE FRIGORIFIQUE"
+  },
+  {
+    "code": "631E",
+    "gId": "836",
+    "label": "ENTREPOSAGE NON FRIGORIFIQUE"
+  },
+  {
+    "code": "632A",
+    "gId": "1541",
+    "label": "GESTION D INFRASTRUCTURES DE TRANSPORTS TERRESTRES"
+  },
+  {
+    "code": "632C",
+    "gId": "1543",
+    "label": "SERVICES PORTUAIRES, MARITIMES ET FLUVIAUX"
+  },
+  {
+    "code": "632E",
+    "gId": "1545",
+    "label": "SERVICES AEROPORTUAIRES"
+  },
+  {
+    "code": "633Z",
+    "gId": "1132",
+    "label": "AGENCE DE VOYAGE"
+  },
+  {
+    "code": "634A",
+    "gId": "845",
+    "label": "MESSAGERIE, FRET EXPRESS"
+  },
+  {
+    "code": "634B",
+    "gId": "846",
+    "label": "AFFRETEMENT"
+  },
+  {
+    "code": "634C",
+    "gId": "847",
+    "label": "ORGANISATION DES TRANSPORTS INTERNATIONAUX"
+  },
+  {
+    "code": "6391Z",
+    "gId": "2556",
+    "label": "ACTIVITES DES AGENCES DE PRESSE"
+  },
+  {
+    "code": "6399Z",
+    "gId": "2557",
+    "label": "AUTRES SERVICES D INFORMATION N.C.A."
+  },
+  {
+    "code": "6411Z",
+    "gId": "2558",
+    "label": "ACTIVITES DE BANQUE CENTRALE"
+  },
+  {
+    "code": "6419Z",
+    "gId": "2559",
+    "label": "AUTRES INTERMEDIATIONS MONETAIRES"
+  },
+  {
+    "code": "641A",
+    "gId": "1550",
+    "label": "POSTES NATIONALES"
+  },
+  {
+    "code": "641C",
+    "gId": "1552",
+    "label": "AUTRES ACTIVITES DE COURRIER"
+  },
+  {
+    "code": "6420Z",
+    "gId": "2560",
+    "label": "ACTIVITES DES SOCIETES HOLDING"
+  },
+  {
+    "code": "642A",
+    "gId": "854",
+    "label": "TELECOMMUNICATIONS NATIONALES"
+  },
+  {
+    "code": "642B",
+    "gId": "855",
+    "label": "AUTRES ACTIVITES DE TELECOMMUNICATIONS"
+  },
+  {
+    "code": "642C",
+    "gId": "1744",
+    "label": "TELECOMMUNICATIONS (HORS TRANSMISSION AUDIOVISUELLE)"
+  },
+  {
+    "code": "642D",
+    "gId": "1745",
+    "label": "TRANSMISSION D EMISSIONS DE RADIO ET DE TELEVISION"
+  },
+  {
+    "code": "6430Z",
+    "gId": "2561",
+    "label": "FONDS DE PLACEMENT ET ENTITES FINANCIERES SIMILAIRES"
+  },
+  {
+    "code": "6491Z",
+    "gId": "2562",
+    "label": "CREDIT-BAIL"
+  },
+  {
+    "code": "6492Z",
+    "gId": "2563",
+    "label": "AUTRE DISTRIBUTION DE CREDIT"
+  },
+  {
+    "code": "6499Z",
+    "gId": "2564",
+    "label": "AUTRES ACTIVITES DES SERVICES FINANCIERS, HORS ASSURANCE ET CAISSES DE RETRAITE,  N.C.A."
+  },
+  {
+    "code": "6511Z",
+    "gId": "2565",
+    "label": "ASSURANCE VIE"
+  },
+  {
+    "code": "6512Z",
+    "gId": "2566",
+    "label": "AUTRES ASSURANCES"
+  },
+  {
+    "code": "651A",
+    "gId": "1556",
+    "label": "BANQUE CENTRALE"
+  },
+  {
+    "code": "651C",
+    "gId": "862",
+    "label": "BANQUES"
+  },
+  {
+    "code": "651D",
+    "gId": "863",
+    "label": "BANQUES MUTUALISTES"
+  },
+  {
+    "code": "651E",
+    "gId": "864",
+    "label": "CAISSES D EPARGNE"
+  },
+  {
+    "code": "651F",
+    "gId": "865",
+    "label": "INTERMEDIATIONS MONETAIRES N.C.A."
+  },
+  {
+    "code": "6520Z",
+    "gId": "2567",
+    "label": "REASSURANCE"
+  },
+  {
+    "code": "652A",
+    "gId": "1559",
+    "label": "CREDIT-BAIL"
+  },
+  {
+    "code": "652C",
+    "gId": "868",
+    "label": "DISTRIBUTION DE CREDIT"
+  },
+  {
+    "code": "652E",
+    "gId": "870",
+    "label": "ORGANISMES DE PLACEMENT EN VALEURS MOBILIERES"
+  },
+  {
+    "code": "652F",
+    "gId": "871",
+    "label": "INTERMEDIATIONS FINANCIERES DIVERSES"
+  },
+  {
+    "code": "6530Z",
+    "gId": "2568",
+    "label": "CAISSES DE RETRAITE"
+  },
+  {
+    "code": "660A",
+    "gId": "1563",
+    "label": "ASSURANCE VIE ET CAPITALISATION"
+  },
+  {
+    "code": "660C",
+    "gId": "1565",
+    "label": "CAISSES DE RETRAITE"
+  },
+  {
+    "code": "660E",
+    "gId": "877",
+    "label": "ASSURANCE DOMMAGES"
+  },
+  {
+    "code": "660F",
+    "gId": "878",
+    "label": "REASSURANCE"
+  },
+  {
+    "code": "660G",
+    "gId": "879",
+    "label": "ASSURANCE RELEVANT DU CODE DE LA MUTUALITE"
+  },
+  {
+    "code": "6611Z",
+    "gId": "2569",
+    "label": "ADMINISTRATION DE MARCHES FINANCIERS"
+  },
+  {
+    "code": "6612Z",
+    "gId": "2570",
+    "label": "COURTAGE DE VALEURS MOBILIERES ET DE MARCHANDISES"
+  },
+  {
+    "code": "6619A",
+    "gId": "2571",
+    "label": "SUPPORTS JURIDIQUES DE GESTION DE PATRIMOINE MOBILIER"
+  },
+  {
+    "code": "6619B",
+    "gId": "2572",
+    "label": "AUTRES ACTIVITES AUXILIAIRES DE SERVICES FINANCIERS, HORS ASSURANCE ET CAISSES DE RETRAITE,  N.C.A."
+  },
+  {
+    "code": "6621Z",
+    "gId": "2573",
+    "label": "EVALUATION DES RISQUES ET DOMMAGES"
+  },
+  {
+    "code": "6622Z",
+    "gId": "2574",
+    "label": "ACTIVITES DES AGENTS ET COURTIERS D ASSURANCES"
+  },
+  {
+    "code": "6629Z",
+    "gId": "2575",
+    "label": "AUTRES ACTIVITES AUXILIAIRES D ASSURANCE ET DE CAISSES DE RETRAITE"
+  },
+  {
+    "code": "6630Z",
+    "gId": "2576",
+    "label": "GESTION DE FONDS"
+  },
+  {
+    "code": "671A",
+    "gId": "1567",
+    "label": "ADMINISTRATION DE MARCHAS FINANCIERS"
+  },
+  {
+    "code": "671C",
+    "gId": "883",
+    "label": "GESTION DE PORTEFEUILLES"
+  },
+  {
+    "code": "671E",
+    "gId": "1570",
+    "label": "AUTRES AUXILIAIRES FINANCIERS"
+  },
+  {
+    "code": "672Z",
+    "gId": "1572",
+    "label": "AUXILIAIRES D ASSURANCE"
+  },
+  {
+    "code": "6810Z",
+    "gId": "2577",
+    "label": "ACTIVITES DES MARCHANDS DE BIENS IMMOBILIERS"
+  },
+  {
+    "code": "6820A",
+    "gId": "2578",
+    "label": "LOCATION DE LOGEMENTS"
+  },
+  {
+    "code": "6820B",
+    "gId": "2579",
+    "label": "LOCATION DE TERRAINS ET D AUTRES BIENS IMMOBILIERS"
+  },
+  {
+    "code": "6831Z",
+    "gId": "2580",
+    "label": "AGENCES IMMOBILIERES"
+  },
+  {
+    "code": "6832A",
+    "gId": "2581",
+    "label": "ADMINISTRATION D IMMEUBLES ET AUTRES BIENS IMMOBILIERS"
+  },
+  {
+    "code": "6832B",
+    "gId": "2582",
+    "label": "SUPPORTS JURIDIQUES DE GESTION DE PATRIMOINE IMMOBILIER"
+  },
+  {
+    "code": "6910Z",
+    "gId": "2583",
+    "label": "ACTIVITES JURIDIQUES"
+  },
+  {
+    "code": "6920Z",
+    "gId": "2584",
+    "label": "ACTIVITES COMPTABLES"
+  },
+  {
+    "code": "7010Z",
+    "gId": "2585",
+    "label": "ACTIVITES DES SIEGES SOCIAUX"
+  },
+  {
+    "code": "701A",
+    "gId": "890",
+    "label": "PROMOTION IMMOBILIERE DE LOGEMENTS"
+  },
+  {
+    "code": "701B",
+    "gId": "891",
+    "label": "PROMOTION IMMOBILIERE DE BUREAUX"
+  },
+  {
+    "code": "701C",
+    "gId": "892",
+    "label": "PROMOTION IMMOBILIERE D INFRASTRUCTURES"
+  },
+  {
+    "code": "701D",
+    "gId": "893",
+    "label": "SUPPORTS JURIDIQUES DE PROGRAMMES"
+  },
+  {
+    "code": "701F",
+    "gId": "894",
+    "label": "MARCHANDS DE BIENS IMMOBILIERS"
+  },
+  {
+    "code": "7021Z",
+    "gId": "2586",
+    "label": "CONSEIL EN RELATIONS PUBLIQUES ET COMMUNICATION"
+  },
+  {
+    "code": "7022Z",
+    "gId": "2587",
+    "label": "CONSEIL POUR LES AFFAIRES ET AUTRES CONSEILS DE GESTION"
+  },
+  {
+    "code": "702A",
+    "gId": "897",
+    "label": "LOCATION DE LOGEMENTS"
+  },
+  {
+    "code": "702B",
+    "gId": "898",
+    "label": "LOCATION DE TERRAINS"
+  },
+  {
+    "code": "702C",
+    "gId": "899",
+    "label": "LOCATION D AUTRES BIENS IMMOBILIERS"
+  },
+  {
+    "code": "703A",
+    "gId": "1579",
+    "label": "AGENCES IMMOBILIERES"
+  },
+  {
+    "code": "703C",
+    "gId": "903",
+    "label": "ADMINISTRATION D IMMEUBLES RESIDENTIELS"
+  },
+  {
+    "code": "703D",
+    "gId": "904",
+    "label": "ADMINISTRATION D AUTRES BIENS IMMOBILIERS"
+  },
+  {
+    "code": "703E",
+    "gId": "905",
+    "label": "SUPPORTS JURIDIQUES DE GESTION DE PATRIMOINE"
+  },
+  {
+    "code": "7111Z",
+    "gId": "2588",
+    "label": "ACTIVITES D ARCHITECTURE"
+  },
+  {
+    "code": "7112A",
+    "gId": "2589",
+    "label": "ACTIVITE DES GEOMETRES"
+  },
+  {
+    "code": "7112B",
+    "gId": "2590",
+    "label": "INGENIERIE, ETUDES TECHNIQUES"
+  },
+  {
+    "code": "711A",
+    "gId": "1746",
+    "label": "LOCATION DE COURTE DUREE DE VEHICULES AUTOMOBILES"
+  },
+  {
+    "code": "711B",
+    "gId": "1747",
+    "label": "LOCATION DE LONGUE DUREE DE VEHICULES AUTOMOBILES"
+  },
+  {
+    "code": "711Z",
+    "gId": "1161",
+    "label": "LOCATION DE VEHICULES AUTOMOBILES"
+  },
+  {
+    "code": "7120A",
+    "gId": "2591",
+    "label": "CONTROLE TECHNIQUE AUTOMOBILE"
+  },
+  {
+    "code": "7120B",
+    "gId": "2592",
+    "label": "ANALYSES, ESSAIS ET INSPECTIONS TECHNIQUES"
+  },
+  {
+    "code": "712A",
+    "gId": "1583",
+    "label": "LOCATION D AUTRES MATERIELS DE TRANSPORT TERRESTRE"
+  },
+  {
+    "code": "712C",
+    "gId": "1585",
+    "label": "LOCATION DE MATERIELS DE TRANSPORT PAR EAU"
+  },
+  {
+    "code": "712E",
+    "gId": "1587",
+    "label": "LOCATION DE MATERIELS DE TRANSPORT AERIEN"
+  },
+  {
+    "code": "713A",
+    "gId": "1590",
+    "label": "LOCATION DE MATERIEL AGRICOLE"
+  },
+  {
+    "code": "713C",
+    "gId": "1152",
+    "label": "LOCATION DE MACHINES ET EQUIPT POUR LA CONSTRUCTION"
+  },
+  {
+    "code": "713E",
+    "gId": "1592",
+    "label": "LOCATION DE MACHINES DE BUREAU ET DE MATERIEL INFORMATIQUE"
+  },
+  {
+    "code": "713G",
+    "gId": "1147",
+    "label": "LOCATION DE MACHINES ET EQUIPEMENTS DIVERS"
+  },
+  {
+    "code": "714A",
+    "gId": "920",
+    "label": "LOCATION DE LINGE"
+  },
+  {
+    "code": "714B",
+    "gId": "921",
+    "label": "LOCATION D AUTRES BIENS PERSONNELS ET DOMESTIQUES"
+  },
+  {
+    "code": "7211Z",
+    "gId": "2593",
+    "label": "RECHERCHE-DEVELOPPEMENT EN BIOTECHNOLOGIES"
+  },
+  {
+    "code": "7219Z",
+    "gId": "2594",
+    "label": "RECHERCHE-DEVELOPPEMENT EN AUTRES SCIENCES PHYSIQUES ET NATURELLES"
+  },
+  {
+    "code": "721Z",
+    "gId": "924",
+    "label": "CONSEIL EN SYSTEMES INFORMATIQUES"
+  },
+  {
+    "code": "7220Z",
+    "gId": "2595",
+    "label": "RECHERCHE-DEVELOPPEMENT EN SCIENCES HUMAINES ET SOCIALES"
+  },
+  {
+    "code": "722A",
+    "gId": "1748",
+    "label": "EDITION DE LOGICIELS (NON PERSONNALISES)"
+  },
+  {
+    "code": "722C",
+    "gId": "1749",
+    "label": "AUTRES ACTIVITES DE REALISATION DE LOGICIELS"
+  },
+  {
+    "code": "722Z",
+    "gId": "926",
+    "label": "REALISATION DE LOGICIELS"
+  },
+  {
+    "code": "723Z",
+    "gId": "1153",
+    "label": "TRAITEMENT DE DONNEES"
+  },
+  {
+    "code": "724Z",
+    "gId": "1599",
+    "label": "ACTIVITES DE BANQUES DE DONNEES"
+  },
+  {
+    "code": "725Z",
+    "gId": "1163",
+    "label": "ENTRETIEN REPARATION MACHINES DE BUREAU ET MATERIEL INFORMATIQUE"
+  },
+  {
+    "code": "726Z",
+    "gId": "1604",
+    "label": "AUTRES ACTIVITES RATTACHEES A L INFORMATIQUE"
+  },
+  {
+    "code": "7311Z",
+    "gId": "2596",
+    "label": "ACTIVITES DES AGENCES DE PUBLICITE"
+  },
+  {
+    "code": "7312Z",
+    "gId": "2597",
+    "label": "REGIE PUBLICITAIRE DE MEDIAS"
+  },
+  {
+    "code": "731Z",
+    "gId": "1149",
+    "label": "RECHERCHE EN SCIENCES PHYSIQUES ET NATURELLES"
+  },
+  {
+    "code": "7320Z",
+    "gId": "2598",
+    "label": "ETUDES DE MARCHE ET SONDAGES"
+  },
+  {
+    "code": "732Z",
+    "gId": "1609",
+    "label": "RECHERCHE-DEVELOPPEMENT EN SCIENCES HUMAINES ET SOCIALES"
+  },
+  {
+    "code": "7410Z",
+    "gId": "2599",
+    "label": "ACTIVITES SPECIALISEES DE DESIGN"
+  },
+  {
+    "code": "741A",
+    "gId": "1111",
+    "label": "ACTIVITES JURIDIQUES"
+  },
+  {
+    "code": "741C",
+    "gId": "1112",
+    "label": "ACTIVITES COMPTABLES"
+  },
+  {
+    "code": "741E",
+    "gId": "1113",
+    "label": "ETUDES DE MARCHE ET SONDAGES"
+  },
+  {
+    "code": "741G",
+    "gId": "1115",
+    "label": "CONSEIL POUR LES AFFAIRES ET LA GESTION"
+  },
+  {
+    "code": "741J",
+    "gId": "1114",
+    "label": "ADMINISTRATION D ENTREPRISES"
+  },
+  {
+    "code": "7420Z",
+    "gId": "2600",
+    "label": "ACTIVITES PHOTOGRAPHIQUES"
+  },
+  {
+    "code": "742A",
+    "gId": "949",
+    "label": "ACTIVITES D ARCHITECTURE"
+  },
+  {
+    "code": "742B",
+    "gId": "950",
+    "label": "METREURS, GEOMETRES"
+  },
+  {
+    "code": "742C",
+    "gId": "951",
+    "label": "INGENIERIE, ETUDES TECHNIQUES"
+  },
+  {
+    "code": "7430Z",
+    "gId": "2601",
+    "label": "TRADUCTION ET INTERPRETATION"
+  },
+  {
+    "code": "743A",
+    "gId": "954",
+    "label": "CONTROLE TECHNIQUE AUTOMOBILE"
+  },
+  {
+    "code": "743B",
+    "gId": "955",
+    "label": "ANALYSES, ESSAIS ET INSPECTIONS TECHNIQUES"
+  },
+  {
+    "code": "744A",
+    "gId": "958",
+    "label": "GESTION DE SUPPORTS DE PUBLICITE"
+  },
+  {
+    "code": "744B",
+    "gId": "959",
+    "label": "AGENCES, CONSEIL EN PUBLICITE"
+  },
+  {
+    "code": "745A",
+    "gId": "962",
+    "label": "SELECTION ET MISE A DISPOSITION DE PERSONNEL"
+  },
+  {
+    "code": "745B",
+    "gId": "963",
+    "label": "TRAVAIL TEMPORAIRE"
+  },
+  {
+    "code": "746Z",
+    "gId": "1137",
+    "label": "ENQUETES ET SECURITE"
+  },
+  {
+    "code": "747Z",
+    "gId": "1130",
+    "label": "ACTIVITES DE NETTOYAGE"
+  },
+  {
+    "code": "748A",
+    "gId": "970",
+    "label": "STUDIOS ET AUTRES ACTIVITES PHOTOGRAPHIQUES"
+  },
+  {
+    "code": "748B",
+    "gId": "971",
+    "label": "LABORATOIRES DE DEVELOPPEMENT ET DE TIRAGE"
+  },
+  {
+    "code": "748D",
+    "gId": "1622",
+    "label": "CONDITIONNEMENT A FACON"
+  },
+  {
+    "code": "748F",
+    "gId": "974",
+    "label": "SECRETARIAT ET TRADUCTION"
+  },
+  {
+    "code": "748G",
+    "gId": "975",
+    "label": "ROUTAGE"
+  },
+  {
+    "code": "748H",
+    "gId": "1750",
+    "label": "CENTRES D APPEL"
+  },
+  {
+    "code": "748J",
+    "gId": "977",
+    "label": "ORGANISATION DE FOIRES ET SALONS"
+  },
+  {
+    "code": "748K",
+    "gId": "1136",
+    "label": "SERVICES ANNEXES. PRODUCTION"
+  },
+  {
+    "code": "7490A",
+    "gId": "2602",
+    "label": "ACTIVITE DES ECONOMISTES DE LA CONSTRUCTION"
+  },
+  {
+    "code": "7490B",
+    "gId": "2603",
+    "label": "ACTIVITES SPECIALISEES, SCIENTIFIQUES ET TECHNIQUES DIVERSES"
+  },
+  {
+    "code": "7500Z",
+    "gId": "2604",
+    "label": "ACTIVITES VETERINAIRES"
+  },
+  {
+    "code": "751A",
+    "gId": "1626",
+    "label": "ADMINISTRATION PUBLIQUE GENERALE"
+  },
+  {
+    "code": "751C",
+    "gId": "1628",
+    "label": "TUTELLE DES ACTIVITES SOCIALES"
+  },
+  {
+    "code": "751E",
+    "gId": "1630",
+    "label": "TUTELLE DES ACTIVITES ECONOMIQUES"
+  },
+  {
+    "code": "751G",
+    "gId": "1632",
+    "label": "ACTIVITES DE SOUTIEN AUX ADMINISTRATIONS"
+  },
+  {
+    "code": "752A",
+    "gId": "1635",
+    "label": "AFFAIRES ETRANGERES"
+  },
+  {
+    "code": "752C",
+    "gId": "1637",
+    "label": "DEFENSE"
+  },
+  {
+    "code": "752E",
+    "gId": "1639",
+    "label": "JUSTICE"
+  },
+  {
+    "code": "752G",
+    "gId": "1641",
+    "label": "POLICE"
+  },
+  {
+    "code": "752J",
+    "gId": "1643",
+    "label": "PROTECTION CIVILE"
+  },
+  {
+    "code": "753A",
+    "gId": "993",
+    "label": "ACTIVITES GENERALES DE SECURITE SOCIALE"
+  },
+  {
+    "code": "753B",
+    "gId": "994",
+    "label": "GESTION DES RETRAITES COMPLEMENTAIRES"
+  },
+  {
+    "code": "753C",
+    "gId": "995",
+    "label": "DISTRIBUTION SOCIALE DE REVENUS"
+  },
+  {
+    "code": "7711A",
+    "gId": "2605",
+    "label": "LOCATION DE COURTE DUREE DE VOITURES ET DE VEHICULES AUTOMOBILES LEGERS"
+  },
+  {
+    "code": "7711B",
+    "gId": "2606",
+    "label": "LOCATION DE LONGUE DUREE DE VOITURES ET DE VEHICULES AUTOMOBILES LEGERS"
+  },
+  {
+    "code": "7712Z",
+    "gId": "2607",
+    "label": "LOCATION ET LOCATION-BAIL DE CAMIONS"
+  },
+  {
+    "code": "7721Z",
+    "gId": "2608",
+    "label": "LOCATION ET LOCATION-BAIL D ARTICLES DE LOISIRS ET DE SPORT"
+  },
+  {
+    "code": "7722Z",
+    "gId": "2609",
+    "label": "LOCATION DE VIDEOCASSETTES ET DISQUES VIDEO"
+  },
+  {
+    "code": "7729Z",
+    "gId": "2610",
+    "label": "LOCATION ET LOCATION-BAIL D AUTRES BIENS PERSONNELS ET DOMESTIQUES"
+  },
+  {
+    "code": "7731Z",
+    "gId": "2611",
+    "label": "LOCATION ET LOCATION-BAIL DE MACHINES ET EQUIPEMENTS AGRICOLES"
+  },
+  {
+    "code": "7732Z",
+    "gId": "2612",
+    "label": "LOCATION ET LOCATION-BAIL DE MACHINES ET EQUIPEMENTS POUR LA CONSTRUCTION"
+  },
+  {
+    "code": "7733Z",
+    "gId": "2613",
+    "label": "LOCATION ET LOCATION-BAIL DE MACHINES DE BUREAU ET DE MATERIEL INFORMATIQUE"
+  },
+  {
+    "code": "7734Z",
+    "gId": "2614",
+    "label": "LOCATION ET LOCATION-BAIL DE MATERIELS DE TRANSPORT PAR EAU"
+  },
+  {
+    "code": "7735Z",
+    "gId": "2615",
+    "label": "LOCATION ET LOCATION-BAIL DE MATERIELS DE TRANSPORT AERIEN"
+  },
+  {
+    "code": "7739Z",
+    "gId": "2616",
+    "label": "LOCATION ET LOCATION-BAIL D AUTRES MACHINES, EQUIPEMENTS ET BIENS MATERIELS N.C.A"
+  },
+  {
+    "code": "7740Z",
+    "gId": "2617",
+    "label": "LOCATION-BAIL DE PROPRIETE INTELLECTUELLE ET DE PRODUITS SIMILAIRES, A L EXCEPTION DES OEUVRES SOUMISES A COPYRIGHT"
+  },
+  {
+    "code": "7810Z",
+    "gId": "2618",
+    "label": "ACTIVITES DES AGENCES DE PLACEMENT DE MAIN-D OEUVRE"
+  },
+  {
+    "code": "7820Z",
+    "gId": "2619",
+    "label": "ACTIVITES DES AGENCES DE TRAVAIL TEMPORAIRE"
+  },
+  {
+    "code": "7830Z",
+    "gId": "2620",
+    "label": "AUTRE MISE A DISPOSITION DE RESSOURCES HUMAINES"
+  },
+  {
+    "code": "7911Z",
+    "gId": "2621",
+    "label": "ACTIVITES DES AGENCES DE VOYAGE"
+  },
+  {
+    "code": "7912Z",
+    "gId": "2622",
+    "label": "ACTIVITES DES VOYAGISTES"
+  },
+  {
+    "code": "7990Z",
+    "gId": "2623",
+    "label": "AUTRES SERVICES DE RESERVATION ET ACTIVITES CONNEXES"
+  },
+  {
+    "code": "8010Z",
+    "gId": "2624",
+    "label": "ACTIVITES DE SECURITE PRIVEE"
+  },
+  {
+    "code": "801Z",
+    "gId": "1648",
+    "label": "ENSEIGNEMENT PRIMAIRE"
+  },
+  {
+    "code": "8020Z",
+    "gId": "2625",
+    "label": "ACTIVITES LIEES AUX SYSTEMES DE SECURITE"
+  },
+  {
+    "code": "802A",
+    "gId": "1651",
+    "label": "ENSEIGNEMENT SECONDAIRE GENERAL"
+  },
+  {
+    "code": "802C",
+    "gId": "1653",
+    "label": "ENSEIGNEMENT SECONDAIRE TECHNIQUE OU PROFESSIONNEL"
+  },
+  {
+    "code": "8030Z",
+    "gId": "2626",
+    "label": "ACTIVITES D ENQUETE"
+  },
+  {
+    "code": "803Z",
+    "gId": "1655",
+    "label": "ENSEIGNEMENT SUPERIEUR"
+  },
+  {
+    "code": "804A",
+    "gId": "1160",
+    "label": "ECOLE DE CONDUITE"
+  },
+  {
+    "code": "804C",
+    "gId": "1007",
+    "label": "FORMATION DES ADULTES ET FORMATION CONTINUE"
+  },
+  {
+    "code": "804D",
+    "gId": "1008",
+    "label": "AUTRES ENSEIGNEMENTS"
+  },
+  {
+    "code": "8110Z",
+    "gId": "2627",
+    "label": "ACTIVITES COMBINEES DE SOUTIEN LIE AUX BATIMENTS"
+  },
+  {
+    "code": "8121Z",
+    "gId": "2628",
+    "label": "NETTOYAGE COURANT DES BATIMENTS"
+  },
+  {
+    "code": "8122Z",
+    "gId": "2629",
+    "label": "AUTRES ACTIVITES DE NETTOYAGE DES BATIMENTS ET NETTOYAGE INDUSTRIEL"
+  },
+  {
+    "code": "8129A",
+    "gId": "2630",
+    "label": "DESINFECTION, DESINSECTISATION, DERATISATION"
+  },
+  {
+    "code": "8129B",
+    "gId": "2631",
+    "label": "AUTRES ACTIVITES DE NETTOYAGE N.C.A"
+  },
+  {
+    "code": "8130Z",
+    "gId": "2632",
+    "label": "SERVICES D AMENAGEMENT PAYSAGER"
+  },
+  {
+    "code": "8211Z",
+    "gId": "2633",
+    "label": "SERVICES ADMINISTRATIFS COMBINES DE BUREAU"
+  },
+  {
+    "code": "8219Z",
+    "gId": "2634",
+    "label": "PHOTOCOPIE, PREPARATION DE DOCUMENTS ET AUTRES ACTIVITES SPECIALISEES DE SOUTIEN DE BUREAU"
+  },
+  {
+    "code": "8220Z",
+    "gId": "2635",
+    "label": "ACTIVITES DE CENTRES D APPELS"
+  },
+  {
+    "code": "8230Z",
+    "gId": "2636",
+    "label": "ORGANISATION DE FOIRES, SALONS PROFESSIONNELS ET CONGRES"
+  },
+  {
+    "code": "8291Z",
+    "gId": "2637",
+    "label": "ACTIVITES DES AGENCES DE RECOUVREMENT DE FACTURES ET DES SOCIETES D INFORMATION FINANCIERE SUR LA CLIENTELE"
+  },
+  {
+    "code": "8292Z",
+    "gId": "2638",
+    "label": "ACTIVITES DE CONDITIONNEMENT"
+  },
+  {
+    "code": "8299Z",
+    "gId": "2639",
+    "label": "AUTRES ACTIVITES DE SOUTIEN AUX ENTREPRISES N.C.A."
+  },
+  {
+    "code": "8411Z",
+    "gId": "2640",
+    "label": "ADMINISTRATION PUBLIQUE GENERALE"
+  },
+  {
+    "code": "8412Z",
+    "gId": "2641",
+    "label": "ADMINISTRATION PUBLIQUE (TUTELLE) DE LA SANTE, DE LA FORMATION, DE LA CULTURE ET DES SERVICES SOCIAUX, AUTRE QUE SECURITE SOCIALE"
+  },
+  {
+    "code": "8413Z",
+    "gId": "2642",
+    "label": "ADMINISTRATION PUBLIQUE (TUTELLE) DES ACTIVITES ECONOMIQUES"
+  },
+  {
+    "code": "8421Z",
+    "gId": "2643",
+    "label": "AFFAIRES ETRANGERES"
+  },
+  {
+    "code": "8422Z",
+    "gId": "2644",
+    "label": "DEFENSE"
+  },
+  {
+    "code": "8423Z",
+    "gId": "2645",
+    "label": "JUSTICE"
+  },
+  {
+    "code": "8424Z",
+    "gId": "2646",
+    "label": "ACTIVITES D ORDRE PUBLIQUE ET DE SECURITE"
+  },
+  {
+    "code": "8425Z",
+    "gId": "2647",
+    "label": "SERVICES DU FEU ET DE SECOURS"
+  },
+  {
+    "code": "8430A",
+    "gId": "2648",
+    "label": "ACTIVITES GENERALES DE SECURITE SOCIALE"
+  },
+  {
+    "code": "8430B",
+    "gId": "2649",
+    "label": "GESTION DES RETRAITES COMPLEMENTAIRES"
+  },
+  {
+    "code": "8430C",
+    "gId": "2650",
+    "label": "DISTRIBUTION SOCIALE DE REVENUS"
+  },
+  {
+    "code": "8510Z",
+    "gId": "2651",
+    "label": "ENSEIGNEMENT PRE-PRIMAIRE"
+  },
+  {
+    "code": "851A",
+    "gId": "1151",
+    "label": "ACTIVITES HOSPITALIERES"
+  },
+  {
+    "code": "851C",
+    "gId": "1660",
+    "label": "PRATIQUE MEDICALE"
+  },
+  {
+    "code": "851E",
+    "gId": "1662",
+    "label": "PRATIQUE DENTAIRE"
+  },
+  {
+    "code": "851G",
+    "gId": "1017",
+    "label": "ACTIVITES DES AUXILIAIRES MEDICAUX"
+  },
+  {
+    "code": "851H",
+    "gId": "1018",
+    "label": "SOINS HORS D UN CADRE REGLEMENTE"
+  },
+  {
+    "code": "851J",
+    "gId": "1019",
+    "label": "AMBULANCES"
+  },
+  {
+    "code": "851K",
+    "gId": "1020",
+    "label": "LABORATOIRES D ANALYSES MEDICALES"
+  },
+  {
+    "code": "851L",
+    "gId": "1021",
+    "label": "CENTRES DE COLLECTE ET BANQUES D ORGANES"
+  },
+  {
+    "code": "8520Z",
+    "gId": "2652",
+    "label": "ENSEIGNEMENT PRIMAIRE"
+  },
+  {
+    "code": "852Z",
+    "gId": "1665",
+    "label": "ACTIVITES VETERINAIRES"
+  },
+  {
+    "code": "8531Z",
+    "gId": "2653",
+    "label": "ENSEIGNEMENT SECONDAIRE GENERAL"
+  },
+  {
+    "code": "8532Z",
+    "gId": "2654",
+    "label": "ENSEIGNEMENT SECONDAIRE TECHNIQUE OU PROFESSIONNEL"
+  },
+  {
+    "code": "853A",
+    "gId": "1026",
+    "label": "ACCUEIL DES ENFANTS HANDICAPES"
+  },
+  {
+    "code": "853B",
+    "gId": "1027",
+    "label": "ACCUEIL DES ENFANTS EN DIFFICULTE"
+  },
+  {
+    "code": "853C",
+    "gId": "1028",
+    "label": "ACCUEIL DES ADULTES HANDICAPES"
+  },
+  {
+    "code": "853D",
+    "gId": "1029",
+    "label": "ACCUEIL DES PERSONNES AGEES"
+  },
+  {
+    "code": "853E",
+    "gId": "1030",
+    "label": "AUTRES HEBERGEMENTS SOCIAUX"
+  },
+  {
+    "code": "853G",
+    "gId": "1032",
+    "label": "CRECHES ET GARDERIES D ENFANTS"
+  },
+  {
+    "code": "853H",
+    "gId": "1033",
+    "label": "AIDE PAR LE TRAVAIL, ATELIERS PROTEGES"
+  },
+  {
+    "code": "853J",
+    "gId": "1034",
+    "label": "AIDE A DOMICILE"
+  },
+  {
+    "code": "853K",
+    "gId": "1035",
+    "label": "AUTRES FORMES D ACTION SOCIALE"
+  },
+  {
+    "code": "8541Z",
+    "gId": "2655",
+    "label": "ENSEIGNEMENT POST-SECONDAIRE NON SUPERIEUR"
+  },
+  {
+    "code": "8542Z",
+    "gId": "2656",
+    "label": "ENSEIGNEMENT SUPERIEUR"
+  },
+  {
+    "code": "8551Z",
+    "gId": "2657",
+    "label": "ENSEIGNEMENT DE DISCIPLINES SPORTIVES ET D ACTIVITES DE LOISIRS"
+  },
+  {
+    "code": "8552Z",
+    "gId": "2658",
+    "label": "ENSEIGNEMENT CULTUREL"
+  },
+  {
+    "code": "8553Z",
+    "gId": "2659",
+    "label": "ENSEIGNEMENT DE LA CONDUITE"
+  },
+  {
+    "code": "8559A",
+    "gId": "2660",
+    "label": "FORMATION CONTINUE D ADULTES"
+  },
+  {
+    "code": "8559B",
+    "gId": "2661",
+    "label": "AUTRES ENSEIGNEMENTS"
+  },
+  {
+    "code": "8560Z",
+    "gId": "2662",
+    "label": "ACTIVITES DE SOUTIEN A L ENSEIGNEMENT"
+  },
+  {
+    "code": "8610Z",
+    "gId": "2663",
+    "label": "ACTIVITES HOSPITALIERES"
+  },
+  {
+    "code": "8621Z",
+    "gId": "2664",
+    "label": "ACTIVITE DES MEDECINS GENERALISTES"
+  },
+  {
+    "code": "8622A",
+    "gId": "2665",
+    "label": "ACTIVITES DE RADIODIAGNOSTIC ET DE RADIOTHERAPIE"
+  },
+  {
+    "code": "8622B",
+    "gId": "2666",
+    "label": "ACTIVITES CHIRURGICALES"
+  },
+  {
+    "code": "8622C",
+    "gId": "2667",
+    "label": "AUTRES ACTIVITES DES MEDECINS SPECIALISTES"
+  },
+  {
+    "code": "8623Z",
+    "gId": "2668",
+    "label": "PRATIQUE DENTAIRE"
+  },
+  {
+    "code": "8690A",
+    "gId": "2669",
+    "label": "AMBULANCES"
+  },
+  {
+    "code": "8690B",
+    "gId": "2670",
+    "label": "LABORATOIRES D ANALYSES MEDICALES"
+  },
+  {
+    "code": "8690C",
+    "gId": "2671",
+    "label": "CENTRES DE COLLECTE ET BANQUES D ORGANES"
+  },
+  {
+    "code": "8690D",
+    "gId": "2672",
+    "label": "ACTIVITE DES INFIRMIERS ET DES SAGE-FEMMES"
+  },
+  {
+    "code": "8690E",
+    "gId": "2673",
+    "label": "ACTIVITE DES PROFESSIONNELS DE LA REEDUCATION, DE L APPAREILLAGE ET DES PEDICURES-PODOLOGUES"
+  },
+  {
+    "code": "8690F",
+    "gId": "2674",
+    "label": "ACTIVITES DE SANTE HUMAINE NON CLASSEES AILLEURS"
+  },
+  {
+    "code": "8710A",
+    "gId": "2675",
+    "label": "HEBERGEMENT MEDICALISE POUR PERSONNES AGEES"
+  },
+  {
+    "code": "8710B",
+    "gId": "2676",
+    "label": "HEBERGEMENT MEDICALISES POUR ENFANTS HANDICAPES"
+  },
+  {
+    "code": "8710C",
+    "gId": "2677",
+    "label": "HEBERGEMENT MEDICALISE POUR ADULTES HANDICAPES ET AUTRE HEBERGEMENT MEDICALISE"
+  },
+  {
+    "code": "8720A",
+    "gId": "2678",
+    "label": "HEBERGEMENT SOCIAL POUR HANDICAPES MENTAUX ET MALADES MENTAUX"
+  },
+  {
+    "code": "8720B",
+    "gId": "2679",
+    "label": "HEBERGEMENT SOCIAL POUR TOXICOMANES"
+  },
+  {
+    "code": "8730A",
+    "gId": "2680",
+    "label": "HEBERGEMENT SOCIAL POUR PERSONNES AGEES"
+  },
+  {
+    "code": "8730B",
+    "gId": "2681",
+    "label": "HEBERGEMENT SOCIAL POUR HANDICAPES  PHYSIQUES"
+  },
+  {
+    "code": "8790A",
+    "gId": "2682",
+    "label": "HEBERGEMENT SOCIAL POUR ENFANTS EN DIFFICULTES"
+  },
+  {
+    "code": "8790B",
+    "gId": "2683",
+    "label": "HEBERGEMENT SOCIAL POUR ADULTES ET FAMILLES EN DIFFICULTES ET AUTRE HEBERGEMENT SOCIAL"
+  },
+  {
+    "code": "8810A",
+    "gId": "2684",
+    "label": "AIDE A DOMICILE"
+  },
+  {
+    "code": "8810B",
+    "gId": "2685",
+    "label": "ACCUEIL OU ACCOMPAGNEMENT SANS HEBERGEMENT D ADULTES HANDICAPES OU DE  PERSONNES AGEES"
+  },
+  {
+    "code": "8810C",
+    "gId": "2686",
+    "label": "AIDE PAR LE TRAVAIL"
+  },
+  {
+    "code": "8891A",
+    "gId": "2687",
+    "label": "ACCUEIL DE JEUNES ENFANTS"
+  },
+  {
+    "code": "8891B",
+    "gId": "2688",
+    "label": "ACCUEIL OU ACCOMPAGNEMENT SANS HEBERGEMENT D ENFANTS HANDICAPES"
+  },
+  {
+    "code": "8899A",
+    "gId": "2689",
+    "label": "AUTRE ACCUEIL OU ACCOMPAGNEMENT SANS HEBERGEMENT D ENFANTS ET D ADOLESCENTS"
+  },
+  {
+    "code": "8899B",
+    "gId": "2690",
+    "label": "ACTION SOCIALE SANS HEBERGEMENT N.C.A."
+  },
+  {
+    "code": "9001Z",
+    "gId": "2691",
+    "label": "ARTS DU SPECTACLE VIVANT"
+  },
+  {
+    "code": "9002Z",
+    "gId": "2692",
+    "label": "ACTIVITES DE SOUTIEN AU SPECTACLE VIVANT"
+  },
+  {
+    "code": "9003A",
+    "gId": "2693",
+    "label": "CREATION ARTISTIQUE RELEVANT DES ARTS PLASTIQUES"
+  },
+  {
+    "code": "9003B",
+    "gId": "2694",
+    "label": "AUTRE CREATION ARTISTIQUE"
+  },
+  {
+    "code": "9004Z",
+    "gId": "2695",
+    "label": "GESTION DE SALLES DE SPECTACLES"
+  },
+  {
+    "code": "900A",
+    "gId": "1039",
+    "label": "EPURATION DES EAUX USEES"
+  },
+  {
+    "code": "900B",
+    "gId": "1040",
+    "label": "ENLEVEMENT ET TRAITEMENT DES ORDURES MENAGERES"
+  },
+  {
+    "code": "900C",
+    "gId": "1041",
+    "label": "ELIMINATION ET TRAITEMENT DES AUTRES DECHETS"
+  },
+  {
+    "code": "900E",
+    "gId": "1751",
+    "label": "TRAITEMENTS DES AUTRES DECHETS SOLIDES"
+  },
+  {
+    "code": "900G",
+    "gId": "1752",
+    "label": "AUTRES TRAVAUX D ASSAINISSEMENT ET DE VOIRIE"
+  },
+  {
+    "code": "9101Z",
+    "gId": "2696",
+    "label": "GESTION DES BIBLIOTHEQUES ET DES ARCHIVES"
+  },
+  {
+    "code": "9102Z",
+    "gId": "2697",
+    "label": "GESTION DES MUSEES"
+  },
+  {
+    "code": "9103Z",
+    "gId": "2698",
+    "label": "GESTION DES SITES ET MONUMENTS HISTORIQUES ET DES ATTRACTIONS TOURISTIQUES SIMILAIRES"
+  },
+  {
+    "code": "9104Z",
+    "gId": "2699",
+    "label": "GESTION DES JARDINS BOTANIQUES ET ZOOLOGIQUES ET DES RESERVES NATURELLES"
+  },
+  {
+    "code": "911A",
+    "gId": "1669",
+    "label": "ORGANISATIONS PATRONALES ET CONSULAIRES"
+  },
+  {
+    "code": "911C",
+    "gId": "1045",
+    "label": "ORGANISATIONS PROFESSIONNELLES"
+  },
+  {
+    "code": "912Z",
+    "gId": "1672",
+    "label": "SYNDICATS DE SALARIES"
+  },
+  {
+    "code": "913A",
+    "gId": "1674",
+    "label": "ORGANISATIONS RELIGIEUSES"
+  },
+  {
+    "code": "913C",
+    "gId": "1676",
+    "label": "ORGANISATIONS POLITIQUES"
+  },
+  {
+    "code": "913E",
+    "gId": "1678",
+    "label": "ORGANISATIONS ASSOCIATIVES N.C.A."
+  },
+  {
+    "code": "9200Z",
+    "gId": "2700",
+    "label": "ORGANISATION DE JEUX DE HASARD ET D ARGENT"
+  },
+  {
+    "code": "921A",
+    "gId": "1055",
+    "label": "PRODUCTION DE FILMS POUR LA TELEVISION"
+  },
+  {
+    "code": "921B",
+    "gId": "1056",
+    "label": "PRODUCTION DE FILMS INSTITUTIONNELS ET PUBLICITAIRES"
+  },
+  {
+    "code": "921C",
+    "gId": "1057",
+    "label": "PRODUCTION DE FILMS POUR LE CINEMA"
+  },
+  {
+    "code": "921D",
+    "gId": "1058",
+    "label": "PRESTATIONS TECHNIQUES POUR LE CINEMA ET LA TELEVISION"
+  },
+  {
+    "code": "921F",
+    "gId": "1060",
+    "label": "DISTRIBUTION DE FILMS CINEMATOGRAPHIQUES"
+  },
+  {
+    "code": "921G",
+    "gId": "1061",
+    "label": "EDITION ET DISTRIBUTION VIDEO"
+  },
+  {
+    "code": "921J",
+    "gId": "1681",
+    "label": "PROJECTION DE FILMS CINEMATOGRAPHIQUES"
+  },
+  {
+    "code": "922A",
+    "gId": "1065",
+    "label": "ACTIVITES DE RADIO"
+  },
+  {
+    "code": "922B",
+    "gId": "1066",
+    "label": "PRODUCTION DE PROGRAMMES DE TELEVISION"
+  },
+  {
+    "code": "922C",
+    "gId": "1067",
+    "label": "DIFFUSION DE PROGRAMMES DE TELEVISION"
+  },
+  {
+    "code": "922D",
+    "gId": "1753",
+    "label": "EDITION DE CHAINES GENERALISTES"
+  },
+  {
+    "code": "922E",
+    "gId": "1754",
+    "label": "EDITION DE CHAINES THEMATIQUES"
+  },
+  {
+    "code": "922F",
+    "gId": "1755",
+    "label": "DISTRIBUTION DE BOUQUETS DE PROGRAMMES DE RADIO ET DE TELEVISION"
+  },
+  {
+    "code": "923A",
+    "gId": "1070",
+    "label": "ACTIVITES ARTISTIQUES"
+  },
+  {
+    "code": "923B",
+    "gId": "1071",
+    "label": "SERVICES ANNEXES AUX SPECTACLES"
+  },
+  {
+    "code": "923D",
+    "gId": "1685",
+    "label": "GESTION DE SALLES DE SPECTACLE"
+  },
+  {
+    "code": "923F",
+    "gId": "1687",
+    "label": "MANEGES FORAINS ET PARCS D ATTRACTIONS"
+  },
+  {
+    "code": "923H",
+    "gId": "1075",
+    "label": "BALS ET DISCOTHEQUES"
+  },
+  {
+    "code": "923J",
+    "gId": "1076",
+    "label": "AUTRES SPECTACLES"
+  },
+  {
+    "code": "923K",
+    "gId": "1756",
+    "label": "ACTIVITES DIVERSES DU SPECTACLE"
+  },
+  {
+    "code": "924Z",
+    "gId": "1690",
+    "label": "AGENCES DE PRESSE"
+  },
+  {
+    "code": "925A",
+    "gId": "1692",
+    "label": "GESTION DES BIBLIOTHEQUES"
+  },
+  {
+    "code": "925C",
+    "gId": "1694",
+    "label": "GESTION DU PATRIMOINE CULTUREL"
+  },
+  {
+    "code": "925E",
+    "gId": "1695",
+    "label": "GESTION DU PATRIMOINE NATUREL"
+  },
+  {
+    "code": "926A",
+    "gId": "1084",
+    "label": "GESTION D INSTALLATIONS SPORTIVES"
+  },
+  {
+    "code": "926C",
+    "gId": "1126",
+    "label": "AUTRES ACTIVITES SPORTIVES"
+  },
+  {
+    "code": "927A",
+    "gId": "1701",
+    "label": "JEUX DE HASARD ET D ARGENT"
+  },
+  {
+    "code": "927C",
+    "gId": "1167",
+    "label": "AUTRES ACTIVITES RECREATIVES"
+  },
+  {
+    "code": "930A",
+    "gId": "1092",
+    "label": "BLANCHISSERIE - TEINTURERIE DE GROS"
+  },
+  {
+    "code": "930B",
+    "gId": "1093",
+    "label": "BLANCHISSERIE - TEINTURERIE DE DETAIL"
+  },
+  {
+    "code": "930D",
+    "gId": "1095",
+    "label": "COIFFURE"
+  },
+  {
+    "code": "930E",
+    "gId": "1096",
+    "label": "SOINS DE BEAUTE"
+  },
+  {
+    "code": "930G",
+    "gId": "1098",
+    "label": "SOINS AUX DEFUNTS"
+  },
+  {
+    "code": "930H",
+    "gId": "1099",
+    "label": "POMPES FUNEBRES"
+  },
+  {
+    "code": "930K",
+    "gId": "1101",
+    "label": "ACTIVITES THERMALES ET DE THALASSOTHERAPIE"
+  },
+  {
+    "code": "930L",
+    "gId": "1102",
+    "label": "AUTRES SOINS CORPORELS"
+  },
+  {
+    "code": "930N",
+    "gId": "1154",
+    "label": "AUTRES SERVICES PERSONNELS"
+  },
+  {
+    "code": "9311Z",
+    "gId": "2701",
+    "label": "GESTION D INSTALLATIONS SPORTIVES"
+  },
+  {
+    "code": "9312Z",
+    "gId": "2702",
+    "label": "ACTIVITES DE CLUBS DE SPORTS"
+  },
+  {
+    "code": "9313Z",
+    "gId": "2703",
+    "label": "ACTIVITES DES CENTRES DE CULTURE PHYSIQUE"
+  },
+  {
+    "code": "9319Z",
+    "gId": "2704",
+    "label": "AUTRES ACTIVITES LIEES AU SPORT"
+  },
+  {
+    "code": "9321Z",
+    "gId": "2705",
+    "label": "ACTIVITES DES PARCS D ATTRACTIONS ET PARCS A THEMES"
+  },
+  {
+    "code": "9329Z",
+    "gId": "2706",
+    "label": "AUTRES ACTIVITES RECREATIVES ET DE LOISIRS N.C.A."
+  },
+  {
+    "code": "9411Z",
+    "gId": "2707",
+    "label": "ACTIVITES DES ORGANISATIONS PATRONALES ET CONSULAIRES"
+  },
+  {
+    "code": "9412Z",
+    "gId": "2708",
+    "label": "ACTIVITES DES ORGANISATIONS PROFESSIONNELLES"
+  },
+  {
+    "code": "9420Z",
+    "gId": "2709",
+    "label": "ACTIVITES DES SYNDICATS DE SALARIES"
+  },
+  {
+    "code": "9491Z",
+    "gId": "2710",
+    "label": "ACTIVITES DES ORGANISATIONS RELIGIEUSES"
+  },
+  {
+    "code": "9492Z",
+    "gId": "2711",
+    "label": "ACTIVITES DES ORGANISATIONS POLITIQUES"
+  },
+  {
+    "code": "9499Z",
+    "gId": "2712",
+    "label": "AUTRES ORGANISATIONS FONCTIONNANT PAR ADHESION VOLONTAIRE"
+  },
+  {
+    "code": "950Z",
+    "gId": "1708",
+    "label": "SERVICES DOMESTIQUES"
+  },
+  {
+    "code": "9511Z",
+    "gId": "2713",
+    "label": "REPARATION D ORDINATEURS ET D EQUIPEMENTS PERIPHERIQUES"
+  },
+  {
+    "code": "9512Z",
+    "gId": "2714",
+    "label": "REPARATION D EQUIPEMENTS DE COMMUNICATION"
+  },
+  {
+    "code": "9521Z",
+    "gId": "2715",
+    "label": "REPARATION DE PRODUITS ELECTRONIQUES GRAND PUBLIC"
+  },
+  {
+    "code": "9522Z",
+    "gId": "2716",
+    "label": "REPARATION D APPAREILS ELECTROMENAGERS ET D EQUIPEMENTS POUR LA MAISON ET LE JARDIN"
+  },
+  {
+    "code": "9523Z",
+    "gId": "2717",
+    "label": "REPARATION DE CHAUSSURES ET D ARTICLES EN CUIR"
+  },
+  {
+    "code": "9524Z",
+    "gId": "2718",
+    "label": "REPARATION DE MEUBLES ET D EQUIPEMENTS DU FOYER"
+  },
+  {
+    "code": "9525Z",
+    "gId": "2719",
+    "label": "REPARATION D ARTICLES D HORLOGERIE ET DE BIJOUTERIE"
+  },
+  {
+    "code": "9529Z",
+    "gId": "2720",
+    "label": "REPARATION D AUTRES BIENS PERSONNELS ET DOMESTIQUES"
+  },
+  {
+    "code": "9601A",
+    "gId": "2721",
+    "label": "BLANCHISSERIE-TEINTURERIE DE GROS"
+  },
+  {
+    "code": "9601B",
+    "gId": "2722",
+    "label": "BLANCHISSERIE-TEINTURERIE DE DETAIL"
+  },
+  {
+    "code": "9602A",
+    "gId": "2723",
+    "label": "COIFFURE"
+  },
+  {
+    "code": "9602B",
+    "gId": "2724",
+    "label": "SOINS DE BEAUTE"
+  },
+  {
+    "code": "9603Z",
+    "gId": "2725",
+    "label": "SERVICES FUNERAIRES"
+  },
+  {
+    "code": "9604Z",
+    "gId": "2726",
+    "label": "ENTRETIEN CORPOREL"
+  },
+  {
+    "code": "9609Z",
+    "gId": "2727",
+    "label": "AUTRES SERVICES PERSONNELS N.C.A."
+  },
+  {
+    "code": "960Z",
+    "gId": "1757",
+    "label": "ACTIVITES INDIFFERENCIEES DES MENAGES EN TANT QUE PRODUCTEURS DE BIENS POUR USAGE PROPRE"
+  },
+  {
+    "code": "9700Z",
+    "gId": "2728",
+    "label": "ACTIVITES DES MENAGES EN TANT QU EMPLOYEURS DE PERSONNEL DOMESTIQUE"
+  },
+  {
+    "code": "970Z",
+    "gId": "1758",
+    "label": "ACTIVITES INDIFFERENCIEES DES MENAGES EN TANT QUE PRODUCTEURS DE SERVICES POUR USAGE PROPRE"
+  },
+  {
+    "code": "9810Z",
+    "gId": "2729",
+    "label": "ACTIVITES INDIFFERENCIEES DES MENAGES EN TANT QUE PRODUCTEURS DE BIENS POUR USAGE PROPRE"
+  },
+  {
+    "code": "9820Z",
+    "gId": "2730",
+    "label": "ACTIVITES INDIFFERENCIEES DES MENAGES EN TANT QUE PRODUCTEURS DE SERVICES POUR USAGE PROPRE"
+  },
+  {
+    "code": "9900Z",
+    "gId": "2731",
+    "label": "ACTIVITES DES ORGANISATION ET ORGANISMES EXTRATERRITORIAUX"
+  },
+  {
+    "code": "990Z",
+    "gId": "1711",
+    "label": "ACTIVITES EXTRA-TERRITORIALES"
+  },
+  {
+    "code": "999Z",
+    "gId": "1123",
+    "label": "A DETERMINER (VOIR ANCIEN CODE APE-NAF)"
+  }
+]
